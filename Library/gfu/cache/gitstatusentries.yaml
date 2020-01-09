@@ -13,78 +13,18 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   cacheType: 6
-  lastUpdatedAtString: 2020-01-09T15:24:10.528-05:00
+  lastUpdatedAtString: 2020-01-09T15:25:51.296-05:00
   initializedAtString: 2020-01-09T15:19:46.375-05:00
   entries:
-  - path: .vs\Imperial vs rebel\v16\.suo
-    fullPath: C:\Unity Projects\Imperial vs rebel\.vs\Imperial vs rebel\v16\.suo
-    projectPath: .vs\Imperial vs rebel\v16\.suo
-    originalPath: 
-    status: 1
-    staged: 0
-  - path: .vs\Imperial vs rebel\v16\Server\sqlite3\db.lock
-    fullPath: C:\Unity Projects\Imperial vs rebel\.vs\Imperial vs rebel\v16\Server\sqlite3\db.lock
-    projectPath: .vs\Imperial vs rebel\v16\Server\sqlite3\db.lock
-    originalPath: 
-    status: 1
-    staged: 0
-  - path: .vs\Imperial vs rebel\v16\Server\sqlite3\storage.ide
-    fullPath: C:\Unity Projects\Imperial vs rebel\.vs\Imperial vs rebel\v16\Server\sqlite3\storage.ide
-    projectPath: .vs\Imperial vs rebel\v16\Server\sqlite3\storage.ide
-    originalPath: 
-    status: 1
-    staged: 0
-  - path: .vs\Tron Games\v16\.suo
-    fullPath: C:\Unity Projects\Imperial vs rebel\.vs\Tron Games\v16\.suo
-    projectPath: .vs\Tron Games\v16\.suo
-    originalPath: 
-    status: 1
-    staged: 0
-  - path: .vs\Tron Games\v16\Server\sqlite3\db.lock
-    fullPath: C:\Unity Projects\Imperial vs rebel\.vs\Tron Games\v16\Server\sqlite3\db.lock
-    projectPath: .vs\Tron Games\v16\Server\sqlite3\db.lock
-    originalPath: 
-    status: 1
-    staged: 0
-  - path: .vs\Tron Games\v16\Server\sqlite3\storage.ide
-    fullPath: C:\Unity Projects\Imperial vs rebel\.vs\Tron Games\v16\Server\sqlite3\storage.ide
-    projectPath: .vs\Tron Games\v16\Server\sqlite3\storage.ide
-    originalPath: 
-    status: 1
-    staged: 0
-  - path: Assembly-CSharp.csproj
-    fullPath: C:\Unity Projects\Imperial vs rebel\Assembly-CSharp.csproj
-    projectPath: Assembly-CSharp.csproj
-    originalPath: 
-    status: 1
-    staged: 0
-  - path: Assembly-CSharp-Editor-firstpass.csproj
-    fullPath: C:\Unity Projects\Imperial vs rebel\Assembly-CSharp-Editor-firstpass.csproj
-    projectPath: Assembly-CSharp-Editor-firstpass.csproj
-    originalPath: 
-    status: 1
-    staged: 0
-  - path: Assembly-CSharp-firstpass.csproj
-    fullPath: C:\Unity Projects\Imperial vs rebel\Assembly-CSharp-firstpass.csproj
-    projectPath: Assembly-CSharp-firstpass.csproj
-    originalPath: 
-    status: 1
-    staged: 0
-  - path: Imperial vs rebel.sln
-    fullPath: C:\Unity Projects\Imperial vs rebel\Imperial vs rebel.sln
-    projectPath: Imperial vs rebel.sln
-    originalPath: 
-    status: 1
-    staged: 0
-  - path: InputSystem.Samples.Visualizers.csproj
-    fullPath: C:\Unity Projects\Imperial vs rebel\InputSystem.Samples.Visualizers.csproj
-    projectPath: InputSystem.Samples.Visualizers.csproj
-    originalPath: 
-    status: 1
-    staged: 0
   - path: Library\gfu\cache\branches.yaml
     fullPath: C:\Unity Projects\Imperial vs rebel\Library\gfu\cache\branches.yaml
     projectPath: Library\gfu\cache\branches.yaml
+    originalPath: 
+    status: 3
+    staged: 0
+  - path: Library\gfu\cache\gitlog.yaml
+    fullPath: C:\Unity Projects\Imperial vs rebel\Library\gfu\cache\gitlog.yaml
+    projectPath: Library\gfu\cache\gitlog.yaml
     originalPath: 
     status: 3
     staged: 0
@@ -92,175 +32,13 @@ MonoBehaviour:
     fullPath: C:\Unity Projects\Imperial vs rebel\Library\gfu\cache\gitstatusentries.yaml
     projectPath: Library\gfu\cache\gitstatusentries.yaml
     originalPath: 
-    status: 1
+    status: 3
     staged: 0
   - path: Library\gfu\cache\gittrackingstatus.yaml
     fullPath: C:\Unity Projects\Imperial vs rebel\Library\gfu\cache\gittrackingstatus.yaml
     projectPath: Library\gfu\cache\gittrackingstatus.yaml
     originalPath: 
     status: 3
-    staged: 0
-  - path: Logs\Packages-Update.log
-    fullPath: C:\Unity Projects\Imperial vs rebel\Logs\Packages-Update.log
-    projectPath: Logs\Packages-Update.log
-    originalPath: 
-    status: 1
-    staged: 0
-  - path: obj\Debug\Assembly-CSharp.csproj.CoreCompileInputs.cache
-    fullPath: C:\Unity Projects\Imperial vs rebel\obj\Debug\Assembly-CSharp.csproj.CoreCompileInputs.cache
-    projectPath: obj\Debug\Assembly-CSharp.csproj.CoreCompileInputs.cache
-    originalPath: 
-    status: 1
-    staged: 0
-  - path: obj\Debug\Assembly-CSharp.csprojAssemblyReference.cache
-    fullPath: C:\Unity Projects\Imperial vs rebel\obj\Debug\Assembly-CSharp.csprojAssemblyReference.cache
-    projectPath: obj\Debug\Assembly-CSharp.csprojAssemblyReference.cache
-    originalPath: 
-    status: 1
-    staged: 0
-  - path: obj\Debug\Assembly-CSharp-firstpass.csproj.CoreCompileInputs.cache
-    fullPath: C:\Unity Projects\Imperial vs rebel\obj\Debug\Assembly-CSharp-firstpass.csproj.CoreCompileInputs.cache
-    projectPath: obj\Debug\Assembly-CSharp-firstpass.csproj.CoreCompileInputs.cache
-    originalPath: 
-    status: 1
-    staged: 0
-  - path: obj\Debug\Assembly-CSharp-firstpass.csprojAssemblyReference.cache
-    fullPath: C:\Unity Projects\Imperial vs rebel\obj\Debug\Assembly-CSharp-firstpass.csprojAssemblyReference.cache
-    projectPath: obj\Debug\Assembly-CSharp-firstpass.csprojAssemblyReference.cache
-    originalPath: 
-    status: 1
-    staged: 0
-  - path: obj\Debug\InputSystem.Samples.Visualizers.csproj.CoreCompileInputs.cache
-    fullPath: C:\Unity Projects\Imperial vs rebel\obj\Debug\InputSystem.Samples.Visualizers.csproj.CoreCompileInputs.cache
-    projectPath: obj\Debug\InputSystem.Samples.Visualizers.csproj.CoreCompileInputs.cache
-    originalPath: 
-    status: 1
-    staged: 0
-  - path: obj\Debug\InputSystem.Samples.Visualizers.csprojAssemblyReference.cache
-    fullPath: C:\Unity Projects\Imperial vs rebel\obj\Debug\InputSystem.Samples.Visualizers.csprojAssemblyReference.cache
-    projectPath: obj\Debug\InputSystem.Samples.Visualizers.csprojAssemblyReference.cache
-    originalPath: 
-    status: 1
-    staged: 0
-  - path: Packages\manifest.json
-    fullPath: C:\Unity Projects\Imperial vs rebel\Packages\manifest.json
-    projectPath: Packages\manifest.json
-    originalPath: 
-    status: 1
-    staged: 0
-  - path: ProjectSettings\AudioManager.asset
-    fullPath: C:\Unity Projects\Imperial vs rebel\ProjectSettings\AudioManager.asset
-    projectPath: ProjectSettings\AudioManager.asset
-    originalPath: 
-    status: 1
-    staged: 0
-  - path: ProjectSettings\ClusterInputManager.asset
-    fullPath: C:\Unity Projects\Imperial vs rebel\ProjectSettings\ClusterInputManager.asset
-    projectPath: ProjectSettings\ClusterInputManager.asset
-    originalPath: 
-    status: 1
-    staged: 0
-  - path: ProjectSettings\DynamicsManager.asset
-    fullPath: C:\Unity Projects\Imperial vs rebel\ProjectSettings\DynamicsManager.asset
-    projectPath: ProjectSettings\DynamicsManager.asset
-    originalPath: 
-    status: 1
-    staged: 0
-  - path: ProjectSettings\EditorBuildSettings.asset
-    fullPath: C:\Unity Projects\Imperial vs rebel\ProjectSettings\EditorBuildSettings.asset
-    projectPath: ProjectSettings\EditorBuildSettings.asset
-    originalPath: 
-    status: 1
-    staged: 0
-  - path: ProjectSettings\EditorSettings.asset
-    fullPath: C:\Unity Projects\Imperial vs rebel\ProjectSettings\EditorSettings.asset
-    projectPath: ProjectSettings\EditorSettings.asset
-    originalPath: 
-    status: 1
-    staged: 0
-  - path: ProjectSettings\GraphicsSettings.asset
-    fullPath: C:\Unity Projects\Imperial vs rebel\ProjectSettings\GraphicsSettings.asset
-    projectPath: ProjectSettings\GraphicsSettings.asset
-    originalPath: 
-    status: 1
-    staged: 0
-  - path: ProjectSettings\InputManager.asset
-    fullPath: C:\Unity Projects\Imperial vs rebel\ProjectSettings\InputManager.asset
-    projectPath: ProjectSettings\InputManager.asset
-    originalPath: 
-    status: 1
-    staged: 0
-  - path: ProjectSettings\NavMeshAreas.asset
-    fullPath: C:\Unity Projects\Imperial vs rebel\ProjectSettings\NavMeshAreas.asset
-    projectPath: ProjectSettings\NavMeshAreas.asset
-    originalPath: 
-    status: 1
-    staged: 0
-  - path: ProjectSettings\NetworkManager.asset
-    fullPath: C:\Unity Projects\Imperial vs rebel\ProjectSettings\NetworkManager.asset
-    projectPath: ProjectSettings\NetworkManager.asset
-    originalPath: 
-    status: 1
-    staged: 0
-  - path: ProjectSettings\Physics2DSettings.asset
-    fullPath: C:\Unity Projects\Imperial vs rebel\ProjectSettings\Physics2DSettings.asset
-    projectPath: ProjectSettings\Physics2DSettings.asset
-    originalPath: 
-    status: 1
-    staged: 0
-  - path: ProjectSettings\PresetManager.asset
-    fullPath: C:\Unity Projects\Imperial vs rebel\ProjectSettings\PresetManager.asset
-    projectPath: ProjectSettings\PresetManager.asset
-    originalPath: 
-    status: 1
-    staged: 0
-  - path: ProjectSettings\ProjectSettings.asset
-    fullPath: C:\Unity Projects\Imperial vs rebel\ProjectSettings\ProjectSettings.asset
-    projectPath: ProjectSettings\ProjectSettings.asset
-    originalPath: 
-    status: 1
-    staged: 0
-  - path: ProjectSettings\ProjectVersion.txt
-    fullPath: C:\Unity Projects\Imperial vs rebel\ProjectSettings\ProjectVersion.txt
-    projectPath: ProjectSettings\ProjectVersion.txt
-    originalPath: 
-    status: 1
-    staged: 0
-  - path: ProjectSettings\QualitySettings.asset
-    fullPath: C:\Unity Projects\Imperial vs rebel\ProjectSettings\QualitySettings.asset
-    projectPath: ProjectSettings\QualitySettings.asset
-    originalPath: 
-    status: 1
-    staged: 0
-  - path: ProjectSettings\TagManager.asset
-    fullPath: C:\Unity Projects\Imperial vs rebel\ProjectSettings\TagManager.asset
-    projectPath: ProjectSettings\TagManager.asset
-    originalPath: 
-    status: 1
-    staged: 0
-  - path: ProjectSettings\TimeManager.asset
-    fullPath: C:\Unity Projects\Imperial vs rebel\ProjectSettings\TimeManager.asset
-    projectPath: ProjectSettings\TimeManager.asset
-    originalPath: 
-    status: 1
-    staged: 0
-  - path: ProjectSettings\UnityConnectSettings.asset
-    fullPath: C:\Unity Projects\Imperial vs rebel\ProjectSettings\UnityConnectSettings.asset
-    projectPath: ProjectSettings\UnityConnectSettings.asset
-    originalPath: 
-    status: 1
-    staged: 0
-  - path: ProjectSettings\VFXManager.asset
-    fullPath: C:\Unity Projects\Imperial vs rebel\ProjectSettings\VFXManager.asset
-    projectPath: ProjectSettings\VFXManager.asset
-    originalPath: 
-    status: 1
-    staged: 0
-  - path: ProjectSettings\XRSettings.asset
-    fullPath: C:\Unity Projects\Imperial vs rebel\ProjectSettings\XRSettings.asset
-    projectPath: ProjectSettings\XRSettings.asset
-    originalPath: 
-    status: 1
     staged: 0
   - path: Temp\UnityLockfile
     fullPath: C:\Unity Projects\Imperial vs rebel\Temp\UnityLockfile
