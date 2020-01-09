@@ -1,0 +1,158 @@
+fileFormatVersion: 2
+guid: 864d7e8a244e01741999d18a8b072480
+ModelImporter:
+  serializedVersion: 26
+  internalIDToNameTable:
+  - first:
+      74: 2627237466331700887
+    second: Bottom left wing|Bottom left wingAction
+  - first:
+      74: -4862442352848576460
+    second: Bottom left wing|Bottom right wingAction
+  - first:
+      74: 7368594126796616466
+    second: Bottom left wing|Top left wingAction
+  - first:
+      74: 3305848609280544525
+    second: Bottom left wing|Top right wingAction
+  - first:
+      74: 6137863209889322721
+    second: Top right wing|Bottom left wingAction
+  - first:
+      74: -6440126242330589408
+    second: Top right wing|Bottom right wingAction
+  - first:
+      74: 1017796981809326972
+    second: Top right wing|Top left wingAction
+  - first:
+      74: 290781152955064955
+    second: Top right wing|Top right wingAction
+  - first:
+      74: 7092130481845645700
+    second: Bottom right wing|Bottom left wingAction
+  - first:
+      74: 8758218757304485144
+    second: Bottom right wing|Bottom right wingAction
+  - first:
+      74: -6619706868451789603
+    second: Bottom right wing|Top left wingAction
+  - first:
+      74: 7194160410200329379
+    second: Bottom right wing|Top right wingAction
+  - first:
+      74: -4501666122256011586
+    second: Top left wing|Bottom left wingAction
+  - first:
+      74: -5562109043665794625
+    second: Top left wing|Bottom right wingAction
+  - first:
+      74: 3494736854013390011
+    second: Top left wing|Top left wingAction
+  - first:
+      74: -7760263890072604375
+    second: Top left wing|Top right wingAction
+  externalObjects:
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Glass_Mat
+    second: {fileID: 2100000, guid: 854ed778f4d836643a300f8bfd28ae01, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Hull_Mat
+    second: {fileID: 2100000, guid: 8c6198190b4369344ab37bdda2eb05ba, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Stripe_Mat
+    second: {fileID: 2100000, guid: 2e5aa28a4f83af9428dce5ffd96eafa9, type: 2}
+  materials:
+    importMaterials: 1
+    materialName: 0
+    materialSearch: 1
+    materialLocation: 1
+  animations:
+    legacyGenerateAnimations: 4
+    bakeSimulation: 0
+    resampleCurves: 1
+    optimizeGameObjects: 0
+    motionNodeName: 
+    rigImportErrors: 
+    rigImportWarnings: 
+    animationImportErrors: 
+    animationImportWarnings: 
+    animationRetargetingWarnings: 
+    animationDoRetargetingWarnings: 0
+    importAnimatedCustomProperties: 0
+    importConstraints: 0
+    animationCompression: 1
+    animationRotationError: 0.5
+    animationPositionError: 0.5
+    animationScaleError: 0.5
+    animationWrapMode: 0
+    extraExposedTransformPaths: []
+    extraUserProperties: []
+    clipAnimations: []
+    isReadable: 0
+  meshes:
+    lODScreenPercentages: []
+    globalScale: 1
+    meshCompression: 0
+    addColliders: 0
+    useSRGBMaterialColor: 1
+    sortHierarchyByName: 1
+    importVisibility: 1
+    importBlendShapes: 1
+    importCameras: 1
+    importLights: 1
+    swapUVChannels: 0
+    generateSecondaryUV: 0
+    useFileUnits: 1
+    keepQuads: 0
+    weldVertices: 1
+    preserveHierarchy: 0
+    skinWeightsMode: 0
+    maxBonesPerVertex: 4
+    minBoneWeight: 0.001
+    meshOptimizationFlags: -1
+    indexFormat: 0
+    secondaryUVAngleDistortion: 8
+    secondaryUVAreaDistortion: 15.000001
+    secondaryUVHardAngle: 88
+    secondaryUVPackMargin: 4
+    useFileScale: 1
+  tangentSpace:
+    normalSmoothAngle: 60
+    normalImportMode: 0
+    tangentImportMode: 3
+    normalCalculationMode: 4
+    legacyComputeAllNormalsFromSmoothingGroupsWhenMeshHasBlendShapes: 0
+    blendShapeNormalImportMode: 1
+    normalSmoothingSource: 0
+  referencedClips: []
+  importAnimation: 1
+  copyAvatar: 0
+  humanDescription:
+    serializedVersion: 3
+    human: []
+    skeleton: []
+    armTwist: 0.5
+    foreArmTwist: 0.5
+    upperLegTwist: 0.5
+    legTwist: 0.5
+    armStretch: 0.05
+    legStretch: 0.05
+    feetSpacing: 0
+    globalScale: 1
+    rootMotionBoneName: 
+    hasTranslationDoF: 0
+    hasExtraRoot: 0
+    skeletonHasParents: 1
+  lastHumanDescriptionAvatarSource: {instanceID: 0}
+  animationType: 2
+  humanoidOversampling: 1
+  additionalBone: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
