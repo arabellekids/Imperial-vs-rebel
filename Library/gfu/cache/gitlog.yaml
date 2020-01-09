@@ -13,9 +13,231 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   cacheType: 3
-  lastUpdatedAtString: 2020-01-09T15:25:51.147-05:00
+  lastUpdatedAtString: 2020-01-09T17:30:03.151-05:00
   initializedAtString: 2020-01-09T15:20:04.739-05:00
   log:
+  - commitID: 80aa84af3053a28a08e50c2af591b34eb58b262c
+    mergeA: 
+    mergeB: 
+    authorName: Aaron Smith
+    authorEmail: arabellekids@gmail.com
+    commitEmail: arabellekids@gmail.com
+    commitName: Aaron Smith
+    summary: added open wings animation pt 1
+    description: 
+    timeString: 2020-01-09T17:30:01.000-05:00
+    commitTimeString: 2020-01-09T17:30:01.000-05:00
+    changes:
+    - path: Assets\Animations.meta
+      fullPath: C:\Unity Projects\Imperial vs rebel\Assets\Animations.meta
+      projectPath: Assets\Animations.meta
+      originalPath: 
+      status: 4
+      staged: 0
+    - path: Assets\Materials\LaserMat.mat
+      fullPath: C:\Unity Projects\Imperial vs rebel\Assets\Materials\LaserMat.mat
+      projectPath: Assets\Materials\LaserMat.mat
+      originalPath: 
+      status: 3
+      staged: 0
+    - path: Assets\Materials\LaserTrailMat.mat
+      fullPath: C:\Unity Projects\Imperial vs rebel\Assets\Materials\LaserTrailMat.mat
+      projectPath: Assets\Materials\LaserTrailMat.mat
+      originalPath: 
+      status: 4
+      staged: 0
+    - path: Assets\Materials\LaserTrailMat.mat.meta
+      fullPath: C:\Unity Projects\Imperial vs rebel\Assets\Materials\LaserTrailMat.mat.meta
+      projectPath: Assets\Materials\LaserTrailMat.mat.meta
+      originalPath: 
+      status: 4
+      staged: 0
+    - path: Assets\Models\Idle open wings.anim
+      fullPath: C:\Unity Projects\Imperial vs rebel\Assets\Models\Idle open wings.anim
+      projectPath: Assets\Models\Idle open wings.anim
+      originalPath: 
+      status: 4
+      staged: 0
+    - path: Assets\Models\Idle open wings.anim.meta
+      fullPath: C:\Unity Projects\Imperial vs rebel\Assets\Models\Idle open wings.anim.meta
+      projectPath: Assets\Models\Idle open wings.anim.meta
+      originalPath: 
+      status: 4
+      staged: 0
+    - path: Assets\Models\Idle.anim
+      fullPath: C:\Unity Projects\Imperial vs rebel\Assets\Models\Idle.anim
+      projectPath: Assets\Models\Idle.anim
+      originalPath: 
+      status: 4
+      staged: 0
+    - path: Assets\Models\Idle.anim.meta
+      fullPath: C:\Unity Projects\Imperial vs rebel\Assets\Models\Idle.anim.meta
+      projectPath: Assets\Models\Idle.anim.meta
+      originalPath: 
+      status: 4
+      staged: 0
+    - path: Assets\Models\t-65 X-wing.blend
+      fullPath: C:\Unity Projects\Imperial vs rebel\Assets\Models\t-65 X-wing.blend
+      projectPath: Assets\Models\t-65 X-wing.blend
+      originalPath: 
+      status: 3
+      staged: 0
+    - path: Assets\Models\t-65 X-wing.blend.meta
+      fullPath: C:\Unity Projects\Imperial vs rebel\Assets\Models\t-65 X-wing.blend.meta
+      projectPath: Assets\Models\t-65 X-wing.blend.meta
+      originalPath: 
+      status: 3
+      staged: 0
+    - path: Assets\Models\t-65 X-wing.blend1
+      fullPath: C:\Unity Projects\Imperial vs rebel\Assets\Models\t-65 X-wing.blend1
+      projectPath: Assets\Models\t-65 X-wing.blend1
+      originalPath: 
+      status: 3
+      staged: 0
+    - path: Assets\Models\t-65 X-wing.controller
+      fullPath: C:\Unity Projects\Imperial vs rebel\Assets\Models\t-65 X-wing.controller
+      projectPath: Assets\Models\t-65 X-wing.controller
+      originalPath: 
+      status: 4
+      staged: 0
+    - path: Assets\Models\t-65 X-wing.controller.meta
+      fullPath: C:\Unity Projects\Imperial vs rebel\Assets\Models\t-65 X-wing.controller.meta
+      projectPath: Assets\Models\t-65 X-wing.controller.meta
+      originalPath: 
+      status: 4
+      staged: 0
+    - path: Assets\Open wings.anim
+      fullPath: C:\Unity Projects\Imperial vs rebel\Assets\Open wings.anim
+      projectPath: Assets\Open wings.anim
+      originalPath: 
+      status: 4
+      staged: 0
+    - path: Assets\Open wings.anim.meta
+      fullPath: C:\Unity Projects\Imperial vs rebel\Assets\Open wings.anim.meta
+      projectPath: Assets\Open wings.anim.meta
+      originalPath: 
+      status: 4
+      staged: 0
+    - path: Assets\PlayerShip.controller
+      fullPath: C:\Unity Projects\Imperial vs rebel\Assets\PlayerShip.controller
+      projectPath: Assets\PlayerShip.controller
+      originalPath: 
+      status: 4
+      staged: 0
+    - path: Assets\PlayerShip.controller.meta
+      fullPath: C:\Unity Projects\Imperial vs rebel\Assets\PlayerShip.controller.meta
+      projectPath: Assets\PlayerShip.controller.meta
+      originalPath: 
+      status: 4
+      staged: 0
+    - path: Assets\Prefabs\Enemy X-Wing Variant.prefab
+      fullPath: C:\Unity Projects\Imperial vs rebel\Assets\Prefabs\Enemy X-Wing Variant.prefab
+      projectPath: Assets\Prefabs\Enemy X-Wing Variant.prefab
+      originalPath: 
+      status: 3
+      staged: 0
+    - path: Assets\Prefabs\Enemy.prefab
+      fullPath: C:\Unity Projects\Imperial vs rebel\Assets\Prefabs\Enemy.prefab
+      projectPath: Assets\Prefabs\Enemy.prefab
+      originalPath: 
+      status: 4
+      staged: 0
+    - path: Assets\Prefabs\Enemy.prefab.meta
+      fullPath: C:\Unity Projects\Imperial vs rebel\Assets\Prefabs\Enemy.prefab.meta
+      projectPath: Assets\Prefabs\Enemy.prefab.meta
+      originalPath: 
+      status: 4
+      staged: 0
+    - path: Assets\Prefabs\Laser.prefab
+      fullPath: C:\Unity Projects\Imperial vs rebel\Assets\Prefabs\Laser.prefab
+      projectPath: Assets\Prefabs\Laser.prefab
+      originalPath: 
+      status: 3
+      staged: 0
+    - path: Assets\Prefabs\PlayerShip.prefab
+      fullPath: C:\Unity Projects\Imperial vs rebel\Assets\Prefabs\PlayerShip.prefab
+      projectPath: Assets\Prefabs\PlayerShip.prefab
+      originalPath: 
+      status: 4
+      staged: 0
+    - path: Assets\Prefabs\PlayerShip.prefab.meta
+      fullPath: C:\Unity Projects\Imperial vs rebel\Assets\Prefabs\PlayerShip.prefab.meta
+      projectPath: Assets\Prefabs\PlayerShip.prefab.meta
+      originalPath: 
+      status: 4
+      staged: 0
+    - path: Assets\Scenes\Space Scene.unity
+      fullPath: C:\Unity Projects\Imperial vs rebel\Assets\Scenes\Space Scene.unity
+      projectPath: Assets\Scenes\Space Scene.unity
+      originalPath: 
+      status: 3
+      staged: 0
+    - path: Assets\Scripts\ShipMovement.cs
+      fullPath: C:\Unity Projects\Imperial vs rebel\Assets\Scripts\ShipMovement.cs
+      projectPath: Assets\Scripts\ShipMovement.cs
+      originalPath: 
+      status: 3
+      staged: 0
+  - commitID: ed327f6347188f817f71c2eb38251e681b738e91
+    mergeA: 
+    mergeB: 
+    authorName: Aaron Smith
+    authorEmail: arabellekids@gmail.com
+    commitEmail: arabellekids@gmail.com
+    commitName: Aaron Smith
+    summary: part6 of 2020 commit
+    description: 
+    timeString: 2020-01-09T15:26:21.000-05:00
+    commitTimeString: 2020-01-09T15:26:21.000-05:00
+    changes:
+    - path: Library\gfu\cache\branches.yaml
+      fullPath: C:\Unity Projects\Imperial vs rebel\Library\gfu\cache\branches.yaml
+      projectPath: Library\gfu\cache\branches.yaml
+      originalPath: 
+      status: 3
+      staged: 0
+    - path: Library\gfu\cache\gittrackingstatus.yaml
+      fullPath: C:\Unity Projects\Imperial vs rebel\Library\gfu\cache\gittrackingstatus.yaml
+      projectPath: Library\gfu\cache\gittrackingstatus.yaml
+      originalPath: 
+      status: 3
+      staged: 0
+  - commitID: a0dac7dfae198952bfc55625989c6d6d718e8742
+    mergeA: 
+    mergeB: 
+    authorName: Aaron Smith
+    authorEmail: arabellekids@gmail.com
+    commitEmail: arabellekids@gmail.com
+    commitName: Aaron Smith
+    summary: part5 of 2020 commit
+    description: 
+    timeString: 2020-01-09T15:26:01.000-05:00
+    commitTimeString: 2020-01-09T15:26:01.000-05:00
+    changes:
+    - path: Library\gfu\cache\branches.yaml
+      fullPath: C:\Unity Projects\Imperial vs rebel\Library\gfu\cache\branches.yaml
+      projectPath: Library\gfu\cache\branches.yaml
+      originalPath: 
+      status: 3
+      staged: 0
+    - path: Library\gfu\cache\gitlog.yaml
+      fullPath: C:\Unity Projects\Imperial vs rebel\Library\gfu\cache\gitlog.yaml
+      projectPath: Library\gfu\cache\gitlog.yaml
+      originalPath: 
+      status: 3
+      staged: 0
+    - path: Library\gfu\cache\gitstatusentries.yaml
+      fullPath: C:\Unity Projects\Imperial vs rebel\Library\gfu\cache\gitstatusentries.yaml
+      projectPath: Library\gfu\cache\gitstatusentries.yaml
+      originalPath: 
+      status: 3
+      staged: 0
+    - path: Library\gfu\cache\gittrackingstatus.yaml
+      fullPath: C:\Unity Projects\Imperial vs rebel\Library\gfu\cache\gittrackingstatus.yaml
+      projectPath: Library\gfu\cache\gittrackingstatus.yaml
+      originalPath: 
+      status: 3
+      staged: 0
   - commitID: 3f38a3d4d90bcb9eac02ff5ee362989c1cf95c22
     mergeA: 
     mergeB: 
