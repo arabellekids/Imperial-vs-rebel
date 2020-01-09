@@ -8,6 +8,8 @@ public class ShipMovement : MonoBehaviour
     public float thrust = 2;
     public float torque = 1;
     Rigidbody rb;
+    public Animator anim;
+    bool toggleWings = false;
 
     // Fire variables
     private float timer = 0;
@@ -111,21 +113,32 @@ public class ShipMovement : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
-        RaycastHit hit;
-        if (Physics.Raycast(transform.position, transform.forward, out hit, Camera.main.farClipPlane))
+
+        if (Input.GetAxis("Toggle wings") != 0 && timer >= shotRate)
+        {
+            anim.SetBool("Toggle wings", !toggleWings);
+            toggleWings = !toggleWings;
+            timer = 0;
+        }
+        /*RaycastHit hit;
+        if (Physics.Raycast(transform.position,transform.forward, out hit, Camera.main.farClipPlane))
         {
             foreach (GameObject point in laserSpawnPoints)
             {
-                point.transform.LookAt(hit.point);
+                if(hit.point != null)
+                {
+                    point.transform.LookAt(hit.point);
+                }
+                
             }
-        }
-        else {
-            foreach (GameObject point in laserSpawnPoints)
-            {
+        }*/
+        //else {
+            //foreach (GameObject point in laserSpawnPoints)
+            //{
 
-                point.transform.LookAt(transform.forward*2000);
-            }
-        }
+                //point.transform.LookAt(transform.forward*Camera.main.farClipPlane);
+            //}
+        //}
         timer += Time.deltaTime;
         fire = Input.GetAxis("Fire1");
         if (fire != 0 && timer >= shotRate / laserSpawnPoints.Length)
