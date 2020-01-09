@@ -1,0 +1,1926 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &1
+MonoBehaviour:
+  m_ObjectHideFlags: 61
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: -530159753, guid: 68c7e4565cde54155bb78d8e935f1ddb, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  cacheType: 3
+  lastUpdatedAtString: 2020-01-09T15:22:56.279-05:00
+  initializedAtString: 2020-01-09T15:20:04.739-05:00
+  log:
+  - commitID: 57df0f9e1818e45e5cffaa6eab3688db97cfd6c4
+    mergeA: 
+    mergeB: 
+    authorName: Aaron Smith
+    authorEmail: arabellekids@gmail.com
+    commitEmail: arabellekids@gmail.com
+    commitName: Aaron Smith
+    summary: my first 2020 commit
+    description: 
+    timeString: 2020-01-09T15:22:55.000-05:00
+    commitTimeString: 2020-01-09T15:22:55.000-05:00
+    changes:
+    - path: Assets\Audio.meta
+      fullPath: C:\Unity Projects\Imperial vs rebel\Assets\Audio.meta
+      projectPath: Assets\Audio.meta
+      originalPath: 
+      status: 4
+      staged: 0
+    - path: Assets\Audio\JetEngine.wav
+      fullPath: C:\Unity Projects\Imperial vs rebel\Assets\Audio\JetEngine.wav
+      projectPath: Assets\Audio\JetEngine.wav
+      originalPath: 
+      status: 4
+      staged: 0
+    - path: Assets\Audio\JetEngine.wav.meta
+      fullPath: C:\Unity Projects\Imperial vs rebel\Assets\Audio\JetEngine.wav.meta
+      projectPath: Assets\Audio\JetEngine.wav.meta
+      originalPath: 
+      status: 4
+      staged: 0
+    - path: Assets\Materials.meta
+      fullPath: C:\Unity Projects\Imperial vs rebel\Assets\Materials.meta
+      projectPath: Assets\Materials.meta
+      originalPath: 
+      status: 4
+      staged: 0
+    - path: Assets\Materials\EnemyMat.mat
+      fullPath: C:\Unity Projects\Imperial vs rebel\Assets\Materials\EnemyMat.mat
+      projectPath: Assets\Materials\EnemyMat.mat
+      originalPath: 
+      status: 4
+      staged: 0
+    - path: Assets\Materials\EnemyMat.mat.meta
+      fullPath: C:\Unity Projects\Imperial vs rebel\Assets\Materials\EnemyMat.mat.meta
+      projectPath: Assets\Materials\EnemyMat.mat.meta
+      originalPath: 
+      status: 4
+      staged: 0
+    - path: Assets\Materials\LaserMat.mat
+      fullPath: C:\Unity Projects\Imperial vs rebel\Assets\Materials\LaserMat.mat
+      projectPath: Assets\Materials\LaserMat.mat
+      originalPath: 
+      status: 4
+      staged: 0
+    - path: Assets\Materials\LaserMat.mat.meta
+      fullPath: C:\Unity Projects\Imperial vs rebel\Assets\Materials\LaserMat.mat.meta
+      projectPath: Assets\Materials\LaserMat.mat.meta
+      originalPath: 
+      status: 4
+      staged: 0
+    - path: Assets\Materials\SkyBoxMat.mat
+      fullPath: C:\Unity Projects\Imperial vs rebel\Assets\Materials\SkyBoxMat.mat
+      projectPath: Assets\Materials\SkyBoxMat.mat
+      originalPath: 
+      status: 4
+      staged: 0
+    - path: Assets\Materials\SkyBoxMat.mat.meta
+      fullPath: C:\Unity Projects\Imperial vs rebel\Assets\Materials\SkyBoxMat.mat.meta
+      projectPath: Assets\Materials\SkyBoxMat.mat.meta
+      originalPath: 
+      status: 4
+      staged: 0
+    - path: Assets\Materials\SpaceSkybox.mat
+      fullPath: C:\Unity Projects\Imperial vs rebel\Assets\Materials\SpaceSkybox.mat
+      projectPath: Assets\Materials\SpaceSkybox.mat
+      originalPath: 
+      status: 4
+      staged: 0
+    - path: Assets\Materials\SpaceSkybox.mat.meta
+      fullPath: C:\Unity Projects\Imperial vs rebel\Assets\Materials\SpaceSkybox.mat.meta
+      projectPath: Assets\Materials\SpaceSkybox.mat.meta
+      originalPath: 
+      status: 4
+      staged: 0
+    - path: Assets\Models.meta
+      fullPath: C:\Unity Projects\Imperial vs rebel\Assets\Models.meta
+      projectPath: Assets\Models.meta
+      originalPath: 
+      status: 4
+      staged: 0
+    - path: Assets\Models\X-Wing.blend
+      fullPath: C:\Unity Projects\Imperial vs rebel\Assets\Models\X-Wing.blend
+      projectPath: Assets\Models\X-Wing.blend
+      originalPath: 
+      status: 4
+      staged: 0
+    - path: Assets\Models\X-Wing.blend.meta
+      fullPath: C:\Unity Projects\Imperial vs rebel\Assets\Models\X-Wing.blend.meta
+      projectPath: Assets\Models\X-Wing.blend.meta
+      originalPath: 
+      status: 4
+      staged: 0
+    - path: Assets\Models\X-Wing.blend1
+      fullPath: C:\Unity Projects\Imperial vs rebel\Assets\Models\X-Wing.blend1
+      projectPath: Assets\Models\X-Wing.blend1
+      originalPath: 
+      status: 4
+      staged: 0
+    - path: Assets\Models\X-Wing.blend1.meta
+      fullPath: C:\Unity Projects\Imperial vs rebel\Assets\Models\X-Wing.blend1.meta
+      projectPath: Assets\Models\X-Wing.blend1.meta
+      originalPath: 
+      status: 4
+      staged: 0
+    - path: Assets\Models\X-wingMats.meta
+      fullPath: C:\Unity Projects\Imperial vs rebel\Assets\Models\X-wingMats.meta
+      projectPath: Assets\Models\X-wingMats.meta
+      originalPath: 
+      status: 4
+      staged: 0
+    - path: Assets\Models\X-wingMats\CockpitGlass.mat
+      fullPath: C:\Unity Projects\Imperial vs rebel\Assets\Models\X-wingMats\CockpitGlass.mat
+      projectPath: Assets\Models\X-wingMats\CockpitGlass.mat
+      originalPath: 
+      status: 4
+      staged: 0
+    - path: Assets\Models\X-wingMats\CockpitGlass.mat.meta
+      fullPath: C:\Unity Projects\Imperial vs rebel\Assets\Models\X-wingMats\CockpitGlass.mat.meta
+      projectPath: Assets\Models\X-wingMats\CockpitGlass.mat.meta
+      originalPath: 
+      status: 4
+      staged: 0
+    - path: Assets\Models\X-wingMats\Metal.mat
+      fullPath: C:\Unity Projects\Imperial vs rebel\Assets\Models\X-wingMats\Metal.mat
+      projectPath: Assets\Models\X-wingMats\Metal.mat
+      originalPath: 
+      status: 4
+      staged: 0
+    - path: Assets\Models\X-wingMats\Metal.mat.meta
+      fullPath: C:\Unity Projects\Imperial vs rebel\Assets\Models\X-wingMats\Metal.mat.meta
+      projectPath: Assets\Models\X-wingMats\Metal.mat.meta
+      originalPath: 
+      status: 4
+      staged: 0
+    - path: Assets\Models\X-wingMats\RedMetal.mat
+      fullPath: C:\Unity Projects\Imperial vs rebel\Assets\Models\X-wingMats\RedMetal.mat
+      projectPath: Assets\Models\X-wingMats\RedMetal.mat
+      originalPath: 
+      status: 4
+      staged: 0
+    - path: Assets\Models\X-wingMats\RedMetal.mat.meta
+      fullPath: C:\Unity Projects\Imperial vs rebel\Assets\Models\X-wingMats\RedMetal.mat.meta
+      projectPath: Assets\Models\X-wingMats\RedMetal.mat.meta
+      originalPath: 
+      status: 4
+      staged: 0
+    - path: Assets\Models\t-65 X-wing mats.meta
+      fullPath: C:\Unity Projects\Imperial vs rebel\Assets\Models\t-65 X-wing mats.meta
+      projectPath: Assets\Models\t-65 X-wing mats.meta
+      originalPath: 
+      status: 4
+      staged: 0
+    - path: Assets\Models\t-65 X-wing mats\Glass_Mat.mat
+      fullPath: C:\Unity Projects\Imperial vs rebel\Assets\Models\t-65 X-wing mats\Glass_Mat.mat
+      projectPath: Assets\Models\t-65 X-wing mats\Glass_Mat.mat
+      originalPath: 
+      status: 4
+      staged: 0
+    - path: Assets\Models\t-65 X-wing mats\Glass_Mat.mat.meta
+      fullPath: C:\Unity Projects\Imperial vs rebel\Assets\Models\t-65 X-wing mats\Glass_Mat.mat.meta
+      projectPath: Assets\Models\t-65 X-wing mats\Glass_Mat.mat.meta
+      originalPath: 
+      status: 4
+      staged: 0
+    - path: Assets\Models\t-65 X-wing mats\Hull_Mat.mat
+      fullPath: C:\Unity Projects\Imperial vs rebel\Assets\Models\t-65 X-wing mats\Hull_Mat.mat
+      projectPath: Assets\Models\t-65 X-wing mats\Hull_Mat.mat
+      originalPath: 
+      status: 4
+      staged: 0
+    - path: Assets\Models\t-65 X-wing mats\Hull_Mat.mat.meta
+      fullPath: C:\Unity Projects\Imperial vs rebel\Assets\Models\t-65 X-wing mats\Hull_Mat.mat.meta
+      projectPath: Assets\Models\t-65 X-wing mats\Hull_Mat.mat.meta
+      originalPath: 
+      status: 4
+      staged: 0
+    - path: Assets\Models\t-65 X-wing mats\Stripe_Mat.mat
+      fullPath: C:\Unity Projects\Imperial vs rebel\Assets\Models\t-65 X-wing mats\Stripe_Mat.mat
+      projectPath: Assets\Models\t-65 X-wing mats\Stripe_Mat.mat
+      originalPath: 
+      status: 4
+      staged: 0
+    - path: Assets\Models\t-65 X-wing mats\Stripe_Mat.mat.meta
+      fullPath: C:\Unity Projects\Imperial vs rebel\Assets\Models\t-65 X-wing mats\Stripe_Mat.mat.meta
+      projectPath: Assets\Models\t-65 X-wing mats\Stripe_Mat.mat.meta
+      originalPath: 
+      status: 4
+      staged: 0
+    - path: Assets\Models\t-65 X-wing.blend
+      fullPath: C:\Unity Projects\Imperial vs rebel\Assets\Models\t-65 X-wing.blend
+      projectPath: Assets\Models\t-65 X-wing.blend
+      originalPath: 
+      status: 4
+      staged: 0
+    - path: Assets\Models\t-65 X-wing.blend.meta
+      fullPath: C:\Unity Projects\Imperial vs rebel\Assets\Models\t-65 X-wing.blend.meta
+      projectPath: Assets\Models\t-65 X-wing.blend.meta
+      originalPath: 
+      status: 4
+      staged: 0
+    - path: Assets\Models\t-65 X-wing.blend1
+      fullPath: C:\Unity Projects\Imperial vs rebel\Assets\Models\t-65 X-wing.blend1
+      projectPath: Assets\Models\t-65 X-wing.blend1
+      originalPath: 
+      status: 4
+      staged: 0
+    - path: Assets\Models\t-65 X-wing.blend1.meta
+      fullPath: C:\Unity Projects\Imperial vs rebel\Assets\Models\t-65 X-wing.blend1.meta
+      projectPath: Assets\Models\t-65 X-wing.blend1.meta
+      originalPath: 
+      status: 4
+      staged: 0
+    - path: Assets\Plugins.meta
+      fullPath: C:\Unity Projects\Imperial vs rebel\Assets\Plugins.meta
+      projectPath: Assets\Plugins.meta
+      originalPath: 
+      status: 4
+      staged: 0
+    - path: Assets\Plugins\GitHub.meta
+      fullPath: C:\Unity Projects\Imperial vs rebel\Assets\Plugins\GitHub.meta
+      projectPath: Assets\Plugins\GitHub.meta
+      originalPath: 
+      status: 4
+      staged: 0
+    - path: Assets\Plugins\GitHub\Editor.meta
+      fullPath: C:\Unity Projects\Imperial vs rebel\Assets\Plugins\GitHub\Editor.meta
+      projectPath: Assets\Plugins\GitHub\Editor.meta
+      originalPath: 
+      status: 4
+      staged: 0
+    - path: Assets\Plugins\GitHub\Editor\AsyncBridge.Net35.dll
+      fullPath: C:\Unity Projects\Imperial vs rebel\Assets\Plugins\GitHub\Editor\AsyncBridge.Net35.dll
+      projectPath: Assets\Plugins\GitHub\Editor\AsyncBridge.Net35.dll
+      originalPath: 
+      status: 4
+      staged: 0
+    - path: Assets\Plugins\GitHub\Editor\AsyncBridge.Net35.dll.meta
+      fullPath: C:\Unity Projects\Imperial vs rebel\Assets\Plugins\GitHub\Editor\AsyncBridge.Net35.dll.meta
+      projectPath: Assets\Plugins\GitHub\Editor\AsyncBridge.Net35.dll.meta
+      originalPath: 
+      status: 4
+      staged: 0
+    - path: Assets\Plugins\GitHub\Editor\ExtensionLoader.cs
+      fullPath: C:\Unity Projects\Imperial vs rebel\Assets\Plugins\GitHub\Editor\ExtensionLoader.cs
+      projectPath: Assets\Plugins\GitHub\Editor\ExtensionLoader.cs
+      originalPath: 
+      status: 4
+      staged: 0
+    - path: Assets\Plugins\GitHub\Editor\ExtensionLoader.cs.meta
+      fullPath: C:\Unity Projects\Imperial vs rebel\Assets\Plugins\GitHub\Editor\ExtensionLoader.cs.meta
+      projectPath: Assets\Plugins\GitHub\Editor\ExtensionLoader.cs.meta
+      originalPath: 
+      status: 4
+      staged: 0
+    - path: Assets\Plugins\GitHub\Editor\GitHub.Api.45.dll
+      fullPath: C:\Unity Projects\Imperial vs rebel\Assets\Plugins\GitHub\Editor\GitHub.Api.45.dll
+      projectPath: Assets\Plugins\GitHub\Editor\GitHub.Api.45.dll
+      originalPath: 
+      status: 4
+      staged: 0
+    - path: Assets\Plugins\GitHub\Editor\GitHub.Api.45.dll.mdb
+      fullPath: C:\Unity Projects\Imperial vs rebel\Assets\Plugins\GitHub\Editor\GitHub.Api.45.dll.mdb
+      projectPath: Assets\Plugins\GitHub\Editor\GitHub.Api.45.dll.mdb
+      originalPath: 
+      status: 4
+      staged: 0
+    - path: Assets\Plugins\GitHub\Editor\GitHub.Api.45.dll.mdb.meta
+      fullPath: C:\Unity Projects\Imperial vs rebel\Assets\Plugins\GitHub\Editor\GitHub.Api.45.dll.mdb.meta
+      projectPath: Assets\Plugins\GitHub\Editor\GitHub.Api.45.dll.mdb.meta
+      originalPath: 
+      status: 4
+      staged: 0
+    - path: Assets\Plugins\GitHub\Editor\GitHub.Api.45.dll.meta
+      fullPath: C:\Unity Projects\Imperial vs rebel\Assets\Plugins\GitHub\Editor\GitHub.Api.45.dll.meta
+      projectPath: Assets\Plugins\GitHub\Editor\GitHub.Api.45.dll.meta
+      originalPath: 
+      status: 4
+      staged: 0
+    - path: Assets\Plugins\GitHub\Editor\GitHub.Api.dll
+      fullPath: C:\Unity Projects\Imperial vs rebel\Assets\Plugins\GitHub\Editor\GitHub.Api.dll
+      projectPath: Assets\Plugins\GitHub\Editor\GitHub.Api.dll
+      originalPath: 
+      status: 4
+      staged: 0
+    - path: Assets\Plugins\GitHub\Editor\GitHub.Api.dll.mdb
+      fullPath: C:\Unity Projects\Imperial vs rebel\Assets\Plugins\GitHub\Editor\GitHub.Api.dll.mdb
+      projectPath: Assets\Plugins\GitHub\Editor\GitHub.Api.dll.mdb
+      originalPath: 
+      status: 4
+      staged: 0
+    - path: Assets\Plugins\GitHub\Editor\GitHub.Api.dll.mdb.meta
+      fullPath: C:\Unity Projects\Imperial vs rebel\Assets\Plugins\GitHub\Editor\GitHub.Api.dll.mdb.meta
+      projectPath: Assets\Plugins\GitHub\Editor\GitHub.Api.dll.mdb.meta
+      originalPath: 
+      status: 4
+      staged: 0
+    - path: Assets\Plugins\GitHub\Editor\GitHub.Api.dll.meta
+      fullPath: C:\Unity Projects\Imperial vs rebel\Assets\Plugins\GitHub\Editor\GitHub.Api.dll.meta
+      projectPath: Assets\Plugins\GitHub\Editor\GitHub.Api.dll.meta
+      originalPath: 
+      status: 4
+      staged: 0
+    - path: Assets\Plugins\GitHub\Editor\GitHub.Logging.dll
+      fullPath: C:\Unity Projects\Imperial vs rebel\Assets\Plugins\GitHub\Editor\GitHub.Logging.dll
+      projectPath: Assets\Plugins\GitHub\Editor\GitHub.Logging.dll
+      originalPath: 
+      status: 4
+      staged: 0
+    - path: Assets\Plugins\GitHub\Editor\GitHub.Logging.dll.mdb
+      fullPath: C:\Unity Projects\Imperial vs rebel\Assets\Plugins\GitHub\Editor\GitHub.Logging.dll.mdb
+      projectPath: Assets\Plugins\GitHub\Editor\GitHub.Logging.dll.mdb
+      originalPath: 
+      status: 4
+      staged: 0
+    - path: Assets\Plugins\GitHub\Editor\GitHub.Logging.dll.mdb.meta
+      fullPath: C:\Unity Projects\Imperial vs rebel\Assets\Plugins\GitHub\Editor\GitHub.Logging.dll.mdb.meta
+      projectPath: Assets\Plugins\GitHub\Editor\GitHub.Logging.dll.mdb.meta
+      originalPath: 
+      status: 4
+      staged: 0
+    - path: Assets\Plugins\GitHub\Editor\GitHub.Logging.dll.meta
+      fullPath: C:\Unity Projects\Imperial vs rebel\Assets\Plugins\GitHub\Editor\GitHub.Logging.dll.meta
+      projectPath: Assets\Plugins\GitHub\Editor\GitHub.Logging.dll.meta
+      originalPath: 
+      status: 4
+      staged: 0
+    - path: Assets\Plugins\GitHub\Editor\GitHub.Unity.45.dll
+      fullPath: C:\Unity Projects\Imperial vs rebel\Assets\Plugins\GitHub\Editor\GitHub.Unity.45.dll
+      projectPath: Assets\Plugins\GitHub\Editor\GitHub.Unity.45.dll
+      originalPath: 
+      status: 4
+      staged: 0
+    - path: Assets\Plugins\GitHub\Editor\GitHub.Unity.45.dll.mdb
+      fullPath: C:\Unity Projects\Imperial vs rebel\Assets\Plugins\GitHub\Editor\GitHub.Unity.45.dll.mdb
+      projectPath: Assets\Plugins\GitHub\Editor\GitHub.Unity.45.dll.mdb
+      originalPath: 
+      status: 4
+      staged: 0
+    - path: Assets\Plugins\GitHub\Editor\GitHub.Unity.45.dll.mdb.meta
+      fullPath: C:\Unity Projects\Imperial vs rebel\Assets\Plugins\GitHub\Editor\GitHub.Unity.45.dll.mdb.meta
+      projectPath: Assets\Plugins\GitHub\Editor\GitHub.Unity.45.dll.mdb.meta
+      originalPath: 
+      status: 4
+      staged: 0
+    - path: Assets\Plugins\GitHub\Editor\GitHub.Unity.45.dll.meta
+      fullPath: C:\Unity Projects\Imperial vs rebel\Assets\Plugins\GitHub\Editor\GitHub.Unity.45.dll.meta
+      projectPath: Assets\Plugins\GitHub\Editor\GitHub.Unity.45.dll.meta
+      originalPath: 
+      status: 4
+      staged: 0
+    - path: Assets\Plugins\GitHub\Editor\GitHub.Unity.dll
+      fullPath: C:\Unity Projects\Imperial vs rebel\Assets\Plugins\GitHub\Editor\GitHub.Unity.dll
+      projectPath: Assets\Plugins\GitHub\Editor\GitHub.Unity.dll
+      originalPath: 
+      status: 4
+      staged: 0
+    - path: Assets\Plugins\GitHub\Editor\GitHub.Unity.dll.mdb
+      fullPath: C:\Unity Projects\Imperial vs rebel\Assets\Plugins\GitHub\Editor\GitHub.Unity.dll.mdb
+      projectPath: Assets\Plugins\GitHub\Editor\GitHub.Unity.dll.mdb
+      originalPath: 
+      status: 4
+      staged: 0
+    - path: Assets\Plugins\GitHub\Editor\GitHub.Unity.dll.mdb.meta
+      fullPath: C:\Unity Projects\Imperial vs rebel\Assets\Plugins\GitHub\Editor\GitHub.Unity.dll.mdb.meta
+      projectPath: Assets\Plugins\GitHub\Editor\GitHub.Unity.dll.mdb.meta
+      originalPath: 
+      status: 4
+      staged: 0
+    - path: Assets\Plugins\GitHub\Editor\GitHub.Unity.dll.meta
+      fullPath: C:\Unity Projects\Imperial vs rebel\Assets\Plugins\GitHub\Editor\GitHub.Unity.dll.meta
+      projectPath: Assets\Plugins\GitHub\Editor\GitHub.Unity.dll.meta
+      originalPath: 
+      status: 4
+      staged: 0
+    - path: Assets\Plugins\GitHub\Editor\GitHub.UnityShim.dll
+      fullPath: C:\Unity Projects\Imperial vs rebel\Assets\Plugins\GitHub\Editor\GitHub.UnityShim.dll
+      projectPath: Assets\Plugins\GitHub\Editor\GitHub.UnityShim.dll
+      originalPath: 
+      status: 4
+      staged: 0
+    - path: Assets\Plugins\GitHub\Editor\GitHub.UnityShim.dll.mdb
+      fullPath: C:\Unity Projects\Imperial vs rebel\Assets\Plugins\GitHub\Editor\GitHub.UnityShim.dll.mdb
+      projectPath: Assets\Plugins\GitHub\Editor\GitHub.UnityShim.dll.mdb
+      originalPath: 
+      status: 4
+      staged: 0
+    - path: Assets\Plugins\GitHub\Editor\GitHub.UnityShim.dll.mdb.meta
+      fullPath: C:\Unity Projects\Imperial vs rebel\Assets\Plugins\GitHub\Editor\GitHub.UnityShim.dll.mdb.meta
+      projectPath: Assets\Plugins\GitHub\Editor\GitHub.UnityShim.dll.mdb.meta
+      originalPath: 
+      status: 4
+      staged: 0
+    - path: Assets\Plugins\GitHub\Editor\GitHub.UnityShim.dll.meta
+      fullPath: C:\Unity Projects\Imperial vs rebel\Assets\Plugins\GitHub\Editor\GitHub.UnityShim.dll.meta
+      projectPath: Assets\Plugins\GitHub\Editor\GitHub.UnityShim.dll.meta
+      originalPath: 
+      status: 4
+      staged: 0
+    - path: Assets\Plugins\GitHub\Editor\Mono.Posix.dll
+      fullPath: C:\Unity Projects\Imperial vs rebel\Assets\Plugins\GitHub\Editor\Mono.Posix.dll
+      projectPath: Assets\Plugins\GitHub\Editor\Mono.Posix.dll
+      originalPath: 
+      status: 4
+      staged: 0
+    - path: Assets\Plugins\GitHub\Editor\Mono.Posix.dll.meta
+      fullPath: C:\Unity Projects\Imperial vs rebel\Assets\Plugins\GitHub\Editor\Mono.Posix.dll.meta
+      projectPath: Assets\Plugins\GitHub\Editor\Mono.Posix.dll.meta
+      originalPath: 
+      status: 4
+      staged: 0
+    - path: Assets\Plugins\GitHub\Editor\QuickGuide.pdf
+      fullPath: C:\Unity Projects\Imperial vs rebel\Assets\Plugins\GitHub\Editor\QuickGuide.pdf
+      projectPath: Assets\Plugins\GitHub\Editor\QuickGuide.pdf
+      originalPath: 
+      status: 4
+      staged: 0
+    - path: Assets\Plugins\GitHub\Editor\QuickGuide.pdf.meta
+      fullPath: C:\Unity Projects\Imperial vs rebel\Assets\Plugins\GitHub\Editor\QuickGuide.pdf.meta
+      projectPath: Assets\Plugins\GitHub\Editor\QuickGuide.pdf.meta
+      originalPath: 
+      status: 4
+      staged: 0
+    - path: Assets\Plugins\GitHub\Editor\ReadOnlyCollectionsInterfaces.dll
+      fullPath: C:\Unity Projects\Imperial vs rebel\Assets\Plugins\GitHub\Editor\ReadOnlyCollectionsInterfaces.dll
+      projectPath: Assets\Plugins\GitHub\Editor\ReadOnlyCollectionsInterfaces.dll
+      originalPath: 
+      status: 4
+      staged: 0
+    - path: Assets\Plugins\GitHub\Editor\ReadOnlyCollectionsInterfaces.dll.meta
+      fullPath: C:\Unity Projects\Imperial vs rebel\Assets\Plugins\GitHub\Editor\ReadOnlyCollectionsInterfaces.dll.meta
+      projectPath: Assets\Plugins\GitHub\Editor\ReadOnlyCollectionsInterfaces.dll.meta
+      originalPath: 
+      status: 4
+      staged: 0
+    - path: Assets\Plugins\GitHub\Editor\System.Threading.dll
+      fullPath: C:\Unity Projects\Imperial vs rebel\Assets\Plugins\GitHub\Editor\System.Threading.dll
+      projectPath: Assets\Plugins\GitHub\Editor\System.Threading.dll
+      originalPath: 
+      status: 4
+      staged: 0
+    - path: Assets\Plugins\GitHub\Editor\System.Threading.dll.meta
+      fullPath: C:\Unity Projects\Imperial vs rebel\Assets\Plugins\GitHub\Editor\System.Threading.dll.meta
+      projectPath: Assets\Plugins\GitHub\Editor\System.Threading.dll.meta
+      originalPath: 
+      status: 4
+      staged: 0
+    - path: Assets\Plugins\GitHub\Editor\UnityAPIWrapper.cs
+      fullPath: C:\Unity Projects\Imperial vs rebel\Assets\Plugins\GitHub\Editor\UnityAPIWrapper.cs
+      projectPath: Assets\Plugins\GitHub\Editor\UnityAPIWrapper.cs
+      originalPath: 
+      status: 4
+      staged: 0
+    - path: Assets\Plugins\GitHub\Editor\UnityAPIWrapper.cs.meta
+      fullPath: C:\Unity Projects\Imperial vs rebel\Assets\Plugins\GitHub\Editor\UnityAPIWrapper.cs.meta
+      projectPath: Assets\Plugins\GitHub\Editor\UnityAPIWrapper.cs.meta
+      originalPath: 
+      status: 4
+      staged: 0
+    - path: Assets\Plugins\GitHub\Editor\big-logo@2x.png
+      fullPath: C:\Unity Projects\Imperial vs rebel\Assets\Plugins\GitHub\Editor\big-logo@2x.png
+      projectPath: Assets\Plugins\GitHub\Editor\big-logo@2x.png
+      originalPath: 
+      status: 4
+      staged: 0
+    - path: Assets\Plugins\GitHub\Editor\big-logo@2x.png.meta
+      fullPath: C:\Unity Projects\Imperial vs rebel\Assets\Plugins\GitHub\Editor\big-logo@2x.png.meta
+      projectPath: Assets\Plugins\GitHub\Editor\big-logo@2x.png.meta
+      originalPath: 
+      status: 4
+      staged: 0
+    - path: Assets\Plugins\GitHub\Editor\credits.txt
+      fullPath: C:\Unity Projects\Imperial vs rebel\Assets\Plugins\GitHub\Editor\credits.txt
+      projectPath: Assets\Plugins\GitHub\Editor\credits.txt
+      originalPath: 
+      status: 4
+      staged: 0
+    - path: Assets\Plugins\GitHub\Editor\credits.txt.meta
+      fullPath: C:\Unity Projects\Imperial vs rebel\Assets\Plugins\GitHub\Editor\credits.txt.meta
+      projectPath: Assets\Plugins\GitHub\Editor\credits.txt.meta
+      originalPath: 
+      status: 4
+      staged: 0
+    - path: Assets\Plugins\GitHub\Editor\eula.txt
+      fullPath: C:\Unity Projects\Imperial vs rebel\Assets\Plugins\GitHub\Editor\eula.txt
+      projectPath: Assets\Plugins\GitHub\Editor\eula.txt
+      originalPath: 
+      status: 4
+      staged: 0
+    - path: Assets\Plugins\GitHub\Editor\eula.txt.meta
+      fullPath: C:\Unity Projects\Imperial vs rebel\Assets\Plugins\GitHub\Editor\eula.txt.meta
+      projectPath: Assets\Plugins\GitHub\Editor\eula.txt.meta
+      originalPath: 
+      status: 4
+      staged: 0
+    - path: Assets\Plugins\GitHub\Editor\libsfw.bundle
+      fullPath: C:\Unity Projects\Imperial vs rebel\Assets\Plugins\GitHub\Editor\libsfw.bundle
+      projectPath: Assets\Plugins\GitHub\Editor\libsfw.bundle
+      originalPath: 
+      status: 4
+      staged: 0
+    - path: Assets\Plugins\GitHub\Editor\libsfw.bundle.meta
+      fullPath: C:\Unity Projects\Imperial vs rebel\Assets\Plugins\GitHub\Editor\libsfw.bundle.meta
+      projectPath: Assets\Plugins\GitHub\Editor\libsfw.bundle.meta
+      originalPath: 
+      status: 4
+      staged: 0
+    - path: Assets\Plugins\GitHub\Editor\libsfw.so
+      fullPath: C:\Unity Projects\Imperial vs rebel\Assets\Plugins\GitHub\Editor\libsfw.so
+      projectPath: Assets\Plugins\GitHub\Editor\libsfw.so
+      originalPath: 
+      status: 4
+      staged: 0
+    - path: Assets\Plugins\GitHub\Editor\libsfw.so.meta
+      fullPath: C:\Unity Projects\Imperial vs rebel\Assets\Plugins\GitHub\Editor\libsfw.so.meta
+      projectPath: Assets\Plugins\GitHub\Editor\libsfw.so.meta
+      originalPath: 
+      status: 4
+      staged: 0
+    - path: Assets\Plugins\GitHub\Editor\sfw.net.dll
+      fullPath: C:\Unity Projects\Imperial vs rebel\Assets\Plugins\GitHub\Editor\sfw.net.dll
+      projectPath: Assets\Plugins\GitHub\Editor\sfw.net.dll
+      originalPath: 
+      status: 4
+      staged: 0
+    - path: Assets\Plugins\GitHub\Editor\sfw.net.dll.meta
+      fullPath: C:\Unity Projects\Imperial vs rebel\Assets\Plugins\GitHub\Editor\sfw.net.dll.meta
+      projectPath: Assets\Plugins\GitHub\Editor\sfw.net.dll.meta
+      originalPath: 
+      status: 4
+      staged: 0
+    - path: Assets\Plugins\GitHub\Editor\x64.meta
+      fullPath: C:\Unity Projects\Imperial vs rebel\Assets\Plugins\GitHub\Editor\x64.meta
+      projectPath: Assets\Plugins\GitHub\Editor\x64.meta
+      originalPath: 
+      status: 4
+      staged: 0
+    - path: Assets\Plugins\GitHub\Editor\x64\pthreadVC2.dll
+      fullPath: C:\Unity Projects\Imperial vs rebel\Assets\Plugins\GitHub\Editor\x64\pthreadVC2.dll
+      projectPath: Assets\Plugins\GitHub\Editor\x64\pthreadVC2.dll
+      originalPath: 
+      status: 4
+      staged: 0
+    - path: Assets\Plugins\GitHub\Editor\x64\pthreadVC2.dll.meta
+      fullPath: C:\Unity Projects\Imperial vs rebel\Assets\Plugins\GitHub\Editor\x64\pthreadVC2.dll.meta
+      projectPath: Assets\Plugins\GitHub\Editor\x64\pthreadVC2.dll.meta
+      originalPath: 
+      status: 4
+      staged: 0
+    - path: Assets\Plugins\GitHub\Editor\x64\sfw_x64.dll
+      fullPath: C:\Unity Projects\Imperial vs rebel\Assets\Plugins\GitHub\Editor\x64\sfw_x64.dll
+      projectPath: Assets\Plugins\GitHub\Editor\x64\sfw_x64.dll
+      originalPath: 
+      status: 4
+      staged: 0
+    - path: Assets\Plugins\GitHub\Editor\x64\sfw_x64.dll.meta
+      fullPath: C:\Unity Projects\Imperial vs rebel\Assets\Plugins\GitHub\Editor\x64\sfw_x64.dll.meta
+      projectPath: Assets\Plugins\GitHub\Editor\x64\sfw_x64.dll.meta
+      originalPath: 
+      status: 4
+      staged: 0
+    - path: Assets\Plugins\GitHub\Editor\x86.meta
+      fullPath: C:\Unity Projects\Imperial vs rebel\Assets\Plugins\GitHub\Editor\x86.meta
+      projectPath: Assets\Plugins\GitHub\Editor\x86.meta
+      originalPath: 
+      status: 4
+      staged: 0
+    - path: Assets\Plugins\GitHub\Editor\x86\pthreadVC2.dll
+      fullPath: C:\Unity Projects\Imperial vs rebel\Assets\Plugins\GitHub\Editor\x86\pthreadVC2.dll
+      projectPath: Assets\Plugins\GitHub\Editor\x86\pthreadVC2.dll
+      originalPath: 
+      status: 4
+      staged: 0
+    - path: Assets\Plugins\GitHub\Editor\x86\pthreadVC2.dll.meta
+      fullPath: C:\Unity Projects\Imperial vs rebel\Assets\Plugins\GitHub\Editor\x86\pthreadVC2.dll.meta
+      projectPath: Assets\Plugins\GitHub\Editor\x86\pthreadVC2.dll.meta
+      originalPath: 
+      status: 4
+      staged: 0
+    - path: Assets\Plugins\GitHub\Editor\x86\sfw_x86.dll
+      fullPath: C:\Unity Projects\Imperial vs rebel\Assets\Plugins\GitHub\Editor\x86\sfw_x86.dll
+      projectPath: Assets\Plugins\GitHub\Editor\x86\sfw_x86.dll
+      originalPath: 
+      status: 4
+      staged: 0
+    - path: Assets\Plugins\GitHub\Editor\x86\sfw_x86.dll.meta
+      fullPath: C:\Unity Projects\Imperial vs rebel\Assets\Plugins\GitHub\Editor\x86\sfw_x86.dll.meta
+      projectPath: Assets\Plugins\GitHub\Editor\x86\sfw_x86.dll.meta
+      originalPath: 
+      status: 4
+      staged: 0
+    - path: Assets\Prefabs.meta
+      fullPath: C:\Unity Projects\Imperial vs rebel\Assets\Prefabs.meta
+      projectPath: Assets\Prefabs.meta
+      originalPath: 
+      status: 4
+      staged: 0
+    - path: Assets\Prefabs\AircraftJet.prefab
+      fullPath: C:\Unity Projects\Imperial vs rebel\Assets\Prefabs\AircraftJet.prefab
+      projectPath: Assets\Prefabs\AircraftJet.prefab
+      originalPath: 
+      status: 4
+      staged: 0
+    - path: Assets\Prefabs\AircraftJet.prefab.meta
+      fullPath: C:\Unity Projects\Imperial vs rebel\Assets\Prefabs\AircraftJet.prefab.meta
+      projectPath: Assets\Prefabs\AircraftJet.prefab.meta
+      originalPath: 
+      status: 4
+      staged: 0
+    - path: Assets\Prefabs\Enemy X-Wing Variant.prefab
+      fullPath: C:\Unity Projects\Imperial vs rebel\Assets\Prefabs\Enemy X-Wing Variant.prefab
+      projectPath: Assets\Prefabs\Enemy X-Wing Variant.prefab
+      originalPath: 
+      status: 4
+      staged: 0
+    - path: Assets\Prefabs\Enemy X-Wing Variant.prefab.meta
+      fullPath: C:\Unity Projects\Imperial vs rebel\Assets\Prefabs\Enemy X-Wing Variant.prefab.meta
+      projectPath: Assets\Prefabs\Enemy X-Wing Variant.prefab.meta
+      originalPath: 
+      status: 4
+      staged: 0
+    - path: Assets\Prefabs\Laser.prefab
+      fullPath: C:\Unity Projects\Imperial vs rebel\Assets\Prefabs\Laser.prefab
+      projectPath: Assets\Prefabs\Laser.prefab
+      originalPath: 
+      status: 4
+      staged: 0
+    - path: Assets\Prefabs\Laser.prefab.meta
+      fullPath: C:\Unity Projects\Imperial vs rebel\Assets\Prefabs\Laser.prefab.meta
+      projectPath: Assets\Prefabs\Laser.prefab.meta
+      originalPath: 
+      status: 4
+      staged: 0
+    - path: Assets\Prefabs\X-wing.prefab
+      fullPath: C:\Unity Projects\Imperial vs rebel\Assets\Prefabs\X-wing.prefab
+      projectPath: Assets\Prefabs\X-wing.prefab
+      originalPath: 
+      status: 4
+      staged: 0
+    - path: Assets\Prefabs\X-wing.prefab.meta
+      fullPath: C:\Unity Projects\Imperial vs rebel\Assets\Prefabs\X-wing.prefab.meta
+      projectPath: Assets\Prefabs\X-wing.prefab.meta
+      originalPath: 
+      status: 4
+      staged: 0
+    - path: Assets\Scenes.meta
+      fullPath: C:\Unity Projects\Imperial vs rebel\Assets\Scenes.meta
+      projectPath: Assets\Scenes.meta
+      originalPath: 
+      status: 4
+      staged: 0
+    - path: Assets\Scenes\Space Scene.unity
+      fullPath: C:\Unity Projects\Imperial vs rebel\Assets\Scenes\Space Scene.unity
+      projectPath: Assets\Scenes\Space Scene.unity
+      originalPath: 
+      status: 4
+      staged: 0
+    - path: Assets\Scenes\Space Scene.unity.meta
+      fullPath: C:\Unity Projects\Imperial vs rebel\Assets\Scenes\Space Scene.unity.meta
+      projectPath: Assets\Scenes\Space Scene.unity.meta
+      originalPath: 
+      status: 4
+      staged: 0
+    - path: Assets\Scenes\Space.unity
+      fullPath: C:\Unity Projects\Imperial vs rebel\Assets\Scenes\Space.unity
+      projectPath: Assets\Scenes\Space.unity
+      originalPath: 
+      status: 4
+      staged: 0
+    - path: Assets\Scenes\Space.unity.meta
+      fullPath: C:\Unity Projects\Imperial vs rebel\Assets\Scenes\Space.unity.meta
+      projectPath: Assets\Scenes\Space.unity.meta
+      originalPath: 
+      status: 4
+      staged: 0
+    - path: Assets\Scripts.meta
+      fullPath: C:\Unity Projects\Imperial vs rebel\Assets\Scripts.meta
+      projectPath: Assets\Scripts.meta
+      originalPath: 
+      status: 4
+      staged: 0
+    - path: Assets\Scripts\BulletScript.cs
+      fullPath: C:\Unity Projects\Imperial vs rebel\Assets\Scripts\BulletScript.cs
+      projectPath: Assets\Scripts\BulletScript.cs
+      originalPath: 
+      status: 4
+      staged: 0
+    - path: Assets\Scripts\BulletScript.cs.meta
+      fullPath: C:\Unity Projects\Imperial vs rebel\Assets\Scripts\BulletScript.cs.meta
+      projectPath: Assets\Scripts\BulletScript.cs.meta
+      originalPath: 
+      status: 4
+      staged: 0
+    - path: Assets\Scripts\EnemyAi.cs
+      fullPath: C:\Unity Projects\Imperial vs rebel\Assets\Scripts\EnemyAi.cs
+      projectPath: Assets\Scripts\EnemyAi.cs
+      originalPath: 
+      status: 4
+      staged: 0
+    - path: Assets\Scripts\EnemyAi.cs.meta
+      fullPath: C:\Unity Projects\Imperial vs rebel\Assets\Scripts\EnemyAi.cs.meta
+      projectPath: Assets\Scripts\EnemyAi.cs.meta
+      originalPath: 
+      status: 4
+      staged: 0
+    - path: Assets\Scripts\Health.cs
+      fullPath: C:\Unity Projects\Imperial vs rebel\Assets\Scripts\Health.cs
+      projectPath: Assets\Scripts\Health.cs
+      originalPath: 
+      status: 4
+      staged: 0
+    - path: Assets\Scripts\Health.cs.meta
+      fullPath: C:\Unity Projects\Imperial vs rebel\Assets\Scripts\Health.cs.meta
+      projectPath: Assets\Scripts\Health.cs.meta
+      originalPath: 
+      status: 4
+      staged: 0
+    - path: Assets\Scripts\ShipMovement.cs
+      fullPath: C:\Unity Projects\Imperial vs rebel\Assets\Scripts\ShipMovement.cs
+      projectPath: Assets\Scripts\ShipMovement.cs
+      originalPath: 
+      status: 4
+      staged: 0
+    - path: Assets\Scripts\ShipMovement.cs.meta
+      fullPath: C:\Unity Projects\Imperial vs rebel\Assets\Scripts\ShipMovement.cs.meta
+      projectPath: Assets\Scripts\ShipMovement.cs.meta
+      originalPath: 
+      status: 4
+      staged: 0
+    - path: Assets\Space.unity
+      fullPath: C:\Unity Projects\Imperial vs rebel\Assets\Space.unity
+      projectPath: Assets\Space.unity
+      originalPath: 
+      status: 4
+      staged: 0
+    - path: Assets\Space.unity.meta
+      fullPath: C:\Unity Projects\Imperial vs rebel\Assets\Space.unity.meta
+      projectPath: Assets\Space.unity.meta
+      originalPath: 
+      status: 4
+      staged: 0
+    - path: Assets\Standard Assets.meta
+      fullPath: C:\Unity Projects\Imperial vs rebel\Assets\Standard Assets.meta
+      projectPath: Assets\Standard Assets.meta
+      originalPath: 
+      status: 4
+      staged: 0
+    - path: Assets\Standard Assets\Aircraft.meta
+      fullPath: C:\Unity Projects\Imperial vs rebel\Assets\Standard Assets\Aircraft.meta
+      projectPath: Assets\Standard Assets\Aircraft.meta
+      originalPath: 
+      status: 4
+      staged: 0
+    - path: Assets\Standard Assets\Aircraft\AircraftGuidelines.txt
+      fullPath: C:\Unity Projects\Imperial vs rebel\Assets\Standard Assets\Aircraft\AircraftGuidelines.txt
+      projectPath: Assets\Standard Assets\Aircraft\AircraftGuidelines.txt
+      originalPath: 
+      status: 4
+      staged: 0
+    - path: Assets\Standard Assets\Aircraft\AircraftGuidelines.txt.meta
+      fullPath: C:\Unity Projects\Imperial vs rebel\Assets\Standard Assets\Aircraft\AircraftGuidelines.txt.meta
+      projectPath: Assets\Standard Assets\Aircraft\AircraftGuidelines.txt.meta
+      originalPath: 
+      status: 4
+      staged: 0
+    - path: Assets\Standard Assets\Aircraft\Animation.meta
+      fullPath: C:\Unity Projects\Imperial vs rebel\Assets\Standard Assets\Aircraft\Animation.meta
+      projectPath: Assets\Standard Assets\Aircraft\Animation.meta
+      originalPath: 
+      status: 4
+      staged: 0
+    - path: Assets\Standard Assets\Aircraft\Animation\JetGearLower.anim
+      fullPath: C:\Unity Projects\Imperial vs rebel\Assets\Standard Assets\Aircraft\Animation\JetGearLower.anim
+      projectPath: Assets\Standard Assets\Aircraft\Animation\JetGearLower.anim
+      originalPath: 
+      status: 4
+      staged: 0
+    - path: Assets\Standard Assets\Aircraft\Animation\JetGearLower.anim.meta
+      fullPath: C:\Unity Projects\Imperial vs rebel\Assets\Standard Assets\Aircraft\Animation\JetGearLower.anim.meta
+      projectPath: Assets\Standard Assets\Aircraft\Animation\JetGearLower.anim.meta
+      originalPath: 
+      status: 4
+      staged: 0
+    - path: Assets\Standard Assets\Aircraft\Animation\JetGearLowered.anim
+      fullPath: C:\Unity Projects\Imperial vs rebel\Assets\Standard Assets\Aircraft\Animation\JetGearLowered.anim
+      projectPath: Assets\Standard Assets\Aircraft\Animation\JetGearLowered.anim
+      originalPath: 
+      status: 4
+      staged: 0
+    - path: Assets\Standard Assets\Aircraft\Animation\JetGearLowered.anim.meta
+      fullPath: C:\Unity Projects\Imperial vs rebel\Assets\Standard Assets\Aircraft\Animation\JetGearLowered.anim.meta
+      projectPath: Assets\Standard Assets\Aircraft\Animation\JetGearLowered.anim.meta
+      originalPath: 
+      status: 4
+      staged: 0
+    - path: Assets\Standard Assets\Aircraft\Animation\JetGearRaise.anim
+      fullPath: C:\Unity Projects\Imperial vs rebel\Assets\Standard Assets\Aircraft\Animation\JetGearRaise.anim
+      projectPath: Assets\Standard Assets\Aircraft\Animation\JetGearRaise.anim
+      originalPath: 
+      status: 4
+      staged: 0
+    - path: Assets\Standard Assets\Aircraft\Animation\JetGearRaise.anim.meta
+      fullPath: C:\Unity Projects\Imperial vs rebel\Assets\Standard Assets\Aircraft\Animation\JetGearRaise.anim.meta
+      projectPath: Assets\Standard Assets\Aircraft\Animation\JetGearRaise.anim.meta
+      originalPath: 
+      status: 4
+      staged: 0
+    - path: Assets\Standard Assets\Aircraft\Animation\JetGearRaised.anim
+      fullPath: C:\Unity Projects\Imperial vs rebel\Assets\Standard Assets\Aircraft\Animation\JetGearRaised.anim
+      projectPath: Assets\Standard Assets\Aircraft\Animation\JetGearRaised.anim
+      originalPath: 
+      status: 4
+      staged: 0
+    - path: Assets\Standard Assets\Aircraft\Animation\JetGearRaised.anim.meta
+      fullPath: C:\Unity Projects\Imperial vs rebel\Assets\Standard Assets\Aircraft\Animation\JetGearRaised.anim.meta
+      projectPath: Assets\Standard Assets\Aircraft\Animation\JetGearRaised.anim.meta
+      originalPath: 
+      status: 4
+      staged: 0
+    - path: Assets\Standard Assets\Aircraft\Animation\JetPlane.controller
+      fullPath: C:\Unity Projects\Imperial vs rebel\Assets\Standard Assets\Aircraft\Animation\JetPlane.controller
+      projectPath: Assets\Standard Assets\Aircraft\Animation\JetPlane.controller
+      originalPath: 
+      status: 4
+      staged: 0
+    - path: Assets\Standard Assets\Aircraft\Animation\JetPlane.controller.meta
+      fullPath: C:\Unity Projects\Imperial vs rebel\Assets\Standard Assets\Aircraft\Animation\JetPlane.controller.meta
+      projectPath: Assets\Standard Assets\Aircraft\Animation\JetPlane.controller.meta
+      originalPath: 
+      status: 4
+      staged: 0
+    - path: Assets\Standard Assets\Aircraft\Animation\PropGearLower.anim
+      fullPath: C:\Unity Projects\Imperial vs rebel\Assets\Standard Assets\Aircraft\Animation\PropGearLower.anim
+      projectPath: Assets\Standard Assets\Aircraft\Animation\PropGearLower.anim
+      originalPath: 
+      status: 4
+      staged: 0
+    - path: Assets\Standard Assets\Aircraft\Animation\PropGearLower.anim.meta
+      fullPath: C:\Unity Projects\Imperial vs rebel\Assets\Standard Assets\Aircraft\Animation\PropGearLower.anim.meta
+      projectPath: Assets\Standard Assets\Aircraft\Animation\PropGearLower.anim.meta
+      originalPath: 
+      status: 4
+      staged: 0
+    - path: Assets\Standard Assets\Aircraft\Animation\PropGearLowered.anim
+      fullPath: C:\Unity Projects\Imperial vs rebel\Assets\Standard Assets\Aircraft\Animation\PropGearLowered.anim
+      projectPath: Assets\Standard Assets\Aircraft\Animation\PropGearLowered.anim
+      originalPath: 
+      status: 4
+      staged: 0
+    - path: Assets\Standard Assets\Aircraft\Animation\PropGearLowered.anim.meta
+      fullPath: C:\Unity Projects\Imperial vs rebel\Assets\Standard Assets\Aircraft\Animation\PropGearLowered.anim.meta
+      projectPath: Assets\Standard Assets\Aircraft\Animation\PropGearLowered.anim.meta
+      originalPath: 
+      status: 4
+      staged: 0
+    - path: Assets\Standard Assets\Aircraft\Animation\PropGearRaise.anim
+      fullPath: C:\Unity Projects\Imperial vs rebel\Assets\Standard Assets\Aircraft\Animation\PropGearRaise.anim
+      projectPath: Assets\Standard Assets\Aircraft\Animation\PropGearRaise.anim
+      originalPath: 
+      status: 4
+      staged: 0
+    - path: Assets\Standard Assets\Aircraft\Animation\PropGearRaise.anim.meta
+      fullPath: C:\Unity Projects\Imperial vs rebel\Assets\Standard Assets\Aircraft\Animation\PropGearRaise.anim.meta
+      projectPath: Assets\Standard Assets\Aircraft\Animation\PropGearRaise.anim.meta
+      originalPath: 
+      status: 4
+      staged: 0
+    - path: Assets\Standard Assets\Aircraft\Animation\PropGearRaised.anim
+      fullPath: C:\Unity Projects\Imperial vs rebel\Assets\Standard Assets\Aircraft\Animation\PropGearRaised.anim
+      projectPath: Assets\Standard Assets\Aircraft\Animation\PropGearRaised.anim
+      originalPath: 
+      status: 4
+      staged: 0
+    - path: Assets\Standard Assets\Aircraft\Animation\PropGearRaised.anim.meta
+      fullPath: C:\Unity Projects\Imperial vs rebel\Assets\Standard Assets\Aircraft\Animation\PropGearRaised.anim.meta
+      projectPath: Assets\Standard Assets\Aircraft\Animation\PropGearRaised.anim.meta
+      originalPath: 
+      status: 4
+      staged: 0
+    - path: Assets\Standard Assets\Aircraft\Animation\PropPlane.controller
+      fullPath: C:\Unity Projects\Imperial vs rebel\Assets\Standard Assets\Aircraft\Animation\PropPlane.controller
+      projectPath: Assets\Standard Assets\Aircraft\Animation\PropPlane.controller
+      originalPath: 
+      status: 4
+      staged: 0
+    - path: Assets\Standard Assets\Aircraft\Animation\PropPlane.controller.meta
+      fullPath: C:\Unity Projects\Imperial vs rebel\Assets\Standard Assets\Aircraft\Animation\PropPlane.controller.meta
+      projectPath: Assets\Standard Assets\Aircraft\Animation\PropPlane.controller.meta
+      originalPath: 
+      status: 4
+      staged: 0
+    - path: Assets\Standard Assets\Aircraft\Audio.meta
+      fullPath: C:\Unity Projects\Imperial vs rebel\Assets\Standard Assets\Aircraft\Audio.meta
+      projectPath: Assets\Standard Assets\Aircraft\Audio.meta
+      originalPath: 
+      status: 4
+      staged: 0
+    - path: Assets\Standard Assets\Aircraft\Audio\FlightWind.wav
+      fullPath: C:\Unity Projects\Imperial vs rebel\Assets\Standard Assets\Aircraft\Audio\FlightWind.wav
+      projectPath: Assets\Standard Assets\Aircraft\Audio\FlightWind.wav
+      originalPath: 
+      status: 4
+      staged: 0
+    - path: Assets\Standard Assets\Aircraft\Audio\FlightWind.wav.meta
+      fullPath: C:\Unity Projects\Imperial vs rebel\Assets\Standard Assets\Aircraft\Audio\FlightWind.wav.meta
+      projectPath: Assets\Standard Assets\Aircraft\Audio\FlightWind.wav.meta
+      originalPath: 
+      status: 4
+      staged: 0
+    - path: Assets\Standard Assets\Aircraft\Audio\JetEngine.wav
+      fullPath: C:\Unity Projects\Imperial vs rebel\Assets\Standard Assets\Aircraft\Audio\JetEngine.wav
+      projectPath: Assets\Standard Assets\Aircraft\Audio\JetEngine.wav
+      originalPath: 
+      status: 4
+      staged: 0
+    - path: Assets\Standard Assets\Aircraft\Audio\JetEngine.wav.meta
+      fullPath: C:\Unity Projects\Imperial vs rebel\Assets\Standard Assets\Aircraft\Audio\JetEngine.wav.meta
+      projectPath: Assets\Standard Assets\Aircraft\Audio\JetEngine.wav.meta
+      originalPath: 
+      status: 4
+      staged: 0
+    - path: Assets\Standard Assets\Aircraft\Audio\PropellerEngine.wav
+      fullPath: C:\Unity Projects\Imperial vs rebel\Assets\Standard Assets\Aircraft\Audio\PropellerEngine.wav
+      projectPath: Assets\Standard Assets\Aircraft\Audio\PropellerEngine.wav
+      originalPath: 
+      status: 4
+      staged: 0
+    - path: Assets\Standard Assets\Aircraft\Audio\PropellerEngine.wav.meta
+      fullPath: C:\Unity Projects\Imperial vs rebel\Assets\Standard Assets\Aircraft\Audio\PropellerEngine.wav.meta
+      projectPath: Assets\Standard Assets\Aircraft\Audio\PropellerEngine.wav.meta
+      originalPath: 
+      status: 4
+      staged: 0
+    - path: Assets\Standard Assets\Aircraft\Materials.meta
+      fullPath: C:\Unity Projects\Imperial vs rebel\Assets\Standard Assets\Aircraft\Materials.meta
+      projectPath: Assets\Standard Assets\Aircraft\Materials.meta
+      originalPath: 
+      status: 4
+      staged: 0
+    - path: Assets\Standard Assets\Aircraft\Materials\AircraftFuselageGrey.mat
+      fullPath: C:\Unity Projects\Imperial vs rebel\Assets\Standard Assets\Aircraft\Materials\AircraftFuselageGrey.mat
+      projectPath: Assets\Standard Assets\Aircraft\Materials\AircraftFuselageGrey.mat
+      originalPath: 
+      status: 4
+      staged: 0
+    - path: Assets\Standard Assets\Aircraft\Materials\AircraftFuselageGrey.mat.meta
+      fullPath: C:\Unity Projects\Imperial vs rebel\Assets\Standard Assets\Aircraft\Materials\AircraftFuselageGrey.mat.meta
+      projectPath: Assets\Standard Assets\Aircraft\Materials\AircraftFuselageGrey.mat.meta
+      originalPath: 
+      status: 4
+      staged: 0
+    - path: Assets\Standard Assets\Aircraft\Materials\AircraftFuselageWhite.mat
+      fullPath: C:\Unity Projects\Imperial vs rebel\Assets\Standard Assets\Aircraft\Materials\AircraftFuselageWhite.mat
+      projectPath: Assets\Standard Assets\Aircraft\Materials\AircraftFuselageWhite.mat
+      originalPath: 
+      status: 4
+      staged: 0
+    - path: Assets\Standard Assets\Aircraft\Materials\AircraftFuselageWhite.mat.meta
+      fullPath: C:\Unity Projects\Imperial vs rebel\Assets\Standard Assets\Aircraft\Materials\AircraftFuselageWhite.mat.meta
+      projectPath: Assets\Standard Assets\Aircraft\Materials\AircraftFuselageWhite.mat.meta
+      originalPath: 
+      status: 4
+      staged: 0
+    - path: Assets\Standard Assets\Aircraft\Materials\AircraftWingsJetGrey.mat
+      fullPath: C:\Unity Projects\Imperial vs rebel\Assets\Standard Assets\Aircraft\Materials\AircraftWingsJetGrey.mat
+      projectPath: Assets\Standard Assets\Aircraft\Materials\AircraftWingsJetGrey.mat
+      originalPath: 
+      status: 4
+      staged: 0
+    - path: Assets\Standard Assets\Aircraft\Materials\AircraftWingsJetGrey.mat.meta
+      fullPath: C:\Unity Projects\Imperial vs rebel\Assets\Standard Assets\Aircraft\Materials\AircraftWingsJetGrey.mat.meta
+      projectPath: Assets\Standard Assets\Aircraft\Materials\AircraftWingsJetGrey.mat.meta
+      originalPath: 
+      status: 4
+      staged: 0
+    - path: Assets\Standard Assets\Aircraft\Materials\AircraftWingsJetWhite.mat
+      fullPath: C:\Unity Projects\Imperial vs rebel\Assets\Standard Assets\Aircraft\Materials\AircraftWingsJetWhite.mat
+      projectPath: Assets\Standard Assets\Aircraft\Materials\AircraftWingsJetWhite.mat
+      originalPath: 
+      status: 4
+      staged: 0
+    - path: Assets\Standard Assets\Aircraft\Materials\AircraftWingsJetWhite.mat.meta
+      fullPath: C:\Unity Projects\Imperial vs rebel\Assets\Standard Assets\Aircraft\Materials\AircraftWingsJetWhite.mat.meta
+      projectPath: Assets\Standard Assets\Aircraft\Materials\AircraftWingsJetWhite.mat.meta
+      originalPath: 
+      status: 4
+      staged: 0
+    - path: Assets\Standard Assets\Aircraft\Materials\AircraftWingsPropellerBlurGrey.mat
+      fullPath: C:\Unity Projects\Imperial vs rebel\Assets\Standard Assets\Aircraft\Materials\AircraftWingsPropellerBlurGrey.mat
+      projectPath: Assets\Standard Assets\Aircraft\Materials\AircraftWingsPropellerBlurGrey.mat
+      originalPath: 
+      status: 4
+      staged: 0
+    - path: Assets\Standard Assets\Aircraft\Materials\AircraftWingsPropellerBlurGrey.mat.meta
+      fullPath: C:\Unity Projects\Imperial vs rebel\Assets\Standard Assets\Aircraft\Materials\AircraftWingsPropellerBlurGrey.mat.meta
+      projectPath: Assets\Standard Assets\Aircraft\Materials\AircraftWingsPropellerBlurGrey.mat.meta
+      originalPath: 
+      status: 4
+      staged: 0
+    - path: Assets\Standard Assets\Aircraft\Materials\AircraftWingsPropellerBlurWhite.mat
+      fullPath: C:\Unity Projects\Imperial vs rebel\Assets\Standard Assets\Aircraft\Materials\AircraftWingsPropellerBlurWhite.mat
+      projectPath: Assets\Standard Assets\Aircraft\Materials\AircraftWingsPropellerBlurWhite.mat
+      originalPath: 
+      status: 4
+      staged: 0
+    - path: Assets\Standard Assets\Aircraft\Materials\AircraftWingsPropellerBlurWhite.mat.meta
+      fullPath: C:\Unity Projects\Imperial vs rebel\Assets\Standard Assets\Aircraft\Materials\AircraftWingsPropellerBlurWhite.mat.meta
+      projectPath: Assets\Standard Assets\Aircraft\Materials\AircraftWingsPropellerBlurWhite.mat.meta
+      originalPath: 
+      status: 4
+      staged: 0
+    - path: Assets\Standard Assets\Aircraft\Materials\AircraftWingsPropellersGrey.mat
+      fullPath: C:\Unity Projects\Imperial vs rebel\Assets\Standard Assets\Aircraft\Materials\AircraftWingsPropellersGrey.mat
+      projectPath: Assets\Standard Assets\Aircraft\Materials\AircraftWingsPropellersGrey.mat
+      originalPath: 
+      status: 4
+      staged: 0
+    - path: Assets\Standard Assets\Aircraft\Materials\AircraftWingsPropellersGrey.mat.meta
+      fullPath: C:\Unity Projects\Imperial vs rebel\Assets\Standard Assets\Aircraft\Materials\AircraftWingsPropellersGrey.mat.meta
+      projectPath: Assets\Standard Assets\Aircraft\Materials\AircraftWingsPropellersGrey.mat.meta
+      originalPath: 
+      status: 4
+      staged: 0
+    - path: Assets\Standard Assets\Aircraft\Materials\AircraftWingsPropellersWhite.mat
+      fullPath: C:\Unity Projects\Imperial vs rebel\Assets\Standard Assets\Aircraft\Materials\AircraftWingsPropellersWhite.mat
+      projectPath: Assets\Standard Assets\Aircraft\Materials\AircraftWingsPropellersWhite.mat
+      originalPath: 
+      status: 4
+      staged: 0
+    - path: Assets\Standard Assets\Aircraft\Materials\AircraftWingsPropellersWhite.mat.meta
+      fullPath: C:\Unity Projects\Imperial vs rebel\Assets\Standard Assets\Aircraft\Materials\AircraftWingsPropellersWhite.mat.meta
+      projectPath: Assets\Standard Assets\Aircraft\Materials\AircraftWingsPropellersWhite.mat.meta
+      originalPath: 
+      status: 4
+      staged: 0
+    - path: Assets\Standard Assets\Aircraft\Materials\ParticleAfterburner.mat
+      fullPath: C:\Unity Projects\Imperial vs rebel\Assets\Standard Assets\Aircraft\Materials\ParticleAfterburner.mat
+      projectPath: Assets\Standard Assets\Aircraft\Materials\ParticleAfterburner.mat
+      originalPath: 
+      status: 4
+      staged: 0
+    - path: Assets\Standard Assets\Aircraft\Materials\ParticleAfterburner.mat.meta
+      fullPath: C:\Unity Projects\Imperial vs rebel\Assets\Standard Assets\Aircraft\Materials\ParticleAfterburner.mat.meta
+      projectPath: Assets\Standard Assets\Aircraft\Materials\ParticleAfterburner.mat.meta
+      originalPath: 
+      status: 4
+      staged: 0
+    - path: Assets\Standard Assets\Aircraft\Materials\ParticleContrail.mat
+      fullPath: C:\Unity Projects\Imperial vs rebel\Assets\Standard Assets\Aircraft\Materials\ParticleContrail.mat
+      projectPath: Assets\Standard Assets\Aircraft\Materials\ParticleContrail.mat
+      originalPath: 
+      status: 4
+      staged: 0
+    - path: Assets\Standard Assets\Aircraft\Materials\ParticleContrail.mat.meta
+      fullPath: C:\Unity Projects\Imperial vs rebel\Assets\Standard Assets\Aircraft\Materials\ParticleContrail.mat.meta
+      projectPath: Assets\Standard Assets\Aircraft\Materials\ParticleContrail.mat.meta
+      originalPath: 
+      status: 4
+      staged: 0
+    - path: Assets\Standard Assets\Aircraft\Materials\ParticleJetTrail.mat
+      fullPath: C:\Unity Projects\Imperial vs rebel\Assets\Standard Assets\Aircraft\Materials\ParticleJetTrail.mat
+      projectPath: Assets\Standard Assets\Aircraft\Materials\ParticleJetTrail.mat
+      originalPath: 
+      status: 4
+      staged: 0
+    - path: Assets\Standard Assets\Aircraft\Materials\ParticleJetTrail.mat.meta
+      fullPath: C:\Unity Projects\Imperial vs rebel\Assets\Standard Assets\Aircraft\Materials\ParticleJetTrail.mat.meta
+      projectPath: Assets\Standard Assets\Aircraft\Materials\ParticleJetTrail.mat.meta
+      originalPath: 
+      status: 4
+      staged: 0
+    - path: Assets\Standard Assets\Aircraft\Materials\Trail.mat
+      fullPath: C:\Unity Projects\Imperial vs rebel\Assets\Standard Assets\Aircraft\Materials\Trail.mat
+      projectPath: Assets\Standard Assets\Aircraft\Materials\Trail.mat
+      originalPath: 
+      status: 4
+      staged: 0
+    - path: Assets\Standard Assets\Aircraft\Materials\Trail.mat.meta
+      fullPath: C:\Unity Projects\Imperial vs rebel\Assets\Standard Assets\Aircraft\Materials\Trail.mat.meta
+      projectPath: Assets\Standard Assets\Aircraft\Materials\Trail.mat.meta
+      originalPath: 
+      status: 4
+      staged: 0
+    - path: Assets\Standard Assets\Aircraft\Models.meta
+      fullPath: C:\Unity Projects\Imperial vs rebel\Assets\Standard Assets\Aircraft\Models.meta
+      projectPath: Assets\Standard Assets\Aircraft\Models.meta
+      originalPath: 
+      status: 4
+      staged: 0
+    - path: Assets\Standard Assets\Aircraft\Models\AircraftFuselage.fbx
+      fullPath: C:\Unity Projects\Imperial vs rebel\Assets\Standard Assets\Aircraft\Models\AircraftFuselage.fbx
+      projectPath: Assets\Standard Assets\Aircraft\Models\AircraftFuselage.fbx
+      originalPath: 
+      status: 4
+      staged: 0
+    - path: Assets\Standard Assets\Aircraft\Models\AircraftFuselage.fbx.meta
+      fullPath: C:\Unity Projects\Imperial vs rebel\Assets\Standard Assets\Aircraft\Models\AircraftFuselage.fbx.meta
+      projectPath: Assets\Standard Assets\Aircraft\Models\AircraftFuselage.fbx.meta
+      originalPath: 
+      status: 4
+      staged: 0
+    - path: Assets\Standard Assets\Aircraft\Models\AircraftWingsJet.fbx
+      fullPath: C:\Unity Projects\Imperial vs rebel\Assets\Standard Assets\Aircraft\Models\AircraftWingsJet.fbx
+      projectPath: Assets\Standard Assets\Aircraft\Models\AircraftWingsJet.fbx
+      originalPath: 
+      status: 4
+      staged: 0
+    - path: Assets\Standard Assets\Aircraft\Models\AircraftWingsJet.fbx.meta
+      fullPath: C:\Unity Projects\Imperial vs rebel\Assets\Standard Assets\Aircraft\Models\AircraftWingsJet.fbx.meta
+      projectPath: Assets\Standard Assets\Aircraft\Models\AircraftWingsJet.fbx.meta
+      originalPath: 
+      status: 4
+      staged: 0
+    - path: Assets\Standard Assets\Aircraft\Models\AircraftWingsPropeller.fbx
+      fullPath: C:\Unity Projects\Imperial vs rebel\Assets\Standard Assets\Aircraft\Models\AircraftWingsPropeller.fbx
+      projectPath: Assets\Standard Assets\Aircraft\Models\AircraftWingsPropeller.fbx
+      originalPath: 
+      status: 4
+      staged: 0
+    - path: Assets\Standard Assets\Aircraft\Models\AircraftWingsPropeller.fbx.meta
+      fullPath: C:\Unity Projects\Imperial vs rebel\Assets\Standard Assets\Aircraft\Models\AircraftWingsPropeller.fbx.meta
+      projectPath: Assets\Standard Assets\Aircraft\Models\AircraftWingsPropeller.fbx.meta
+      originalPath: 
+      status: 4
+      staged: 0
+    - path: Assets\Standard Assets\Aircraft\Prefabs.meta
+      fullPath: C:\Unity Projects\Imperial vs rebel\Assets\Standard Assets\Aircraft\Prefabs.meta
+      projectPath: Assets\Standard Assets\Aircraft\Prefabs.meta
+      originalPath: 
+      status: 4
+      staged: 0
+    - path: Assets\Standard Assets\Aircraft\Prefabs\AircraftJet.prefab
+      fullPath: C:\Unity Projects\Imperial vs rebel\Assets\Standard Assets\Aircraft\Prefabs\AircraftJet.prefab
+      projectPath: Assets\Standard Assets\Aircraft\Prefabs\AircraftJet.prefab
+      originalPath: 
+      status: 4
+      staged: 0
+    - path: Assets\Standard Assets\Aircraft\Prefabs\AircraftJet.prefab.meta
+      fullPath: C:\Unity Projects\Imperial vs rebel\Assets\Standard Assets\Aircraft\Prefabs\AircraftJet.prefab.meta
+      projectPath: Assets\Standard Assets\Aircraft\Prefabs\AircraftJet.prefab.meta
+      originalPath: 
+      status: 4
+      staged: 0
+    - path: Assets\Standard Assets\Aircraft\Prefabs\AircraftJetAI.prefab
+      fullPath: C:\Unity Projects\Imperial vs rebel\Assets\Standard Assets\Aircraft\Prefabs\AircraftJetAI.prefab
+      projectPath: Assets\Standard Assets\Aircraft\Prefabs\AircraftJetAI.prefab
+      originalPath: 
+      status: 4
+      staged: 0
+    - path: Assets\Standard Assets\Aircraft\Prefabs\AircraftJetAI.prefab.meta
+      fullPath: C:\Unity Projects\Imperial vs rebel\Assets\Standard Assets\Aircraft\Prefabs\AircraftJetAI.prefab.meta
+      projectPath: Assets\Standard Assets\Aircraft\Prefabs\AircraftJetAI.prefab.meta
+      originalPath: 
+      status: 4
+      staged: 0
+    - path: Assets\Standard Assets\Aircraft\Prefabs\AircraftPropeller.prefab
+      fullPath: C:\Unity Projects\Imperial vs rebel\Assets\Standard Assets\Aircraft\Prefabs\AircraftPropeller.prefab
+      projectPath: Assets\Standard Assets\Aircraft\Prefabs\AircraftPropeller.prefab
+      originalPath: 
+      status: 4
+      staged: 0
+    - path: Assets\Standard Assets\Aircraft\Prefabs\AircraftPropeller.prefab.meta
+      fullPath: C:\Unity Projects\Imperial vs rebel\Assets\Standard Assets\Aircraft\Prefabs\AircraftPropeller.prefab.meta
+      projectPath: Assets\Standard Assets\Aircraft\Prefabs\AircraftPropeller.prefab.meta
+      originalPath: 
+      status: 4
+      staged: 0
+    - path: Assets\Standard Assets\Aircraft\Prefabs\AircraftPropellerAi.prefab
+      fullPath: C:\Unity Projects\Imperial vs rebel\Assets\Standard Assets\Aircraft\Prefabs\AircraftPropellerAi.prefab
+      projectPath: Assets\Standard Assets\Aircraft\Prefabs\AircraftPropellerAi.prefab
+      originalPath: 
+      status: 4
+      staged: 0
+    - path: Assets\Standard Assets\Aircraft\Prefabs\AircraftPropellerAi.prefab.meta
+      fullPath: C:\Unity Projects\Imperial vs rebel\Assets\Standard Assets\Aircraft\Prefabs\AircraftPropellerAi.prefab.meta
+      projectPath: Assets\Standard Assets\Aircraft\Prefabs\AircraftPropellerAi.prefab.meta
+      originalPath: 
+      status: 4
+      staged: 0
+    - path: Assets\Standard Assets\Aircraft\Scripts.meta
+      fullPath: C:\Unity Projects\Imperial vs rebel\Assets\Standard Assets\Aircraft\Scripts.meta
+      projectPath: Assets\Standard Assets\Aircraft\Scripts.meta
+      originalPath: 
+      status: 4
+      staged: 0
+    - path: Assets\Standard Assets\Aircraft\Scripts\AeroplaneAiControl.cs
+      fullPath: C:\Unity Projects\Imperial vs rebel\Assets\Standard Assets\Aircraft\Scripts\AeroplaneAiControl.cs
+      projectPath: Assets\Standard Assets\Aircraft\Scripts\AeroplaneAiControl.cs
+      originalPath: 
+      status: 4
+      staged: 0
+    - path: Assets\Standard Assets\Aircraft\Scripts\AeroplaneAiControl.cs.meta
+      fullPath: C:\Unity Projects\Imperial vs rebel\Assets\Standard Assets\Aircraft\Scripts\AeroplaneAiControl.cs.meta
+      projectPath: Assets\Standard Assets\Aircraft\Scripts\AeroplaneAiControl.cs.meta
+      originalPath: 
+      status: 4
+      staged: 0
+    - path: Assets\Standard Assets\Aircraft\Scripts\AeroplaneAudio.cs
+      fullPath: C:\Unity Projects\Imperial vs rebel\Assets\Standard Assets\Aircraft\Scripts\AeroplaneAudio.cs
+      projectPath: Assets\Standard Assets\Aircraft\Scripts\AeroplaneAudio.cs
+      originalPath: 
+      status: 4
+      staged: 0
+    - path: Assets\Standard Assets\Aircraft\Scripts\AeroplaneAudio.cs.meta
+      fullPath: C:\Unity Projects\Imperial vs rebel\Assets\Standard Assets\Aircraft\Scripts\AeroplaneAudio.cs.meta
+      projectPath: Assets\Standard Assets\Aircraft\Scripts\AeroplaneAudio.cs.meta
+      originalPath: 
+      status: 4
+      staged: 0
+    - path: Assets\Standard Assets\Aircraft\Scripts\AeroplaneControlSurfaceAnimator.cs
+      fullPath: C:\Unity Projects\Imperial vs rebel\Assets\Standard Assets\Aircraft\Scripts\AeroplaneControlSurfaceAnimator.cs
+      projectPath: Assets\Standard Assets\Aircraft\Scripts\AeroplaneControlSurfaceAnimator.cs
+      originalPath: 
+      status: 4
+      staged: 0
+    - path: Assets\Standard Assets\Aircraft\Scripts\AeroplaneControlSurfaceAnimator.cs.meta
+      fullPath: C:\Unity Projects\Imperial vs rebel\Assets\Standard Assets\Aircraft\Scripts\AeroplaneControlSurfaceAnimator.cs.meta
+      projectPath: Assets\Standard Assets\Aircraft\Scripts\AeroplaneControlSurfaceAnimator.cs.meta
+      originalPath: 
+      status: 4
+      staged: 0
+    - path: Assets\Standard Assets\Aircraft\Scripts\AeroplaneController.cs
+      fullPath: C:\Unity Projects\Imperial vs rebel\Assets\Standard Assets\Aircraft\Scripts\AeroplaneController.cs
+      projectPath: Assets\Standard Assets\Aircraft\Scripts\AeroplaneController.cs
+      originalPath: 
+      status: 4
+      staged: 0
+    - path: Assets\Standard Assets\Aircraft\Scripts\AeroplaneController.cs.meta
+      fullPath: C:\Unity Projects\Imperial vs rebel\Assets\Standard Assets\Aircraft\Scripts\AeroplaneController.cs.meta
+      projectPath: Assets\Standard Assets\Aircraft\Scripts\AeroplaneController.cs.meta
+      originalPath: 
+      status: 4
+      staged: 0
+    - path: Assets\Standard Assets\Aircraft\Scripts\AeroplanePropellerAnimator.cs
+      fullPath: C:\Unity Projects\Imperial vs rebel\Assets\Standard Assets\Aircraft\Scripts\AeroplanePropellerAnimator.cs
+      projectPath: Assets\Standard Assets\Aircraft\Scripts\AeroplanePropellerAnimator.cs
+      originalPath: 
+      status: 4
+      staged: 0
+    - path: Assets\Standard Assets\Aircraft\Scripts\AeroplanePropellerAnimator.cs.meta
+      fullPath: C:\Unity Projects\Imperial vs rebel\Assets\Standard Assets\Aircraft\Scripts\AeroplanePropellerAnimator.cs.meta
+      projectPath: Assets\Standard Assets\Aircraft\Scripts\AeroplanePropellerAnimator.cs.meta
+      originalPath: 
+      status: 4
+      staged: 0
+    - path: Assets\Standard Assets\Aircraft\Scripts\AeroplaneUserControl2Axis.cs
+      fullPath: C:\Unity Projects\Imperial vs rebel\Assets\Standard Assets\Aircraft\Scripts\AeroplaneUserControl2Axis.cs
+      projectPath: Assets\Standard Assets\Aircraft\Scripts\AeroplaneUserControl2Axis.cs
+      originalPath: 
+      status: 4
+      staged: 0
+    - path: Assets\Standard Assets\Aircraft\Scripts\AeroplaneUserControl2Axis.cs.meta
+      fullPath: C:\Unity Projects\Imperial vs rebel\Assets\Standard Assets\Aircraft\Scripts\AeroplaneUserControl2Axis.cs.meta
+      projectPath: Assets\Standard Assets\Aircraft\Scripts\AeroplaneUserControl2Axis.cs.meta
+      originalPath: 
+      status: 4
+      staged: 0
+    - path: Assets\Standard Assets\Aircraft\Scripts\AeroplaneUserControl4Axis.cs
+      fullPath: C:\Unity Projects\Imperial vs rebel\Assets\Standard Assets\Aircraft\Scripts\AeroplaneUserControl4Axis.cs
+      projectPath: Assets\Standard Assets\Aircraft\Scripts\AeroplaneUserControl4Axis.cs
+      originalPath: 
+      status: 4
+      staged: 0
+    - path: Assets\Standard Assets\Aircraft\Scripts\AeroplaneUserControl4Axis.cs.meta
+      fullPath: C:\Unity Projects\Imperial vs rebel\Assets\Standard Assets\Aircraft\Scripts\AeroplaneUserControl4Axis.cs.meta
+      projectPath: Assets\Standard Assets\Aircraft\Scripts\AeroplaneUserControl4Axis.cs.meta
+      originalPath: 
+      status: 4
+      staged: 0
+    - path: Assets\Standard Assets\Aircraft\Scripts\JetParticleEffect.cs
+      fullPath: C:\Unity Projects\Imperial vs rebel\Assets\Standard Assets\Aircraft\Scripts\JetParticleEffect.cs
+      projectPath: Assets\Standard Assets\Aircraft\Scripts\JetParticleEffect.cs
+      originalPath: 
+      status: 4
+      staged: 0
+    - path: Assets\Standard Assets\Aircraft\Scripts\JetParticleEffect.cs.meta
+      fullPath: C:\Unity Projects\Imperial vs rebel\Assets\Standard Assets\Aircraft\Scripts\JetParticleEffect.cs.meta
+      projectPath: Assets\Standard Assets\Aircraft\Scripts\JetParticleEffect.cs.meta
+      originalPath: 
+      status: 4
+      staged: 0
+    - path: Assets\Standard Assets\Aircraft\Scripts\LandingGear.cs
+      fullPath: C:\Unity Projects\Imperial vs rebel\Assets\Standard Assets\Aircraft\Scripts\LandingGear.cs
+      projectPath: Assets\Standard Assets\Aircraft\Scripts\LandingGear.cs
+      originalPath: 
+      status: 4
+      staged: 0
+    - path: Assets\Standard Assets\Aircraft\Scripts\LandingGear.cs.meta
+      fullPath: C:\Unity Projects\Imperial vs rebel\Assets\Standard Assets\Aircraft\Scripts\LandingGear.cs.meta
+      projectPath: Assets\Standard Assets\Aircraft\Scripts\LandingGear.cs.meta
+      originalPath: 
+      status: 4
+      staged: 0
+    - path: Assets\Standard Assets\Aircraft\Textures.meta
+      fullPath: C:\Unity Projects\Imperial vs rebel\Assets\Standard Assets\Aircraft\Textures.meta
+      projectPath: Assets\Standard Assets\Aircraft\Textures.meta
+      originalPath: 
+      status: 4
+      staged: 0
+    - path: Assets\Standard Assets\Aircraft\Textures\AircraftFuselageNormals.png
+      fullPath: C:\Unity Projects\Imperial vs rebel\Assets\Standard Assets\Aircraft\Textures\AircraftFuselageNormals.png
+      projectPath: Assets\Standard Assets\Aircraft\Textures\AircraftFuselageNormals.png
+      originalPath: 
+      status: 4
+      staged: 0
+    - path: Assets\Standard Assets\Aircraft\Textures\AircraftFuselageNormals.png.meta
+      fullPath: C:\Unity Projects\Imperial vs rebel\Assets\Standard Assets\Aircraft\Textures\AircraftFuselageNormals.png.meta
+      projectPath: Assets\Standard Assets\Aircraft\Textures\AircraftFuselageNormals.png.meta
+      originalPath: 
+      status: 4
+      staged: 0
+    - path: Assets\Standard Assets\Aircraft\Textures\AircraftFuselageOcclusion.png
+      fullPath: C:\Unity Projects\Imperial vs rebel\Assets\Standard Assets\Aircraft\Textures\AircraftFuselageOcclusion.png
+      projectPath: Assets\Standard Assets\Aircraft\Textures\AircraftFuselageOcclusion.png
+      originalPath: 
+      status: 4
+      staged: 0
+    - path: Assets\Standard Assets\Aircraft\Textures\AircraftFuselageOcclusion.png.meta
+      fullPath: C:\Unity Projects\Imperial vs rebel\Assets\Standard Assets\Aircraft\Textures\AircraftFuselageOcclusion.png.meta
+      projectPath: Assets\Standard Assets\Aircraft\Textures\AircraftFuselageOcclusion.png.meta
+      originalPath: 
+      status: 4
+      staged: 0
+    - path: Assets\Standard Assets\Aircraft\Textures\AircraftPropellerBlur01GreyAlbedo.png
+      fullPath: C:\Unity Projects\Imperial vs rebel\Assets\Standard Assets\Aircraft\Textures\AircraftPropellerBlur01GreyAlbedo.png
+      projectPath: Assets\Standard Assets\Aircraft\Textures\AircraftPropellerBlur01GreyAlbedo.png
+      originalPath: 
+      status: 4
+      staged: 0
+    - path: Assets\Standard Assets\Aircraft\Textures\AircraftPropellerBlur01GreyAlbedo.png.meta
+      fullPath: C:\Unity Projects\Imperial vs rebel\Assets\Standard Assets\Aircraft\Textures\AircraftPropellerBlur01GreyAlbedo.png.meta
+      projectPath: Assets\Standard Assets\Aircraft\Textures\AircraftPropellerBlur01GreyAlbedo.png.meta
+      originalPath: 
+      status: 4
+      staged: 0
+    - path: Assets\Standard Assets\Aircraft\Textures\AircraftPropellerBlur01WhiteAlbedo.png
+      fullPath: C:\Unity Projects\Imperial vs rebel\Assets\Standard Assets\Aircraft\Textures\AircraftPropellerBlur01WhiteAlbedo.png
+      projectPath: Assets\Standard Assets\Aircraft\Textures\AircraftPropellerBlur01WhiteAlbedo.png
+      originalPath: 
+      status: 4
+      staged: 0
+    - path: Assets\Standard Assets\Aircraft\Textures\AircraftPropellerBlur01WhiteAlbedo.png.meta
+      fullPath: C:\Unity Projects\Imperial vs rebel\Assets\Standard Assets\Aircraft\Textures\AircraftPropellerBlur01WhiteAlbedo.png.meta
+      projectPath: Assets\Standard Assets\Aircraft\Textures\AircraftPropellerBlur01WhiteAlbedo.png.meta
+      originalPath: 
+      status: 4
+      staged: 0
+    - path: Assets\Standard Assets\Aircraft\Textures\AircraftPropellerBlur02GreyAlbedo.png
+      fullPath: C:\Unity Projects\Imperial vs rebel\Assets\Standard Assets\Aircraft\Textures\AircraftPropellerBlur02GreyAlbedo.png
+      projectPath: Assets\Standard Assets\Aircraft\Textures\AircraftPropellerBlur02GreyAlbedo.png
+      originalPath: 
+      status: 4
+      staged: 0
+    - path: Assets\Standard Assets\Aircraft\Textures\AircraftPropellerBlur02GreyAlbedo.png.meta
+      fullPath: C:\Unity Projects\Imperial vs rebel\Assets\Standard Assets\Aircraft\Textures\AircraftPropellerBlur02GreyAlbedo.png.meta
+      projectPath: Assets\Standard Assets\Aircraft\Textures\AircraftPropellerBlur02GreyAlbedo.png.meta
+      originalPath: 
+      status: 4
+      staged: 0
+    - path: Assets\Standard Assets\Aircraft\Textures\AircraftPropellerBlur02WhiteAlbedo.png
+      fullPath: C:\Unity Projects\Imperial vs rebel\Assets\Standard Assets\Aircraft\Textures\AircraftPropellerBlur02WhiteAlbedo.png
+      projectPath: Assets\Standard Assets\Aircraft\Textures\AircraftPropellerBlur02WhiteAlbedo.png
+      originalPath: 
+      status: 4
+      staged: 0
+    - path: Assets\Standard Assets\Aircraft\Textures\AircraftPropellerBlur02WhiteAlbedo.png.meta
+      fullPath: C:\Unity Projects\Imperial vs rebel\Assets\Standard Assets\Aircraft\Textures\AircraftPropellerBlur02WhiteAlbedo.png.meta
+      projectPath: Assets\Standard Assets\Aircraft\Textures\AircraftPropellerBlur02WhiteAlbedo.png.meta
+      originalPath: 
+      status: 4
+      staged: 0
+    - path: Assets\Standard Assets\Aircraft\Textures\AircraftPropellerBlur03GreyAlbedo.png
+      fullPath: C:\Unity Projects\Imperial vs rebel\Assets\Standard Assets\Aircraft\Textures\AircraftPropellerBlur03GreyAlbedo.png
+      projectPath: Assets\Standard Assets\Aircraft\Textures\AircraftPropellerBlur03GreyAlbedo.png
+      originalPath: 
+      status: 4
+      staged: 0
+    - path: Assets\Standard Assets\Aircraft\Textures\AircraftPropellerBlur03GreyAlbedo.png.meta
+      fullPath: C:\Unity Projects\Imperial vs rebel\Assets\Standard Assets\Aircraft\Textures\AircraftPropellerBlur03GreyAlbedo.png.meta
+      projectPath: Assets\Standard Assets\Aircraft\Textures\AircraftPropellerBlur03GreyAlbedo.png.meta
+      originalPath: 
+      status: 4
+      staged: 0
+    - path: Assets\Standard Assets\Aircraft\Textures\AircraftPropellerBlur03WhiteAlbedo.png
+      fullPath: C:\Unity Projects\Imperial vs rebel\Assets\Standard Assets\Aircraft\Textures\AircraftPropellerBlur03WhiteAlbedo.png
+      projectPath: Assets\Standard Assets\Aircraft\Textures\AircraftPropellerBlur03WhiteAlbedo.png
+      originalPath: 
+      status: 4
+      staged: 0
+    - path: Assets\Standard Assets\Aircraft\Textures\AircraftPropellerBlur03WhiteAlbedo.png.meta
+      fullPath: C:\Unity Projects\Imperial vs rebel\Assets\Standard Assets\Aircraft\Textures\AircraftPropellerBlur03WhiteAlbedo.png.meta
+      projectPath: Assets\Standard Assets\Aircraft\Textures\AircraftPropellerBlur03WhiteAlbedo.png.meta
+      originalPath: 
+      status: 4
+      staged: 0
+    - path: Assets\Standard Assets\Aircraft\Textures\AircraftWingsJetNormals.png
+      fullPath: C:\Unity Projects\Imperial vs rebel\Assets\Standard Assets\Aircraft\Textures\AircraftWingsJetNormals.png
+      projectPath: Assets\Standard Assets\Aircraft\Textures\AircraftWingsJetNormals.png
+      originalPath: 
+      status: 4
+      staged: 0
+    - path: Assets\Standard Assets\Aircraft\Textures\AircraftWingsJetNormals.png.meta
+      fullPath: C:\Unity Projects\Imperial vs rebel\Assets\Standard Assets\Aircraft\Textures\AircraftWingsJetNormals.png.meta
+      projectPath: Assets\Standard Assets\Aircraft\Textures\AircraftWingsJetNormals.png.meta
+      originalPath: 
+      status: 4
+      staged: 0
+    - path: Assets\Standard Assets\Aircraft\Textures\AircraftWingsJetOcclusion.png
+      fullPath: C:\Unity Projects\Imperial vs rebel\Assets\Standard Assets\Aircraft\Textures\AircraftWingsJetOcclusion.png
+      projectPath: Assets\Standard Assets\Aircraft\Textures\AircraftWingsJetOcclusion.png
+      originalPath: 
+      status: 4
+      staged: 0
+    - path: Assets\Standard Assets\Aircraft\Textures\AircraftWingsJetOcclusion.png.meta
+      fullPath: C:\Unity Projects\Imperial vs rebel\Assets\Standard Assets\Aircraft\Textures\AircraftWingsJetOcclusion.png.meta
+      projectPath: Assets\Standard Assets\Aircraft\Textures\AircraftWingsJetOcclusion.png.meta
+      originalPath: 
+      status: 4
+      staged: 0
+    - path: Assets\Standard Assets\Aircraft\Textures\AircraftWingsPropellerNormals.png
+      fullPath: C:\Unity Projects\Imperial vs rebel\Assets\Standard Assets\Aircraft\Textures\AircraftWingsPropellerNormals.png
+      projectPath: Assets\Standard Assets\Aircraft\Textures\AircraftWingsPropellerNormals.png
+      originalPath: 
+      status: 4
+      staged: 0
+    - path: Assets\Standard Assets\Aircraft\Textures\AircraftWingsPropellerNormals.png.meta
+      fullPath: C:\Unity Projects\Imperial vs rebel\Assets\Standard Assets\Aircraft\Textures\AircraftWingsPropellerNormals.png.meta
+      projectPath: Assets\Standard Assets\Aircraft\Textures\AircraftWingsPropellerNormals.png.meta
+      originalPath: 
+      status: 4
+      staged: 0
+    - path: Assets\Standard Assets\Aircraft\Textures\AircraftWingsPropellerOcclusion.png
+      fullPath: C:\Unity Projects\Imperial vs rebel\Assets\Standard Assets\Aircraft\Textures\AircraftWingsPropellerOcclusion.png
+      projectPath: Assets\Standard Assets\Aircraft\Textures\AircraftWingsPropellerOcclusion.png
+      originalPath: 
+      status: 4
+      staged: 0
+    - path: Assets\Standard Assets\Aircraft\Textures\AircraftWingsPropellerOcclusion.png.meta
+      fullPath: C:\Unity Projects\Imperial vs rebel\Assets\Standard Assets\Aircraft\Textures\AircraftWingsPropellerOcclusion.png.meta
+      projectPath: Assets\Standard Assets\Aircraft\Textures\AircraftWingsPropellerOcclusion.png.meta
+      originalPath: 
+      status: 4
+      staged: 0
+    - path: Assets\Standard Assets\CrossPlatformInput.meta
+      fullPath: C:\Unity Projects\Imperial vs rebel\Assets\Standard Assets\CrossPlatformInput.meta
+      projectPath: Assets\Standard Assets\CrossPlatformInput.meta
+      originalPath: 
+      status: 4
+      staged: 0
+    - path: Assets\Standard Assets\CrossPlatformInput\CrossPlatformInputGuidelines.txt
+      fullPath: C:\Unity Projects\Imperial vs rebel\Assets\Standard Assets\CrossPlatformInput\CrossPlatformInputGuidelines.txt
+      projectPath: Assets\Standard Assets\CrossPlatformInput\CrossPlatformInputGuidelines.txt
+      originalPath: 
+      status: 4
+      staged: 0
+    - path: Assets\Standard Assets\CrossPlatformInput\CrossPlatformInputGuidelines.txt.meta
+      fullPath: C:\Unity Projects\Imperial vs rebel\Assets\Standard Assets\CrossPlatformInput\CrossPlatformInputGuidelines.txt.meta
+      projectPath: Assets\Standard Assets\CrossPlatformInput\CrossPlatformInputGuidelines.txt.meta
+      originalPath: 
+      status: 4
+      staged: 0
+    - path: Assets\Standard Assets\CrossPlatformInput\Prefabs.meta
+      fullPath: C:\Unity Projects\Imperial vs rebel\Assets\Standard Assets\CrossPlatformInput\Prefabs.meta
+      projectPath: Assets\Standard Assets\CrossPlatformInput\Prefabs.meta
+      originalPath: 
+      status: 4
+      staged: 0
+    - path: Assets\Standard Assets\CrossPlatformInput\Prefabs\CarTiltControls.prefab
+      fullPath: C:\Unity Projects\Imperial vs rebel\Assets\Standard Assets\CrossPlatformInput\Prefabs\CarTiltControls.prefab
+      projectPath: Assets\Standard Assets\CrossPlatformInput\Prefabs\CarTiltControls.prefab
+      originalPath: 
+      status: 4
+      staged: 0
+    - path: Assets\Standard Assets\CrossPlatformInput\Prefabs\CarTiltControls.prefab.meta
+      fullPath: C:\Unity Projects\Imperial vs rebel\Assets\Standard Assets\CrossPlatformInput\Prefabs\CarTiltControls.prefab.meta
+      projectPath: Assets\Standard Assets\CrossPlatformInput\Prefabs\CarTiltControls.prefab.meta
+      originalPath: 
+      status: 4
+      staged: 0
+    - path: Assets\Standard Assets\CrossPlatformInput\Prefabs\DualTouchControls.prefab
+      fullPath: C:\Unity Projects\Imperial vs rebel\Assets\Standard Assets\CrossPlatformInput\Prefabs\DualTouchControls.prefab
+      projectPath: Assets\Standard Assets\CrossPlatformInput\Prefabs\DualTouchControls.prefab
+      originalPath: 
+      status: 4
+      staged: 0
+    - path: Assets\Standard Assets\CrossPlatformInput\Prefabs\DualTouchControls.prefab.meta
+      fullPath: C:\Unity Projects\Imperial vs rebel\Assets\Standard Assets\CrossPlatformInput\Prefabs\DualTouchControls.prefab.meta
+      projectPath: Assets\Standard Assets\CrossPlatformInput\Prefabs\DualTouchControls.prefab.meta
+      originalPath: 
+      status: 4
+      staged: 0
+    - path: Assets\Standard Assets\CrossPlatformInput\Prefabs\MobileAircraftControls.prefab
+      fullPath: C:\Unity Projects\Imperial vs rebel\Assets\Standard Assets\CrossPlatformInput\Prefabs\MobileAircraftControls.prefab
+      projectPath: Assets\Standard Assets\CrossPlatformInput\Prefabs\MobileAircraftControls.prefab
+      originalPath: 
+      status: 4
+      staged: 0
+    - path: Assets\Standard Assets\CrossPlatformInput\Prefabs\MobileAircraftControls.prefab.meta
+      fullPath: C:\Unity Projects\Imperial vs rebel\Assets\Standard Assets\CrossPlatformInput\Prefabs\MobileAircraftControls.prefab.meta
+      projectPath: Assets\Standard Assets\CrossPlatformInput\Prefabs\MobileAircraftControls.prefab.meta
+      originalPath: 
+      status: 4
+      staged: 0
+    - path: Assets\Standard Assets\CrossPlatformInput\Prefabs\MobileSingleStickControl.prefab
+      fullPath: C:\Unity Projects\Imperial vs rebel\Assets\Standard Assets\CrossPlatformInput\Prefabs\MobileSingleStickControl.prefab
+      projectPath: Assets\Standard Assets\CrossPlatformInput\Prefabs\MobileSingleStickControl.prefab
+      originalPath: 
+      status: 4
+      staged: 0
+    - path: Assets\Standard Assets\CrossPlatformInput\Prefabs\MobileSingleStickControl.prefab.meta
+      fullPath: C:\Unity Projects\Imperial vs rebel\Assets\Standard Assets\CrossPlatformInput\Prefabs\MobileSingleStickControl.prefab.meta
+      projectPath: Assets\Standard Assets\CrossPlatformInput\Prefabs\MobileSingleStickControl.prefab.meta
+      originalPath: 
+      status: 4
+      staged: 0
+    - path: Assets\Standard Assets\CrossPlatformInput\Prefabs\MobileTiltControlRig.prefab
+      fullPath: C:\Unity Projects\Imperial vs rebel\Assets\Standard Assets\CrossPlatformInput\Prefabs\MobileTiltControlRig.prefab
+      projectPath: Assets\Standard Assets\CrossPlatformInput\Prefabs\MobileTiltControlRig.prefab
+      originalPath: 
+      status: 4
+      staged: 0
+    - path: Assets\Standard Assets\CrossPlatformInput\Prefabs\MobileTiltControlRig.prefab.meta
+      fullPath: C:\Unity Projects\Imperial vs rebel\Assets\Standard Assets\CrossPlatformInput\Prefabs\MobileTiltControlRig.prefab.meta
+      projectPath: Assets\Standard Assets\CrossPlatformInput\Prefabs\MobileTiltControlRig.prefab.meta
+      originalPath: 
+      status: 4
+      staged: 0
+    - path: Assets\Standard Assets\CrossPlatformInput\Scripts.meta
+      fullPath: C:\Unity Projects\Imperial vs rebel\Assets\Standard Assets\CrossPlatformInput\Scripts.meta
+      projectPath: Assets\Standard Assets\CrossPlatformInput\Scripts.meta
+      originalPath: 
+      status: 4
+      staged: 0
+    - path: Assets\Standard Assets\CrossPlatformInput\Scripts\AxisTouchButton.cs
+      fullPath: C:\Unity Projects\Imperial vs rebel\Assets\Standard Assets\CrossPlatformInput\Scripts\AxisTouchButton.cs
+      projectPath: Assets\Standard Assets\CrossPlatformInput\Scripts\AxisTouchButton.cs
+      originalPath: 
+      status: 4
+      staged: 0
+    - path: Assets\Standard Assets\CrossPlatformInput\Scripts\AxisTouchButton.cs.meta
+      fullPath: C:\Unity Projects\Imperial vs rebel\Assets\Standard Assets\CrossPlatformInput\Scripts\AxisTouchButton.cs.meta
+      projectPath: Assets\Standard Assets\CrossPlatformInput\Scripts\AxisTouchButton.cs.meta
+      originalPath: 
+      status: 4
+      staged: 0
+    - path: Assets\Standard Assets\CrossPlatformInput\Scripts\ButtonHandler.cs
+      fullPath: C:\Unity Projects\Imperial vs rebel\Assets\Standard Assets\CrossPlatformInput\Scripts\ButtonHandler.cs
+      projectPath: Assets\Standard Assets\CrossPlatformInput\Scripts\ButtonHandler.cs
+      originalPath: 
+      status: 4
+      staged: 0
+    - path: Assets\Standard Assets\CrossPlatformInput\Scripts\ButtonHandler.cs.meta
+      fullPath: C:\Unity Projects\Imperial vs rebel\Assets\Standard Assets\CrossPlatformInput\Scripts\ButtonHandler.cs.meta
+      projectPath: Assets\Standard Assets\CrossPlatformInput\Scripts\ButtonHandler.cs.meta
+      originalPath: 
+      status: 4
+      staged: 0
+    - path: Assets\Standard Assets\CrossPlatformInput\Scripts\CrossPlatformInputManager.cs
+      fullPath: C:\Unity Projects\Imperial vs rebel\Assets\Standard Assets\CrossPlatformInput\Scripts\CrossPlatformInputManager.cs
+      projectPath: Assets\Standard Assets\CrossPlatformInput\Scripts\CrossPlatformInputManager.cs
+      originalPath: 
+      status: 4
+      staged: 0
+    - path: Assets\Standard Assets\CrossPlatformInput\Scripts\CrossPlatformInputManager.cs.meta
+      fullPath: C:\Unity Projects\Imperial vs rebel\Assets\Standard Assets\CrossPlatformInput\Scripts\CrossPlatformInputManager.cs.meta
+      projectPath: Assets\Standard Assets\CrossPlatformInput\Scripts\CrossPlatformInputManager.cs.meta
+      originalPath: 
+      status: 4
+      staged: 0
+    - path: Assets\Standard Assets\CrossPlatformInput\Scripts\InputAxisScrollbar.cs
+      fullPath: C:\Unity Projects\Imperial vs rebel\Assets\Standard Assets\CrossPlatformInput\Scripts\InputAxisScrollbar.cs
+      projectPath: Assets\Standard Assets\CrossPlatformInput\Scripts\InputAxisScrollbar.cs
+      originalPath: 
+      status: 4
+      staged: 0
+    - path: Assets\Standard Assets\CrossPlatformInput\Scripts\InputAxisScrollbar.cs.meta
+      fullPath: C:\Unity Projects\Imperial vs rebel\Assets\Standard Assets\CrossPlatformInput\Scripts\InputAxisScrollbar.cs.meta
+      projectPath: Assets\Standard Assets\CrossPlatformInput\Scripts\InputAxisScrollbar.cs.meta
+      originalPath: 
+      status: 4
+      staged: 0
+    - path: Assets\Standard Assets\CrossPlatformInput\Scripts\Joystick.cs
+      fullPath: C:\Unity Projects\Imperial vs rebel\Assets\Standard Assets\CrossPlatformInput\Scripts\Joystick.cs
+      projectPath: Assets\Standard Assets\CrossPlatformInput\Scripts\Joystick.cs
+      originalPath: 
+      status: 4
+      staged: 0
+    - path: Assets\Standard Assets\CrossPlatformInput\Scripts\Joystick.cs.meta
+      fullPath: C:\Unity Projects\Imperial vs rebel\Assets\Standard Assets\CrossPlatformInput\Scripts\Joystick.cs.meta
+      projectPath: Assets\Standard Assets\CrossPlatformInput\Scripts\Joystick.cs.meta
+      originalPath: 
+      status: 4
+      staged: 0
+    - path: Assets\Standard Assets\CrossPlatformInput\Scripts\MobileControlRig.cs
+      fullPath: C:\Unity Projects\Imperial vs rebel\Assets\Standard Assets\CrossPlatformInput\Scripts\MobileControlRig.cs
+      projectPath: Assets\Standard Assets\CrossPlatformInput\Scripts\MobileControlRig.cs
+      originalPath: 
+      status: 4
+      staged: 0
+    - path: Assets\Standard Assets\CrossPlatformInput\Scripts\MobileControlRig.cs.meta
+      fullPath: C:\Unity Projects\Imperial vs rebel\Assets\Standard Assets\CrossPlatformInput\Scripts\MobileControlRig.cs.meta
+      projectPath: Assets\Standard Assets\CrossPlatformInput\Scripts\MobileControlRig.cs.meta
+      originalPath: 
+      status: 4
+      staged: 0
+    - path: Assets\Standard Assets\CrossPlatformInput\Scripts\PlatformSpecific.meta
+      fullPath: C:\Unity Projects\Imperial vs rebel\Assets\Standard Assets\CrossPlatformInput\Scripts\PlatformSpecific.meta
+      projectPath: Assets\Standard Assets\CrossPlatformInput\Scripts\PlatformSpecific.meta
+      originalPath: 
+      status: 4
+      staged: 0
+    - path: Assets\Standard Assets\CrossPlatformInput\Scripts\PlatformSpecific\MobileInput.cs
+      fullPath: C:\Unity Projects\Imperial vs rebel\Assets\Standard Assets\CrossPlatformInput\Scripts\PlatformSpecific\MobileInput.cs
+      projectPath: Assets\Standard Assets\CrossPlatformInput\Scripts\PlatformSpecific\MobileInput.cs
+      originalPath: 
+      status: 4
+      staged: 0
+    - path: Assets\Standard Assets\CrossPlatformInput\Scripts\PlatformSpecific\MobileInput.cs.meta
+      fullPath: C:\Unity Projects\Imperial vs rebel\Assets\Standard Assets\CrossPlatformInput\Scripts\PlatformSpecific\MobileInput.cs.meta
+      projectPath: Assets\Standard Assets\CrossPlatformInput\Scripts\PlatformSpecific\MobileInput.cs.meta
+      originalPath: 
+      status: 4
+      staged: 0
+    - path: Assets\Standard Assets\CrossPlatformInput\Scripts\PlatformSpecific\StandaloneInput.cs
+      fullPath: C:\Unity Projects\Imperial vs rebel\Assets\Standard Assets\CrossPlatformInput\Scripts\PlatformSpecific\StandaloneInput.cs
+      projectPath: Assets\Standard Assets\CrossPlatformInput\Scripts\PlatformSpecific\StandaloneInput.cs
+      originalPath: 
+      status: 4
+      staged: 0
+    - path: Assets\Standard Assets\CrossPlatformInput\Scripts\PlatformSpecific\StandaloneInput.cs.meta
+      fullPath: C:\Unity Projects\Imperial vs rebel\Assets\Standard Assets\CrossPlatformInput\Scripts\PlatformSpecific\StandaloneInput.cs.meta
+      projectPath: Assets\Standard Assets\CrossPlatformInput\Scripts\PlatformSpecific\StandaloneInput.cs.meta
+      originalPath: 
+      status: 4
+      staged: 0
+    - path: Assets\Standard Assets\CrossPlatformInput\Scripts\TiltInput.cs
+      fullPath: C:\Unity Projects\Imperial vs rebel\Assets\Standard Assets\CrossPlatformInput\Scripts\TiltInput.cs
+      projectPath: Assets\Standard Assets\CrossPlatformInput\Scripts\TiltInput.cs
+      originalPath: 
+      status: 4
+      staged: 0
+    - path: Assets\Standard Assets\CrossPlatformInput\Scripts\TiltInput.cs.meta
+      fullPath: C:\Unity Projects\Imperial vs rebel\Assets\Standard Assets\CrossPlatformInput\Scripts\TiltInput.cs.meta
+      projectPath: Assets\Standard Assets\CrossPlatformInput\Scripts\TiltInput.cs.meta
+      originalPath: 
+      status: 4
+      staged: 0
+    - path: Assets\Standard Assets\CrossPlatformInput\Scripts\TouchPad.cs
+      fullPath: C:\Unity Projects\Imperial vs rebel\Assets\Standard Assets\CrossPlatformInput\Scripts\TouchPad.cs
+      projectPath: Assets\Standard Assets\CrossPlatformInput\Scripts\TouchPad.cs
+      originalPath: 
+      status: 4
+      staged: 0
+    - path: Assets\Standard Assets\CrossPlatformInput\Scripts\TouchPad.cs.meta
+      fullPath: C:\Unity Projects\Imperial vs rebel\Assets\Standard Assets\CrossPlatformInput\Scripts\TouchPad.cs.meta
+      projectPath: Assets\Standard Assets\CrossPlatformInput\Scripts\TouchPad.cs.meta
+      originalPath: 
+      status: 4
+      staged: 0
+    - path: Assets\Standard Assets\CrossPlatformInput\Scripts\VirtualInput.cs
+      fullPath: C:\Unity Projects\Imperial vs rebel\Assets\Standard Assets\CrossPlatformInput\Scripts\VirtualInput.cs
+      projectPath: Assets\Standard Assets\CrossPlatformInput\Scripts\VirtualInput.cs
+      originalPath: 
+      status: 4
+      staged: 0
+    - path: Assets\Standard Assets\CrossPlatformInput\Scripts\VirtualInput.cs.meta
+      fullPath: C:\Unity Projects\Imperial vs rebel\Assets\Standard Assets\CrossPlatformInput\Scripts\VirtualInput.cs.meta
+      projectPath: Assets\Standard Assets\CrossPlatformInput\Scripts\VirtualInput.cs.meta
+      originalPath: 
+      status: 4
+      staged: 0
+    - path: Assets\Standard Assets\CrossPlatformInput\Sprites.meta
+      fullPath: C:\Unity Projects\Imperial vs rebel\Assets\Standard Assets\CrossPlatformInput\Sprites.meta
+      projectPath: Assets\Standard Assets\CrossPlatformInput\Sprites.meta
+      originalPath: 
+      status: 4
+      staged: 0
+    - path: Assets\Standard Assets\CrossPlatformInput\Sprites\ButtonAcceleratorOverSprite.png
+      fullPath: C:\Unity Projects\Imperial vs rebel\Assets\Standard Assets\CrossPlatformInput\Sprites\ButtonAcceleratorOverSprite.png
+      projectPath: Assets\Standard Assets\CrossPlatformInput\Sprites\ButtonAcceleratorOverSprite.png
+      originalPath: 
+      status: 4
+      staged: 0
+    - path: Assets\Standard Assets\CrossPlatformInput\Sprites\ButtonAcceleratorOverSprite.png.meta
+      fullPath: C:\Unity Projects\Imperial vs rebel\Assets\Standard Assets\CrossPlatformInput\Sprites\ButtonAcceleratorOverSprite.png.meta
+      projectPath: Assets\Standard Assets\CrossPlatformInput\Sprites\ButtonAcceleratorOverSprite.png.meta
+      originalPath: 
+      status: 4
+      staged: 0
+    - path: Assets\Standard Assets\CrossPlatformInput\Sprites\ButtonAcceleratorUpSprite.png
+      fullPath: C:\Unity Projects\Imperial vs rebel\Assets\Standard Assets\CrossPlatformInput\Sprites\ButtonAcceleratorUpSprite.png
+      projectPath: Assets\Standard Assets\CrossPlatformInput\Sprites\ButtonAcceleratorUpSprite.png
+      originalPath: 
+      status: 4
+      staged: 0
+    - path: Assets\Standard Assets\CrossPlatformInput\Sprites\ButtonAcceleratorUpSprite.png.meta
+      fullPath: C:\Unity Projects\Imperial vs rebel\Assets\Standard Assets\CrossPlatformInput\Sprites\ButtonAcceleratorUpSprite.png.meta
+      projectPath: Assets\Standard Assets\CrossPlatformInput\Sprites\ButtonAcceleratorUpSprite.png.meta
+      originalPath: 
+      status: 4
+      staged: 0
+    - path: Assets\Standard Assets\CrossPlatformInput\Sprites\ButtonArrowOverSprite.png
+      fullPath: C:\Unity Projects\Imperial vs rebel\Assets\Standard Assets\CrossPlatformInput\Sprites\ButtonArrowOverSprite.png
+      projectPath: Assets\Standard Assets\CrossPlatformInput\Sprites\ButtonArrowOverSprite.png
+      originalPath: 
+      status: 4
+      staged: 0
+    - path: Assets\Standard Assets\CrossPlatformInput\Sprites\ButtonArrowOverSprite.png.meta
+      fullPath: C:\Unity Projects\Imperial vs rebel\Assets\Standard Assets\CrossPlatformInput\Sprites\ButtonArrowOverSprite.png.meta
+      projectPath: Assets\Standard Assets\CrossPlatformInput\Sprites\ButtonArrowOverSprite.png.meta
+      originalPath: 
+      status: 4
+      staged: 0
+    - path: Assets\Standard Assets\CrossPlatformInput\Sprites\ButtonArrowUpSprite.png
+      fullPath: C:\Unity Projects\Imperial vs rebel\Assets\Standard Assets\CrossPlatformInput\Sprites\ButtonArrowUpSprite.png
+      projectPath: Assets\Standard Assets\CrossPlatformInput\Sprites\ButtonArrowUpSprite.png
+      originalPath: 
+      status: 4
+      staged: 0
+    - path: Assets\Standard Assets\CrossPlatformInput\Sprites\ButtonArrowUpSprite.png.meta
+      fullPath: C:\Unity Projects\Imperial vs rebel\Assets\Standard Assets\CrossPlatformInput\Sprites\ButtonArrowUpSprite.png.meta
+      projectPath: Assets\Standard Assets\CrossPlatformInput\Sprites\ButtonArrowUpSprite.png.meta
+      originalPath: 
+      status: 4
+      staged: 0
+    - path: Assets\Standard Assets\CrossPlatformInput\Sprites\ButtonBrakeOverSprite.png
+      fullPath: C:\Unity Projects\Imperial vs rebel\Assets\Standard Assets\CrossPlatformInput\Sprites\ButtonBrakeOverSprite.png
+      projectPath: Assets\Standard Assets\CrossPlatformInput\Sprites\ButtonBrakeOverSprite.png
+      originalPath: 
+      status: 4
+      staged: 0
+    - path: Assets\Standard Assets\CrossPlatformInput\Sprites\ButtonBrakeOverSprite.png.meta
+      fullPath: C:\Unity Projects\Imperial vs rebel\Assets\Standard Assets\CrossPlatformInput\Sprites\ButtonBrakeOverSprite.png.meta
+      projectPath: Assets\Standard Assets\CrossPlatformInput\Sprites\ButtonBrakeOverSprite.png.meta
+      originalPath: 
+      status: 4
+      staged: 0
+    - path: Assets\Standard Assets\CrossPlatformInput\Sprites\ButtonBrakeUpSprite.png
+      fullPath: C:\Unity Projects\Imperial vs rebel\Assets\Standard Assets\CrossPlatformInput\Sprites\ButtonBrakeUpSprite.png
+      projectPath: Assets\Standard Assets\CrossPlatformInput\Sprites\ButtonBrakeUpSprite.png
+      originalPath: 
+      status: 4
+      staged: 0
+    - path: Assets\Standard Assets\CrossPlatformInput\Sprites\ButtonBrakeUpSprite.png.meta
+      fullPath: C:\Unity Projects\Imperial vs rebel\Assets\Standard Assets\CrossPlatformInput\Sprites\ButtonBrakeUpSprite.png.meta
+      projectPath: Assets\Standard Assets\CrossPlatformInput\Sprites\ButtonBrakeUpSprite.png.meta
+      originalPath: 
+      status: 4
+      staged: 0
+    - path: Assets\Standard Assets\CrossPlatformInput\Sprites\ButtonCameraCycleUpSprite.png
+      fullPath: C:\Unity Projects\Imperial vs rebel\Assets\Standard Assets\CrossPlatformInput\Sprites\ButtonCameraCycleUpSprite.png
+      projectPath: Assets\Standard Assets\CrossPlatformInput\Sprites\ButtonCameraCycleUpSprite.png
+      originalPath: 
+      status: 4
+      staged: 0
+    - path: Assets\Standard Assets\CrossPlatformInput\Sprites\ButtonCameraCycleUpSprite.png.meta
+      fullPath: C:\Unity Projects\Imperial vs rebel\Assets\Standard Assets\CrossPlatformInput\Sprites\ButtonCameraCycleUpSprite.png.meta
+      projectPath: Assets\Standard Assets\CrossPlatformInput\Sprites\ButtonCameraCycleUpSprite.png.meta
+      originalPath: 
+      status: 4
+      staged: 0
+    - path: Assets\Standard Assets\CrossPlatformInput\Sprites\ButtonResetSprite.png
+      fullPath: C:\Unity Projects\Imperial vs rebel\Assets\Standard Assets\CrossPlatformInput\Sprites\ButtonResetSprite.png
+      projectPath: Assets\Standard Assets\CrossPlatformInput\Sprites\ButtonResetSprite.png
+      originalPath: 
+      status: 4
+      staged: 0
+    - path: Assets\Standard Assets\CrossPlatformInput\Sprites\ButtonResetSprite.png.meta
+      fullPath: C:\Unity Projects\Imperial vs rebel\Assets\Standard Assets\CrossPlatformInput\Sprites\ButtonResetSprite.png.meta
+      projectPath: Assets\Standard Assets\CrossPlatformInput\Sprites\ButtonResetSprite.png.meta
+      originalPath: 
+      status: 4
+      staged: 0
+    - path: Assets\Standard Assets\CrossPlatformInput\Sprites\ButtonSpacebarSprite.png
+      fullPath: C:\Unity Projects\Imperial vs rebel\Assets\Standard Assets\CrossPlatformInput\Sprites\ButtonSpacebarSprite.png
+      projectPath: Assets\Standard Assets\CrossPlatformInput\Sprites\ButtonSpacebarSprite.png
+      originalPath: 
+      status: 4
+      staged: 0
+    - path: Assets\Standard Assets\CrossPlatformInput\Sprites\ButtonSpacebarSprite.png.meta
+      fullPath: C:\Unity Projects\Imperial vs rebel\Assets\Standard Assets\CrossPlatformInput\Sprites\ButtonSpacebarSprite.png.meta
+      projectPath: Assets\Standard Assets\CrossPlatformInput\Sprites\ButtonSpacebarSprite.png.meta
+      originalPath: 
+      status: 4
+      staged: 0
+    - path: Assets\Standard Assets\CrossPlatformInput\Sprites\ButtonThumbstickOverSprite.png
+      fullPath: C:\Unity Projects\Imperial vs rebel\Assets\Standard Assets\CrossPlatformInput\Sprites\ButtonThumbstickOverSprite.png
+      projectPath: Assets\Standard Assets\CrossPlatformInput\Sprites\ButtonThumbstickOverSprite.png
+      originalPath: 
+      status: 4
+      staged: 0
+    - path: Assets\Standard Assets\CrossPlatformInput\Sprites\ButtonThumbstickOverSprite.png.meta
+      fullPath: C:\Unity Projects\Imperial vs rebel\Assets\Standard Assets\CrossPlatformInput\Sprites\ButtonThumbstickOverSprite.png.meta
+      projectPath: Assets\Standard Assets\CrossPlatformInput\Sprites\ButtonThumbstickOverSprite.png.meta
+      originalPath: 
+      status: 4
+      staged: 0
+    - path: Assets\Standard Assets\CrossPlatformInput\Sprites\ButtonThumbstickUpSprite.png
+      fullPath: C:\Unity Projects\Imperial vs rebel\Assets\Standard Assets\CrossPlatformInput\Sprites\ButtonThumbstickUpSprite.png
+      projectPath: Assets\Standard Assets\CrossPlatformInput\Sprites\ButtonThumbstickUpSprite.png
+      originalPath: 
+      status: 4
+      staged: 0
+    - path: Assets\Standard Assets\CrossPlatformInput\Sprites\ButtonThumbstickUpSprite.png.meta
+      fullPath: C:\Unity Projects\Imperial vs rebel\Assets\Standard Assets\CrossPlatformInput\Sprites\ButtonThumbstickUpSprite.png.meta
+      projectPath: Assets\Standard Assets\CrossPlatformInput\Sprites\ButtonThumbstickUpSprite.png.meta
+      originalPath: 
+      status: 4
+      staged: 0
+    - path: Assets\Standard Assets\CrossPlatformInput\Sprites\ButtonTimescaleFullUpSprite.png
+      fullPath: C:\Unity Projects\Imperial vs rebel\Assets\Standard Assets\CrossPlatformInput\Sprites\ButtonTimescaleFullUpSprite.png
+      projectPath: Assets\Standard Assets\CrossPlatformInput\Sprites\ButtonTimescaleFullUpSprite.png
+      originalPath: 
+      status: 4
+      staged: 0
+    - path: Assets\Standard Assets\CrossPlatformInput\Sprites\ButtonTimescaleFullUpSprite.png.meta
+      fullPath: C:\Unity Projects\Imperial vs rebel\Assets\Standard Assets\CrossPlatformInput\Sprites\ButtonTimescaleFullUpSprite.png.meta
+      projectPath: Assets\Standard Assets\CrossPlatformInput\Sprites\ButtonTimescaleFullUpSprite.png.meta
+      originalPath: 
+      status: 4
+      staged: 0
+    - path: Assets\Standard Assets\CrossPlatformInput\Sprites\ButtonTimescaleSlowUpSprite.png
+      fullPath: C:\Unity Projects\Imperial vs rebel\Assets\Standard Assets\CrossPlatformInput\Sprites\ButtonTimescaleSlowUpSprite.png
+      projectPath: Assets\Standard Assets\CrossPlatformInput\Sprites\ButtonTimescaleSlowUpSprite.png
+      originalPath: 
+      status: 4
+      staged: 0
+    - path: Assets\Standard Assets\CrossPlatformInput\Sprites\ButtonTimescaleSlowUpSprite.png.meta
+      fullPath: C:\Unity Projects\Imperial vs rebel\Assets\Standard Assets\CrossPlatformInput\Sprites\ButtonTimescaleSlowUpSprite.png.meta
+      projectPath: Assets\Standard Assets\CrossPlatformInput\Sprites\ButtonTimescaleSlowUpSprite.png.meta
+      originalPath: 
+      status: 4
+      staged: 0
+    - path: Assets\Standard Assets\CrossPlatformInput\Sprites\SliderBackgroundSprite.png
+      fullPath: C:\Unity Projects\Imperial vs rebel\Assets\Standard Assets\CrossPlatformInput\Sprites\SliderBackgroundSprite.png
+      projectPath: Assets\Standard Assets\CrossPlatformInput\Sprites\SliderBackgroundSprite.png
+      originalPath: 
+      status: 4
+      staged: 0
+    - path: Assets\Standard Assets\CrossPlatformInput\Sprites\SliderBackgroundSprite.png.meta
+      fullPath: C:\Unity Projects\Imperial vs rebel\Assets\Standard Assets\CrossPlatformInput\Sprites\SliderBackgroundSprite.png.meta
+      projectPath: Assets\Standard Assets\CrossPlatformInput\Sprites\SliderBackgroundSprite.png.meta
+      originalPath: 
+      status: 4
+      staged: 0
+    - path: Assets\Standard Assets\CrossPlatformInput\Sprites\SliderHandleSprite.png
+      fullPath: C:\Unity Projects\Imperial vs rebel\Assets\Standard Assets\CrossPlatformInput\Sprites\SliderHandleSprite.png
+      projectPath: Assets\Standard Assets\CrossPlatformInput\Sprites\SliderHandleSprite.png
+      originalPath: 
+      status: 4
+      staged: 0
+    - path: Assets\Standard Assets\CrossPlatformInput\Sprites\SliderHandleSprite.png.meta
+      fullPath: C:\Unity Projects\Imperial vs rebel\Assets\Standard Assets\CrossPlatformInput\Sprites\SliderHandleSprite.png.meta
+      projectPath: Assets\Standard Assets\CrossPlatformInput\Sprites\SliderHandleSprite.png.meta
+      originalPath: 
+      status: 4
+      staged: 0
+    - path: Assets\Standard Assets\CrossPlatformInput\Sprites\TouchpadSprite.png
+      fullPath: C:\Unity Projects\Imperial vs rebel\Assets\Standard Assets\CrossPlatformInput\Sprites\TouchpadSprite.png
+      projectPath: Assets\Standard Assets\CrossPlatformInput\Sprites\TouchpadSprite.png
+      originalPath: 
+      status: 4
+      staged: 0
+    - path: Assets\Standard Assets\CrossPlatformInput\Sprites\TouchpadSprite.png.meta
+      fullPath: C:\Unity Projects\Imperial vs rebel\Assets\Standard Assets\CrossPlatformInput\Sprites\TouchpadSprite.png.meta
+      projectPath: Assets\Standard Assets\CrossPlatformInput\Sprites\TouchpadSprite.png.meta
+      originalPath: 
+      status: 4
+      staged: 0
+    - path: Assets\Textures.meta
+      fullPath: C:\Unity Projects\Imperial vs rebel\Assets\Textures.meta
+      projectPath: Assets\Textures.meta
+      originalPath: 
+      status: 4
+      staged: 0
+    - path: Assets\Textures\a00e0cacfebe9a34a579fdb0f1d026e2.png
+      fullPath: C:\Unity Projects\Imperial vs rebel\Assets\Textures\a00e0cacfebe9a34a579fdb0f1d026e2.png
+      projectPath: Assets\Textures\a00e0cacfebe9a34a579fdb0f1d026e2.png
+      originalPath: 
+      status: 4
+      staged: 0
+    - path: Assets\Textures\a00e0cacfebe9a34a579fdb0f1d026e2.png.meta
+      fullPath: C:\Unity Projects\Imperial vs rebel\Assets\Textures\a00e0cacfebe9a34a579fdb0f1d026e2.png.meta
+      projectPath: Assets\Textures\a00e0cacfebe9a34a579fdb0f1d026e2.png.meta
+      originalPath: 
+      status: 4
+      staged: 0
+    - path: Assets\Textures\tile_nebula_green_dff.tif
+      fullPath: C:\Unity Projects\Imperial vs rebel\Assets\Textures\tile_nebula_green_dff.tif
+      projectPath: Assets\Textures\tile_nebula_green_dff.tif
+      originalPath: 
+      status: 4
+      staged: 0
+    - path: Assets\Textures\tile_nebula_green_dff.tif.meta
+      fullPath: C:\Unity Projects\Imperial vs rebel\Assets\Textures\tile_nebula_green_dff.tif.meta
+      projectPath: Assets\Textures\tile_nebula_green_dff.tif.meta
+      originalPath: 
+      status: 4
+      staged: 0
