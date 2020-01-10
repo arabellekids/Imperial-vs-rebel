@@ -21,10 +21,10 @@ MonoBehaviour:
     y: 30
     width: 1920
     height: 948
-  m_MinSize: {x: 679, y: 494}
+  m_MinSize: {x: 681, y: 494}
   m_MaxSize: {x: 14002, y: 14044}
   vertical: 0
-  controlID: 51620
+  controlID: 82819
 --- !u!114 &2
 MonoBehaviour:
   m_ObjectHideFlags: 52
@@ -127,10 +127,10 @@ MonoBehaviour:
     y: 0
     width: 1362
     height: 948
-  m_MinSize: {x: 404, y: 494}
+  m_MinSize: {x: 406, y: 494}
   m_MaxSize: {x: 10002, y: 14044}
   vertical: 1
-  controlID: 51576
+  controlID: 82775
 --- !u!114 &4
 MonoBehaviour:
   m_ObjectHideFlags: 52
@@ -152,10 +152,10 @@ MonoBehaviour:
     y: 0
     width: 1362
     height: 573
-  m_MinSize: {x: 404, y: 222}
-  m_MaxSize: {x: 8004, y: 4022}
+  m_MinSize: {x: 406, y: 222}
+  m_MaxSize: {x: 8006, y: 4022}
   vertical: 0
-  controlID: 51543
+  controlID: 82746
 --- !u!114 &5
 MonoBehaviour:
   m_ObjectHideFlags: 52
@@ -175,8 +175,8 @@ MonoBehaviour:
     y: 0
     width: 202
     height: 573
-  m_MinSize: {x: 202, y: 222}
-  m_MaxSize: {x: 4002, y: 4022}
+  m_MinSize: {x: 200, y: 200}
+  m_MaxSize: {x: 4000, y: 4000}
   m_ActualView: {fileID: 6}
   m_Panes:
   - {fileID: 6}
@@ -210,10 +210,10 @@ MonoBehaviour:
   m_ViewDataDictionary: {fileID: 0}
   m_SceneHierarchy:
     m_TreeViewState:
-      scrollPos: {x: 0, y: 0}
+      scrollPos: {x: 0, y: 55}
       m_SelectedIDs: 
       m_LastClickedID: 0
-      m_ExpandedIDs: 76fbffff9a380000d6390000e2390000
+      m_ExpandedIDs: f632fdff0233fdff0e33fdff1a33fdff2233fdff2833fdff3633fdff0e5efdff76fbffff9a380000ac380000ce390000d6390000da390000e2390000e6390000f4390000
       m_RenameOverlay:
         m_UserAcceptedRename: 0
         m_Name: 
@@ -302,9 +302,9 @@ MonoBehaviour:
   m_PlayAudio: 0
   m_AudioPlay: 0
   m_Position:
-    m_Target: {x: -42.091423, y: -32.39965, z: 10.921876}
+    m_Target: {x: 18.742163, y: -4.846176, z: 12.5826025}
     speed: 2
-    m_Value: {x: -42.091423, y: -32.39965, z: 10.921876}
+    m_Value: {x: 18.742163, y: -4.846176, z: 12.5826025}
   m_RenderMode: 0
   m_CameraMode:
     drawMode: 0
@@ -333,13 +333,13 @@ MonoBehaviour:
       speed: 2
       m_Value: 0
   m_Rotation:
-    m_Target: {x: 0.21989357, y: -0.692607, z: 0.23610288, w: 0.64521265}
+    m_Target: {x: -0.14962937, y: -0.50776327, z: 0.090000264, w: -0.8436728}
     speed: 2
-    m_Value: {x: 0.21988241, y: -0.6925718, z: 0.23609088, w: 0.64517987}
+    m_Value: {x: -0.14962216, y: -0.5077388, z: 0.08999593, w: -0.84363216}
   m_Size:
-    m_Target: 67.230255
+    m_Target: 26.5208
     speed: 2
-    m_Value: 67.230255
+    m_Value: 26.5208
   m_Ortho:
     m_Target: 0
     speed: 2
@@ -525,15 +525,15 @@ MonoBehaviour:
     y: 573
     width: 1362
     height: 375
-  m_MinSize: {x: 230, y: 250}
-  m_MaxSize: {x: 10000, y: 10000}
+  m_MinSize: {x: 232, y: 272}
+  m_MaxSize: {x: 10002, y: 10022}
   m_ActualView: {fileID: 13}
   m_Panes:
   - {fileID: 12}
   - {fileID: 13}
   - {fileID: 14}
   m_Selected: 1
-  m_LastSelected: 2
+  m_LastSelected: 0
 --- !u!114 &12
 MonoBehaviour:
   m_ObjectHideFlags: 52
@@ -599,19 +599,19 @@ MonoBehaviour:
     m_SkipHidden: 0
     m_SearchArea: 1
     m_Folders:
-    - Assets/Materials
+    - Assets/Textures
   m_ViewMode: 1
   m_StartGridSize: 64
   m_LastFolders:
-  - Assets/Materials
+  - Assets/Textures
   m_LastFoldersGridSize: -1
   m_LastProjectPath: C:\Unity Projects\Imperial vs rebel
   m_LockTracker:
     m_IsLocked: 0
   m_FolderTreeState:
     scrollPos: {x: 0, y: 0}
-    m_SelectedIDs: 8a340000
-    m_LastClickedID: 13450
+    m_SelectedIDs: d8330000
+    m_LastClickedID: 13272
     m_ExpandedIDs: 0000000076300000f63b0000f83b000000ca9a3b
     m_RenameOverlay:
       m_UserAcceptedRename: 0
@@ -665,10 +665,10 @@ MonoBehaviour:
       m_Icon: {fileID: 0}
       m_ResourceFile: 
   m_ListAreaState:
-    m_SelectedInstanceIDs: 4efbfdff
-    m_LastClickedInstanceID: -132274
+    m_SelectedInstanceIDs: 9a380000
+    m_LastClickedInstanceID: 14490
     m_HadKeyboardFocusLastEvent: 0
-    m_ExpandedInstanceIDs: c6230000207fffff6e140000e01400004e440000d21400000215000064440000181400009012000056140000b2160000fa2d00007e4f0000924f000078320000140e000058100000f60e0000100e0000de520000000000005e3200004eb000004cce0000e8340000
+    m_ExpandedInstanceIDs: c6230000207fffff6e140000e01400004e440000d21400000215000064440000181400009012000056140000b2160000fa2d00007e4f0000924f000078320000140e000058100000f60e0000100e0000de520000000000005e3200004eb000004cce0000e8340000f0130200
     m_RenameOverlay:
       m_UserAcceptedRename: 0
       m_Name: 
@@ -724,7 +724,7 @@ MonoBehaviour:
   m_ViewDataDictionary: {fileID: 0}
   m_LockTracker:
     m_IsLocked: 0
-  m_LastSelectedObjectID: -132274
+  m_LastSelectedObjectID: 14490
 --- !u!114 &15
 MonoBehaviour:
   m_ObjectHideFlags: 52
@@ -877,7 +877,7 @@ MonoBehaviour:
   timeSinceLastRotation: -1
   currentBranchAndRemoteHasUpdate: 0
   currentTrackingStatusHasUpdate: 0
-  currentStatusEntriesHasUpdate: 1
+  currentStatusEntriesHasUpdate: 0
   repositoryProgressHasUpdate: 1
   appManagerProgressHasUpdate: 1
   changeTab: 3
@@ -968,17 +968,18 @@ MonoBehaviour:
     currentStatusEntriesHasUpdate: 1
     currentLocksHasUpdate: 1
     commitBody: 
-    commitMessage: part7 of 2020 commit
+    commitMessage: 
     currentBranch: '[master]'
     treeScroll: {x: 0, y: 0}
     treeChanges:
       assets:
         keys:
         - 00000000000000001000000000000000
-        - ec57279954ad0f64fa20c2704d88122c
-        - 485f116148d8a424d992a3430252566c
-        - 00000000000000009000000000000000
-        - 0000000000000000a100000000000000
+        - 13f29731b84d9b54b832d26c9423793d
+        - a00739062f936f747a0496e8c0982f6f
+        - 854ed778f4d836643a300f8bfd28ae01
+        - 8c6198190b4369344ab37bdda2eb05ba
+        - 2e5aa28a4f83af9428dce5ffd96eafa9
         values:
         - path: Assets
           label: Assets
@@ -998,8 +999,8 @@ MonoBehaviour:
             originalPath: 
             status: 0
             staged: 0
-        - path: Assets\Scripts
-          label: Scripts
+        - path: Assets\Models
+          label: Models
           level: 1
           isFolder: 1
           isContainer: 0
@@ -1016,9 +1017,27 @@ MonoBehaviour:
             originalPath: 
             status: 0
             staged: 0
-        - path: Assets\Scripts\ShipMovement.cs
-          label: ShipMovement.cs
+        - path: Assets\Models\t-65 X-wing mats
+          label: t-65 X-wing mats
           level: 2
+          isFolder: 1
+          isContainer: 0
+          isCollapsed: 0
+          isHidden: 0
+          isActive: 0
+          treeIsCheckable: 1
+          checkState: 0
+          isLocked: 0
+          gitStatusEntry:
+            path: 
+            fullPath: 
+            projectPath: 
+            originalPath: 
+            status: 0
+            staged: 0
+        - path: Assets\Models\t-65 X-wing mats\Glass_Mat.mat
+          label: Glass_Mat.mat
+          level: 3
           isFolder: 0
           isContainer: 0
           isCollapsed: 0
@@ -1028,15 +1047,16 @@ MonoBehaviour:
           checkState: 0
           isLocked: 0
           gitStatusEntry:
-            path: Assets\Scripts\ShipMovement.cs
-            fullPath: C:\Unity Projects\Imperial vs rebel\Assets\Scripts\ShipMovement.cs
-            projectPath: Assets\Scripts\ShipMovement.cs
+            path: Assets\Models\t-65 X-wing mats\Glass_Mat.mat
+            fullPath: C:\Unity Projects\Imperial vs rebel\Assets\Models\t-65 X-wing
+              mats\Glass_Mat.mat
+            projectPath: Assets\Models\t-65 X-wing mats\Glass_Mat.mat
             originalPath: 
             status: 3
             staged: 0
-        - path: ProjectSettings\QualitySettings.asset
-          label: QualitySettings.asset
-          level: 1
+        - path: Assets\Models\t-65 X-wing mats\Hull_Mat.mat
+          label: Hull_Mat.mat
+          level: 3
           isFolder: 0
           isContainer: 0
           isCollapsed: 0
@@ -1046,15 +1066,16 @@ MonoBehaviour:
           checkState: 0
           isLocked: 0
           gitStatusEntry:
-            path: ProjectSettings\QualitySettings.asset
-            fullPath: C:\Unity Projects\Imperial vs rebel\ProjectSettings\QualitySettings.asset
-            projectPath: ProjectSettings\QualitySettings.asset
+            path: Assets\Models\t-65 X-wing mats\Hull_Mat.mat
+            fullPath: C:\Unity Projects\Imperial vs rebel\Assets\Models\t-65 X-wing
+              mats\Hull_Mat.mat
+            projectPath: Assets\Models\t-65 X-wing mats\Hull_Mat.mat
             originalPath: 
             status: 3
             staged: 0
-        - path: ProjectSettings\UnityConnectSettings.asset
-          label: UnityConnectSettings.asset
-          level: 1
+        - path: Assets\Models\t-65 X-wing mats\Stripe_Mat.mat
+          label: Stripe_Mat.mat
+          level: 3
           isFolder: 0
           isContainer: 0
           isCollapsed: 0
@@ -1064,9 +1085,10 @@ MonoBehaviour:
           checkState: 0
           isLocked: 0
           gitStatusEntry:
-            path: ProjectSettings\UnityConnectSettings.asset
-            fullPath: C:\Unity Projects\Imperial vs rebel\ProjectSettings\UnityConnectSettings.asset
-            projectPath: ProjectSettings\UnityConnectSettings.asset
+            path: Assets\Models\t-65 X-wing mats\Stripe_Mat.mat
+            fullPath: C:\Unity Projects\Imperial vs rebel\Assets\Models\t-65 X-wing
+              mats\Stripe_Mat.mat
+            projectPath: Assets\Models\t-65 X-wing mats\Stripe_Mat.mat
             originalPath: 
             status: 3
             staged: 0
@@ -1078,16 +1100,18 @@ MonoBehaviour:
         - .vs\Imperial vs rebel\v16\Server
         - .vs\Imperial vs rebel\v16\Server\sqlite3
         - Assets
-        - Assets\Scripts
+        - Assets\Models
+        - Assets\Models\t-65 X-wing mats
         - Library
         - Library\gfu
         - Library\gfu\cache
         - Library\metadata
-        - Library\metadata\48
-        - Library\ScriptAssemblies
-        - obj
-        - obj\Debug
-        - ProjectSettings
+        - Library\metadata\2e
+        - Library\metadata\85
+        - Library\metadata\8c
+        - Library\StateCache
+        - Library\StateCache\Hierarchy
+        - Library\StateCache\SceneView
         - Temp
         - Temp\__Backupscenes
         values:
@@ -1199,9 +1223,27 @@ MonoBehaviour:
             originalPath: 
             status: 0
             staged: 0
-        - path: Assets\Scripts
-          label: Scripts
+        - path: Assets\Models
+          label: Models
           level: 1
+          isFolder: 1
+          isContainer: 0
+          isCollapsed: 0
+          isHidden: 0
+          isActive: 0
+          treeIsCheckable: 1
+          checkState: 0
+          isLocked: 0
+          gitStatusEntry:
+            path: 
+            fullPath: 
+            projectPath: 
+            originalPath: 
+            status: 0
+            staged: 0
+        - path: Assets\Models\t-65 X-wing mats
+          label: t-65 X-wing mats
+          level: 2
           isFolder: 1
           isContainer: 0
           isCollapsed: 0
@@ -1289,8 +1331,8 @@ MonoBehaviour:
             originalPath: 
             status: 0
             staged: 0
-        - path: Library\metadata\48
-          label: 48
+        - path: Library\metadata\2e
+          label: 2e
           level: 2
           isFolder: 1
           isContainer: 0
@@ -1307,8 +1349,44 @@ MonoBehaviour:
             originalPath: 
             status: 0
             staged: 0
-        - path: Library\ScriptAssemblies
-          label: ScriptAssemblies
+        - path: Library\metadata\85
+          label: 85
+          level: 2
+          isFolder: 1
+          isContainer: 0
+          isCollapsed: 0
+          isHidden: 0
+          isActive: 0
+          treeIsCheckable: 1
+          checkState: 0
+          isLocked: 0
+          gitStatusEntry:
+            path: 
+            fullPath: 
+            projectPath: 
+            originalPath: 
+            status: 0
+            staged: 0
+        - path: Library\metadata\8c
+          label: 8c
+          level: 2
+          isFolder: 1
+          isContainer: 0
+          isCollapsed: 0
+          isHidden: 0
+          isActive: 0
+          treeIsCheckable: 1
+          checkState: 0
+          isLocked: 0
+          gitStatusEntry:
+            path: 
+            fullPath: 
+            projectPath: 
+            originalPath: 
+            status: 0
+            staged: 0
+        - path: Library\StateCache
+          label: StateCache
           level: 1
           isFolder: 1
           isContainer: 0
@@ -1325,9 +1403,9 @@ MonoBehaviour:
             originalPath: 
             status: 0
             staged: 0
-        - path: obj
-          label: obj
-          level: 0
+        - path: Library\StateCache\Hierarchy
+          label: Hierarchy
+          level: 2
           isFolder: 1
           isContainer: 0
           isCollapsed: 0
@@ -1343,27 +1421,9 @@ MonoBehaviour:
             originalPath: 
             status: 0
             staged: 0
-        - path: obj\Debug
-          label: Debug
-          level: 1
-          isFolder: 1
-          isContainer: 0
-          isCollapsed: 0
-          isHidden: 0
-          isActive: 0
-          treeIsCheckable: 1
-          checkState: 0
-          isLocked: 0
-          gitStatusEntry:
-            path: 
-            fullPath: 
-            projectPath: 
-            originalPath: 
-            status: 0
-            staged: 0
-        - path: ProjectSettings
-          label: ProjectSettings
-          level: 0
+        - path: Library\StateCache\SceneView
+          label: SceneView
+          level: 2
           isFolder: 1
           isContainer: 0
           isCollapsed: 0
@@ -1533,24 +1593,6 @@ MonoBehaviour:
           originalPath: 
           status: 0
           staged: 0
-      - path: .vs\Imperial vs rebel\v16\Server\sqlite3\storage.ide-shm
-        label: storage.ide-shm
-        level: 5
-        isFolder: 0
-        isContainer: 0
-        isCollapsed: 0
-        isHidden: 0
-        isActive: 0
-        treeIsCheckable: 1
-        checkState: 0
-        isLocked: 0
-        gitStatusEntry:
-          path: .vs\Imperial vs rebel\v16\Server\sqlite3\storage.ide-shm
-          fullPath: C:\Unity Projects\Imperial vs rebel\.vs\Imperial vs rebel\v16\Server\sqlite3\storage.ide-shm
-          projectPath: .vs\Imperial vs rebel\v16\Server\sqlite3\storage.ide-shm
-          originalPath: 
-          status: 1
-          staged: 0
       - path: .vs\Imperial vs rebel\v16\Server\sqlite3\storage.ide-wal
         label: storage.ide-wal
         level: 5
@@ -1567,7 +1609,7 @@ MonoBehaviour:
           fullPath: C:\Unity Projects\Imperial vs rebel\.vs\Imperial vs rebel\v16\Server\sqlite3\storage.ide-wal
           projectPath: .vs\Imperial vs rebel\v16\Server\sqlite3\storage.ide-wal
           originalPath: 
-          status: 1
+          status: 3
           staged: 0
       - path: Assets
         label: Assets
@@ -1587,8 +1629,8 @@ MonoBehaviour:
           originalPath: 
           status: 0
           staged: 0
-      - path: Assets\Scripts
-        label: Scripts
+      - path: Assets\Models
+        label: Models
         level: 1
         isFolder: 1
         isContainer: 0
@@ -1605,9 +1647,27 @@ MonoBehaviour:
           originalPath: 
           status: 0
           staged: 0
-      - path: Assets\Scripts\ShipMovement.cs
-        label: ShipMovement.cs
+      - path: Assets\Models\t-65 X-wing mats
+        label: t-65 X-wing mats
         level: 2
+        isFolder: 1
+        isContainer: 0
+        isCollapsed: 0
+        isHidden: 0
+        isActive: 0
+        treeIsCheckable: 1
+        checkState: 0
+        isLocked: 0
+        gitStatusEntry:
+          path: 
+          fullPath: 
+          projectPath: 
+          originalPath: 
+          status: 0
+          staged: 0
+      - path: Assets\Models\t-65 X-wing mats\Glass_Mat.mat
+        label: Glass_Mat.mat
+        level: 3
         isFolder: 0
         isContainer: 0
         isCollapsed: 0
@@ -1617,9 +1677,48 @@ MonoBehaviour:
         checkState: 0
         isLocked: 0
         gitStatusEntry:
-          path: Assets\Scripts\ShipMovement.cs
-          fullPath: C:\Unity Projects\Imperial vs rebel\Assets\Scripts\ShipMovement.cs
-          projectPath: Assets\Scripts\ShipMovement.cs
+          path: Assets\Models\t-65 X-wing mats\Glass_Mat.mat
+          fullPath: C:\Unity Projects\Imperial vs rebel\Assets\Models\t-65 X-wing
+            mats\Glass_Mat.mat
+          projectPath: Assets\Models\t-65 X-wing mats\Glass_Mat.mat
+          originalPath: 
+          status: 3
+          staged: 0
+      - path: Assets\Models\t-65 X-wing mats\Hull_Mat.mat
+        label: Hull_Mat.mat
+        level: 3
+        isFolder: 0
+        isContainer: 0
+        isCollapsed: 0
+        isHidden: 0
+        isActive: 0
+        treeIsCheckable: 1
+        checkState: 0
+        isLocked: 0
+        gitStatusEntry:
+          path: Assets\Models\t-65 X-wing mats\Hull_Mat.mat
+          fullPath: C:\Unity Projects\Imperial vs rebel\Assets\Models\t-65 X-wing
+            mats\Hull_Mat.mat
+          projectPath: Assets\Models\t-65 X-wing mats\Hull_Mat.mat
+          originalPath: 
+          status: 3
+          staged: 0
+      - path: Assets\Models\t-65 X-wing mats\Stripe_Mat.mat
+        label: Stripe_Mat.mat
+        level: 3
+        isFolder: 0
+        isContainer: 0
+        isCollapsed: 0
+        isHidden: 0
+        isActive: 0
+        treeIsCheckable: 1
+        checkState: 0
+        isLocked: 0
+        gitStatusEntry:
+          path: Assets\Models\t-65 X-wing mats\Stripe_Mat.mat
+          fullPath: C:\Unity Projects\Imperial vs rebel\Assets\Models\t-65 X-wing
+            mats\Stripe_Mat.mat
+          projectPath: Assets\Models\t-65 X-wing mats\Stripe_Mat.mat
           originalPath: 
           status: 3
           staged: 0
@@ -1803,6 +1902,24 @@ MonoBehaviour:
           originalPath: 
           status: 3
           staged: 0
+      - path: Library\gfu\cache\repoinfo.yaml
+        label: repoinfo.yaml
+        level: 3
+        isFolder: 0
+        isContainer: 0
+        isCollapsed: 0
+        isHidden: 0
+        isActive: 0
+        treeIsCheckable: 1
+        checkState: 0
+        isLocked: 0
+        gitStatusEntry:
+          path: Library\gfu\cache\repoinfo.yaml
+          fullPath: C:\Unity Projects\Imperial vs rebel\Library\gfu\cache\repoinfo.yaml
+          projectPath: Library\gfu\cache\repoinfo.yaml
+          originalPath: 
+          status: 3
+          staged: 0
       - path: Library\metadata
         label: metadata
         level: 1
@@ -1821,8 +1938,8 @@ MonoBehaviour:
           originalPath: 
           status: 0
           staged: 0
-      - path: Library\metadata\48
-        label: 48
+      - path: Library\metadata\2e
+        label: 2e
         level: 2
         isFolder: 1
         isContainer: 0
@@ -1839,8 +1956,8 @@ MonoBehaviour:
           originalPath: 
           status: 0
           staged: 0
-      - path: Library\metadata\48\485f116148d8a424d992a3430252566c
-        label: 485f116148d8a424d992a3430252566c
+      - path: Library\metadata\2e\2e5aa28a4f83af9428dce5ffd96eafa9.info
+        label: 2e5aa28a4f83af9428dce5ffd96eafa9.info
         level: 3
         isFolder: 0
         isContainer: 0
@@ -1851,14 +1968,86 @@ MonoBehaviour:
         checkState: 0
         isLocked: 0
         gitStatusEntry:
-          path: Library\metadata\48\485f116148d8a424d992a3430252566c
-          fullPath: C:\Unity Projects\Imperial vs rebel\Library\metadata\48\485f116148d8a424d992a3430252566c
-          projectPath: Library\metadata\48\485f116148d8a424d992a3430252566c
+          path: Library\metadata\2e\2e5aa28a4f83af9428dce5ffd96eafa9.info
+          fullPath: C:\Unity Projects\Imperial vs rebel\Library\metadata\2e\2e5aa28a4f83af9428dce5ffd96eafa9.info
+          projectPath: Library\metadata\2e\2e5aa28a4f83af9428dce5ffd96eafa9.info
           originalPath: 
           status: 3
           staged: 0
-      - path: Library\ScriptAssemblies
-        label: ScriptAssemblies
+      - path: Library\metadata\85
+        label: 85
+        level: 2
+        isFolder: 1
+        isContainer: 0
+        isCollapsed: 0
+        isHidden: 0
+        isActive: 0
+        treeIsCheckable: 1
+        checkState: 0
+        isLocked: 0
+        gitStatusEntry:
+          path: 
+          fullPath: 
+          projectPath: 
+          originalPath: 
+          status: 0
+          staged: 0
+      - path: Library\metadata\85\854ed778f4d836643a300f8bfd28ae01.info
+        label: 854ed778f4d836643a300f8bfd28ae01.info
+        level: 3
+        isFolder: 0
+        isContainer: 0
+        isCollapsed: 0
+        isHidden: 0
+        isActive: 0
+        treeIsCheckable: 1
+        checkState: 0
+        isLocked: 0
+        gitStatusEntry:
+          path: Library\metadata\85\854ed778f4d836643a300f8bfd28ae01.info
+          fullPath: C:\Unity Projects\Imperial vs rebel\Library\metadata\85\854ed778f4d836643a300f8bfd28ae01.info
+          projectPath: Library\metadata\85\854ed778f4d836643a300f8bfd28ae01.info
+          originalPath: 
+          status: 3
+          staged: 0
+      - path: Library\metadata\8c
+        label: 8c
+        level: 2
+        isFolder: 1
+        isContainer: 0
+        isCollapsed: 0
+        isHidden: 0
+        isActive: 0
+        treeIsCheckable: 1
+        checkState: 0
+        isLocked: 0
+        gitStatusEntry:
+          path: 
+          fullPath: 
+          projectPath: 
+          originalPath: 
+          status: 0
+          staged: 0
+      - path: Library\metadata\8c\8c6198190b4369344ab37bdda2eb05ba.info
+        label: 8c6198190b4369344ab37bdda2eb05ba.info
+        level: 3
+        isFolder: 0
+        isContainer: 0
+        isCollapsed: 0
+        isHidden: 0
+        isActive: 0
+        treeIsCheckable: 1
+        checkState: 0
+        isLocked: 0
+        gitStatusEntry:
+          path: Library\metadata\8c\8c6198190b4369344ab37bdda2eb05ba.info
+          fullPath: C:\Unity Projects\Imperial vs rebel\Library\metadata\8c\8c6198190b4369344ab37bdda2eb05ba.info
+          projectPath: Library\metadata\8c\8c6198190b4369344ab37bdda2eb05ba.info
+          originalPath: 
+          status: 3
+          staged: 0
+      - path: Library\StateCache
+        label: StateCache
         level: 1
         isFolder: 1
         isContainer: 0
@@ -1875,45 +2064,9 @@ MonoBehaviour:
           originalPath: 
           status: 0
           staged: 0
-      - path: Library\ScriptAssemblies\Assembly-CSharp.dll
-        label: Assembly-CSharp.dll
+      - path: Library\StateCache\Hierarchy
+        label: Hierarchy
         level: 2
-        isFolder: 0
-        isContainer: 0
-        isCollapsed: 0
-        isHidden: 0
-        isActive: 0
-        treeIsCheckable: 1
-        checkState: 0
-        isLocked: 0
-        gitStatusEntry:
-          path: Library\ScriptAssemblies\Assembly-CSharp.dll
-          fullPath: C:\Unity Projects\Imperial vs rebel\Library\ScriptAssemblies\Assembly-CSharp.dll
-          projectPath: Library\ScriptAssemblies\Assembly-CSharp.dll
-          originalPath: 
-          status: 3
-          staged: 0
-      - path: Library\ScriptAssemblies\Assembly-CSharp.pdb
-        label: Assembly-CSharp.pdb
-        level: 2
-        isFolder: 0
-        isContainer: 0
-        isCollapsed: 0
-        isHidden: 0
-        isActive: 0
-        treeIsCheckable: 1
-        checkState: 0
-        isLocked: 0
-        gitStatusEntry:
-          path: Library\ScriptAssemblies\Assembly-CSharp.pdb
-          fullPath: C:\Unity Projects\Imperial vs rebel\Library\ScriptAssemblies\Assembly-CSharp.pdb
-          projectPath: Library\ScriptAssemblies\Assembly-CSharp.pdb
-          originalPath: 
-          status: 3
-          staged: 0
-      - path: obj
-        label: obj
-        level: 0
         isFolder: 1
         isContainer: 0
         isCollapsed: 0
@@ -1929,9 +2082,27 @@ MonoBehaviour:
           originalPath: 
           status: 0
           staged: 0
-      - path: obj\Debug
-        label: Debug
-        level: 1
+      - path: Library\StateCache\Hierarchy\b5f9e0-mainStage.json
+        label: b5f9e0-mainStage.json
+        level: 3
+        isFolder: 0
+        isContainer: 0
+        isCollapsed: 0
+        isHidden: 0
+        isActive: 0
+        treeIsCheckable: 1
+        checkState: 0
+        isLocked: 0
+        gitStatusEntry:
+          path: Library\StateCache\Hierarchy\b5f9e0-mainStage.json
+          fullPath: C:\Unity Projects\Imperial vs rebel\Library\StateCache\Hierarchy\b5f9e0-mainStage.json
+          projectPath: Library\StateCache\Hierarchy\b5f9e0-mainStage.json
+          originalPath: 
+          status: 3
+          staged: 0
+      - path: Library\StateCache\SceneView
+        label: SceneView
+        level: 2
         isFolder: 1
         isContainer: 0
         isCollapsed: 0
@@ -1947,9 +2118,9 @@ MonoBehaviour:
           originalPath: 
           status: 0
           staged: 0
-      - path: obj\Debug\Assembly-CSharp.csproj.CoreCompileInputs.cache
-        label: Assembly-CSharp.csproj.CoreCompileInputs.cache
-        level: 2
+      - path: Library\StateCache\SceneView\cc7b53-mainStage.json
+        label: cc7b53-mainStage.json
+        level: 3
         isFolder: 0
         isContainer: 0
         isCollapsed: 0
@@ -1959,153 +2130,9 @@ MonoBehaviour:
         checkState: 0
         isLocked: 0
         gitStatusEntry:
-          path: obj\Debug\Assembly-CSharp.csproj.CoreCompileInputs.cache
-          fullPath: C:\Unity Projects\Imperial vs rebel\obj\Debug\Assembly-CSharp.csproj.CoreCompileInputs.cache
-          projectPath: obj\Debug\Assembly-CSharp.csproj.CoreCompileInputs.cache
-          originalPath: 
-          status: 3
-          staged: 0
-      - path: obj\Debug\Assembly-CSharp.csprojAssemblyReference.cache
-        label: Assembly-CSharp.csprojAssemblyReference.cache
-        level: 2
-        isFolder: 0
-        isContainer: 0
-        isCollapsed: 0
-        isHidden: 0
-        isActive: 0
-        treeIsCheckable: 1
-        checkState: 0
-        isLocked: 0
-        gitStatusEntry:
-          path: obj\Debug\Assembly-CSharp.csprojAssemblyReference.cache
-          fullPath: C:\Unity Projects\Imperial vs rebel\obj\Debug\Assembly-CSharp.csprojAssemblyReference.cache
-          projectPath: obj\Debug\Assembly-CSharp.csprojAssemblyReference.cache
-          originalPath: 
-          status: 3
-          staged: 0
-      - path: obj\Debug\Assembly-CSharp-Editor-firstpass.csproj.CoreCompileInputs.cache
-        label: Assembly-CSharp-Editor-firstpass.csproj.CoreCompileInputs.cache
-        level: 2
-        isFolder: 0
-        isContainer: 0
-        isCollapsed: 0
-        isHidden: 0
-        isActive: 0
-        treeIsCheckable: 1
-        checkState: 0
-        isLocked: 0
-        gitStatusEntry:
-          path: obj\Debug\Assembly-CSharp-Editor-firstpass.csproj.CoreCompileInputs.cache
-          fullPath: C:\Unity Projects\Imperial vs rebel\obj\Debug\Assembly-CSharp-Editor-firstpass.csproj.CoreCompileInputs.cache
-          projectPath: obj\Debug\Assembly-CSharp-Editor-firstpass.csproj.CoreCompileInputs.cache
-          originalPath: 
-          status: 1
-          staged: 0
-      - path: obj\Debug\Assembly-CSharp-Editor-firstpass.csprojAssemblyReference.cache
-        label: Assembly-CSharp-Editor-firstpass.csprojAssemblyReference.cache
-        level: 2
-        isFolder: 0
-        isContainer: 0
-        isCollapsed: 0
-        isHidden: 0
-        isActive: 0
-        treeIsCheckable: 1
-        checkState: 0
-        isLocked: 0
-        gitStatusEntry:
-          path: obj\Debug\Assembly-CSharp-Editor-firstpass.csprojAssemblyReference.cache
-          fullPath: C:\Unity Projects\Imperial vs rebel\obj\Debug\Assembly-CSharp-Editor-firstpass.csprojAssemblyReference.cache
-          projectPath: obj\Debug\Assembly-CSharp-Editor-firstpass.csprojAssemblyReference.cache
-          originalPath: 
-          status: 1
-          staged: 0
-      - path: obj\Debug\Assembly-CSharp-firstpass.csproj.CoreCompileInputs.cache
-        label: Assembly-CSharp-firstpass.csproj.CoreCompileInputs.cache
-        level: 2
-        isFolder: 0
-        isContainer: 0
-        isCollapsed: 0
-        isHidden: 0
-        isActive: 0
-        treeIsCheckable: 1
-        checkState: 0
-        isLocked: 0
-        gitStatusEntry:
-          path: obj\Debug\Assembly-CSharp-firstpass.csproj.CoreCompileInputs.cache
-          fullPath: C:\Unity Projects\Imperial vs rebel\obj\Debug\Assembly-CSharp-firstpass.csproj.CoreCompileInputs.cache
-          projectPath: obj\Debug\Assembly-CSharp-firstpass.csproj.CoreCompileInputs.cache
-          originalPath: 
-          status: 3
-          staged: 0
-      - path: obj\Debug\Assembly-CSharp-firstpass.csprojAssemblyReference.cache
-        label: Assembly-CSharp-firstpass.csprojAssemblyReference.cache
-        level: 2
-        isFolder: 0
-        isContainer: 0
-        isCollapsed: 0
-        isHidden: 0
-        isActive: 0
-        treeIsCheckable: 1
-        checkState: 0
-        isLocked: 0
-        gitStatusEntry:
-          path: obj\Debug\Assembly-CSharp-firstpass.csprojAssemblyReference.cache
-          fullPath: C:\Unity Projects\Imperial vs rebel\obj\Debug\Assembly-CSharp-firstpass.csprojAssemblyReference.cache
-          projectPath: obj\Debug\Assembly-CSharp-firstpass.csprojAssemblyReference.cache
-          originalPath: 
-          status: 3
-          staged: 0
-      - path: ProjectSettings
-        label: ProjectSettings
-        level: 0
-        isFolder: 1
-        isContainer: 0
-        isCollapsed: 0
-        isHidden: 0
-        isActive: 0
-        treeIsCheckable: 1
-        checkState: 0
-        isLocked: 0
-        gitStatusEntry:
-          path: 
-          fullPath: 
-          projectPath: 
-          originalPath: 
-          status: 0
-          staged: 0
-      - path: ProjectSettings\QualitySettings.asset
-        label: QualitySettings.asset
-        level: 1
-        isFolder: 0
-        isContainer: 0
-        isCollapsed: 0
-        isHidden: 0
-        isActive: 0
-        treeIsCheckable: 1
-        checkState: 0
-        isLocked: 0
-        gitStatusEntry:
-          path: ProjectSettings\QualitySettings.asset
-          fullPath: C:\Unity Projects\Imperial vs rebel\ProjectSettings\QualitySettings.asset
-          projectPath: ProjectSettings\QualitySettings.asset
-          originalPath: 
-          status: 3
-          staged: 0
-      - path: ProjectSettings\UnityConnectSettings.asset
-        label: UnityConnectSettings.asset
-        level: 1
-        isFolder: 0
-        isContainer: 0
-        isCollapsed: 0
-        isHidden: 0
-        isActive: 0
-        treeIsCheckable: 1
-        checkState: 0
-        isLocked: 0
-        gitStatusEntry:
-          path: ProjectSettings\UnityConnectSettings.asset
-          fullPath: C:\Unity Projects\Imperial vs rebel\ProjectSettings\UnityConnectSettings.asset
-          projectPath: ProjectSettings\UnityConnectSettings.asset
+          path: Library\StateCache\SceneView\cc7b53-mainStage.json
+          fullPath: C:\Unity Projects\Imperial vs rebel\Library\StateCache\SceneView\cc7b53-mainStage.json
+          projectPath: Library\StateCache\SceneView\cc7b53-mainStage.json
           originalPath: 
           status: 3
           staged: 0
@@ -2181,6 +2208,24 @@ MonoBehaviour:
           originalPath: 
           status: 1
           staged: 0
+      - path: Temp\UnityTempFile-02efc9032ab7e584785be66b606f32f6
+        label: UnityTempFile-02efc9032ab7e584785be66b606f32f6
+        level: 1
+        isFolder: 0
+        isContainer: 0
+        isCollapsed: 0
+        isHidden: 0
+        isActive: 0
+        treeIsCheckable: 1
+        checkState: 0
+        isLocked: 0
+        gitStatusEntry:
+          path: Temp\UnityTempFile-02efc9032ab7e584785be66b606f32f6
+          fullPath: C:\Unity Projects\Imperial vs rebel\Temp\UnityTempFile-02efc9032ab7e584785be66b606f32f6
+          projectPath: Temp\UnityTempFile-02efc9032ab7e584785be66b606f32f6
+          originalPath: 
+          status: 1
+          staged: 0
       - path: Temp\UnityTempFile-0509024a751815e47b983d11a4512349
         label: UnityTempFile-0509024a751815e47b983d11a4512349
         level: 1
@@ -2235,6 +2280,42 @@ MonoBehaviour:
           originalPath: 
           status: 1
           staged: 0
+      - path: Temp\UnityTempFile-0aa47ad4ccce47d4bb3ccf7e50ea1f6b
+        label: UnityTempFile-0aa47ad4ccce47d4bb3ccf7e50ea1f6b
+        level: 1
+        isFolder: 0
+        isContainer: 0
+        isCollapsed: 0
+        isHidden: 0
+        isActive: 0
+        treeIsCheckable: 1
+        checkState: 0
+        isLocked: 0
+        gitStatusEntry:
+          path: Temp\UnityTempFile-0aa47ad4ccce47d4bb3ccf7e50ea1f6b
+          fullPath: C:\Unity Projects\Imperial vs rebel\Temp\UnityTempFile-0aa47ad4ccce47d4bb3ccf7e50ea1f6b
+          projectPath: Temp\UnityTempFile-0aa47ad4ccce47d4bb3ccf7e50ea1f6b
+          originalPath: 
+          status: 1
+          staged: 0
+      - path: Temp\UnityTempFile-10adc02ecb9b762498a68b7db1aef840
+        label: UnityTempFile-10adc02ecb9b762498a68b7db1aef840
+        level: 1
+        isFolder: 0
+        isContainer: 0
+        isCollapsed: 0
+        isHidden: 0
+        isActive: 0
+        treeIsCheckable: 1
+        checkState: 0
+        isLocked: 0
+        gitStatusEntry:
+          path: Temp\UnityTempFile-10adc02ecb9b762498a68b7db1aef840
+          fullPath: C:\Unity Projects\Imperial vs rebel\Temp\UnityTempFile-10adc02ecb9b762498a68b7db1aef840
+          projectPath: Temp\UnityTempFile-10adc02ecb9b762498a68b7db1aef840
+          originalPath: 
+          status: 1
+          staged: 0
       - path: Temp\UnityTempFile-120c5eff7d048eb41aae51950861a6e1
         label: UnityTempFile-120c5eff7d048eb41aae51950861a6e1
         level: 1
@@ -2253,6 +2334,24 @@ MonoBehaviour:
           originalPath: 
           status: 1
           staged: 0
+      - path: Temp\UnityTempFile-151415f84d747bd45b54cb2d3ac20284
+        label: UnityTempFile-151415f84d747bd45b54cb2d3ac20284
+        level: 1
+        isFolder: 0
+        isContainer: 0
+        isCollapsed: 0
+        isHidden: 0
+        isActive: 0
+        treeIsCheckable: 1
+        checkState: 0
+        isLocked: 0
+        gitStatusEntry:
+          path: Temp\UnityTempFile-151415f84d747bd45b54cb2d3ac20284
+          fullPath: C:\Unity Projects\Imperial vs rebel\Temp\UnityTempFile-151415f84d747bd45b54cb2d3ac20284
+          projectPath: Temp\UnityTempFile-151415f84d747bd45b54cb2d3ac20284
+          originalPath: 
+          status: 1
+          staged: 0
       - path: Temp\UnityTempFile-1635652a9544354489f42040915dae55
         label: UnityTempFile-1635652a9544354489f42040915dae55
         level: 1
@@ -2268,6 +2367,24 @@ MonoBehaviour:
           path: Temp\UnityTempFile-1635652a9544354489f42040915dae55
           fullPath: C:\Unity Projects\Imperial vs rebel\Temp\UnityTempFile-1635652a9544354489f42040915dae55
           projectPath: Temp\UnityTempFile-1635652a9544354489f42040915dae55
+          originalPath: 
+          status: 1
+          staged: 0
+      - path: Temp\UnityTempFile-1766a5edfa55ba94490b7ffdabb29fd2
+        label: UnityTempFile-1766a5edfa55ba94490b7ffdabb29fd2
+        level: 1
+        isFolder: 0
+        isContainer: 0
+        isCollapsed: 0
+        isHidden: 0
+        isActive: 0
+        treeIsCheckable: 1
+        checkState: 0
+        isLocked: 0
+        gitStatusEntry:
+          path: Temp\UnityTempFile-1766a5edfa55ba94490b7ffdabb29fd2
+          fullPath: C:\Unity Projects\Imperial vs rebel\Temp\UnityTempFile-1766a5edfa55ba94490b7ffdabb29fd2
+          projectPath: Temp\UnityTempFile-1766a5edfa55ba94490b7ffdabb29fd2
           originalPath: 
           status: 1
           staged: 0
@@ -2343,6 +2460,24 @@ MonoBehaviour:
           originalPath: 
           status: 1
           staged: 0
+      - path: Temp\UnityTempFile-2274b6e960a007e4a8ea73338a46bebf
+        label: UnityTempFile-2274b6e960a007e4a8ea73338a46bebf
+        level: 1
+        isFolder: 0
+        isContainer: 0
+        isCollapsed: 0
+        isHidden: 0
+        isActive: 0
+        treeIsCheckable: 1
+        checkState: 0
+        isLocked: 0
+        gitStatusEntry:
+          path: Temp\UnityTempFile-2274b6e960a007e4a8ea73338a46bebf
+          fullPath: C:\Unity Projects\Imperial vs rebel\Temp\UnityTempFile-2274b6e960a007e4a8ea73338a46bebf
+          projectPath: Temp\UnityTempFile-2274b6e960a007e4a8ea73338a46bebf
+          originalPath: 
+          status: 1
+          staged: 0
       - path: Temp\UnityTempFile-271bc20ed81ec964694c7eac80990879
         label: UnityTempFile-271bc20ed81ec964694c7eac80990879
         level: 1
@@ -2394,6 +2529,24 @@ MonoBehaviour:
           path: Temp\UnityTempFile-29e3732261055034fb40014c85c0644d
           fullPath: C:\Unity Projects\Imperial vs rebel\Temp\UnityTempFile-29e3732261055034fb40014c85c0644d
           projectPath: Temp\UnityTempFile-29e3732261055034fb40014c85c0644d
+          originalPath: 
+          status: 1
+          staged: 0
+      - path: Temp\UnityTempFile-2c44cb2d180bbcd4bbc29eecd6f0ce35
+        label: UnityTempFile-2c44cb2d180bbcd4bbc29eecd6f0ce35
+        level: 1
+        isFolder: 0
+        isContainer: 0
+        isCollapsed: 0
+        isHidden: 0
+        isActive: 0
+        treeIsCheckable: 1
+        checkState: 0
+        isLocked: 0
+        gitStatusEntry:
+          path: Temp\UnityTempFile-2c44cb2d180bbcd4bbc29eecd6f0ce35
+          fullPath: C:\Unity Projects\Imperial vs rebel\Temp\UnityTempFile-2c44cb2d180bbcd4bbc29eecd6f0ce35
+          projectPath: Temp\UnityTempFile-2c44cb2d180bbcd4bbc29eecd6f0ce35
           originalPath: 
           status: 1
           staged: 0
@@ -2505,6 +2658,42 @@ MonoBehaviour:
           originalPath: 
           status: 1
           staged: 0
+      - path: Temp\UnityTempFile-3ec1a116feb367c45981a3775fe38b44
+        label: UnityTempFile-3ec1a116feb367c45981a3775fe38b44
+        level: 1
+        isFolder: 0
+        isContainer: 0
+        isCollapsed: 0
+        isHidden: 0
+        isActive: 0
+        treeIsCheckable: 1
+        checkState: 0
+        isLocked: 0
+        gitStatusEntry:
+          path: Temp\UnityTempFile-3ec1a116feb367c45981a3775fe38b44
+          fullPath: C:\Unity Projects\Imperial vs rebel\Temp\UnityTempFile-3ec1a116feb367c45981a3775fe38b44
+          projectPath: Temp\UnityTempFile-3ec1a116feb367c45981a3775fe38b44
+          originalPath: 
+          status: 1
+          staged: 0
+      - path: Temp\UnityTempFile-3f428b6f3c5c1d54f943631afbe8de9e
+        label: UnityTempFile-3f428b6f3c5c1d54f943631afbe8de9e
+        level: 1
+        isFolder: 0
+        isContainer: 0
+        isCollapsed: 0
+        isHidden: 0
+        isActive: 0
+        treeIsCheckable: 1
+        checkState: 0
+        isLocked: 0
+        gitStatusEntry:
+          path: Temp\UnityTempFile-3f428b6f3c5c1d54f943631afbe8de9e
+          fullPath: C:\Unity Projects\Imperial vs rebel\Temp\UnityTempFile-3f428b6f3c5c1d54f943631afbe8de9e
+          projectPath: Temp\UnityTempFile-3f428b6f3c5c1d54f943631afbe8de9e
+          originalPath: 
+          status: 1
+          staged: 0
       - path: Temp\UnityTempFile-40f8369c819a11249ac1601f11701656
         label: UnityTempFile-40f8369c819a11249ac1601f11701656
         level: 1
@@ -2520,6 +2709,114 @@ MonoBehaviour:
           path: Temp\UnityTempFile-40f8369c819a11249ac1601f11701656
           fullPath: C:\Unity Projects\Imperial vs rebel\Temp\UnityTempFile-40f8369c819a11249ac1601f11701656
           projectPath: Temp\UnityTempFile-40f8369c819a11249ac1601f11701656
+          originalPath: 
+          status: 1
+          staged: 0
+      - path: Temp\UnityTempFile-4136e2ef359218d4788e8897e5650a78
+        label: UnityTempFile-4136e2ef359218d4788e8897e5650a78
+        level: 1
+        isFolder: 0
+        isContainer: 0
+        isCollapsed: 0
+        isHidden: 0
+        isActive: 0
+        treeIsCheckable: 1
+        checkState: 0
+        isLocked: 0
+        gitStatusEntry:
+          path: Temp\UnityTempFile-4136e2ef359218d4788e8897e5650a78
+          fullPath: C:\Unity Projects\Imperial vs rebel\Temp\UnityTempFile-4136e2ef359218d4788e8897e5650a78
+          projectPath: Temp\UnityTempFile-4136e2ef359218d4788e8897e5650a78
+          originalPath: 
+          status: 1
+          staged: 0
+      - path: Temp\UnityTempFile-41e28d95668c7a5499280f1771ee37a4
+        label: UnityTempFile-41e28d95668c7a5499280f1771ee37a4
+        level: 1
+        isFolder: 0
+        isContainer: 0
+        isCollapsed: 0
+        isHidden: 0
+        isActive: 0
+        treeIsCheckable: 1
+        checkState: 0
+        isLocked: 0
+        gitStatusEntry:
+          path: Temp\UnityTempFile-41e28d95668c7a5499280f1771ee37a4
+          fullPath: C:\Unity Projects\Imperial vs rebel\Temp\UnityTempFile-41e28d95668c7a5499280f1771ee37a4
+          projectPath: Temp\UnityTempFile-41e28d95668c7a5499280f1771ee37a4
+          originalPath: 
+          status: 1
+          staged: 0
+      - path: Temp\UnityTempFile-4320fd8eef0ca6b44b9656bdb8d6e8e7
+        label: UnityTempFile-4320fd8eef0ca6b44b9656bdb8d6e8e7
+        level: 1
+        isFolder: 0
+        isContainer: 0
+        isCollapsed: 0
+        isHidden: 0
+        isActive: 0
+        treeIsCheckable: 1
+        checkState: 0
+        isLocked: 0
+        gitStatusEntry:
+          path: Temp\UnityTempFile-4320fd8eef0ca6b44b9656bdb8d6e8e7
+          fullPath: C:\Unity Projects\Imperial vs rebel\Temp\UnityTempFile-4320fd8eef0ca6b44b9656bdb8d6e8e7
+          projectPath: Temp\UnityTempFile-4320fd8eef0ca6b44b9656bdb8d6e8e7
+          originalPath: 
+          status: 1
+          staged: 0
+      - path: Temp\UnityTempFile-4f46149034ac98a4990fcee54fa1d07e
+        label: UnityTempFile-4f46149034ac98a4990fcee54fa1d07e
+        level: 1
+        isFolder: 0
+        isContainer: 0
+        isCollapsed: 0
+        isHidden: 0
+        isActive: 0
+        treeIsCheckable: 1
+        checkState: 0
+        isLocked: 0
+        gitStatusEntry:
+          path: Temp\UnityTempFile-4f46149034ac98a4990fcee54fa1d07e
+          fullPath: C:\Unity Projects\Imperial vs rebel\Temp\UnityTempFile-4f46149034ac98a4990fcee54fa1d07e
+          projectPath: Temp\UnityTempFile-4f46149034ac98a4990fcee54fa1d07e
+          originalPath: 
+          status: 1
+          staged: 0
+      - path: Temp\UnityTempFile-516c8e3e75d31a14eb99b4b43f4a4e58
+        label: UnityTempFile-516c8e3e75d31a14eb99b4b43f4a4e58
+        level: 1
+        isFolder: 0
+        isContainer: 0
+        isCollapsed: 0
+        isHidden: 0
+        isActive: 0
+        treeIsCheckable: 1
+        checkState: 0
+        isLocked: 0
+        gitStatusEntry:
+          path: Temp\UnityTempFile-516c8e3e75d31a14eb99b4b43f4a4e58
+          fullPath: C:\Unity Projects\Imperial vs rebel\Temp\UnityTempFile-516c8e3e75d31a14eb99b4b43f4a4e58
+          projectPath: Temp\UnityTempFile-516c8e3e75d31a14eb99b4b43f4a4e58
+          originalPath: 
+          status: 1
+          staged: 0
+      - path: Temp\UnityTempFile-525f2047634cf8448bae8ee002c0aef0
+        label: UnityTempFile-525f2047634cf8448bae8ee002c0aef0
+        level: 1
+        isFolder: 0
+        isContainer: 0
+        isCollapsed: 0
+        isHidden: 0
+        isActive: 0
+        treeIsCheckable: 1
+        checkState: 0
+        isLocked: 0
+        gitStatusEntry:
+          path: Temp\UnityTempFile-525f2047634cf8448bae8ee002c0aef0
+          fullPath: C:\Unity Projects\Imperial vs rebel\Temp\UnityTempFile-525f2047634cf8448bae8ee002c0aef0
+          projectPath: Temp\UnityTempFile-525f2047634cf8448bae8ee002c0aef0
           originalPath: 
           status: 1
           staged: 0
@@ -2574,6 +2871,24 @@ MonoBehaviour:
           path: Temp\UnityTempFile-544dacf30fb6aaf448b1c2fdfe50e0b2
           fullPath: C:\Unity Projects\Imperial vs rebel\Temp\UnityTempFile-544dacf30fb6aaf448b1c2fdfe50e0b2
           projectPath: Temp\UnityTempFile-544dacf30fb6aaf448b1c2fdfe50e0b2
+          originalPath: 
+          status: 1
+          staged: 0
+      - path: Temp\UnityTempFile-5967b2681de3c4a41bad3bda8a36cd2f
+        label: UnityTempFile-5967b2681de3c4a41bad3bda8a36cd2f
+        level: 1
+        isFolder: 0
+        isContainer: 0
+        isCollapsed: 0
+        isHidden: 0
+        isActive: 0
+        treeIsCheckable: 1
+        checkState: 0
+        isLocked: 0
+        gitStatusEntry:
+          path: Temp\UnityTempFile-5967b2681de3c4a41bad3bda8a36cd2f
+          fullPath: C:\Unity Projects\Imperial vs rebel\Temp\UnityTempFile-5967b2681de3c4a41bad3bda8a36cd2f
+          projectPath: Temp\UnityTempFile-5967b2681de3c4a41bad3bda8a36cd2f
           originalPath: 
           status: 1
           staged: 0
@@ -2646,6 +2961,60 @@ MonoBehaviour:
           path: Temp\UnityTempFile-67f123e9c4ee5dd45b25a8f740862119
           fullPath: C:\Unity Projects\Imperial vs rebel\Temp\UnityTempFile-67f123e9c4ee5dd45b25a8f740862119
           projectPath: Temp\UnityTempFile-67f123e9c4ee5dd45b25a8f740862119
+          originalPath: 
+          status: 1
+          staged: 0
+      - path: Temp\UnityTempFile-6aba177a7e1d75b4387a24aa72f219c9
+        label: UnityTempFile-6aba177a7e1d75b4387a24aa72f219c9
+        level: 1
+        isFolder: 0
+        isContainer: 0
+        isCollapsed: 0
+        isHidden: 0
+        isActive: 0
+        treeIsCheckable: 1
+        checkState: 0
+        isLocked: 0
+        gitStatusEntry:
+          path: Temp\UnityTempFile-6aba177a7e1d75b4387a24aa72f219c9
+          fullPath: C:\Unity Projects\Imperial vs rebel\Temp\UnityTempFile-6aba177a7e1d75b4387a24aa72f219c9
+          projectPath: Temp\UnityTempFile-6aba177a7e1d75b4387a24aa72f219c9
+          originalPath: 
+          status: 1
+          staged: 0
+      - path: Temp\UnityTempFile-6bd24458c0a3a90469e4df7baf4c4a2d
+        label: UnityTempFile-6bd24458c0a3a90469e4df7baf4c4a2d
+        level: 1
+        isFolder: 0
+        isContainer: 0
+        isCollapsed: 0
+        isHidden: 0
+        isActive: 0
+        treeIsCheckable: 1
+        checkState: 0
+        isLocked: 0
+        gitStatusEntry:
+          path: Temp\UnityTempFile-6bd24458c0a3a90469e4df7baf4c4a2d
+          fullPath: C:\Unity Projects\Imperial vs rebel\Temp\UnityTempFile-6bd24458c0a3a90469e4df7baf4c4a2d
+          projectPath: Temp\UnityTempFile-6bd24458c0a3a90469e4df7baf4c4a2d
+          originalPath: 
+          status: 1
+          staged: 0
+      - path: Temp\UnityTempFile-6d1592295b100114fa584992290eaf6d
+        label: UnityTempFile-6d1592295b100114fa584992290eaf6d
+        level: 1
+        isFolder: 0
+        isContainer: 0
+        isCollapsed: 0
+        isHidden: 0
+        isActive: 0
+        treeIsCheckable: 1
+        checkState: 0
+        isLocked: 0
+        gitStatusEntry:
+          path: Temp\UnityTempFile-6d1592295b100114fa584992290eaf6d
+          fullPath: C:\Unity Projects\Imperial vs rebel\Temp\UnityTempFile-6d1592295b100114fa584992290eaf6d
+          projectPath: Temp\UnityTempFile-6d1592295b100114fa584992290eaf6d
           originalPath: 
           status: 1
           staged: 0
@@ -2757,6 +3126,60 @@ MonoBehaviour:
           originalPath: 
           status: 1
           staged: 0
+      - path: Temp\UnityTempFile-8ac6446e6480b324098c31ddf740c459
+        label: UnityTempFile-8ac6446e6480b324098c31ddf740c459
+        level: 1
+        isFolder: 0
+        isContainer: 0
+        isCollapsed: 0
+        isHidden: 0
+        isActive: 0
+        treeIsCheckable: 1
+        checkState: 0
+        isLocked: 0
+        gitStatusEntry:
+          path: Temp\UnityTempFile-8ac6446e6480b324098c31ddf740c459
+          fullPath: C:\Unity Projects\Imperial vs rebel\Temp\UnityTempFile-8ac6446e6480b324098c31ddf740c459
+          projectPath: Temp\UnityTempFile-8ac6446e6480b324098c31ddf740c459
+          originalPath: 
+          status: 1
+          staged: 0
+      - path: Temp\UnityTempFile-8b4e7f6fee863554f9c48289bee1d25f
+        label: UnityTempFile-8b4e7f6fee863554f9c48289bee1d25f
+        level: 1
+        isFolder: 0
+        isContainer: 0
+        isCollapsed: 0
+        isHidden: 0
+        isActive: 0
+        treeIsCheckable: 1
+        checkState: 0
+        isLocked: 0
+        gitStatusEntry:
+          path: Temp\UnityTempFile-8b4e7f6fee863554f9c48289bee1d25f
+          fullPath: C:\Unity Projects\Imperial vs rebel\Temp\UnityTempFile-8b4e7f6fee863554f9c48289bee1d25f
+          projectPath: Temp\UnityTempFile-8b4e7f6fee863554f9c48289bee1d25f
+          originalPath: 
+          status: 1
+          staged: 0
+      - path: Temp\UnityTempFile-8d0cd25878168e641add89b6eb4a9f56
+        label: UnityTempFile-8d0cd25878168e641add89b6eb4a9f56
+        level: 1
+        isFolder: 0
+        isContainer: 0
+        isCollapsed: 0
+        isHidden: 0
+        isActive: 0
+        treeIsCheckable: 1
+        checkState: 0
+        isLocked: 0
+        gitStatusEntry:
+          path: Temp\UnityTempFile-8d0cd25878168e641add89b6eb4a9f56
+          fullPath: C:\Unity Projects\Imperial vs rebel\Temp\UnityTempFile-8d0cd25878168e641add89b6eb4a9f56
+          projectPath: Temp\UnityTempFile-8d0cd25878168e641add89b6eb4a9f56
+          originalPath: 
+          status: 1
+          staged: 0
       - path: Temp\UnityTempFile-90576350aaf5e7a4e80ae348b17be815
         label: UnityTempFile-90576350aaf5e7a4e80ae348b17be815
         level: 1
@@ -2829,6 +3252,24 @@ MonoBehaviour:
           originalPath: 
           status: 1
           staged: 0
+      - path: Temp\UnityTempFile-94dec474f8c7d6b46a7859cac3be391d
+        label: UnityTempFile-94dec474f8c7d6b46a7859cac3be391d
+        level: 1
+        isFolder: 0
+        isContainer: 0
+        isCollapsed: 0
+        isHidden: 0
+        isActive: 0
+        treeIsCheckable: 1
+        checkState: 0
+        isLocked: 0
+        gitStatusEntry:
+          path: Temp\UnityTempFile-94dec474f8c7d6b46a7859cac3be391d
+          fullPath: C:\Unity Projects\Imperial vs rebel\Temp\UnityTempFile-94dec474f8c7d6b46a7859cac3be391d
+          projectPath: Temp\UnityTempFile-94dec474f8c7d6b46a7859cac3be391d
+          originalPath: 
+          status: 1
+          staged: 0
       - path: Temp\UnityTempFile-952ad4cf4460a9e4597f105d65b84a3c
         label: UnityTempFile-952ad4cf4460a9e4597f105d65b84a3c
         level: 1
@@ -2847,6 +3288,60 @@ MonoBehaviour:
           originalPath: 
           status: 1
           staged: 0
+      - path: Temp\UnityTempFile-9ed061162a316da499276a07a2702beb
+        label: UnityTempFile-9ed061162a316da499276a07a2702beb
+        level: 1
+        isFolder: 0
+        isContainer: 0
+        isCollapsed: 0
+        isHidden: 0
+        isActive: 0
+        treeIsCheckable: 1
+        checkState: 0
+        isLocked: 0
+        gitStatusEntry:
+          path: Temp\UnityTempFile-9ed061162a316da499276a07a2702beb
+          fullPath: C:\Unity Projects\Imperial vs rebel\Temp\UnityTempFile-9ed061162a316da499276a07a2702beb
+          projectPath: Temp\UnityTempFile-9ed061162a316da499276a07a2702beb
+          originalPath: 
+          status: 1
+          staged: 0
+      - path: Temp\UnityTempFile-aa2da044fe72c944eae75623732c83ee
+        label: UnityTempFile-aa2da044fe72c944eae75623732c83ee
+        level: 1
+        isFolder: 0
+        isContainer: 0
+        isCollapsed: 0
+        isHidden: 0
+        isActive: 0
+        treeIsCheckable: 1
+        checkState: 0
+        isLocked: 0
+        gitStatusEntry:
+          path: Temp\UnityTempFile-aa2da044fe72c944eae75623732c83ee
+          fullPath: C:\Unity Projects\Imperial vs rebel\Temp\UnityTempFile-aa2da044fe72c944eae75623732c83ee
+          projectPath: Temp\UnityTempFile-aa2da044fe72c944eae75623732c83ee
+          originalPath: 
+          status: 1
+          staged: 0
+      - path: Temp\UnityTempFile-aa4883190a6aec24bb19ac0a6e458582
+        label: UnityTempFile-aa4883190a6aec24bb19ac0a6e458582
+        level: 1
+        isFolder: 0
+        isContainer: 0
+        isCollapsed: 0
+        isHidden: 0
+        isActive: 0
+        treeIsCheckable: 1
+        checkState: 0
+        isLocked: 0
+        gitStatusEntry:
+          path: Temp\UnityTempFile-aa4883190a6aec24bb19ac0a6e458582
+          fullPath: C:\Unity Projects\Imperial vs rebel\Temp\UnityTempFile-aa4883190a6aec24bb19ac0a6e458582
+          projectPath: Temp\UnityTempFile-aa4883190a6aec24bb19ac0a6e458582
+          originalPath: 
+          status: 1
+          staged: 0
       - path: Temp\UnityTempFile-b469abafe14835844a9ed9e1c49e9d45
         label: UnityTempFile-b469abafe14835844a9ed9e1c49e9d45
         level: 1
@@ -2862,6 +3357,24 @@ MonoBehaviour:
           path: Temp\UnityTempFile-b469abafe14835844a9ed9e1c49e9d45
           fullPath: C:\Unity Projects\Imperial vs rebel\Temp\UnityTempFile-b469abafe14835844a9ed9e1c49e9d45
           projectPath: Temp\UnityTempFile-b469abafe14835844a9ed9e1c49e9d45
+          originalPath: 
+          status: 1
+          staged: 0
+      - path: Temp\UnityTempFile-b987148c367c4f747b7a9a954eef68df
+        label: UnityTempFile-b987148c367c4f747b7a9a954eef68df
+        level: 1
+        isFolder: 0
+        isContainer: 0
+        isCollapsed: 0
+        isHidden: 0
+        isActive: 0
+        treeIsCheckable: 1
+        checkState: 0
+        isLocked: 0
+        gitStatusEntry:
+          path: Temp\UnityTempFile-b987148c367c4f747b7a9a954eef68df
+          fullPath: C:\Unity Projects\Imperial vs rebel\Temp\UnityTempFile-b987148c367c4f747b7a9a954eef68df
+          projectPath: Temp\UnityTempFile-b987148c367c4f747b7a9a954eef68df
           originalPath: 
           status: 1
           staged: 0
@@ -2973,6 +3486,24 @@ MonoBehaviour:
           originalPath: 
           status: 1
           staged: 0
+      - path: Temp\UnityTempFile-d17d8f212c12e544a867191065fe2947
+        label: UnityTempFile-d17d8f212c12e544a867191065fe2947
+        level: 1
+        isFolder: 0
+        isContainer: 0
+        isCollapsed: 0
+        isHidden: 0
+        isActive: 0
+        treeIsCheckable: 1
+        checkState: 0
+        isLocked: 0
+        gitStatusEntry:
+          path: Temp\UnityTempFile-d17d8f212c12e544a867191065fe2947
+          fullPath: C:\Unity Projects\Imperial vs rebel\Temp\UnityTempFile-d17d8f212c12e544a867191065fe2947
+          projectPath: Temp\UnityTempFile-d17d8f212c12e544a867191065fe2947
+          originalPath: 
+          status: 1
+          staged: 0
       - path: Temp\UnityTempFile-d195a8e14502bfa4db8173e82b1653b2
         label: UnityTempFile-d195a8e14502bfa4db8173e82b1653b2
         level: 1
@@ -3006,6 +3537,42 @@ MonoBehaviour:
           path: Temp\UnityTempFile-d7e91fece9201854ab751c7fdede3e2f
           fullPath: C:\Unity Projects\Imperial vs rebel\Temp\UnityTempFile-d7e91fece9201854ab751c7fdede3e2f
           projectPath: Temp\UnityTempFile-d7e91fece9201854ab751c7fdede3e2f
+          originalPath: 
+          status: 1
+          staged: 0
+      - path: Temp\UnityTempFile-deba08fcd214cfa469c57ca22e5ddb67
+        label: UnityTempFile-deba08fcd214cfa469c57ca22e5ddb67
+        level: 1
+        isFolder: 0
+        isContainer: 0
+        isCollapsed: 0
+        isHidden: 0
+        isActive: 0
+        treeIsCheckable: 1
+        checkState: 0
+        isLocked: 0
+        gitStatusEntry:
+          path: Temp\UnityTempFile-deba08fcd214cfa469c57ca22e5ddb67
+          fullPath: C:\Unity Projects\Imperial vs rebel\Temp\UnityTempFile-deba08fcd214cfa469c57ca22e5ddb67
+          projectPath: Temp\UnityTempFile-deba08fcd214cfa469c57ca22e5ddb67
+          originalPath: 
+          status: 1
+          staged: 0
+      - path: Temp\UnityTempFile-ded3af124ea9d2643baab70d24543341
+        label: UnityTempFile-ded3af124ea9d2643baab70d24543341
+        level: 1
+        isFolder: 0
+        isContainer: 0
+        isCollapsed: 0
+        isHidden: 0
+        isActive: 0
+        treeIsCheckable: 1
+        checkState: 0
+        isLocked: 0
+        gitStatusEntry:
+          path: Temp\UnityTempFile-ded3af124ea9d2643baab70d24543341
+          fullPath: C:\Unity Projects\Imperial vs rebel\Temp\UnityTempFile-ded3af124ea9d2643baab70d24543341
+          projectPath: Temp\UnityTempFile-ded3af124ea9d2643baab70d24543341
           originalPath: 
           status: 1
           staged: 0
@@ -3060,6 +3627,24 @@ MonoBehaviour:
           path: Temp\UnityTempFile-e727cae9ca355454ea56550ffd4abd8f
           fullPath: C:\Unity Projects\Imperial vs rebel\Temp\UnityTempFile-e727cae9ca355454ea56550ffd4abd8f
           projectPath: Temp\UnityTempFile-e727cae9ca355454ea56550ffd4abd8f
+          originalPath: 
+          status: 1
+          staged: 0
+      - path: Temp\UnityTempFile-e89f4bbe87bce4444b37220526e47ce5
+        label: UnityTempFile-e89f4bbe87bce4444b37220526e47ce5
+        level: 1
+        isFolder: 0
+        isContainer: 0
+        isCollapsed: 0
+        isHidden: 0
+        isActive: 0
+        treeIsCheckable: 1
+        checkState: 0
+        isLocked: 0
+        gitStatusEntry:
+          path: Temp\UnityTempFile-e89f4bbe87bce4444b37220526e47ce5
+          fullPath: C:\Unity Projects\Imperial vs rebel\Temp\UnityTempFile-e89f4bbe87bce4444b37220526e47ce5
+          projectPath: Temp\UnityTempFile-e89f4bbe87bce4444b37220526e47ce5
           originalPath: 
           status: 1
           staged: 0
@@ -3191,21 +3776,27 @@ MonoBehaviour:
           status: 0
           staged: 0
     gitStatusEntries:
-    - path: .vs\Imperial vs rebel\v16\Server\sqlite3\storage.ide-shm
-      fullPath: C:\Unity Projects\Imperial vs rebel\.vs\Imperial vs rebel\v16\Server\sqlite3\storage.ide-shm
-      projectPath: .vs\Imperial vs rebel\v16\Server\sqlite3\storage.ide-shm
-      originalPath: 
-      status: 1
-      staged: 0
     - path: .vs\Imperial vs rebel\v16\Server\sqlite3\storage.ide-wal
       fullPath: C:\Unity Projects\Imperial vs rebel\.vs\Imperial vs rebel\v16\Server\sqlite3\storage.ide-wal
       projectPath: .vs\Imperial vs rebel\v16\Server\sqlite3\storage.ide-wal
       originalPath: 
-      status: 1
+      status: 3
       staged: 0
-    - path: Assets\Scripts\ShipMovement.cs
-      fullPath: C:\Unity Projects\Imperial vs rebel\Assets\Scripts\ShipMovement.cs
-      projectPath: Assets\Scripts\ShipMovement.cs
+    - path: Assets\Models\t-65 X-wing mats\Glass_Mat.mat
+      fullPath: C:\Unity Projects\Imperial vs rebel\Assets\Models\t-65 X-wing mats\Glass_Mat.mat
+      projectPath: Assets\Models\t-65 X-wing mats\Glass_Mat.mat
+      originalPath: 
+      status: 3
+      staged: 0
+    - path: Assets\Models\t-65 X-wing mats\Hull_Mat.mat
+      fullPath: C:\Unity Projects\Imperial vs rebel\Assets\Models\t-65 X-wing mats\Hull_Mat.mat
+      projectPath: Assets\Models\t-65 X-wing mats\Hull_Mat.mat
+      originalPath: 
+      status: 3
+      staged: 0
+    - path: Assets\Models\t-65 X-wing mats\Stripe_Mat.mat
+      fullPath: C:\Unity Projects\Imperial vs rebel\Assets\Models\t-65 X-wing mats\Stripe_Mat.mat
+      projectPath: Assets\Models\t-65 X-wing mats\Stripe_Mat.mat
       originalPath: 
       status: 3
       staged: 0
@@ -3251,69 +3842,39 @@ MonoBehaviour:
       originalPath: 
       status: 3
       staged: 0
-    - path: Library\metadata\48\485f116148d8a424d992a3430252566c
-      fullPath: C:\Unity Projects\Imperial vs rebel\Library\metadata\48\485f116148d8a424d992a3430252566c
-      projectPath: Library\metadata\48\485f116148d8a424d992a3430252566c
+    - path: Library\gfu\cache\repoinfo.yaml
+      fullPath: C:\Unity Projects\Imperial vs rebel\Library\gfu\cache\repoinfo.yaml
+      projectPath: Library\gfu\cache\repoinfo.yaml
       originalPath: 
       status: 3
       staged: 0
-    - path: Library\ScriptAssemblies\Assembly-CSharp.dll
-      fullPath: C:\Unity Projects\Imperial vs rebel\Library\ScriptAssemblies\Assembly-CSharp.dll
-      projectPath: Library\ScriptAssemblies\Assembly-CSharp.dll
+    - path: Library\metadata\2e\2e5aa28a4f83af9428dce5ffd96eafa9.info
+      fullPath: C:\Unity Projects\Imperial vs rebel\Library\metadata\2e\2e5aa28a4f83af9428dce5ffd96eafa9.info
+      projectPath: Library\metadata\2e\2e5aa28a4f83af9428dce5ffd96eafa9.info
       originalPath: 
       status: 3
       staged: 0
-    - path: Library\ScriptAssemblies\Assembly-CSharp.pdb
-      fullPath: C:\Unity Projects\Imperial vs rebel\Library\ScriptAssemblies\Assembly-CSharp.pdb
-      projectPath: Library\ScriptAssemblies\Assembly-CSharp.pdb
+    - path: Library\metadata\85\854ed778f4d836643a300f8bfd28ae01.info
+      fullPath: C:\Unity Projects\Imperial vs rebel\Library\metadata\85\854ed778f4d836643a300f8bfd28ae01.info
+      projectPath: Library\metadata\85\854ed778f4d836643a300f8bfd28ae01.info
       originalPath: 
       status: 3
       staged: 0
-    - path: obj\Debug\Assembly-CSharp.csproj.CoreCompileInputs.cache
-      fullPath: C:\Unity Projects\Imperial vs rebel\obj\Debug\Assembly-CSharp.csproj.CoreCompileInputs.cache
-      projectPath: obj\Debug\Assembly-CSharp.csproj.CoreCompileInputs.cache
+    - path: Library\metadata\8c\8c6198190b4369344ab37bdda2eb05ba.info
+      fullPath: C:\Unity Projects\Imperial vs rebel\Library\metadata\8c\8c6198190b4369344ab37bdda2eb05ba.info
+      projectPath: Library\metadata\8c\8c6198190b4369344ab37bdda2eb05ba.info
       originalPath: 
       status: 3
       staged: 0
-    - path: obj\Debug\Assembly-CSharp.csprojAssemblyReference.cache
-      fullPath: C:\Unity Projects\Imperial vs rebel\obj\Debug\Assembly-CSharp.csprojAssemblyReference.cache
-      projectPath: obj\Debug\Assembly-CSharp.csprojAssemblyReference.cache
+    - path: Library\StateCache\Hierarchy\b5f9e0-mainStage.json
+      fullPath: C:\Unity Projects\Imperial vs rebel\Library\StateCache\Hierarchy\b5f9e0-mainStage.json
+      projectPath: Library\StateCache\Hierarchy\b5f9e0-mainStage.json
       originalPath: 
       status: 3
       staged: 0
-    - path: obj\Debug\Assembly-CSharp-Editor-firstpass.csproj.CoreCompileInputs.cache
-      fullPath: C:\Unity Projects\Imperial vs rebel\obj\Debug\Assembly-CSharp-Editor-firstpass.csproj.CoreCompileInputs.cache
-      projectPath: obj\Debug\Assembly-CSharp-Editor-firstpass.csproj.CoreCompileInputs.cache
-      originalPath: 
-      status: 1
-      staged: 0
-    - path: obj\Debug\Assembly-CSharp-Editor-firstpass.csprojAssemblyReference.cache
-      fullPath: C:\Unity Projects\Imperial vs rebel\obj\Debug\Assembly-CSharp-Editor-firstpass.csprojAssemblyReference.cache
-      projectPath: obj\Debug\Assembly-CSharp-Editor-firstpass.csprojAssemblyReference.cache
-      originalPath: 
-      status: 1
-      staged: 0
-    - path: obj\Debug\Assembly-CSharp-firstpass.csproj.CoreCompileInputs.cache
-      fullPath: C:\Unity Projects\Imperial vs rebel\obj\Debug\Assembly-CSharp-firstpass.csproj.CoreCompileInputs.cache
-      projectPath: obj\Debug\Assembly-CSharp-firstpass.csproj.CoreCompileInputs.cache
-      originalPath: 
-      status: 3
-      staged: 0
-    - path: obj\Debug\Assembly-CSharp-firstpass.csprojAssemblyReference.cache
-      fullPath: C:\Unity Projects\Imperial vs rebel\obj\Debug\Assembly-CSharp-firstpass.csprojAssemblyReference.cache
-      projectPath: obj\Debug\Assembly-CSharp-firstpass.csprojAssemblyReference.cache
-      originalPath: 
-      status: 3
-      staged: 0
-    - path: ProjectSettings\QualitySettings.asset
-      fullPath: C:\Unity Projects\Imperial vs rebel\ProjectSettings\QualitySettings.asset
-      projectPath: ProjectSettings\QualitySettings.asset
-      originalPath: 
-      status: 3
-      staged: 0
-    - path: ProjectSettings\UnityConnectSettings.asset
-      fullPath: C:\Unity Projects\Imperial vs rebel\ProjectSettings\UnityConnectSettings.asset
-      projectPath: ProjectSettings\UnityConnectSettings.asset
+    - path: Library\StateCache\SceneView\cc7b53-mainStage.json
+      fullPath: C:\Unity Projects\Imperial vs rebel\Library\StateCache\SceneView\cc7b53-mainStage.json
+      projectPath: Library\StateCache\SceneView\cc7b53-mainStage.json
       originalPath: 
       status: 3
       staged: 0
@@ -3326,6 +3887,12 @@ MonoBehaviour:
     - path: Temp\UnityLockfile
       fullPath: C:\Unity Projects\Imperial vs rebel\Temp\UnityLockfile
       projectPath: Temp\UnityLockfile
+      originalPath: 
+      status: 1
+      staged: 0
+    - path: Temp\UnityTempFile-02efc9032ab7e584785be66b606f32f6
+      fullPath: C:\Unity Projects\Imperial vs rebel\Temp\UnityTempFile-02efc9032ab7e584785be66b606f32f6
+      projectPath: Temp\UnityTempFile-02efc9032ab7e584785be66b606f32f6
       originalPath: 
       status: 1
       staged: 0
@@ -3347,15 +3914,39 @@ MonoBehaviour:
       originalPath: 
       status: 1
       staged: 0
+    - path: Temp\UnityTempFile-0aa47ad4ccce47d4bb3ccf7e50ea1f6b
+      fullPath: C:\Unity Projects\Imperial vs rebel\Temp\UnityTempFile-0aa47ad4ccce47d4bb3ccf7e50ea1f6b
+      projectPath: Temp\UnityTempFile-0aa47ad4ccce47d4bb3ccf7e50ea1f6b
+      originalPath: 
+      status: 1
+      staged: 0
+    - path: Temp\UnityTempFile-10adc02ecb9b762498a68b7db1aef840
+      fullPath: C:\Unity Projects\Imperial vs rebel\Temp\UnityTempFile-10adc02ecb9b762498a68b7db1aef840
+      projectPath: Temp\UnityTempFile-10adc02ecb9b762498a68b7db1aef840
+      originalPath: 
+      status: 1
+      staged: 0
     - path: Temp\UnityTempFile-120c5eff7d048eb41aae51950861a6e1
       fullPath: C:\Unity Projects\Imperial vs rebel\Temp\UnityTempFile-120c5eff7d048eb41aae51950861a6e1
       projectPath: Temp\UnityTempFile-120c5eff7d048eb41aae51950861a6e1
       originalPath: 
       status: 1
       staged: 0
+    - path: Temp\UnityTempFile-151415f84d747bd45b54cb2d3ac20284
+      fullPath: C:\Unity Projects\Imperial vs rebel\Temp\UnityTempFile-151415f84d747bd45b54cb2d3ac20284
+      projectPath: Temp\UnityTempFile-151415f84d747bd45b54cb2d3ac20284
+      originalPath: 
+      status: 1
+      staged: 0
     - path: Temp\UnityTempFile-1635652a9544354489f42040915dae55
       fullPath: C:\Unity Projects\Imperial vs rebel\Temp\UnityTempFile-1635652a9544354489f42040915dae55
       projectPath: Temp\UnityTempFile-1635652a9544354489f42040915dae55
+      originalPath: 
+      status: 1
+      staged: 0
+    - path: Temp\UnityTempFile-1766a5edfa55ba94490b7ffdabb29fd2
+      fullPath: C:\Unity Projects\Imperial vs rebel\Temp\UnityTempFile-1766a5edfa55ba94490b7ffdabb29fd2
+      projectPath: Temp\UnityTempFile-1766a5edfa55ba94490b7ffdabb29fd2
       originalPath: 
       status: 1
       staged: 0
@@ -3383,6 +3974,12 @@ MonoBehaviour:
       originalPath: 
       status: 1
       staged: 0
+    - path: Temp\UnityTempFile-2274b6e960a007e4a8ea73338a46bebf
+      fullPath: C:\Unity Projects\Imperial vs rebel\Temp\UnityTempFile-2274b6e960a007e4a8ea73338a46bebf
+      projectPath: Temp\UnityTempFile-2274b6e960a007e4a8ea73338a46bebf
+      originalPath: 
+      status: 1
+      staged: 0
     - path: Temp\UnityTempFile-271bc20ed81ec964694c7eac80990879
       fullPath: C:\Unity Projects\Imperial vs rebel\Temp\UnityTempFile-271bc20ed81ec964694c7eac80990879
       projectPath: Temp\UnityTempFile-271bc20ed81ec964694c7eac80990879
@@ -3398,6 +3995,12 @@ MonoBehaviour:
     - path: Temp\UnityTempFile-29e3732261055034fb40014c85c0644d
       fullPath: C:\Unity Projects\Imperial vs rebel\Temp\UnityTempFile-29e3732261055034fb40014c85c0644d
       projectPath: Temp\UnityTempFile-29e3732261055034fb40014c85c0644d
+      originalPath: 
+      status: 1
+      staged: 0
+    - path: Temp\UnityTempFile-2c44cb2d180bbcd4bbc29eecd6f0ce35
+      fullPath: C:\Unity Projects\Imperial vs rebel\Temp\UnityTempFile-2c44cb2d180bbcd4bbc29eecd6f0ce35
+      projectPath: Temp\UnityTempFile-2c44cb2d180bbcd4bbc29eecd6f0ce35
       originalPath: 
       status: 1
       staged: 0
@@ -3437,9 +4040,57 @@ MonoBehaviour:
       originalPath: 
       status: 1
       staged: 0
+    - path: Temp\UnityTempFile-3ec1a116feb367c45981a3775fe38b44
+      fullPath: C:\Unity Projects\Imperial vs rebel\Temp\UnityTempFile-3ec1a116feb367c45981a3775fe38b44
+      projectPath: Temp\UnityTempFile-3ec1a116feb367c45981a3775fe38b44
+      originalPath: 
+      status: 1
+      staged: 0
+    - path: Temp\UnityTempFile-3f428b6f3c5c1d54f943631afbe8de9e
+      fullPath: C:\Unity Projects\Imperial vs rebel\Temp\UnityTempFile-3f428b6f3c5c1d54f943631afbe8de9e
+      projectPath: Temp\UnityTempFile-3f428b6f3c5c1d54f943631afbe8de9e
+      originalPath: 
+      status: 1
+      staged: 0
     - path: Temp\UnityTempFile-40f8369c819a11249ac1601f11701656
       fullPath: C:\Unity Projects\Imperial vs rebel\Temp\UnityTempFile-40f8369c819a11249ac1601f11701656
       projectPath: Temp\UnityTempFile-40f8369c819a11249ac1601f11701656
+      originalPath: 
+      status: 1
+      staged: 0
+    - path: Temp\UnityTempFile-4136e2ef359218d4788e8897e5650a78
+      fullPath: C:\Unity Projects\Imperial vs rebel\Temp\UnityTempFile-4136e2ef359218d4788e8897e5650a78
+      projectPath: Temp\UnityTempFile-4136e2ef359218d4788e8897e5650a78
+      originalPath: 
+      status: 1
+      staged: 0
+    - path: Temp\UnityTempFile-41e28d95668c7a5499280f1771ee37a4
+      fullPath: C:\Unity Projects\Imperial vs rebel\Temp\UnityTempFile-41e28d95668c7a5499280f1771ee37a4
+      projectPath: Temp\UnityTempFile-41e28d95668c7a5499280f1771ee37a4
+      originalPath: 
+      status: 1
+      staged: 0
+    - path: Temp\UnityTempFile-4320fd8eef0ca6b44b9656bdb8d6e8e7
+      fullPath: C:\Unity Projects\Imperial vs rebel\Temp\UnityTempFile-4320fd8eef0ca6b44b9656bdb8d6e8e7
+      projectPath: Temp\UnityTempFile-4320fd8eef0ca6b44b9656bdb8d6e8e7
+      originalPath: 
+      status: 1
+      staged: 0
+    - path: Temp\UnityTempFile-4f46149034ac98a4990fcee54fa1d07e
+      fullPath: C:\Unity Projects\Imperial vs rebel\Temp\UnityTempFile-4f46149034ac98a4990fcee54fa1d07e
+      projectPath: Temp\UnityTempFile-4f46149034ac98a4990fcee54fa1d07e
+      originalPath: 
+      status: 1
+      staged: 0
+    - path: Temp\UnityTempFile-516c8e3e75d31a14eb99b4b43f4a4e58
+      fullPath: C:\Unity Projects\Imperial vs rebel\Temp\UnityTempFile-516c8e3e75d31a14eb99b4b43f4a4e58
+      projectPath: Temp\UnityTempFile-516c8e3e75d31a14eb99b4b43f4a4e58
+      originalPath: 
+      status: 1
+      staged: 0
+    - path: Temp\UnityTempFile-525f2047634cf8448bae8ee002c0aef0
+      fullPath: C:\Unity Projects\Imperial vs rebel\Temp\UnityTempFile-525f2047634cf8448bae8ee002c0aef0
+      projectPath: Temp\UnityTempFile-525f2047634cf8448bae8ee002c0aef0
       originalPath: 
       status: 1
       staged: 0
@@ -3458,6 +4109,12 @@ MonoBehaviour:
     - path: Temp\UnityTempFile-544dacf30fb6aaf448b1c2fdfe50e0b2
       fullPath: C:\Unity Projects\Imperial vs rebel\Temp\UnityTempFile-544dacf30fb6aaf448b1c2fdfe50e0b2
       projectPath: Temp\UnityTempFile-544dacf30fb6aaf448b1c2fdfe50e0b2
+      originalPath: 
+      status: 1
+      staged: 0
+    - path: Temp\UnityTempFile-5967b2681de3c4a41bad3bda8a36cd2f
+      fullPath: C:\Unity Projects\Imperial vs rebel\Temp\UnityTempFile-5967b2681de3c4a41bad3bda8a36cd2f
+      projectPath: Temp\UnityTempFile-5967b2681de3c4a41bad3bda8a36cd2f
       originalPath: 
       status: 1
       staged: 0
@@ -3482,6 +4139,24 @@ MonoBehaviour:
     - path: Temp\UnityTempFile-67f123e9c4ee5dd45b25a8f740862119
       fullPath: C:\Unity Projects\Imperial vs rebel\Temp\UnityTempFile-67f123e9c4ee5dd45b25a8f740862119
       projectPath: Temp\UnityTempFile-67f123e9c4ee5dd45b25a8f740862119
+      originalPath: 
+      status: 1
+      staged: 0
+    - path: Temp\UnityTempFile-6aba177a7e1d75b4387a24aa72f219c9
+      fullPath: C:\Unity Projects\Imperial vs rebel\Temp\UnityTempFile-6aba177a7e1d75b4387a24aa72f219c9
+      projectPath: Temp\UnityTempFile-6aba177a7e1d75b4387a24aa72f219c9
+      originalPath: 
+      status: 1
+      staged: 0
+    - path: Temp\UnityTempFile-6bd24458c0a3a90469e4df7baf4c4a2d
+      fullPath: C:\Unity Projects\Imperial vs rebel\Temp\UnityTempFile-6bd24458c0a3a90469e4df7baf4c4a2d
+      projectPath: Temp\UnityTempFile-6bd24458c0a3a90469e4df7baf4c4a2d
+      originalPath: 
+      status: 1
+      staged: 0
+    - path: Temp\UnityTempFile-6d1592295b100114fa584992290eaf6d
+      fullPath: C:\Unity Projects\Imperial vs rebel\Temp\UnityTempFile-6d1592295b100114fa584992290eaf6d
+      projectPath: Temp\UnityTempFile-6d1592295b100114fa584992290eaf6d
       originalPath: 
       status: 1
       staged: 0
@@ -3521,6 +4196,24 @@ MonoBehaviour:
       originalPath: 
       status: 1
       staged: 0
+    - path: Temp\UnityTempFile-8ac6446e6480b324098c31ddf740c459
+      fullPath: C:\Unity Projects\Imperial vs rebel\Temp\UnityTempFile-8ac6446e6480b324098c31ddf740c459
+      projectPath: Temp\UnityTempFile-8ac6446e6480b324098c31ddf740c459
+      originalPath: 
+      status: 1
+      staged: 0
+    - path: Temp\UnityTempFile-8b4e7f6fee863554f9c48289bee1d25f
+      fullPath: C:\Unity Projects\Imperial vs rebel\Temp\UnityTempFile-8b4e7f6fee863554f9c48289bee1d25f
+      projectPath: Temp\UnityTempFile-8b4e7f6fee863554f9c48289bee1d25f
+      originalPath: 
+      status: 1
+      staged: 0
+    - path: Temp\UnityTempFile-8d0cd25878168e641add89b6eb4a9f56
+      fullPath: C:\Unity Projects\Imperial vs rebel\Temp\UnityTempFile-8d0cd25878168e641add89b6eb4a9f56
+      projectPath: Temp\UnityTempFile-8d0cd25878168e641add89b6eb4a9f56
+      originalPath: 
+      status: 1
+      staged: 0
     - path: Temp\UnityTempFile-90576350aaf5e7a4e80ae348b17be815
       fullPath: C:\Unity Projects\Imperial vs rebel\Temp\UnityTempFile-90576350aaf5e7a4e80ae348b17be815
       projectPath: Temp\UnityTempFile-90576350aaf5e7a4e80ae348b17be815
@@ -3545,15 +4238,45 @@ MonoBehaviour:
       originalPath: 
       status: 1
       staged: 0
+    - path: Temp\UnityTempFile-94dec474f8c7d6b46a7859cac3be391d
+      fullPath: C:\Unity Projects\Imperial vs rebel\Temp\UnityTempFile-94dec474f8c7d6b46a7859cac3be391d
+      projectPath: Temp\UnityTempFile-94dec474f8c7d6b46a7859cac3be391d
+      originalPath: 
+      status: 1
+      staged: 0
     - path: Temp\UnityTempFile-952ad4cf4460a9e4597f105d65b84a3c
       fullPath: C:\Unity Projects\Imperial vs rebel\Temp\UnityTempFile-952ad4cf4460a9e4597f105d65b84a3c
       projectPath: Temp\UnityTempFile-952ad4cf4460a9e4597f105d65b84a3c
       originalPath: 
       status: 1
       staged: 0
+    - path: Temp\UnityTempFile-9ed061162a316da499276a07a2702beb
+      fullPath: C:\Unity Projects\Imperial vs rebel\Temp\UnityTempFile-9ed061162a316da499276a07a2702beb
+      projectPath: Temp\UnityTempFile-9ed061162a316da499276a07a2702beb
+      originalPath: 
+      status: 1
+      staged: 0
+    - path: Temp\UnityTempFile-aa2da044fe72c944eae75623732c83ee
+      fullPath: C:\Unity Projects\Imperial vs rebel\Temp\UnityTempFile-aa2da044fe72c944eae75623732c83ee
+      projectPath: Temp\UnityTempFile-aa2da044fe72c944eae75623732c83ee
+      originalPath: 
+      status: 1
+      staged: 0
+    - path: Temp\UnityTempFile-aa4883190a6aec24bb19ac0a6e458582
+      fullPath: C:\Unity Projects\Imperial vs rebel\Temp\UnityTempFile-aa4883190a6aec24bb19ac0a6e458582
+      projectPath: Temp\UnityTempFile-aa4883190a6aec24bb19ac0a6e458582
+      originalPath: 
+      status: 1
+      staged: 0
     - path: Temp\UnityTempFile-b469abafe14835844a9ed9e1c49e9d45
       fullPath: C:\Unity Projects\Imperial vs rebel\Temp\UnityTempFile-b469abafe14835844a9ed9e1c49e9d45
       projectPath: Temp\UnityTempFile-b469abafe14835844a9ed9e1c49e9d45
+      originalPath: 
+      status: 1
+      staged: 0
+    - path: Temp\UnityTempFile-b987148c367c4f747b7a9a954eef68df
+      fullPath: C:\Unity Projects\Imperial vs rebel\Temp\UnityTempFile-b987148c367c4f747b7a9a954eef68df
+      projectPath: Temp\UnityTempFile-b987148c367c4f747b7a9a954eef68df
       originalPath: 
       status: 1
       staged: 0
@@ -3593,6 +4316,12 @@ MonoBehaviour:
       originalPath: 
       status: 1
       staged: 0
+    - path: Temp\UnityTempFile-d17d8f212c12e544a867191065fe2947
+      fullPath: C:\Unity Projects\Imperial vs rebel\Temp\UnityTempFile-d17d8f212c12e544a867191065fe2947
+      projectPath: Temp\UnityTempFile-d17d8f212c12e544a867191065fe2947
+      originalPath: 
+      status: 1
+      staged: 0
     - path: Temp\UnityTempFile-d195a8e14502bfa4db8173e82b1653b2
       fullPath: C:\Unity Projects\Imperial vs rebel\Temp\UnityTempFile-d195a8e14502bfa4db8173e82b1653b2
       projectPath: Temp\UnityTempFile-d195a8e14502bfa4db8173e82b1653b2
@@ -3602,6 +4331,18 @@ MonoBehaviour:
     - path: Temp\UnityTempFile-d7e91fece9201854ab751c7fdede3e2f
       fullPath: C:\Unity Projects\Imperial vs rebel\Temp\UnityTempFile-d7e91fece9201854ab751c7fdede3e2f
       projectPath: Temp\UnityTempFile-d7e91fece9201854ab751c7fdede3e2f
+      originalPath: 
+      status: 1
+      staged: 0
+    - path: Temp\UnityTempFile-deba08fcd214cfa469c57ca22e5ddb67
+      fullPath: C:\Unity Projects\Imperial vs rebel\Temp\UnityTempFile-deba08fcd214cfa469c57ca22e5ddb67
+      projectPath: Temp\UnityTempFile-deba08fcd214cfa469c57ca22e5ddb67
+      originalPath: 
+      status: 1
+      staged: 0
+    - path: Temp\UnityTempFile-ded3af124ea9d2643baab70d24543341
+      fullPath: C:\Unity Projects\Imperial vs rebel\Temp\UnityTempFile-ded3af124ea9d2643baab70d24543341
+      projectPath: Temp\UnityTempFile-ded3af124ea9d2643baab70d24543341
       originalPath: 
       status: 1
       staged: 0
@@ -3620,6 +4361,12 @@ MonoBehaviour:
     - path: Temp\UnityTempFile-e727cae9ca355454ea56550ffd4abd8f
       fullPath: C:\Unity Projects\Imperial vs rebel\Temp\UnityTempFile-e727cae9ca355454ea56550ffd4abd8f
       projectPath: Temp\UnityTempFile-e727cae9ca355454ea56550ffd4abd8f
+      originalPath: 
+      status: 1
+      staged: 0
+    - path: Temp\UnityTempFile-e89f4bbe87bce4444b37220526e47ce5
+      fullPath: C:\Unity Projects\Imperial vs rebel\Temp\UnityTempFile-e89f4bbe87bce4444b37220526e47ce5
+      projectPath: Temp\UnityTempFile-e89f4bbe87bce4444b37220526e47ce5
       originalPath: 
       status: 1
       staged: 0
@@ -3659,15 +4406,15 @@ MonoBehaviour:
       originalPath: 
       status: 1
       staged: 0
-    changedFilesText: 78 changed files
+    changedFilesText: 105 changed files
     lastCurrentBranchChangedEvent:
-      updatedTimeString: 2020-01-09T15:21:13.549-05:00
+      updatedTimeString: 2020-01-09T17:31:24.052-05:00
       cacheType: 1
     lastStatusEntriesChangedEvent:
-      updatedTimeString: 0001-01-01T00:00:00.000+00:00
+      updatedTimeString: 2020-01-09T19:31:23.095-05:00
       cacheType: 6
     lastLocksChangedEvent:
-      updatedTimeString: 2020-01-09T17:21:31.712-05:00
+      updatedTimeString: 2020-01-09T19:31:28.702-05:00
       cacheType: 7
   historyView:
     currentLogHasUpdate: 0
@@ -3824,13 +4571,13 @@ MonoBehaviour:
     m_Image: {fileID: 0}
     m_Tooltip: Url of the origin remote
   lastCurrentBranchAndRemoteChangedEvent:
-    updatedTimeString: 2020-01-09T15:21:13.549-05:00
+    updatedTimeString: 2020-01-09T17:31:24.052-05:00
     cacheType: 1
   lastTrackingStatusChangedEvent:
-    updatedTimeString: 2020-01-09T15:26:23.019-05:00
+    updatedTimeString: 2020-01-09T17:31:11.983-05:00
     cacheType: 5
   lastStatusEntriesChangedEvent:
-    updatedTimeString: 2020-01-09T15:33:03.765-05:00
+    updatedTimeString: 2020-01-09T17:31:11.939-05:00
     cacheType: 6
   pullButtonContent:
     m_Text: Pull
@@ -3850,7 +4597,7 @@ MonoBehaviour:
     m_Tooltip: 
   repositoryProgressValue: 0
   repositoryProgressMessage: 
-  appManagerProgressValue: 1
-  appManagerProgressMessage: Initialized
+  appManagerProgressValue: 0
+  appManagerProgressMessage: 
   connections: []
   primaryConnectionUsername: arabellekids
