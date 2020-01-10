@@ -10,7 +10,7 @@ public class ShipMovement : MonoBehaviour
     public float thrust = 2;
     public float torque = 1;
     Rigidbody rb;
-    public Animator anim;
+    private Animator anim;
     bool toggleWings = false;
 
     // Fire variables
@@ -34,6 +34,7 @@ public class ShipMovement : MonoBehaviour
     private void Start()
     {
         rb = GetComponent<Rigidbody>();
+        anim = GetComponent<Animator>();
     }
 
     private void FixedUpdate()
@@ -107,8 +108,8 @@ public class ShipMovement : MonoBehaviour
 
         if (Input.GetAxis("Toggle wings" + playerNum) != 0 && timer >= shotRate)
         {
-            anim.SetBool("Toggle wings", !toggleWings);
             toggleWings = !toggleWings;
+            anim.SetBool("Toggle wings", toggleWings);
             timer = 0;
         }
         /*RaycastHit hit;

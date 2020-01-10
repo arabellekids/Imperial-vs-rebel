@@ -13,7 +13,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   cacheType: 6
-  lastUpdatedAtString: 2020-01-09T19:38:04.710-05:00
+  lastUpdatedAtString: 2020-01-09T20:11:13.757-05:00
   initializedAtString: 2020-01-09T15:19:46.375-05:00
   entries:
   - path: .vs\Imperial vs rebel\v16\.suo
@@ -22,15 +22,57 @@ MonoBehaviour:
     originalPath: 
     status: 3
     staged: 0
-  - path: Imperial vs rebel.sln
-    fullPath: C:\Unity Projects\Imperial vs rebel\Imperial vs rebel.sln
-    projectPath: Imperial vs rebel.sln
+  - path: .vs\Imperial vs rebel\v16\Server\sqlite3\storage.ide
+    fullPath: C:\Unity Projects\Imperial vs rebel\.vs\Imperial vs rebel\v16\Server\sqlite3\storage.ide
+    projectPath: .vs\Imperial vs rebel\v16\Server\sqlite3\storage.ide
+    originalPath: 
+    status: 3
+    staged: 0
+  - path: Assembly-CSharp.csproj
+    fullPath: C:\Unity Projects\Imperial vs rebel\Assembly-CSharp.csproj
+    projectPath: Assembly-CSharp.csproj
+    originalPath: 
+    status: 3
+    staged: 0
+  - path: Assembly-CSharp-Editor-firstpass.csproj
+    fullPath: C:\Unity Projects\Imperial vs rebel\Assembly-CSharp-Editor-firstpass.csproj
+    projectPath: Assembly-CSharp-Editor-firstpass.csproj
+    originalPath: 
+    status: 3
+    staged: 0
+  - path: Assets\PlayerShip.controller
+    fullPath: C:\Unity Projects\Imperial vs rebel\Assets\PlayerShip.controller
+    projectPath: Assets\PlayerShip.controller
+    originalPath: 
+    status: 5
+    staged: 0
+  - path: Assets\PlayerShip.controller.meta
+    fullPath: C:\Unity Projects\Imperial vs rebel\Assets\PlayerShip.controller.meta
+    projectPath: Assets\PlayerShip.controller.meta
+    originalPath: 
+    status: 5
+    staged: 0
+  - path: Assets\Scenes\Space Scene.unity
+    fullPath: C:\Unity Projects\Imperial vs rebel\Assets\Scenes\Space Scene.unity
+    projectPath: Assets\Scenes\Space Scene.unity
+    originalPath: 
+    status: 3
+    staged: 0
+  - path: Assets\Scripts\ShipMovement.cs
+    fullPath: C:\Unity Projects\Imperial vs rebel\Assets\Scripts\ShipMovement.cs
+    projectPath: Assets\Scripts\ShipMovement.cs
     originalPath: 
     status: 3
     staged: 0
   - path: Library\assetDatabase3
     fullPath: C:\Unity Projects\Imperial vs rebel\Library\assetDatabase3
     projectPath: Library\assetDatabase3
+    originalPath: 
+    status: 3
+    staged: 0
+  - path: Library\CurrentMaximizeLayout.dwlt
+    fullPath: C:\Unity Projects\Imperial vs rebel\Library\CurrentMaximizeLayout.dwlt
+    projectPath: Library\CurrentMaximizeLayout.dwlt
     originalPath: 
     status: 3
     staged: 0
@@ -50,7 +92,7 @@ MonoBehaviour:
     fullPath: C:\Unity Projects\Imperial vs rebel\Library\gfu\cache\gitlog.yaml
     projectPath: Library\gfu\cache\gitlog.yaml
     originalPath: 
-    status: 5
+    status: 3
     staged: 0
   - path: Library\gfu\cache\gitstatusentries.yaml
     fullPath: C:\Unity Projects\Imperial vs rebel\Library\gfu\cache\gitstatusentries.yaml
@@ -64,1241 +106,23 @@ MonoBehaviour:
     originalPath: 
     status: 3
     staged: 0
-  - path: Library\gfu\cache\repoinfo.yaml
-    fullPath: C:\Unity Projects\Imperial vs rebel\Library\gfu\cache\repoinfo.yaml
-    projectPath: Library\gfu\cache\repoinfo.yaml
+  - path: Library\metadata\06\06b2ddea74c0f1045896a55a17bd0c7f
+    fullPath: C:\Unity Projects\Imperial vs rebel\Library\metadata\06\06b2ddea74c0f1045896a55a17bd0c7f
+    projectPath: Library\metadata\06\06b2ddea74c0f1045896a55a17bd0c7f
+    originalPath: 
+    status: 5
+    staged: 0
+  - path: Library\metadata\06\06b2ddea74c0f1045896a55a17bd0c7f.info
+    fullPath: C:\Unity Projects\Imperial vs rebel\Library\metadata\06\06b2ddea74c0f1045896a55a17bd0c7f.info
+    projectPath: Library\metadata\06\06b2ddea74c0f1045896a55a17bd0c7f.info
+    originalPath: 
+    status: 5
+    staged: 0
+  - path: Library\metadata\48\485f116148d8a424d992a3430252566c
+    fullPath: C:\Unity Projects\Imperial vs rebel\Library\metadata\48\485f116148d8a424d992a3430252566c
+    projectPath: Library\metadata\48\485f116148d8a424d992a3430252566c
     originalPath: 
     status: 3
-    staged: 0
-  - path: Library\metadata\00\00c3c865782347f41b6358d9fba14b48
-    fullPath: C:\Unity Projects\Imperial vs rebel\Library\metadata\00\00c3c865782347f41b6358d9fba14b48
-    projectPath: Library\metadata\00\00c3c865782347f41b6358d9fba14b48
-    originalPath: 
-    status: 5
-    staged: 0
-  - path: Library\metadata\00\00c3c865782347f41b6358d9fba14b48.info
-    fullPath: C:\Unity Projects\Imperial vs rebel\Library\metadata\00\00c3c865782347f41b6358d9fba14b48.info
-    projectPath: Library\metadata\00\00c3c865782347f41b6358d9fba14b48.info
-    originalPath: 
-    status: 5
-    staged: 0
-  - path: Library\metadata\06\0626b924325d1c34cafa6b22297f4e4f
-    fullPath: C:\Unity Projects\Imperial vs rebel\Library\metadata\06\0626b924325d1c34cafa6b22297f4e4f
-    projectPath: Library\metadata\06\0626b924325d1c34cafa6b22297f4e4f
-    originalPath: 
-    status: 5
-    staged: 0
-  - path: Library\metadata\06\0626b924325d1c34cafa6b22297f4e4f.info
-    fullPath: C:\Unity Projects\Imperial vs rebel\Library\metadata\06\0626b924325d1c34cafa6b22297f4e4f.info
-    projectPath: Library\metadata\06\0626b924325d1c34cafa6b22297f4e4f.info
-    originalPath: 
-    status: 5
-    staged: 0
-  - path: Library\metadata\08\084efff1de1614c47ac92c4ce2fa8b3e
-    fullPath: C:\Unity Projects\Imperial vs rebel\Library\metadata\08\084efff1de1614c47ac92c4ce2fa8b3e
-    projectPath: Library\metadata\08\084efff1de1614c47ac92c4ce2fa8b3e
-    originalPath: 
-    status: 5
-    staged: 0
-  - path: Library\metadata\08\084efff1de1614c47ac92c4ce2fa8b3e.info
-    fullPath: C:\Unity Projects\Imperial vs rebel\Library\metadata\08\084efff1de1614c47ac92c4ce2fa8b3e.info
-    projectPath: Library\metadata\08\084efff1de1614c47ac92c4ce2fa8b3e.info
-    originalPath: 
-    status: 5
-    staged: 0
-  - path: Library\metadata\0a\0ad6f20f99271564d93962d2b51bf9b0
-    fullPath: C:\Unity Projects\Imperial vs rebel\Library\metadata\0a\0ad6f20f99271564d93962d2b51bf9b0
-    projectPath: Library\metadata\0a\0ad6f20f99271564d93962d2b51bf9b0
-    originalPath: 
-    status: 5
-    staged: 0
-  - path: Library\metadata\0a\0ad6f20f99271564d93962d2b51bf9b0.info
-    fullPath: C:\Unity Projects\Imperial vs rebel\Library\metadata\0a\0ad6f20f99271564d93962d2b51bf9b0.info
-    projectPath: Library\metadata\0a\0ad6f20f99271564d93962d2b51bf9b0.info
-    originalPath: 
-    status: 5
-    staged: 0
-  - path: Library\metadata\0b\0bc72db1e9dcb9647818df5a07871127
-    fullPath: C:\Unity Projects\Imperial vs rebel\Library\metadata\0b\0bc72db1e9dcb9647818df5a07871127
-    projectPath: Library\metadata\0b\0bc72db1e9dcb9647818df5a07871127
-    originalPath: 
-    status: 5
-    staged: 0
-  - path: Library\metadata\0b\0bc72db1e9dcb9647818df5a07871127.info
-    fullPath: C:\Unity Projects\Imperial vs rebel\Library\metadata\0b\0bc72db1e9dcb9647818df5a07871127.info
-    projectPath: Library\metadata\0b\0bc72db1e9dcb9647818df5a07871127.info
-    originalPath: 
-    status: 5
-    staged: 0
-  - path: Library\metadata\0c\0c6271a290ef75b4c97d58746c86c5b8
-    fullPath: C:\Unity Projects\Imperial vs rebel\Library\metadata\0c\0c6271a290ef75b4c97d58746c86c5b8
-    projectPath: Library\metadata\0c\0c6271a290ef75b4c97d58746c86c5b8
-    originalPath: 
-    status: 5
-    staged: 0
-  - path: Library\metadata\0c\0c6271a290ef75b4c97d58746c86c5b8.info
-    fullPath: C:\Unity Projects\Imperial vs rebel\Library\metadata\0c\0c6271a290ef75b4c97d58746c86c5b8.info
-    projectPath: Library\metadata\0c\0c6271a290ef75b4c97d58746c86c5b8.info
-    originalPath: 
-    status: 5
-    staged: 0
-  - path: Library\metadata\0d\0d0e2aad9fc8ad04ba15c42753f8b797
-    fullPath: C:\Unity Projects\Imperial vs rebel\Library\metadata\0d\0d0e2aad9fc8ad04ba15c42753f8b797
-    projectPath: Library\metadata\0d\0d0e2aad9fc8ad04ba15c42753f8b797
-    originalPath: 
-    status: 5
-    staged: 0
-  - path: Library\metadata\0d\0d0e2aad9fc8ad04ba15c42753f8b797.info
-    fullPath: C:\Unity Projects\Imperial vs rebel\Library\metadata\0d\0d0e2aad9fc8ad04ba15c42753f8b797.info
-    projectPath: Library\metadata\0d\0d0e2aad9fc8ad04ba15c42753f8b797.info
-    originalPath: 
-    status: 5
-    staged: 0
-  - path: Library\metadata\0f\0f57aeb1b8dce3342bea5c28ac17db24
-    fullPath: C:\Unity Projects\Imperial vs rebel\Library\metadata\0f\0f57aeb1b8dce3342bea5c28ac17db24
-    projectPath: Library\metadata\0f\0f57aeb1b8dce3342bea5c28ac17db24
-    originalPath: 
-    status: 5
-    staged: 0
-  - path: Library\metadata\0f\0f57aeb1b8dce3342bea5c28ac17db24.info
-    fullPath: C:\Unity Projects\Imperial vs rebel\Library\metadata\0f\0f57aeb1b8dce3342bea5c28ac17db24.info
-    projectPath: Library\metadata\0f\0f57aeb1b8dce3342bea5c28ac17db24.info
-    originalPath: 
-    status: 5
-    staged: 0
-  - path: Library\metadata\12\12877632b58d24245bbddcafc5ff1dcf
-    fullPath: C:\Unity Projects\Imperial vs rebel\Library\metadata\12\12877632b58d24245bbddcafc5ff1dcf
-    projectPath: Library\metadata\12\12877632b58d24245bbddcafc5ff1dcf
-    originalPath: 
-    status: 5
-    staged: 0
-  - path: Library\metadata\12\12877632b58d24245bbddcafc5ff1dcf.info
-    fullPath: C:\Unity Projects\Imperial vs rebel\Library\metadata\12\12877632b58d24245bbddcafc5ff1dcf.info
-    projectPath: Library\metadata\12\12877632b58d24245bbddcafc5ff1dcf.info
-    originalPath: 
-    status: 5
-    staged: 0
-  - path: Library\metadata\14\141b5bb76b8b39342a5a787acbeaabfd
-    fullPath: C:\Unity Projects\Imperial vs rebel\Library\metadata\14\141b5bb76b8b39342a5a787acbeaabfd
-    projectPath: Library\metadata\14\141b5bb76b8b39342a5a787acbeaabfd
-    originalPath: 
-    status: 5
-    staged: 0
-  - path: Library\metadata\14\141b5bb76b8b39342a5a787acbeaabfd.info
-    fullPath: C:\Unity Projects\Imperial vs rebel\Library\metadata\14\141b5bb76b8b39342a5a787acbeaabfd.info
-    projectPath: Library\metadata\14\141b5bb76b8b39342a5a787acbeaabfd.info
-    originalPath: 
-    status: 5
-    staged: 0
-  - path: Library\metadata\14\147d826ca4c5a834a9dfe5db390c47f4
-    fullPath: C:\Unity Projects\Imperial vs rebel\Library\metadata\14\147d826ca4c5a834a9dfe5db390c47f4
-    projectPath: Library\metadata\14\147d826ca4c5a834a9dfe5db390c47f4
-    originalPath: 
-    status: 5
-    staged: 0
-  - path: Library\metadata\14\147d826ca4c5a834a9dfe5db390c47f4.info
-    fullPath: C:\Unity Projects\Imperial vs rebel\Library\metadata\14\147d826ca4c5a834a9dfe5db390c47f4.info
-    projectPath: Library\metadata\14\147d826ca4c5a834a9dfe5db390c47f4.info
-    originalPath: 
-    status: 5
-    staged: 0
-  - path: Library\metadata\17\174090ae7f9eff84abe76f0ff062efac
-    fullPath: C:\Unity Projects\Imperial vs rebel\Library\metadata\17\174090ae7f9eff84abe76f0ff062efac
-    projectPath: Library\metadata\17\174090ae7f9eff84abe76f0ff062efac
-    originalPath: 
-    status: 5
-    staged: 0
-  - path: Library\metadata\17\174090ae7f9eff84abe76f0ff062efac.info
-    fullPath: C:\Unity Projects\Imperial vs rebel\Library\metadata\17\174090ae7f9eff84abe76f0ff062efac.info
-    projectPath: Library\metadata\17\174090ae7f9eff84abe76f0ff062efac.info
-    originalPath: 
-    status: 5
-    staged: 0
-  - path: Library\metadata\18\1835e4537efbdd94b93c2dd136860f1d
-    fullPath: C:\Unity Projects\Imperial vs rebel\Library\metadata\18\1835e4537efbdd94b93c2dd136860f1d
-    projectPath: Library\metadata\18\1835e4537efbdd94b93c2dd136860f1d
-    originalPath: 
-    status: 5
-    staged: 0
-  - path: Library\metadata\18\1835e4537efbdd94b93c2dd136860f1d.info
-    fullPath: C:\Unity Projects\Imperial vs rebel\Library\metadata\18\1835e4537efbdd94b93c2dd136860f1d.info
-    projectPath: Library\metadata\18\1835e4537efbdd94b93c2dd136860f1d.info
-    originalPath: 
-    status: 5
-    staged: 0
-  - path: Library\metadata\1b\1b878b2bd27dca747855179c7ca76010
-    fullPath: C:\Unity Projects\Imperial vs rebel\Library\metadata\1b\1b878b2bd27dca747855179c7ca76010
-    projectPath: Library\metadata\1b\1b878b2bd27dca747855179c7ca76010
-    originalPath: 
-    status: 5
-    staged: 0
-  - path: Library\metadata\1b\1b878b2bd27dca747855179c7ca76010.info
-    fullPath: C:\Unity Projects\Imperial vs rebel\Library\metadata\1b\1b878b2bd27dca747855179c7ca76010.info
-    projectPath: Library\metadata\1b\1b878b2bd27dca747855179c7ca76010.info
-    originalPath: 
-    status: 5
-    staged: 0
-  - path: Library\metadata\1c\1caf40fc8bebb6b43b2550c05ca791d6
-    fullPath: C:\Unity Projects\Imperial vs rebel\Library\metadata\1c\1caf40fc8bebb6b43b2550c05ca791d6
-    projectPath: Library\metadata\1c\1caf40fc8bebb6b43b2550c05ca791d6
-    originalPath: 
-    status: 5
-    staged: 0
-  - path: Library\metadata\1c\1caf40fc8bebb6b43b2550c05ca791d6.info
-    fullPath: C:\Unity Projects\Imperial vs rebel\Library\metadata\1c\1caf40fc8bebb6b43b2550c05ca791d6.info
-    projectPath: Library\metadata\1c\1caf40fc8bebb6b43b2550c05ca791d6.info
-    originalPath: 
-    status: 5
-    staged: 0
-  - path: Library\metadata\1e\1ee34fdb2d383a84e9ef60c30fc2778e
-    fullPath: C:\Unity Projects\Imperial vs rebel\Library\metadata\1e\1ee34fdb2d383a84e9ef60c30fc2778e
-    projectPath: Library\metadata\1e\1ee34fdb2d383a84e9ef60c30fc2778e
-    originalPath: 
-    status: 5
-    staged: 0
-  - path: Library\metadata\1e\1ee34fdb2d383a84e9ef60c30fc2778e.info
-    fullPath: C:\Unity Projects\Imperial vs rebel\Library\metadata\1e\1ee34fdb2d383a84e9ef60c30fc2778e.info
-    projectPath: Library\metadata\1e\1ee34fdb2d383a84e9ef60c30fc2778e.info
-    originalPath: 
-    status: 5
-    staged: 0
-  - path: Library\metadata\21\2169821f0567671499a5c10104c69c24
-    fullPath: C:\Unity Projects\Imperial vs rebel\Library\metadata\21\2169821f0567671499a5c10104c69c24
-    projectPath: Library\metadata\21\2169821f0567671499a5c10104c69c24
-    originalPath: 
-    status: 5
-    staged: 0
-  - path: Library\metadata\21\2169821f0567671499a5c10104c69c24.info
-    fullPath: C:\Unity Projects\Imperial vs rebel\Library\metadata\21\2169821f0567671499a5c10104c69c24.info
-    projectPath: Library\metadata\21\2169821f0567671499a5c10104c69c24.info
-    originalPath: 
-    status: 5
-    staged: 0
-  - path: Library\metadata\23\235a6615124795442b98c1f03500003e
-    fullPath: C:\Unity Projects\Imperial vs rebel\Library\metadata\23\235a6615124795442b98c1f03500003e
-    projectPath: Library\metadata\23\235a6615124795442b98c1f03500003e
-    originalPath: 
-    status: 5
-    staged: 0
-  - path: Library\metadata\23\235a6615124795442b98c1f03500003e.info
-    fullPath: C:\Unity Projects\Imperial vs rebel\Library\metadata\23\235a6615124795442b98c1f03500003e.info
-    projectPath: Library\metadata\23\235a6615124795442b98c1f03500003e.info
-    originalPath: 
-    status: 5
-    staged: 0
-  - path: Library\metadata\24\24edf56eb06f81748b6c139dc9ddc868
-    fullPath: C:\Unity Projects\Imperial vs rebel\Library\metadata\24\24edf56eb06f81748b6c139dc9ddc868
-    projectPath: Library\metadata\24\24edf56eb06f81748b6c139dc9ddc868
-    originalPath: 
-    status: 5
-    staged: 0
-  - path: Library\metadata\24\24edf56eb06f81748b6c139dc9ddc868.info
-    fullPath: C:\Unity Projects\Imperial vs rebel\Library\metadata\24\24edf56eb06f81748b6c139dc9ddc868.info
-    projectPath: Library\metadata\24\24edf56eb06f81748b6c139dc9ddc868.info
-    originalPath: 
-    status: 5
-    staged: 0
-  - path: Library\metadata\2b\2beb3362d4b99ed40890889c97d63cd4
-    fullPath: C:\Unity Projects\Imperial vs rebel\Library\metadata\2b\2beb3362d4b99ed40890889c97d63cd4
-    projectPath: Library\metadata\2b\2beb3362d4b99ed40890889c97d63cd4
-    originalPath: 
-    status: 5
-    staged: 0
-  - path: Library\metadata\2b\2beb3362d4b99ed40890889c97d63cd4.info
-    fullPath: C:\Unity Projects\Imperial vs rebel\Library\metadata\2b\2beb3362d4b99ed40890889c97d63cd4.info
-    projectPath: Library\metadata\2b\2beb3362d4b99ed40890889c97d63cd4.info
-    originalPath: 
-    status: 5
-    staged: 0
-  - path: Library\metadata\2c\2c1511e0ceed760459899d8803837fb3
-    fullPath: C:\Unity Projects\Imperial vs rebel\Library\metadata\2c\2c1511e0ceed760459899d8803837fb3
-    projectPath: Library\metadata\2c\2c1511e0ceed760459899d8803837fb3
-    originalPath: 
-    status: 5
-    staged: 0
-  - path: Library\metadata\2c\2c1511e0ceed760459899d8803837fb3.info
-    fullPath: C:\Unity Projects\Imperial vs rebel\Library\metadata\2c\2c1511e0ceed760459899d8803837fb3.info
-    projectPath: Library\metadata\2c\2c1511e0ceed760459899d8803837fb3.info
-    originalPath: 
-    status: 5
-    staged: 0
-  - path: Library\metadata\33\33574fa1b36c9244ebeedb7e591ed39b
-    fullPath: C:\Unity Projects\Imperial vs rebel\Library\metadata\33\33574fa1b36c9244ebeedb7e591ed39b
-    projectPath: Library\metadata\33\33574fa1b36c9244ebeedb7e591ed39b
-    originalPath: 
-    status: 5
-    staged: 0
-  - path: Library\metadata\33\33574fa1b36c9244ebeedb7e591ed39b.info
-    fullPath: C:\Unity Projects\Imperial vs rebel\Library\metadata\33\33574fa1b36c9244ebeedb7e591ed39b.info
-    projectPath: Library\metadata\33\33574fa1b36c9244ebeedb7e591ed39b.info
-    originalPath: 
-    status: 5
-    staged: 0
-  - path: Library\metadata\33\3369231b1ed7ad34e84d9240a571db81
-    fullPath: C:\Unity Projects\Imperial vs rebel\Library\metadata\33\3369231b1ed7ad34e84d9240a571db81
-    projectPath: Library\metadata\33\3369231b1ed7ad34e84d9240a571db81
-    originalPath: 
-    status: 5
-    staged: 0
-  - path: Library\metadata\33\3369231b1ed7ad34e84d9240a571db81.info
-    fullPath: C:\Unity Projects\Imperial vs rebel\Library\metadata\33\3369231b1ed7ad34e84d9240a571db81.info
-    projectPath: Library\metadata\33\3369231b1ed7ad34e84d9240a571db81.info
-    originalPath: 
-    status: 5
-    staged: 0
-  - path: Library\metadata\33\3384ba7df177ff3478c3bf190b2e65ef
-    fullPath: C:\Unity Projects\Imperial vs rebel\Library\metadata\33\3384ba7df177ff3478c3bf190b2e65ef
-    projectPath: Library\metadata\33\3384ba7df177ff3478c3bf190b2e65ef
-    originalPath: 
-    status: 5
-    staged: 0
-  - path: Library\metadata\33\3384ba7df177ff3478c3bf190b2e65ef.info
-    fullPath: C:\Unity Projects\Imperial vs rebel\Library\metadata\33\3384ba7df177ff3478c3bf190b2e65ef.info
-    projectPath: Library\metadata\33\3384ba7df177ff3478c3bf190b2e65ef.info
-    originalPath: 
-    status: 5
-    staged: 0
-  - path: Library\metadata\36\365a29a7757a91544b92d59a78390495
-    fullPath: C:\Unity Projects\Imperial vs rebel\Library\metadata\36\365a29a7757a91544b92d59a78390495
-    projectPath: Library\metadata\36\365a29a7757a91544b92d59a78390495
-    originalPath: 
-    status: 5
-    staged: 0
-  - path: Library\metadata\36\365a29a7757a91544b92d59a78390495.info
-    fullPath: C:\Unity Projects\Imperial vs rebel\Library\metadata\36\365a29a7757a91544b92d59a78390495.info
-    projectPath: Library\metadata\36\365a29a7757a91544b92d59a78390495.info
-    originalPath: 
-    status: 5
-    staged: 0
-  - path: Library\metadata\38\38d4d0ff7855e984285fbf430385b2aa
-    fullPath: C:\Unity Projects\Imperial vs rebel\Library\metadata\38\38d4d0ff7855e984285fbf430385b2aa
-    projectPath: Library\metadata\38\38d4d0ff7855e984285fbf430385b2aa
-    originalPath: 
-    status: 5
-    staged: 0
-  - path: Library\metadata\38\38d4d0ff7855e984285fbf430385b2aa.info
-    fullPath: C:\Unity Projects\Imperial vs rebel\Library\metadata\38\38d4d0ff7855e984285fbf430385b2aa.info
-    projectPath: Library\metadata\38\38d4d0ff7855e984285fbf430385b2aa.info
-    originalPath: 
-    status: 5
-    staged: 0
-  - path: Library\metadata\38\38d4d0ff7855e984285fbf430385b2aa.resource
-    fullPath: C:\Unity Projects\Imperial vs rebel\Library\metadata\38\38d4d0ff7855e984285fbf430385b2aa.resource
-    projectPath: Library\metadata\38\38d4d0ff7855e984285fbf430385b2aa.resource
-    originalPath: 
-    status: 5
-    staged: 0
-  - path: Library\metadata\3d\3d8675433a508ec47b8f895201eacf20
-    fullPath: C:\Unity Projects\Imperial vs rebel\Library\metadata\3d\3d8675433a508ec47b8f895201eacf20
-    projectPath: Library\metadata\3d\3d8675433a508ec47b8f895201eacf20
-    originalPath: 
-    status: 5
-    staged: 0
-  - path: Library\metadata\3d\3d8675433a508ec47b8f895201eacf20.info
-    fullPath: C:\Unity Projects\Imperial vs rebel\Library\metadata\3d\3d8675433a508ec47b8f895201eacf20.info
-    projectPath: Library\metadata\3d\3d8675433a508ec47b8f895201eacf20.info
-    originalPath: 
-    status: 5
-    staged: 0
-  - path: Library\metadata\3f\3f66eeca8ac36914e9ec9a716a9d9f73
-    fullPath: C:\Unity Projects\Imperial vs rebel\Library\metadata\3f\3f66eeca8ac36914e9ec9a716a9d9f73
-    projectPath: Library\metadata\3f\3f66eeca8ac36914e9ec9a716a9d9f73
-    originalPath: 
-    status: 5
-    staged: 0
-  - path: Library\metadata\3f\3f66eeca8ac36914e9ec9a716a9d9f73.info
-    fullPath: C:\Unity Projects\Imperial vs rebel\Library\metadata\3f\3f66eeca8ac36914e9ec9a716a9d9f73.info
-    projectPath: Library\metadata\3f\3f66eeca8ac36914e9ec9a716a9d9f73.info
-    originalPath: 
-    status: 5
-    staged: 0
-  - path: Library\metadata\42\42672579dbdf2c8449598d21e2c569ec
-    fullPath: C:\Unity Projects\Imperial vs rebel\Library\metadata\42\42672579dbdf2c8449598d21e2c569ec
-    projectPath: Library\metadata\42\42672579dbdf2c8449598d21e2c569ec
-    originalPath: 
-    status: 5
-    staged: 0
-  - path: Library\metadata\42\42672579dbdf2c8449598d21e2c569ec.info
-    fullPath: C:\Unity Projects\Imperial vs rebel\Library\metadata\42\42672579dbdf2c8449598d21e2c569ec.info
-    projectPath: Library\metadata\42\42672579dbdf2c8449598d21e2c569ec.info
-    originalPath: 
-    status: 5
-    staged: 0
-  - path: Library\metadata\46\46230db5e15a8284fa5de6427da7fdff
-    fullPath: C:\Unity Projects\Imperial vs rebel\Library\metadata\46\46230db5e15a8284fa5de6427da7fdff
-    projectPath: Library\metadata\46\46230db5e15a8284fa5de6427da7fdff
-    originalPath: 
-    status: 5
-    staged: 0
-  - path: Library\metadata\46\46230db5e15a8284fa5de6427da7fdff.info
-    fullPath: C:\Unity Projects\Imperial vs rebel\Library\metadata\46\46230db5e15a8284fa5de6427da7fdff.info
-    projectPath: Library\metadata\46\46230db5e15a8284fa5de6427da7fdff.info
-    originalPath: 
-    status: 5
-    staged: 0
-  - path: Library\metadata\49\49b611e658efbf443b686a4036f74fe3
-    fullPath: C:\Unity Projects\Imperial vs rebel\Library\metadata\49\49b611e658efbf443b686a4036f74fe3
-    projectPath: Library\metadata\49\49b611e658efbf443b686a4036f74fe3
-    originalPath: 
-    status: 5
-    staged: 0
-  - path: Library\metadata\49\49b611e658efbf443b686a4036f74fe3.info
-    fullPath: C:\Unity Projects\Imperial vs rebel\Library\metadata\49\49b611e658efbf443b686a4036f74fe3.info
-    projectPath: Library\metadata\49\49b611e658efbf443b686a4036f74fe3.info
-    originalPath: 
-    status: 5
-    staged: 0
-  - path: Library\metadata\4d\4db017495c69e8140a56a0e2b669e3f8
-    fullPath: C:\Unity Projects\Imperial vs rebel\Library\metadata\4d\4db017495c69e8140a56a0e2b669e3f8
-    projectPath: Library\metadata\4d\4db017495c69e8140a56a0e2b669e3f8
-    originalPath: 
-    status: 5
-    staged: 0
-  - path: Library\metadata\4d\4db017495c69e8140a56a0e2b669e3f8.info
-    fullPath: C:\Unity Projects\Imperial vs rebel\Library\metadata\4d\4db017495c69e8140a56a0e2b669e3f8.info
-    projectPath: Library\metadata\4d\4db017495c69e8140a56a0e2b669e3f8.info
-    originalPath: 
-    status: 5
-    staged: 0
-  - path: Library\metadata\4f\4fea6053a1424d44daf193f09be2d491
-    fullPath: C:\Unity Projects\Imperial vs rebel\Library\metadata\4f\4fea6053a1424d44daf193f09be2d491
-    projectPath: Library\metadata\4f\4fea6053a1424d44daf193f09be2d491
-    originalPath: 
-    status: 5
-    staged: 0
-  - path: Library\metadata\4f\4fea6053a1424d44daf193f09be2d491.info
-    fullPath: C:\Unity Projects\Imperial vs rebel\Library\metadata\4f\4fea6053a1424d44daf193f09be2d491.info
-    projectPath: Library\metadata\4f\4fea6053a1424d44daf193f09be2d491.info
-    originalPath: 
-    status: 5
-    staged: 0
-  - path: Library\metadata\51\51d21d21e8867b14194db5715c7d9608
-    fullPath: C:\Unity Projects\Imperial vs rebel\Library\metadata\51\51d21d21e8867b14194db5715c7d9608
-    projectPath: Library\metadata\51\51d21d21e8867b14194db5715c7d9608
-    originalPath: 
-    status: 5
-    staged: 0
-  - path: Library\metadata\51\51d21d21e8867b14194db5715c7d9608.info
-    fullPath: C:\Unity Projects\Imperial vs rebel\Library\metadata\51\51d21d21e8867b14194db5715c7d9608.info
-    projectPath: Library\metadata\51\51d21d21e8867b14194db5715c7d9608.info
-    originalPath: 
-    status: 5
-    staged: 0
-  - path: Library\metadata\54\5485e2f56028a3c4cb54f5caa167377e
-    fullPath: C:\Unity Projects\Imperial vs rebel\Library\metadata\54\5485e2f56028a3c4cb54f5caa167377e
-    projectPath: Library\metadata\54\5485e2f56028a3c4cb54f5caa167377e
-    originalPath: 
-    status: 5
-    staged: 0
-  - path: Library\metadata\54\5485e2f56028a3c4cb54f5caa167377e.info
-    fullPath: C:\Unity Projects\Imperial vs rebel\Library\metadata\54\5485e2f56028a3c4cb54f5caa167377e.info
-    projectPath: Library\metadata\54\5485e2f56028a3c4cb54f5caa167377e.info
-    originalPath: 
-    status: 5
-    staged: 0
-  - path: Library\metadata\5b\5b1a64ea234fb2343b8d0686c51280de
-    fullPath: C:\Unity Projects\Imperial vs rebel\Library\metadata\5b\5b1a64ea234fb2343b8d0686c51280de
-    projectPath: Library\metadata\5b\5b1a64ea234fb2343b8d0686c51280de
-    originalPath: 
-    status: 5
-    staged: 0
-  - path: Library\metadata\5b\5b1a64ea234fb2343b8d0686c51280de.info
-    fullPath: C:\Unity Projects\Imperial vs rebel\Library\metadata\5b\5b1a64ea234fb2343b8d0686c51280de.info
-    projectPath: Library\metadata\5b\5b1a64ea234fb2343b8d0686c51280de.info
-    originalPath: 
-    status: 5
-    staged: 0
-  - path: Library\metadata\5b\5b834380674bf7e48ade2f253138543f
-    fullPath: C:\Unity Projects\Imperial vs rebel\Library\metadata\5b\5b834380674bf7e48ade2f253138543f
-    projectPath: Library\metadata\5b\5b834380674bf7e48ade2f253138543f
-    originalPath: 
-    status: 5
-    staged: 0
-  - path: Library\metadata\5b\5b834380674bf7e48ade2f253138543f.info
-    fullPath: C:\Unity Projects\Imperial vs rebel\Library\metadata\5b\5b834380674bf7e48ade2f253138543f.info
-    projectPath: Library\metadata\5b\5b834380674bf7e48ade2f253138543f.info
-    originalPath: 
-    status: 5
-    staged: 0
-  - path: Library\metadata\5c\5c2d84226fbbaf94e9c1451f1c39b06a
-    fullPath: C:\Unity Projects\Imperial vs rebel\Library\metadata\5c\5c2d84226fbbaf94e9c1451f1c39b06a
-    projectPath: Library\metadata\5c\5c2d84226fbbaf94e9c1451f1c39b06a
-    originalPath: 
-    status: 5
-    staged: 0
-  - path: Library\metadata\5c\5c2d84226fbbaf94e9c1451f1c39b06a.info
-    fullPath: C:\Unity Projects\Imperial vs rebel\Library\metadata\5c\5c2d84226fbbaf94e9c1451f1c39b06a.info
-    projectPath: Library\metadata\5c\5c2d84226fbbaf94e9c1451f1c39b06a.info
-    originalPath: 
-    status: 5
-    staged: 0
-  - path: Library\metadata\5d\5d3fb8e05edcf4b41aef584ca1b0d06f
-    fullPath: C:\Unity Projects\Imperial vs rebel\Library\metadata\5d\5d3fb8e05edcf4b41aef584ca1b0d06f
-    projectPath: Library\metadata\5d\5d3fb8e05edcf4b41aef584ca1b0d06f
-    originalPath: 
-    status: 5
-    staged: 0
-  - path: Library\metadata\5d\5d3fb8e05edcf4b41aef584ca1b0d06f.info
-    fullPath: C:\Unity Projects\Imperial vs rebel\Library\metadata\5d\5d3fb8e05edcf4b41aef584ca1b0d06f.info
-    projectPath: Library\metadata\5d\5d3fb8e05edcf4b41aef584ca1b0d06f.info
-    originalPath: 
-    status: 5
-    staged: 0
-  - path: Library\metadata\5d\5d71e30febe908949a93dafb077b4ec9
-    fullPath: C:\Unity Projects\Imperial vs rebel\Library\metadata\5d\5d71e30febe908949a93dafb077b4ec9
-    projectPath: Library\metadata\5d\5d71e30febe908949a93dafb077b4ec9
-    originalPath: 
-    status: 5
-    staged: 0
-  - path: Library\metadata\5d\5d71e30febe908949a93dafb077b4ec9.info
-    fullPath: C:\Unity Projects\Imperial vs rebel\Library\metadata\5d\5d71e30febe908949a93dafb077b4ec9.info
-    projectPath: Library\metadata\5d\5d71e30febe908949a93dafb077b4ec9.info
-    originalPath: 
-    status: 5
-    staged: 0
-  - path: Library\metadata\5d\5de0781ddebb522479de12b4698f68cb
-    fullPath: C:\Unity Projects\Imperial vs rebel\Library\metadata\5d\5de0781ddebb522479de12b4698f68cb
-    projectPath: Library\metadata\5d\5de0781ddebb522479de12b4698f68cb
-    originalPath: 
-    status: 5
-    staged: 0
-  - path: Library\metadata\5d\5de0781ddebb522479de12b4698f68cb.info
-    fullPath: C:\Unity Projects\Imperial vs rebel\Library\metadata\5d\5de0781ddebb522479de12b4698f68cb.info
-    projectPath: Library\metadata\5d\5de0781ddebb522479de12b4698f68cb.info
-    originalPath: 
-    status: 5
-    staged: 0
-  - path: Library\metadata\63\63742edd796d522458d772b44affdf9b
-    fullPath: C:\Unity Projects\Imperial vs rebel\Library\metadata\63\63742edd796d522458d772b44affdf9b
-    projectPath: Library\metadata\63\63742edd796d522458d772b44affdf9b
-    originalPath: 
-    status: 5
-    staged: 0
-  - path: Library\metadata\63\63742edd796d522458d772b44affdf9b.info
-    fullPath: C:\Unity Projects\Imperial vs rebel\Library\metadata\63\63742edd796d522458d772b44affdf9b.info
-    projectPath: Library\metadata\63\63742edd796d522458d772b44affdf9b.info
-    originalPath: 
-    status: 5
-    staged: 0
-  - path: Library\metadata\65\65608af48ccbac7499009aa24a543a62
-    fullPath: C:\Unity Projects\Imperial vs rebel\Library\metadata\65\65608af48ccbac7499009aa24a543a62
-    projectPath: Library\metadata\65\65608af48ccbac7499009aa24a543a62
-    originalPath: 
-    status: 5
-    staged: 0
-  - path: Library\metadata\65\65608af48ccbac7499009aa24a543a62.info
-    fullPath: C:\Unity Projects\Imperial vs rebel\Library\metadata\65\65608af48ccbac7499009aa24a543a62.info
-    projectPath: Library\metadata\65\65608af48ccbac7499009aa24a543a62.info
-    originalPath: 
-    status: 5
-    staged: 0
-  - path: Library\metadata\66\66329fe4ad8cd59478fffdc10131da1c
-    fullPath: C:\Unity Projects\Imperial vs rebel\Library\metadata\66\66329fe4ad8cd59478fffdc10131da1c
-    projectPath: Library\metadata\66\66329fe4ad8cd59478fffdc10131da1c
-    originalPath: 
-    status: 5
-    staged: 0
-  - path: Library\metadata\66\66329fe4ad8cd59478fffdc10131da1c.info
-    fullPath: C:\Unity Projects\Imperial vs rebel\Library\metadata\66\66329fe4ad8cd59478fffdc10131da1c.info
-    projectPath: Library\metadata\66\66329fe4ad8cd59478fffdc10131da1c.info
-    originalPath: 
-    status: 5
-    staged: 0
-  - path: Library\metadata\6a\6ac1ce5a5adfd9f46adbf5b6f752a47c
-    fullPath: C:\Unity Projects\Imperial vs rebel\Library\metadata\6a\6ac1ce5a5adfd9f46adbf5b6f752a47c
-    projectPath: Library\metadata\6a\6ac1ce5a5adfd9f46adbf5b6f752a47c
-    originalPath: 
-    status: 5
-    staged: 0
-  - path: Library\metadata\6a\6ac1ce5a5adfd9f46adbf5b6f752a47c.info
-    fullPath: C:\Unity Projects\Imperial vs rebel\Library\metadata\6a\6ac1ce5a5adfd9f46adbf5b6f752a47c.info
-    projectPath: Library\metadata\6a\6ac1ce5a5adfd9f46adbf5b6f752a47c.info
-    originalPath: 
-    status: 5
-    staged: 0
-  - path: Library\metadata\6f\6f36a222811073946936cf1cdeb78f9c
-    fullPath: C:\Unity Projects\Imperial vs rebel\Library\metadata\6f\6f36a222811073946936cf1cdeb78f9c
-    projectPath: Library\metadata\6f\6f36a222811073946936cf1cdeb78f9c
-    originalPath: 
-    status: 5
-    staged: 0
-  - path: Library\metadata\6f\6f36a222811073946936cf1cdeb78f9c.info
-    fullPath: C:\Unity Projects\Imperial vs rebel\Library\metadata\6f\6f36a222811073946936cf1cdeb78f9c.info
-    projectPath: Library\metadata\6f\6f36a222811073946936cf1cdeb78f9c.info
-    originalPath: 
-    status: 5
-    staged: 0
-  - path: Library\metadata\6f\6f57e3384acd5dc45bb4df479f10466b
-    fullPath: C:\Unity Projects\Imperial vs rebel\Library\metadata\6f\6f57e3384acd5dc45bb4df479f10466b
-    projectPath: Library\metadata\6f\6f57e3384acd5dc45bb4df479f10466b
-    originalPath: 
-    status: 5
-    staged: 0
-  - path: Library\metadata\6f\6f57e3384acd5dc45bb4df479f10466b.info
-    fullPath: C:\Unity Projects\Imperial vs rebel\Library\metadata\6f\6f57e3384acd5dc45bb4df479f10466b.info
-    projectPath: Library\metadata\6f\6f57e3384acd5dc45bb4df479f10466b.info
-    originalPath: 
-    status: 5
-    staged: 0
-  - path: Library\metadata\6f\6f7604981ce4c064cbe5284c437c5699
-    fullPath: C:\Unity Projects\Imperial vs rebel\Library\metadata\6f\6f7604981ce4c064cbe5284c437c5699
-    projectPath: Library\metadata\6f\6f7604981ce4c064cbe5284c437c5699
-    originalPath: 
-    status: 5
-    staged: 0
-  - path: Library\metadata\6f\6f7604981ce4c064cbe5284c437c5699.info
-    fullPath: C:\Unity Projects\Imperial vs rebel\Library\metadata\6f\6f7604981ce4c064cbe5284c437c5699.info
-    projectPath: Library\metadata\6f\6f7604981ce4c064cbe5284c437c5699.info
-    originalPath: 
-    status: 5
-    staged: 0
-  - path: Library\metadata\6f\6f947e56d54f4274896478766fef616c
-    fullPath: C:\Unity Projects\Imperial vs rebel\Library\metadata\6f\6f947e56d54f4274896478766fef616c
-    projectPath: Library\metadata\6f\6f947e56d54f4274896478766fef616c
-    originalPath: 
-    status: 5
-    staged: 0
-  - path: Library\metadata\6f\6f947e56d54f4274896478766fef616c.info
-    fullPath: C:\Unity Projects\Imperial vs rebel\Library\metadata\6f\6f947e56d54f4274896478766fef616c.info
-    projectPath: Library\metadata\6f\6f947e56d54f4274896478766fef616c.info
-    originalPath: 
-    status: 5
-    staged: 0
-  - path: Library\metadata\71\71398ce7fbc3a5b4fa50b50bd54317a7
-    fullPath: C:\Unity Projects\Imperial vs rebel\Library\metadata\71\71398ce7fbc3a5b4fa50b50bd54317a7
-    projectPath: Library\metadata\71\71398ce7fbc3a5b4fa50b50bd54317a7
-    originalPath: 
-    status: 5
-    staged: 0
-  - path: Library\metadata\71\71398ce7fbc3a5b4fa50b50bd54317a7.info
-    fullPath: C:\Unity Projects\Imperial vs rebel\Library\metadata\71\71398ce7fbc3a5b4fa50b50bd54317a7.info
-    projectPath: Library\metadata\71\71398ce7fbc3a5b4fa50b50bd54317a7.info
-    originalPath: 
-    status: 5
-    staged: 0
-  - path: Library\metadata\7a\7a474fad7982a8e42af709db5f90c4f6
-    fullPath: C:\Unity Projects\Imperial vs rebel\Library\metadata\7a\7a474fad7982a8e42af709db5f90c4f6
-    projectPath: Library\metadata\7a\7a474fad7982a8e42af709db5f90c4f6
-    originalPath: 
-    status: 5
-    staged: 0
-  - path: Library\metadata\7a\7a474fad7982a8e42af709db5f90c4f6.info
-    fullPath: C:\Unity Projects\Imperial vs rebel\Library\metadata\7a\7a474fad7982a8e42af709db5f90c4f6.info
-    projectPath: Library\metadata\7a\7a474fad7982a8e42af709db5f90c4f6.info
-    originalPath: 
-    status: 5
-    staged: 0
-  - path: Library\metadata\7d\7d3269566d48b8447bb48d2259e28f8b
-    fullPath: C:\Unity Projects\Imperial vs rebel\Library\metadata\7d\7d3269566d48b8447bb48d2259e28f8b
-    projectPath: Library\metadata\7d\7d3269566d48b8447bb48d2259e28f8b
-    originalPath: 
-    status: 5
-    staged: 0
-  - path: Library\metadata\7d\7d3269566d48b8447bb48d2259e28f8b.info
-    fullPath: C:\Unity Projects\Imperial vs rebel\Library\metadata\7d\7d3269566d48b8447bb48d2259e28f8b.info
-    projectPath: Library\metadata\7d\7d3269566d48b8447bb48d2259e28f8b.info
-    originalPath: 
-    status: 5
-    staged: 0
-  - path: Library\metadata\7d\7d7008bf90b0d2f4c9fb16a2603655f6
-    fullPath: C:\Unity Projects\Imperial vs rebel\Library\metadata\7d\7d7008bf90b0d2f4c9fb16a2603655f6
-    projectPath: Library\metadata\7d\7d7008bf90b0d2f4c9fb16a2603655f6
-    originalPath: 
-    status: 5
-    staged: 0
-  - path: Library\metadata\7d\7d7008bf90b0d2f4c9fb16a2603655f6.info
-    fullPath: C:\Unity Projects\Imperial vs rebel\Library\metadata\7d\7d7008bf90b0d2f4c9fb16a2603655f6.info
-    projectPath: Library\metadata\7d\7d7008bf90b0d2f4c9fb16a2603655f6.info
-    originalPath: 
-    status: 5
-    staged: 0
-  - path: Library\metadata\7e\7e1741de780e13f42a448fdb5b60c1e1
-    fullPath: C:\Unity Projects\Imperial vs rebel\Library\metadata\7e\7e1741de780e13f42a448fdb5b60c1e1
-    projectPath: Library\metadata\7e\7e1741de780e13f42a448fdb5b60c1e1
-    originalPath: 
-    status: 5
-    staged: 0
-  - path: Library\metadata\7e\7e1741de780e13f42a448fdb5b60c1e1.info
-    fullPath: C:\Unity Projects\Imperial vs rebel\Library\metadata\7e\7e1741de780e13f42a448fdb5b60c1e1.info
-    projectPath: Library\metadata\7e\7e1741de780e13f42a448fdb5b60c1e1.info
-    originalPath: 
-    status: 5
-    staged: 0
-  - path: Library\metadata\82\827c9cd4a3943534f909ac6473e17288
-    fullPath: C:\Unity Projects\Imperial vs rebel\Library\metadata\82\827c9cd4a3943534f909ac6473e17288
-    projectPath: Library\metadata\82\827c9cd4a3943534f909ac6473e17288
-    originalPath: 
-    status: 5
-    staged: 0
-  - path: Library\metadata\82\827c9cd4a3943534f909ac6473e17288.info
-    fullPath: C:\Unity Projects\Imperial vs rebel\Library\metadata\82\827c9cd4a3943534f909ac6473e17288.info
-    projectPath: Library\metadata\82\827c9cd4a3943534f909ac6473e17288.info
-    originalPath: 
-    status: 5
-    staged: 0
-  - path: Library\metadata\85\85bf3be603548374ca46f521a3aa7fda
-    fullPath: C:\Unity Projects\Imperial vs rebel\Library\metadata\85\85bf3be603548374ca46f521a3aa7fda
-    projectPath: Library\metadata\85\85bf3be603548374ca46f521a3aa7fda
-    originalPath: 
-    status: 5
-    staged: 0
-  - path: Library\metadata\85\85bf3be603548374ca46f521a3aa7fda.info
-    fullPath: C:\Unity Projects\Imperial vs rebel\Library\metadata\85\85bf3be603548374ca46f521a3aa7fda.info
-    projectPath: Library\metadata\85\85bf3be603548374ca46f521a3aa7fda.info
-    originalPath: 
-    status: 5
-    staged: 0
-  - path: Library\metadata\86\86464d239792b1140aa540390279c502
-    fullPath: C:\Unity Projects\Imperial vs rebel\Library\metadata\86\86464d239792b1140aa540390279c502
-    projectPath: Library\metadata\86\86464d239792b1140aa540390279c502
-    originalPath: 
-    status: 5
-    staged: 0
-  - path: Library\metadata\86\86464d239792b1140aa540390279c502.info
-    fullPath: C:\Unity Projects\Imperial vs rebel\Library\metadata\86\86464d239792b1140aa540390279c502.info
-    projectPath: Library\metadata\86\86464d239792b1140aa540390279c502.info
-    originalPath: 
-    status: 5
-    staged: 0
-  - path: Library\metadata\87\87d6feceffd4d9541954deeb132e82b9
-    fullPath: C:\Unity Projects\Imperial vs rebel\Library\metadata\87\87d6feceffd4d9541954deeb132e82b9
-    projectPath: Library\metadata\87\87d6feceffd4d9541954deeb132e82b9
-    originalPath: 
-    status: 5
-    staged: 0
-  - path: Library\metadata\87\87d6feceffd4d9541954deeb132e82b9.info
-    fullPath: C:\Unity Projects\Imperial vs rebel\Library\metadata\87\87d6feceffd4d9541954deeb132e82b9.info
-    projectPath: Library\metadata\87\87d6feceffd4d9541954deeb132e82b9.info
-    originalPath: 
-    status: 5
-    staged: 0
-  - path: Library\metadata\8c\8cc12167aaf828e459746fbcaad3fab2
-    fullPath: C:\Unity Projects\Imperial vs rebel\Library\metadata\8c\8cc12167aaf828e459746fbcaad3fab2
-    projectPath: Library\metadata\8c\8cc12167aaf828e459746fbcaad3fab2
-    originalPath: 
-    status: 5
-    staged: 0
-  - path: Library\metadata\8c\8cc12167aaf828e459746fbcaad3fab2.info
-    fullPath: C:\Unity Projects\Imperial vs rebel\Library\metadata\8c\8cc12167aaf828e459746fbcaad3fab2.info
-    projectPath: Library\metadata\8c\8cc12167aaf828e459746fbcaad3fab2.info
-    originalPath: 
-    status: 5
-    staged: 0
-  - path: Library\metadata\8f\8fb5ebe73f3784e4fab98b15f1299e76
-    fullPath: C:\Unity Projects\Imperial vs rebel\Library\metadata\8f\8fb5ebe73f3784e4fab98b15f1299e76
-    projectPath: Library\metadata\8f\8fb5ebe73f3784e4fab98b15f1299e76
-    originalPath: 
-    status: 5
-    staged: 0
-  - path: Library\metadata\8f\8fb5ebe73f3784e4fab98b15f1299e76.info
-    fullPath: C:\Unity Projects\Imperial vs rebel\Library\metadata\8f\8fb5ebe73f3784e4fab98b15f1299e76.info
-    projectPath: Library\metadata\8f\8fb5ebe73f3784e4fab98b15f1299e76.info
-    originalPath: 
-    status: 5
-    staged: 0
-  - path: Library\metadata\95\9529ecc3d479da5499993355e6c2cb4f
-    fullPath: C:\Unity Projects\Imperial vs rebel\Library\metadata\95\9529ecc3d479da5499993355e6c2cb4f
-    projectPath: Library\metadata\95\9529ecc3d479da5499993355e6c2cb4f
-    originalPath: 
-    status: 5
-    staged: 0
-  - path: Library\metadata\95\9529ecc3d479da5499993355e6c2cb4f.info
-    fullPath: C:\Unity Projects\Imperial vs rebel\Library\metadata\95\9529ecc3d479da5499993355e6c2cb4f.info
-    projectPath: Library\metadata\95\9529ecc3d479da5499993355e6c2cb4f.info
-    originalPath: 
-    status: 5
-    staged: 0
-  - path: Library\metadata\97\9703d53e47195aa4190acd11369ccd1b
-    fullPath: C:\Unity Projects\Imperial vs rebel\Library\metadata\97\9703d53e47195aa4190acd11369ccd1b
-    projectPath: Library\metadata\97\9703d53e47195aa4190acd11369ccd1b
-    originalPath: 
-    status: 5
-    staged: 0
-  - path: Library\metadata\97\9703d53e47195aa4190acd11369ccd1b.info
-    fullPath: C:\Unity Projects\Imperial vs rebel\Library\metadata\97\9703d53e47195aa4190acd11369ccd1b.info
-    projectPath: Library\metadata\97\9703d53e47195aa4190acd11369ccd1b.info
-    originalPath: 
-    status: 5
-    staged: 0
-  - path: Library\metadata\98\9866a92691696b346901281f2b329034
-    fullPath: C:\Unity Projects\Imperial vs rebel\Library\metadata\98\9866a92691696b346901281f2b329034
-    projectPath: Library\metadata\98\9866a92691696b346901281f2b329034
-    originalPath: 
-    status: 5
-    staged: 0
-  - path: Library\metadata\98\9866a92691696b346901281f2b329034.info
-    fullPath: C:\Unity Projects\Imperial vs rebel\Library\metadata\98\9866a92691696b346901281f2b329034.info
-    projectPath: Library\metadata\98\9866a92691696b346901281f2b329034.info
-    originalPath: 
-    status: 5
-    staged: 0
-  - path: Library\metadata\99\9961032f4f02c4f41997c3ea399d2f22
-    fullPath: C:\Unity Projects\Imperial vs rebel\Library\metadata\99\9961032f4f02c4f41997c3ea399d2f22
-    projectPath: Library\metadata\99\9961032f4f02c4f41997c3ea399d2f22
-    originalPath: 
-    status: 5
-    staged: 0
-  - path: Library\metadata\99\9961032f4f02c4f41997c3ea399d2f22.info
-    fullPath: C:\Unity Projects\Imperial vs rebel\Library\metadata\99\9961032f4f02c4f41997c3ea399d2f22.info
-    projectPath: Library\metadata\99\9961032f4f02c4f41997c3ea399d2f22.info
-    originalPath: 
-    status: 5
-    staged: 0
-  - path: Library\metadata\99\999388b68bb99b44099461bfbed94358
-    fullPath: C:\Unity Projects\Imperial vs rebel\Library\metadata\99\999388b68bb99b44099461bfbed94358
-    projectPath: Library\metadata\99\999388b68bb99b44099461bfbed94358
-    originalPath: 
-    status: 5
-    staged: 0
-  - path: Library\metadata\99\999388b68bb99b44099461bfbed94358.info
-    fullPath: C:\Unity Projects\Imperial vs rebel\Library\metadata\99\999388b68bb99b44099461bfbed94358.info
-    projectPath: Library\metadata\99\999388b68bb99b44099461bfbed94358.info
-    originalPath: 
-    status: 5
-    staged: 0
-  - path: Library\metadata\9a\9ab98b66288df7b4fa182075f2f12bd6
-    fullPath: C:\Unity Projects\Imperial vs rebel\Library\metadata\9a\9ab98b66288df7b4fa182075f2f12bd6
-    projectPath: Library\metadata\9a\9ab98b66288df7b4fa182075f2f12bd6
-    originalPath: 
-    status: 5
-    staged: 0
-  - path: Library\metadata\9a\9ab98b66288df7b4fa182075f2f12bd6.info
-    fullPath: C:\Unity Projects\Imperial vs rebel\Library\metadata\9a\9ab98b66288df7b4fa182075f2f12bd6.info
-    projectPath: Library\metadata\9a\9ab98b66288df7b4fa182075f2f12bd6.info
-    originalPath: 
-    status: 5
-    staged: 0
-  - path: Library\metadata\9b\9bae725505bdaf5488cd1720e6f829bd
-    fullPath: C:\Unity Projects\Imperial vs rebel\Library\metadata\9b\9bae725505bdaf5488cd1720e6f829bd
-    projectPath: Library\metadata\9b\9bae725505bdaf5488cd1720e6f829bd
-    originalPath: 
-    status: 5
-    staged: 0
-  - path: Library\metadata\9b\9bae725505bdaf5488cd1720e6f829bd.info
-    fullPath: C:\Unity Projects\Imperial vs rebel\Library\metadata\9b\9bae725505bdaf5488cd1720e6f829bd.info
-    projectPath: Library\metadata\9b\9bae725505bdaf5488cd1720e6f829bd.info
-    originalPath: 
-    status: 5
-    staged: 0
-  - path: Library\metadata\9c\9cc96cc80c50454429965171ff4e500d
-    fullPath: C:\Unity Projects\Imperial vs rebel\Library\metadata\9c\9cc96cc80c50454429965171ff4e500d
-    projectPath: Library\metadata\9c\9cc96cc80c50454429965171ff4e500d
-    originalPath: 
-    status: 5
-    staged: 0
-  - path: Library\metadata\9c\9cc96cc80c50454429965171ff4e500d.info
-    fullPath: C:\Unity Projects\Imperial vs rebel\Library\metadata\9c\9cc96cc80c50454429965171ff4e500d.info
-    projectPath: Library\metadata\9c\9cc96cc80c50454429965171ff4e500d.info
-    originalPath: 
-    status: 5
-    staged: 0
-  - path: Library\metadata\9d\9d7c6e4896067aa4fa512a00f692ac1c
-    fullPath: C:\Unity Projects\Imperial vs rebel\Library\metadata\9d\9d7c6e4896067aa4fa512a00f692ac1c
-    projectPath: Library\metadata\9d\9d7c6e4896067aa4fa512a00f692ac1c
-    originalPath: 
-    status: 5
-    staged: 0
-  - path: Library\metadata\9d\9d7c6e4896067aa4fa512a00f692ac1c.info
-    fullPath: C:\Unity Projects\Imperial vs rebel\Library\metadata\9d\9d7c6e4896067aa4fa512a00f692ac1c.info
-    projectPath: Library\metadata\9d\9d7c6e4896067aa4fa512a00f692ac1c.info
-    originalPath: 
-    status: 5
-    staged: 0
-  - path: Library\metadata\9d\9db9336e9f17c9744847c5fe94c1650f
-    fullPath: C:\Unity Projects\Imperial vs rebel\Library\metadata\9d\9db9336e9f17c9744847c5fe94c1650f
-    projectPath: Library\metadata\9d\9db9336e9f17c9744847c5fe94c1650f
-    originalPath: 
-    status: 5
-    staged: 0
-  - path: Library\metadata\9d\9db9336e9f17c9744847c5fe94c1650f.info
-    fullPath: C:\Unity Projects\Imperial vs rebel\Library\metadata\9d\9db9336e9f17c9744847c5fe94c1650f.info
-    projectPath: Library\metadata\9d\9db9336e9f17c9744847c5fe94c1650f.info
-    originalPath: 
-    status: 5
-    staged: 0
-  - path: Library\metadata\9d\9db9336e9f17c9744847c5fe94c1650f.resource
-    fullPath: C:\Unity Projects\Imperial vs rebel\Library\metadata\9d\9db9336e9f17c9744847c5fe94c1650f.resource
-    projectPath: Library\metadata\9d\9db9336e9f17c9744847c5fe94c1650f.resource
-    originalPath: 
-    status: 5
-    staged: 0
-  - path: Library\metadata\a0\a01d24876a1472b408ba8e5f0bf3a23f
-    fullPath: C:\Unity Projects\Imperial vs rebel\Library\metadata\a0\a01d24876a1472b408ba8e5f0bf3a23f
-    projectPath: Library\metadata\a0\a01d24876a1472b408ba8e5f0bf3a23f
-    originalPath: 
-    status: 5
-    staged: 0
-  - path: Library\metadata\a0\a01d24876a1472b408ba8e5f0bf3a23f.info
-    fullPath: C:\Unity Projects\Imperial vs rebel\Library\metadata\a0\a01d24876a1472b408ba8e5f0bf3a23f.info
-    projectPath: Library\metadata\a0\a01d24876a1472b408ba8e5f0bf3a23f.info
-    originalPath: 
-    status: 5
-    staged: 0
-  - path: Library\metadata\a2\a2203213fc4dd244e90e1e9d1862c097
-    fullPath: C:\Unity Projects\Imperial vs rebel\Library\metadata\a2\a2203213fc4dd244e90e1e9d1862c097
-    projectPath: Library\metadata\a2\a2203213fc4dd244e90e1e9d1862c097
-    originalPath: 
-    status: 5
-    staged: 0
-  - path: Library\metadata\a2\a2203213fc4dd244e90e1e9d1862c097.info
-    fullPath: C:\Unity Projects\Imperial vs rebel\Library\metadata\a2\a2203213fc4dd244e90e1e9d1862c097.info
-    projectPath: Library\metadata\a2\a2203213fc4dd244e90e1e9d1862c097.info
-    originalPath: 
-    status: 5
-    staged: 0
-  - path: Library\metadata\a2\a2e9f48c8b29203419330d5a38c545e5
-    fullPath: C:\Unity Projects\Imperial vs rebel\Library\metadata\a2\a2e9f48c8b29203419330d5a38c545e5
-    projectPath: Library\metadata\a2\a2e9f48c8b29203419330d5a38c545e5
-    originalPath: 
-    status: 5
-    staged: 0
-  - path: Library\metadata\a2\a2e9f48c8b29203419330d5a38c545e5.info
-    fullPath: C:\Unity Projects\Imperial vs rebel\Library\metadata\a2\a2e9f48c8b29203419330d5a38c545e5.info
-    projectPath: Library\metadata\a2\a2e9f48c8b29203419330d5a38c545e5.info
-    originalPath: 
-    status: 5
-    staged: 0
-  - path: Library\metadata\a3\a3983c59ebf804b4abba687bd7c9e92f
-    fullPath: C:\Unity Projects\Imperial vs rebel\Library\metadata\a3\a3983c59ebf804b4abba687bd7c9e92f
-    projectPath: Library\metadata\a3\a3983c59ebf804b4abba687bd7c9e92f
-    originalPath: 
-    status: 5
-    staged: 0
-  - path: Library\metadata\a3\a3983c59ebf804b4abba687bd7c9e92f.info
-    fullPath: C:\Unity Projects\Imperial vs rebel\Library\metadata\a3\a3983c59ebf804b4abba687bd7c9e92f.info
-    projectPath: Library\metadata\a3\a3983c59ebf804b4abba687bd7c9e92f.info
-    originalPath: 
-    status: 5
-    staged: 0
-  - path: Library\metadata\a3\a3b997593a4f12c4c991490593f3b513
-    fullPath: C:\Unity Projects\Imperial vs rebel\Library\metadata\a3\a3b997593a4f12c4c991490593f3b513
-    projectPath: Library\metadata\a3\a3b997593a4f12c4c991490593f3b513
-    originalPath: 
-    status: 5
-    staged: 0
-  - path: Library\metadata\a3\a3b997593a4f12c4c991490593f3b513.info
-    fullPath: C:\Unity Projects\Imperial vs rebel\Library\metadata\a3\a3b997593a4f12c4c991490593f3b513.info
-    projectPath: Library\metadata\a3\a3b997593a4f12c4c991490593f3b513.info
-    originalPath: 
-    status: 5
-    staged: 0
-  - path: Library\metadata\a9\a94c9a7eb94ceec4a8d67a1890e22e51
-    fullPath: C:\Unity Projects\Imperial vs rebel\Library\metadata\a9\a94c9a7eb94ceec4a8d67a1890e22e51
-    projectPath: Library\metadata\a9\a94c9a7eb94ceec4a8d67a1890e22e51
-    originalPath: 
-    status: 5
-    staged: 0
-  - path: Library\metadata\a9\a94c9a7eb94ceec4a8d67a1890e22e51.info
-    fullPath: C:\Unity Projects\Imperial vs rebel\Library\metadata\a9\a94c9a7eb94ceec4a8d67a1890e22e51.info
-    projectPath: Library\metadata\a9\a94c9a7eb94ceec4a8d67a1890e22e51.info
-    originalPath: 
-    status: 5
-    staged: 0
-  - path: Library\metadata\b0\b0d860451fde0ed4f8eb280e77fd230c
-    fullPath: C:\Unity Projects\Imperial vs rebel\Library\metadata\b0\b0d860451fde0ed4f8eb280e77fd230c
-    projectPath: Library\metadata\b0\b0d860451fde0ed4f8eb280e77fd230c
-    originalPath: 
-    status: 5
-    staged: 0
-  - path: Library\metadata\b0\b0d860451fde0ed4f8eb280e77fd230c.info
-    fullPath: C:\Unity Projects\Imperial vs rebel\Library\metadata\b0\b0d860451fde0ed4f8eb280e77fd230c.info
-    projectPath: Library\metadata\b0\b0d860451fde0ed4f8eb280e77fd230c.info
-    originalPath: 
-    status: 5
-    staged: 0
-  - path: Library\metadata\b2\b297a60c0ddf0ee4dabefaf158fb097d
-    fullPath: C:\Unity Projects\Imperial vs rebel\Library\metadata\b2\b297a60c0ddf0ee4dabefaf158fb097d
-    projectPath: Library\metadata\b2\b297a60c0ddf0ee4dabefaf158fb097d
-    originalPath: 
-    status: 5
-    staged: 0
-  - path: Library\metadata\b2\b297a60c0ddf0ee4dabefaf158fb097d.info
-    fullPath: C:\Unity Projects\Imperial vs rebel\Library\metadata\b2\b297a60c0ddf0ee4dabefaf158fb097d.info
-    projectPath: Library\metadata\b2\b297a60c0ddf0ee4dabefaf158fb097d.info
-    originalPath: 
-    status: 5
-    staged: 0
-  - path: Library\metadata\b8\b821cfe117414d14ea5ad71c5b3c503f
-    fullPath: C:\Unity Projects\Imperial vs rebel\Library\metadata\b8\b821cfe117414d14ea5ad71c5b3c503f
-    projectPath: Library\metadata\b8\b821cfe117414d14ea5ad71c5b3c503f
-    originalPath: 
-    status: 5
-    staged: 0
-  - path: Library\metadata\b8\b821cfe117414d14ea5ad71c5b3c503f.info
-    fullPath: C:\Unity Projects\Imperial vs rebel\Library\metadata\b8\b821cfe117414d14ea5ad71c5b3c503f.info
-    projectPath: Library\metadata\b8\b821cfe117414d14ea5ad71c5b3c503f.info
-    originalPath: 
-    status: 5
-    staged: 0
-  - path: Library\metadata\bf\bf6c56c7f8c75ca4c99450be5aca5ace
-    fullPath: C:\Unity Projects\Imperial vs rebel\Library\metadata\bf\bf6c56c7f8c75ca4c99450be5aca5ace
-    projectPath: Library\metadata\bf\bf6c56c7f8c75ca4c99450be5aca5ace
-    originalPath: 
-    status: 5
-    staged: 0
-  - path: Library\metadata\bf\bf6c56c7f8c75ca4c99450be5aca5ace.info
-    fullPath: C:\Unity Projects\Imperial vs rebel\Library\metadata\bf\bf6c56c7f8c75ca4c99450be5aca5ace.info
-    projectPath: Library\metadata\bf\bf6c56c7f8c75ca4c99450be5aca5ace.info
-    originalPath: 
-    status: 5
-    staged: 0
-  - path: Library\metadata\c3\c3cf490d97e3a5744b6dd20a6c716ec1
-    fullPath: C:\Unity Projects\Imperial vs rebel\Library\metadata\c3\c3cf490d97e3a5744b6dd20a6c716ec1
-    projectPath: Library\metadata\c3\c3cf490d97e3a5744b6dd20a6c716ec1
-    originalPath: 
-    status: 5
-    staged: 0
-  - path: Library\metadata\c3\c3cf490d97e3a5744b6dd20a6c716ec1.info
-    fullPath: C:\Unity Projects\Imperial vs rebel\Library\metadata\c3\c3cf490d97e3a5744b6dd20a6c716ec1.info
-    projectPath: Library\metadata\c3\c3cf490d97e3a5744b6dd20a6c716ec1.info
-    originalPath: 
-    status: 5
-    staged: 0
-  - path: Library\metadata\c7\c7e9ae087ac710a4980ed418c192e2fb
-    fullPath: C:\Unity Projects\Imperial vs rebel\Library\metadata\c7\c7e9ae087ac710a4980ed418c192e2fb
-    projectPath: Library\metadata\c7\c7e9ae087ac710a4980ed418c192e2fb
-    originalPath: 
-    status: 5
-    staged: 0
-  - path: Library\metadata\c7\c7e9ae087ac710a4980ed418c192e2fb.info
-    fullPath: C:\Unity Projects\Imperial vs rebel\Library\metadata\c7\c7e9ae087ac710a4980ed418c192e2fb.info
-    projectPath: Library\metadata\c7\c7e9ae087ac710a4980ed418c192e2fb.info
-    originalPath: 
-    status: 5
-    staged: 0
-  - path: Library\metadata\cd\cd707c1f484f43249bab272ac76a0174
-    fullPath: C:\Unity Projects\Imperial vs rebel\Library\metadata\cd\cd707c1f484f43249bab272ac76a0174
-    projectPath: Library\metadata\cd\cd707c1f484f43249bab272ac76a0174
-    originalPath: 
-    status: 5
-    staged: 0
-  - path: Library\metadata\cd\cd707c1f484f43249bab272ac76a0174.info
-    fullPath: C:\Unity Projects\Imperial vs rebel\Library\metadata\cd\cd707c1f484f43249bab272ac76a0174.info
-    projectPath: Library\metadata\cd\cd707c1f484f43249bab272ac76a0174.info
-    originalPath: 
-    status: 5
-    staged: 0
-  - path: Library\metadata\ce\ced5200711551cd44bb81d26bae26f61
-    fullPath: C:\Unity Projects\Imperial vs rebel\Library\metadata\ce\ced5200711551cd44bb81d26bae26f61
-    projectPath: Library\metadata\ce\ced5200711551cd44bb81d26bae26f61
-    originalPath: 
-    status: 5
-    staged: 0
-  - path: Library\metadata\ce\ced5200711551cd44bb81d26bae26f61.info
-    fullPath: C:\Unity Projects\Imperial vs rebel\Library\metadata\ce\ced5200711551cd44bb81d26bae26f61.info
-    projectPath: Library\metadata\ce\ced5200711551cd44bb81d26bae26f61.info
-    originalPath: 
-    status: 5
-    staged: 0
-  - path: Library\metadata\d0\d0d63a75fc3907d4a8482c13096e4fe0
-    fullPath: C:\Unity Projects\Imperial vs rebel\Library\metadata\d0\d0d63a75fc3907d4a8482c13096e4fe0
-    projectPath: Library\metadata\d0\d0d63a75fc3907d4a8482c13096e4fe0
-    originalPath: 
-    status: 5
-    staged: 0
-  - path: Library\metadata\d0\d0d63a75fc3907d4a8482c13096e4fe0.info
-    fullPath: C:\Unity Projects\Imperial vs rebel\Library\metadata\d0\d0d63a75fc3907d4a8482c13096e4fe0.info
-    projectPath: Library\metadata\d0\d0d63a75fc3907d4a8482c13096e4fe0.info
-    originalPath: 
-    status: 5
-    staged: 0
-  - path: Library\metadata\d1\d1f3f2bdf792f6f47a2e3456646041e5
-    fullPath: C:\Unity Projects\Imperial vs rebel\Library\metadata\d1\d1f3f2bdf792f6f47a2e3456646041e5
-    projectPath: Library\metadata\d1\d1f3f2bdf792f6f47a2e3456646041e5
-    originalPath: 
-    status: 5
-    staged: 0
-  - path: Library\metadata\d1\d1f3f2bdf792f6f47a2e3456646041e5.info
-    fullPath: C:\Unity Projects\Imperial vs rebel\Library\metadata\d1\d1f3f2bdf792f6f47a2e3456646041e5.info
-    projectPath: Library\metadata\d1\d1f3f2bdf792f6f47a2e3456646041e5.info
-    originalPath: 
-    status: 5
-    staged: 0
-  - path: Library\metadata\d3\d378ff11c42566d46b0b11cd91eca3a3
-    fullPath: C:\Unity Projects\Imperial vs rebel\Library\metadata\d3\d378ff11c42566d46b0b11cd91eca3a3
-    projectPath: Library\metadata\d3\d378ff11c42566d46b0b11cd91eca3a3
-    originalPath: 
-    status: 5
-    staged: 0
-  - path: Library\metadata\d3\d378ff11c42566d46b0b11cd91eca3a3.info
-    fullPath: C:\Unity Projects\Imperial vs rebel\Library\metadata\d3\d378ff11c42566d46b0b11cd91eca3a3.info
-    projectPath: Library\metadata\d3\d378ff11c42566d46b0b11cd91eca3a3.info
-    originalPath: 
-    status: 5
-    staged: 0
-  - path: Library\metadata\d5\d5b08f0e43171dd468f4fed8bb5d0cea
-    fullPath: C:\Unity Projects\Imperial vs rebel\Library\metadata\d5\d5b08f0e43171dd468f4fed8bb5d0cea
-    projectPath: Library\metadata\d5\d5b08f0e43171dd468f4fed8bb5d0cea
-    originalPath: 
-    status: 5
-    staged: 0
-  - path: Library\metadata\d5\d5b08f0e43171dd468f4fed8bb5d0cea.info
-    fullPath: C:\Unity Projects\Imperial vs rebel\Library\metadata\d5\d5b08f0e43171dd468f4fed8bb5d0cea.info
-    projectPath: Library\metadata\d5\d5b08f0e43171dd468f4fed8bb5d0cea.info
-    originalPath: 
-    status: 5
-    staged: 0
-  - path: Library\metadata\d7\d7e2d3dc5a522e647b5867a0495194b9
-    fullPath: C:\Unity Projects\Imperial vs rebel\Library\metadata\d7\d7e2d3dc5a522e647b5867a0495194b9
-    projectPath: Library\metadata\d7\d7e2d3dc5a522e647b5867a0495194b9
-    originalPath: 
-    status: 5
-    staged: 0
-  - path: Library\metadata\d7\d7e2d3dc5a522e647b5867a0495194b9.info
-    fullPath: C:\Unity Projects\Imperial vs rebel\Library\metadata\d7\d7e2d3dc5a522e647b5867a0495194b9.info
-    projectPath: Library\metadata\d7\d7e2d3dc5a522e647b5867a0495194b9.info
-    originalPath: 
-    status: 5
-    staged: 0
-  - path: Library\metadata\da\da369a9e24c14b04da8e0be4d9fbee0c
-    fullPath: C:\Unity Projects\Imperial vs rebel\Library\metadata\da\da369a9e24c14b04da8e0be4d9fbee0c
-    projectPath: Library\metadata\da\da369a9e24c14b04da8e0be4d9fbee0c
-    originalPath: 
-    status: 5
-    staged: 0
-  - path: Library\metadata\da\da369a9e24c14b04da8e0be4d9fbee0c.info
-    fullPath: C:\Unity Projects\Imperial vs rebel\Library\metadata\da\da369a9e24c14b04da8e0be4d9fbee0c.info
-    projectPath: Library\metadata\da\da369a9e24c14b04da8e0be4d9fbee0c.info
-    originalPath: 
-    status: 5
-    staged: 0
-  - path: Library\metadata\e4\e4f1fee3de32377429fd1348fae62b10
-    fullPath: C:\Unity Projects\Imperial vs rebel\Library\metadata\e4\e4f1fee3de32377429fd1348fae62b10
-    projectPath: Library\metadata\e4\e4f1fee3de32377429fd1348fae62b10
-    originalPath: 
-    status: 5
-    staged: 0
-  - path: Library\metadata\e4\e4f1fee3de32377429fd1348fae62b10.info
-    fullPath: C:\Unity Projects\Imperial vs rebel\Library\metadata\e4\e4f1fee3de32377429fd1348fae62b10.info
-    projectPath: Library\metadata\e4\e4f1fee3de32377429fd1348fae62b10.info
-    originalPath: 
-    status: 5
-    staged: 0
-  - path: Library\metadata\ea\ea5873cfd9158664f89459f0c9e1d853
-    fullPath: C:\Unity Projects\Imperial vs rebel\Library\metadata\ea\ea5873cfd9158664f89459f0c9e1d853
-    projectPath: Library\metadata\ea\ea5873cfd9158664f89459f0c9e1d853
-    originalPath: 
-    status: 5
-    staged: 0
-  - path: Library\metadata\ea\ea5873cfd9158664f89459f0c9e1d853.info
-    fullPath: C:\Unity Projects\Imperial vs rebel\Library\metadata\ea\ea5873cfd9158664f89459f0c9e1d853.info
-    projectPath: Library\metadata\ea\ea5873cfd9158664f89459f0c9e1d853.info
-    originalPath: 
-    status: 5
-    staged: 0
-  - path: Library\metadata\eb\eb5f6e2757c821940b69cf1456f7865a
-    fullPath: C:\Unity Projects\Imperial vs rebel\Library\metadata\eb\eb5f6e2757c821940b69cf1456f7865a
-    projectPath: Library\metadata\eb\eb5f6e2757c821940b69cf1456f7865a
-    originalPath: 
-    status: 5
-    staged: 0
-  - path: Library\metadata\eb\eb5f6e2757c821940b69cf1456f7865a.info
-    fullPath: C:\Unity Projects\Imperial vs rebel\Library\metadata\eb\eb5f6e2757c821940b69cf1456f7865a.info
-    projectPath: Library\metadata\eb\eb5f6e2757c821940b69cf1456f7865a.info
-    originalPath: 
-    status: 5
-    staged: 0
-  - path: Library\metadata\ef\ef1216aa37a0cc249a6a6f5abbd25665
-    fullPath: C:\Unity Projects\Imperial vs rebel\Library\metadata\ef\ef1216aa37a0cc249a6a6f5abbd25665
-    projectPath: Library\metadata\ef\ef1216aa37a0cc249a6a6f5abbd25665
-    originalPath: 
-    status: 5
-    staged: 0
-  - path: Library\metadata\ef\ef1216aa37a0cc249a6a6f5abbd25665.info
-    fullPath: C:\Unity Projects\Imperial vs rebel\Library\metadata\ef\ef1216aa37a0cc249a6a6f5abbd25665.info
-    projectPath: Library\metadata\ef\ef1216aa37a0cc249a6a6f5abbd25665.info
-    originalPath: 
-    status: 5
-    staged: 0
-  - path: Library\metadata\f1\f1965b3f8523c0248b6cde83beae64b6
-    fullPath: C:\Unity Projects\Imperial vs rebel\Library\metadata\f1\f1965b3f8523c0248b6cde83beae64b6
-    projectPath: Library\metadata\f1\f1965b3f8523c0248b6cde83beae64b6
-    originalPath: 
-    status: 5
-    staged: 0
-  - path: Library\metadata\f1\f1965b3f8523c0248b6cde83beae64b6.info
-    fullPath: C:\Unity Projects\Imperial vs rebel\Library\metadata\f1\f1965b3f8523c0248b6cde83beae64b6.info
-    projectPath: Library\metadata\f1\f1965b3f8523c0248b6cde83beae64b6.info
-    originalPath: 
-    status: 5
-    staged: 0
-  - path: Library\metadata\f1\f1fa78c409ee9704598f300b09f6117d
-    fullPath: C:\Unity Projects\Imperial vs rebel\Library\metadata\f1\f1fa78c409ee9704598f300b09f6117d
-    projectPath: Library\metadata\f1\f1fa78c409ee9704598f300b09f6117d
-    originalPath: 
-    status: 5
-    staged: 0
-  - path: Library\metadata\f1\f1fa78c409ee9704598f300b09f6117d.info
-    fullPath: C:\Unity Projects\Imperial vs rebel\Library\metadata\f1\f1fa78c409ee9704598f300b09f6117d.info
-    projectPath: Library\metadata\f1\f1fa78c409ee9704598f300b09f6117d.info
-    originalPath: 
-    status: 5
-    staged: 0
-  - path: Library\metadata\f1\f1fa78c409ee9704598f300b09f6117d.resource
-    fullPath: C:\Unity Projects\Imperial vs rebel\Library\metadata\f1\f1fa78c409ee9704598f300b09f6117d.resource
-    projectPath: Library\metadata\f1\f1fa78c409ee9704598f300b09f6117d.resource
-    originalPath: 
-    status: 5
-    staged: 0
-  - path: Library\metadata\f5\f588d850485d0ae479d73cf3bd0b7b00
-    fullPath: C:\Unity Projects\Imperial vs rebel\Library\metadata\f5\f588d850485d0ae479d73cf3bd0b7b00
-    projectPath: Library\metadata\f5\f588d850485d0ae479d73cf3bd0b7b00
-    originalPath: 
-    status: 5
-    staged: 0
-  - path: Library\metadata\f5\f588d850485d0ae479d73cf3bd0b7b00.info
-    fullPath: C:\Unity Projects\Imperial vs rebel\Library\metadata\f5\f588d850485d0ae479d73cf3bd0b7b00.info
-    projectPath: Library\metadata\f5\f588d850485d0ae479d73cf3bd0b7b00.info
-    originalPath: 
-    status: 5
-    staged: 0
-  - path: Library\metadata\f5\f5a209142cf260f4a96ca747e0e4dadf
-    fullPath: C:\Unity Projects\Imperial vs rebel\Library\metadata\f5\f5a209142cf260f4a96ca747e0e4dadf
-    projectPath: Library\metadata\f5\f5a209142cf260f4a96ca747e0e4dadf
-    originalPath: 
-    status: 5
-    staged: 0
-  - path: Library\metadata\f5\f5a209142cf260f4a96ca747e0e4dadf.info
-    fullPath: C:\Unity Projects\Imperial vs rebel\Library\metadata\f5\f5a209142cf260f4a96ca747e0e4dadf.info
-    projectPath: Library\metadata\f5\f5a209142cf260f4a96ca747e0e4dadf.info
-    originalPath: 
-    status: 5
-    staged: 0
-  - path: Library\metadata\f7\f7c27487b4792e640b8816a7e0e2f5dd
-    fullPath: C:\Unity Projects\Imperial vs rebel\Library\metadata\f7\f7c27487b4792e640b8816a7e0e2f5dd
-    projectPath: Library\metadata\f7\f7c27487b4792e640b8816a7e0e2f5dd
-    originalPath: 
-    status: 5
-    staged: 0
-  - path: Library\metadata\f7\f7c27487b4792e640b8816a7e0e2f5dd.info
-    fullPath: C:\Unity Projects\Imperial vs rebel\Library\metadata\f7\f7c27487b4792e640b8816a7e0e2f5dd.info
-    projectPath: Library\metadata\f7\f7c27487b4792e640b8816a7e0e2f5dd.info
-    originalPath: 
-    status: 5
-    staged: 0
-  - path: Library\metadata\fa\fa00388a11c6f2a42b43db5b110f616b
-    fullPath: C:\Unity Projects\Imperial vs rebel\Library\metadata\fa\fa00388a11c6f2a42b43db5b110f616b
-    projectPath: Library\metadata\fa\fa00388a11c6f2a42b43db5b110f616b
-    originalPath: 
-    status: 5
-    staged: 0
-  - path: Library\metadata\fa\fa00388a11c6f2a42b43db5b110f616b.info
-    fullPath: C:\Unity Projects\Imperial vs rebel\Library\metadata\fa\fa00388a11c6f2a42b43db5b110f616b.info
-    projectPath: Library\metadata\fa\fa00388a11c6f2a42b43db5b110f616b.info
-    originalPath: 
-    status: 5
-    staged: 0
-  - path: Library\metadata\fb\fb9e837aae6395d48b1182bee201f814
-    fullPath: C:\Unity Projects\Imperial vs rebel\Library\metadata\fb\fb9e837aae6395d48b1182bee201f814
-    projectPath: Library\metadata\fb\fb9e837aae6395d48b1182bee201f814
-    originalPath: 
-    status: 5
-    staged: 0
-  - path: Library\metadata\fb\fb9e837aae6395d48b1182bee201f814.info
-    fullPath: C:\Unity Projects\Imperial vs rebel\Library\metadata\fb\fb9e837aae6395d48b1182bee201f814.info
-    projectPath: Library\metadata\fb\fb9e837aae6395d48b1182bee201f814.info
-    originalPath: 
-    status: 5
     staged: 0
   - path: Library\ScriptAssemblies\Assembly-CSharp.dll
     fullPath: C:\Unity Projects\Imperial vs rebel\Library\ScriptAssemblies\Assembly-CSharp.dll
@@ -1306,23 +130,11 @@ MonoBehaviour:
     originalPath: 
     status: 3
     staged: 0
-  - path: Library\ScriptAssemblies\Assembly-CSharp-Editor-firstpass.dll
-    fullPath: C:\Unity Projects\Imperial vs rebel\Library\ScriptAssemblies\Assembly-CSharp-Editor-firstpass.dll
-    projectPath: Library\ScriptAssemblies\Assembly-CSharp-Editor-firstpass.dll
+  - path: Library\ScriptAssemblies\Assembly-CSharp.pdb
+    fullPath: C:\Unity Projects\Imperial vs rebel\Library\ScriptAssemblies\Assembly-CSharp.pdb
+    projectPath: Library\ScriptAssemblies\Assembly-CSharp.pdb
     originalPath: 
     status: 3
-    staged: 0
-  - path: Library\ScriptAssemblies\Assembly-CSharp-firstpass.dll
-    fullPath: C:\Unity Projects\Imperial vs rebel\Library\ScriptAssemblies\Assembly-CSharp-firstpass.dll
-    projectPath: Library\ScriptAssemblies\Assembly-CSharp-firstpass.dll
-    originalPath: 
-    status: 5
-    staged: 0
-  - path: Library\ScriptAssemblies\Assembly-CSharp-firstpass.pdb
-    fullPath: C:\Unity Projects\Imperial vs rebel\Library\ScriptAssemblies\Assembly-CSharp-firstpass.pdb
-    projectPath: Library\ScriptAssemblies\Assembly-CSharp-firstpass.pdb
-    originalPath: 
-    status: 5
     staged: 0
   - path: Library\StateCache\Hierarchy\b5f9e0-mainStage.json
     fullPath: C:\Unity Projects\Imperial vs rebel\Library\StateCache\Hierarchy\b5f9e0-mainStage.json
@@ -1330,15 +142,15 @@ MonoBehaviour:
     originalPath: 
     status: 3
     staged: 0
-  - path: obj\Debug\Assembly-CSharp.csproj.CoreCompileInputs.cache
-    fullPath: C:\Unity Projects\Imperial vs rebel\obj\Debug\Assembly-CSharp.csproj.CoreCompileInputs.cache
-    projectPath: obj\Debug\Assembly-CSharp.csproj.CoreCompileInputs.cache
+  - path: Library\StateCache\SceneView\cc7b53-mainStage.json
+    fullPath: C:\Unity Projects\Imperial vs rebel\Library\StateCache\SceneView\cc7b53-mainStage.json
+    projectPath: Library\StateCache\SceneView\cc7b53-mainStage.json
     originalPath: 
     status: 3
     staged: 0
-  - path: obj\Debug\Assembly-CSharp-Editor-firstpass.csproj.CoreCompileInputs.cache
-    fullPath: C:\Unity Projects\Imperial vs rebel\obj\Debug\Assembly-CSharp-Editor-firstpass.csproj.CoreCompileInputs.cache
-    projectPath: obj\Debug\Assembly-CSharp-Editor-firstpass.csproj.CoreCompileInputs.cache
+  - path: ProjectSettings\InputManager.asset
+    fullPath: C:\Unity Projects\Imperial vs rebel\ProjectSettings\InputManager.asset
+    projectPath: ProjectSettings\InputManager.asset
     originalPath: 
     status: 3
     staged: 0
@@ -1459,6 +271,12 @@ MonoBehaviour:
   - path: Temp\UnityTempFile-1d353ba1833060648ab4d42823394aa9
     fullPath: C:\Unity Projects\Imperial vs rebel\Temp\UnityTempFile-1d353ba1833060648ab4d42823394aa9
     projectPath: Temp\UnityTempFile-1d353ba1833060648ab4d42823394aa9
+    originalPath: 
+    status: 1
+    staged: 0
+  - path: Temp\UnityTempFile-2225e4a85c3ca874ba8e3ed947b1d7a4
+    fullPath: C:\Unity Projects\Imperial vs rebel\Temp\UnityTempFile-2225e4a85c3ca874ba8e3ed947b1d7a4
+    projectPath: Temp\UnityTempFile-2225e4a85c3ca874ba8e3ed947b1d7a4
     originalPath: 
     status: 1
     staged: 0
@@ -1816,12 +634,6 @@ MonoBehaviour:
     originalPath: 
     status: 1
     staged: 0
-  - path: Temp\UnityTempFile-9ed5cabe2a305474cbdaa48e9e86207c
-    fullPath: C:\Unity Projects\Imperial vs rebel\Temp\UnityTempFile-9ed5cabe2a305474cbdaa48e9e86207c
-    projectPath: Temp\UnityTempFile-9ed5cabe2a305474cbdaa48e9e86207c
-    originalPath: 
-    status: 1
-    staged: 0
   - path: Temp\UnityTempFile-a2104a407820bcd41a510e8bef8dfdd8
     fullPath: C:\Unity Projects\Imperial vs rebel\Temp\UnityTempFile-a2104a407820bcd41a510e8bef8dfdd8
     projectPath: Temp\UnityTempFile-a2104a407820bcd41a510e8bef8dfdd8
@@ -1960,6 +772,12 @@ MonoBehaviour:
     originalPath: 
     status: 1
     staged: 0
+  - path: Temp\UnityTempFile-ee50d66630887fd4daebe7587abbbd41
+    fullPath: C:\Unity Projects\Imperial vs rebel\Temp\UnityTempFile-ee50d66630887fd4daebe7587abbbd41
+    projectPath: Temp\UnityTempFile-ee50d66630887fd4daebe7587abbbd41
+    originalPath: 
+    status: 1
+    staged: 0
   - path: Temp\UnityTempFile-f22dc33daad85b44cbdf84d5f10d85c4
     fullPath: C:\Unity Projects\Imperial vs rebel\Temp\UnityTempFile-f22dc33daad85b44cbdf84d5f10d85c4
     projectPath: Temp\UnityTempFile-f22dc33daad85b44cbdf84d5f10d85c4
@@ -1981,12 +799,6 @@ MonoBehaviour:
   - path: Temp\UnityTempFile-ffdbfbe720741a84880e1c0ba333814c
     fullPath: C:\Unity Projects\Imperial vs rebel\Temp\UnityTempFile-ffdbfbe720741a84880e1c0ba333814c
     projectPath: Temp\UnityTempFile-ffdbfbe720741a84880e1c0ba333814c
-    originalPath: 
-    status: 1
-    staged: 0
-  - path: Tron Games.sln
-    fullPath: C:\Unity Projects\Imperial vs rebel\Tron Games.sln
-    projectPath: Tron Games.sln
     originalPath: 
     status: 1
     staged: 0
