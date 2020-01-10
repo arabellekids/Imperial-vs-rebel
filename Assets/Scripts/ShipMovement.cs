@@ -4,6 +4,8 @@ using UnityEngine;
 
 public class ShipMovement : MonoBehaviour
 {
+    public int playerNum;
+
     //movement variables
     public float thrust = 2;
     public float torque = 1;
@@ -36,9 +38,9 @@ public class ShipMovement : MonoBehaviour
 
     private void FixedUpdate()
     {
-        roll = Input.GetAxis("Horizontal");
-        pitch = Input.GetAxis("Vertical");
-        throttle = Input.GetAxis("Throttle");
+        roll = Input.GetAxis("Horizontal"+playerNum);
+        pitch = Input.GetAxis("Vertical" + playerNum);
+        throttle = Input.GetAxis("Throttle" + playerNum);
 
         rb.AddRelativeTorque(-Vector3.back * torque * roll*300f);
         rb.AddRelativeTorque(Vector3.right * torque * pitch*200f);
@@ -51,16 +53,6 @@ public class ShipMovement : MonoBehaviour
 
     void Fire()
     {
-        if (Input.GetAxis("Fire2") != 0)
-        {
-
-            for (var i = 0; i < laserSpawnPoints.Length; i++)
-            {
-                Instantiate(laser, laserSpawnPoints[i].transform.position, laserSpawnPoints[i].transform.rotation, null);
-            }
-        }
-        else
-        {
             Instantiate(laser, laserSpawnPoints[laserpoint].transform.position, laserSpawnPoints[laserpoint].transform.rotation, null);
             laserpoint++;
             if (laserpoint >= laserSpawnPoints.Length)
@@ -68,7 +60,6 @@ public class ShipMovement : MonoBehaviour
                 laserpoint = 0;
             }
 
-        }
     }
     void SetCursorLock(bool value)
     {
@@ -114,7 +105,7 @@ public class ShipMovement : MonoBehaviour
     void Update()
     {
 
-        if (Input.GetAxis("Toggle wings") != 0 && timer >= shotRate)
+        if (Input.GetAxis("Toggle wings" + playerNum) != 0 && timer >= shotRate)
         {
             anim.SetBool("Toggle wings", !toggleWings);
             toggleWings = !toggleWings;
@@ -140,7 +131,7 @@ public class ShipMovement : MonoBehaviour
             //}
         //}
         timer += Time.deltaTime;
-        fire = Input.GetAxis("Fire1");
+        fire = Input.GetAxis("Fire" + playerNum);
         if (fire != 0 && timer >= shotRate / laserSpawnPoints.Length)
         {
             timer = 0;

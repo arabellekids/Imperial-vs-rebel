@@ -4,8 +4,9 @@ using UnityEngine;
 
 public class EnemyAi : MonoBehaviour
 {
-    public float keepDist=100;
+    public float AggroRange =100;
     public float thrust = 10;
+    public float keepDist = 10;
 
     Rigidbody rb;
     Transform player;
@@ -22,10 +23,18 @@ public class EnemyAi : MonoBehaviour
     {
         var toPlayer = player.position - transform.position;
         var toPlayerDistance = toPlayer.magnitude;
-        if (toPlayerDistance <= keepDist)
+        if(toPlayerDistance> AggroRange)
+        {
+            rb.AddForce(transform.forward*(thrust/2),ForceMode.Acceleration);
+        }
+        if (toPlayerDistance <= AggroRange)
         {
             transform.LookAt(toPlayer);
-            rb.AddForce((toPlayer/ toPlayerDistance) * thrust, ForceMode.Acceleration);
+            if(toPlayerDistance > keepDist)
+            {
+                rb.AddForce((toPlayer / toPlayerDistance) * thrust, ForceMode.Acceleration);
+            }
+            
         }
     }
 }

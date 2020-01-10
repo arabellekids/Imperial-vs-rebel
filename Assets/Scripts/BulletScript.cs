@@ -34,10 +34,7 @@ public class BulletScript : MonoBehaviour
             Health health = other.GetComponent<Health>();
             health.takedamage(dmg);
         }
-        if(other.tag != "Player")
-        {
-            Destroy(gameObject);
-        }
+        Destroy(gameObject);
         
     }
 }
