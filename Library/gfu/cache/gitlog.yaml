@@ -13,9 +13,159 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   cacheType: 3
-  lastUpdatedAtString: 2020-01-09T19:38:39.628-05:00
+  lastUpdatedAtString: 2020-01-09T20:12:40.563-05:00
   initializedAtString: 2020-01-09T15:20:04.739-05:00
   log:
+  - commitID: 22d085cebb2cfb9c855445328aab512ade96d922
+    mergeA: 
+    mergeB: 
+    authorName: Aaron Smith
+    authorEmail: arabellekids@gmail.com
+    commitEmail: arabellekids@gmail.com
+    commitName: Aaron Smith
+    summary: working on firing
+    description: 
+    timeString: 2020-01-09T20:12:20.000-05:00
+    commitTimeString: 2020-01-09T20:12:20.000-05:00
+    changes:
+    - path: .vs\Imperial vs rebel\v16\.suo
+      fullPath: C:\Unity Projects\Imperial vs rebel\.vs\Imperial vs rebel\v16\.suo
+      projectPath: .vs\Imperial vs rebel\v16\.suo
+      originalPath: 
+      status: 3
+      staged: 0
+    - path: .vs\Imperial vs rebel\v16\Server\sqlite3\storage.ide
+      fullPath: C:\Unity Projects\Imperial vs rebel\.vs\Imperial vs rebel\v16\Server\sqlite3\storage.ide
+      projectPath: .vs\Imperial vs rebel\v16\Server\sqlite3\storage.ide
+      originalPath: 
+      status: 3
+      staged: 0
+    - path: Assembly-CSharp-Editor-firstpass.csproj
+      fullPath: C:\Unity Projects\Imperial vs rebel\Assembly-CSharp-Editor-firstpass.csproj
+      projectPath: Assembly-CSharp-Editor-firstpass.csproj
+      originalPath: 
+      status: 3
+      staged: 0
+    - path: Assembly-CSharp.csproj
+      fullPath: C:\Unity Projects\Imperial vs rebel\Assembly-CSharp.csproj
+      projectPath: Assembly-CSharp.csproj
+      originalPath: 
+      status: 3
+      staged: 0
+    - path: Assets\PlayerShip.controller
+      fullPath: C:\Unity Projects\Imperial vs rebel\Assets\PlayerShip.controller
+      projectPath: Assets\PlayerShip.controller
+      originalPath: 
+      status: 5
+      staged: 0
+    - path: Assets\PlayerShip.controller.meta
+      fullPath: C:\Unity Projects\Imperial vs rebel\Assets\PlayerShip.controller.meta
+      projectPath: Assets\PlayerShip.controller.meta
+      originalPath: 
+      status: 5
+      staged: 0
+    - path: Assets\Scenes\Space Scene.unity
+      fullPath: C:\Unity Projects\Imperial vs rebel\Assets\Scenes\Space Scene.unity
+      projectPath: Assets\Scenes\Space Scene.unity
+      originalPath: 
+      status: 3
+      staged: 0
+    - path: Assets\Scripts\ShipMovement.cs
+      fullPath: C:\Unity Projects\Imperial vs rebel\Assets\Scripts\ShipMovement.cs
+      projectPath: Assets\Scripts\ShipMovement.cs
+      originalPath: 
+      status: 3
+      staged: 0
+    - path: Library\CurrentMaximizeLayout.dwlt
+      fullPath: C:\Unity Projects\Imperial vs rebel\Library\CurrentMaximizeLayout.dwlt
+      projectPath: Library\CurrentMaximizeLayout.dwlt
+      originalPath: 
+      status: 3
+      staged: 0
+    - path: Library\ScriptAssemblies\Assembly-CSharp.dll
+      fullPath: C:\Unity Projects\Imperial vs rebel\Library\ScriptAssemblies\Assembly-CSharp.dll
+      projectPath: Library\ScriptAssemblies\Assembly-CSharp.dll
+      originalPath: 
+      status: 3
+      staged: 0
+    - path: Library\ScriptAssemblies\Assembly-CSharp.pdb
+      fullPath: C:\Unity Projects\Imperial vs rebel\Library\ScriptAssemblies\Assembly-CSharp.pdb
+      projectPath: Library\ScriptAssemblies\Assembly-CSharp.pdb
+      originalPath: 
+      status: 3
+      staged: 0
+    - path: Library\StateCache\Hierarchy\b5f9e0-mainStage.json
+      fullPath: C:\Unity Projects\Imperial vs rebel\Library\StateCache\Hierarchy\b5f9e0-mainStage.json
+      projectPath: Library\StateCache\Hierarchy\b5f9e0-mainStage.json
+      originalPath: 
+      status: 3
+      staged: 0
+    - path: Library\StateCache\SceneView\cc7b53-mainStage.json
+      fullPath: C:\Unity Projects\Imperial vs rebel\Library\StateCache\SceneView\cc7b53-mainStage.json
+      projectPath: Library\StateCache\SceneView\cc7b53-mainStage.json
+      originalPath: 
+      status: 3
+      staged: 0
+    - path: Library\assetDatabase3
+      fullPath: C:\Unity Projects\Imperial vs rebel\Library\assetDatabase3
+      projectPath: Library\assetDatabase3
+      originalPath: 
+      status: 3
+      staged: 0
+    - path: Library\gfu\cache\branches.yaml
+      fullPath: C:\Unity Projects\Imperial vs rebel\Library\gfu\cache\branches.yaml
+      projectPath: Library\gfu\cache\branches.yaml
+      originalPath: 
+      status: 3
+      staged: 0
+    - path: Library\gfu\cache\gitlocks.yaml
+      fullPath: C:\Unity Projects\Imperial vs rebel\Library\gfu\cache\gitlocks.yaml
+      projectPath: Library\gfu\cache\gitlocks.yaml
+      originalPath: 
+      status: 3
+      staged: 0
+    - path: Library\gfu\cache\gitlog.yaml
+      fullPath: C:\Unity Projects\Imperial vs rebel\Library\gfu\cache\gitlog.yaml
+      projectPath: Library\gfu\cache\gitlog.yaml
+      originalPath: 
+      status: 3
+      staged: 0
+    - path: Library\gfu\cache\gitstatusentries.yaml
+      fullPath: C:\Unity Projects\Imperial vs rebel\Library\gfu\cache\gitstatusentries.yaml
+      projectPath: Library\gfu\cache\gitstatusentries.yaml
+      originalPath: 
+      status: 3
+      staged: 0
+    - path: Library\gfu\cache\gittrackingstatus.yaml
+      fullPath: C:\Unity Projects\Imperial vs rebel\Library\gfu\cache\gittrackingstatus.yaml
+      projectPath: Library\gfu\cache\gittrackingstatus.yaml
+      originalPath: 
+      status: 3
+      staged: 0
+    - path: Library\metadata\06\06b2ddea74c0f1045896a55a17bd0c7f
+      fullPath: C:\Unity Projects\Imperial vs rebel\Library\metadata\06\06b2ddea74c0f1045896a55a17bd0c7f
+      projectPath: Library\metadata\06\06b2ddea74c0f1045896a55a17bd0c7f
+      originalPath: 
+      status: 5
+      staged: 0
+    - path: Library\metadata\06\06b2ddea74c0f1045896a55a17bd0c7f.info
+      fullPath: C:\Unity Projects\Imperial vs rebel\Library\metadata\06\06b2ddea74c0f1045896a55a17bd0c7f.info
+      projectPath: Library\metadata\06\06b2ddea74c0f1045896a55a17bd0c7f.info
+      originalPath: 
+      status: 5
+      staged: 0
+    - path: Library\metadata\48\485f116148d8a424d992a3430252566c
+      fullPath: C:\Unity Projects\Imperial vs rebel\Library\metadata\48\485f116148d8a424d992a3430252566c
+      projectPath: Library\metadata\48\485f116148d8a424d992a3430252566c
+      originalPath: 
+      status: 3
+      staged: 0
+    - path: ProjectSettings\InputManager.asset
+      fullPath: C:\Unity Projects\Imperial vs rebel\ProjectSettings\InputManager.asset
+      projectPath: ProjectSettings\InputManager.asset
+      originalPath: 
+      status: 3
+      staged: 0
   - commitID: 02ebd4ff7f17a05239545b58267df8f17e396d71
     mergeA: 
     mergeB: 
