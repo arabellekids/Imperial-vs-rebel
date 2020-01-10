@@ -13,30 +13,12 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   cacheType: 6
-  lastUpdatedAtString: 2020-01-09T19:34:06.866-05:00
+  lastUpdatedAtString: 2020-01-09T19:34:32.381-05:00
   initializedAtString: 2020-01-09T15:19:46.375-05:00
   entries:
-  - path: Library\assetDatabase3
-    fullPath: C:\Unity Projects\Imperial vs rebel\Library\assetDatabase3
-    projectPath: Library\assetDatabase3
-    originalPath: 
-    status: 3
-    staged: 0
-  - path: Library\CurrentMaximizeLayout.dwlt
-    fullPath: C:\Unity Projects\Imperial vs rebel\Library\CurrentMaximizeLayout.dwlt
-    projectPath: Library\CurrentMaximizeLayout.dwlt
-    originalPath: 
-    status: 3
-    staged: 0
   - path: Library\gfu\cache\branches.yaml
     fullPath: C:\Unity Projects\Imperial vs rebel\Library\gfu\cache\branches.yaml
     projectPath: Library\gfu\cache\branches.yaml
-    originalPath: 
-    status: 3
-    staged: 0
-  - path: Library\gfu\cache\gitlocks.yaml
-    fullPath: C:\Unity Projects\Imperial vs rebel\Library\gfu\cache\gitlocks.yaml
-    projectPath: Library\gfu\cache\gitlocks.yaml
     originalPath: 
     status: 3
     staged: 0
@@ -44,7 +26,7 @@ MonoBehaviour:
     fullPath: C:\Unity Projects\Imperial vs rebel\Library\gfu\cache\gitlog.yaml
     projectPath: Library\gfu\cache\gitlog.yaml
     originalPath: 
-    status: 3
+    status: 5
     staged: 0
   - path: Library\gfu\cache\gitstatusentries.yaml
     fullPath: C:\Unity Projects\Imperial vs rebel\Library\gfu\cache\gitstatusentries.yaml
@@ -55,240 +37,6 @@ MonoBehaviour:
   - path: Library\gfu\cache\gittrackingstatus.yaml
     fullPath: C:\Unity Projects\Imperial vs rebel\Library\gfu\cache\gittrackingstatus.yaml
     projectPath: Library\gfu\cache\gittrackingstatus.yaml
-    originalPath: 
-    status: 3
-    staged: 0
-  - path: Library\gfu\cache\repoinfo.yaml
-    fullPath: C:\Unity Projects\Imperial vs rebel\Library\gfu\cache\repoinfo.yaml
-    projectPath: Library\gfu\cache\repoinfo.yaml
-    originalPath: 
-    status: 3
-    staged: 0
-  - path: Library\InspectorExpandedItems.asset
-    fullPath: C:\Unity Projects\Imperial vs rebel\Library\InspectorExpandedItems.asset
-    projectPath: Library\InspectorExpandedItems.asset
-    originalPath: 
-    status: 3
-    staged: 0
-  - path: Library\metadata\2e\2e5aa28a4f83af9428dce5ffd96eafa9.info
-    fullPath: C:\Unity Projects\Imperial vs rebel\Library\metadata\2e\2e5aa28a4f83af9428dce5ffd96eafa9.info
-    projectPath: Library\metadata\2e\2e5aa28a4f83af9428dce5ffd96eafa9.info
-    originalPath: 
-    status: 3
-    staged: 0
-  - path: Library\metadata\48\485f116148d8a424d992a3430252566c
-    fullPath: C:\Unity Projects\Imperial vs rebel\Library\metadata\48\485f116148d8a424d992a3430252566c
-    projectPath: Library\metadata\48\485f116148d8a424d992a3430252566c
-    originalPath: 
-    status: 3
-    staged: 0
-  - path: Library\metadata\6c\6cfe4f85e177cb44e97ee6ff08ff9bef
-    fullPath: C:\Unity Projects\Imperial vs rebel\Library\metadata\6c\6cfe4f85e177cb44e97ee6ff08ff9bef
-    projectPath: Library\metadata\6c\6cfe4f85e177cb44e97ee6ff08ff9bef
-    originalPath: 
-    status: 3
-    staged: 0
-  - path: Library\metadata\6c\6cfe4f85e177cb44e97ee6ff08ff9bef.info
-    fullPath: C:\Unity Projects\Imperial vs rebel\Library\metadata\6c\6cfe4f85e177cb44e97ee6ff08ff9bef.info
-    projectPath: Library\metadata\6c\6cfe4f85e177cb44e97ee6ff08ff9bef.info
-    originalPath: 
-    status: 3
-    staged: 0
-  - path: Library\metadata\85\854ed778f4d836643a300f8bfd28ae01.info
-    fullPath: C:\Unity Projects\Imperial vs rebel\Library\metadata\85\854ed778f4d836643a300f8bfd28ae01.info
-    projectPath: Library\metadata\85\854ed778f4d836643a300f8bfd28ae01.info
-    originalPath: 
-    status: 3
-    staged: 0
-  - path: Library\metadata\8c\8c6198190b4369344ab37bdda2eb05ba.info
-    fullPath: C:\Unity Projects\Imperial vs rebel\Library\metadata\8c\8c6198190b4369344ab37bdda2eb05ba.info
-    projectPath: Library\metadata\8c\8c6198190b4369344ab37bdda2eb05ba.info
-    originalPath: 
-    status: 3
-    staged: 0
-  - path: Library\metadata\9a\9a90f56dede733640a3e6d9acd22f3d9
-    fullPath: C:\Unity Projects\Imperial vs rebel\Library\metadata\9a\9a90f56dede733640a3e6d9acd22f3d9
-    projectPath: Library\metadata\9a\9a90f56dede733640a3e6d9acd22f3d9
-    originalPath: 
-    status: 3
-    staged: 0
-  - path: Library\metadata\a7\a705452e6ae7b874d8730e304dd137f8
-    fullPath: C:\Unity Projects\Imperial vs rebel\Library\metadata\a7\a705452e6ae7b874d8730e304dd137f8
-    projectPath: Library\metadata\a7\a705452e6ae7b874d8730e304dd137f8
-    originalPath: 
-    status: 3
-    staged: 0
-  - path: Library\metadata\bc\bcf4d2e2249f72a429543606f0d9dc31
-    fullPath: C:\Unity Projects\Imperial vs rebel\Library\metadata\bc\bcf4d2e2249f72a429543606f0d9dc31
-    projectPath: Library\metadata\bc\bcf4d2e2249f72a429543606f0d9dc31
-    originalPath: 
-    status: 3
-    staged: 0
-  - path: Library\metadata\c3\c380e38758989e1429ee832f16e1766b
-    fullPath: C:\Unity Projects\Imperial vs rebel\Library\metadata\c3\c380e38758989e1429ee832f16e1766b
-    projectPath: Library\metadata\c3\c380e38758989e1429ee832f16e1766b
-    originalPath: 
-    status: 3
-    staged: 0
-  - path: Library\metadata\c3\c380e38758989e1429ee832f16e1766b.info
-    fullPath: C:\Unity Projects\Imperial vs rebel\Library\metadata\c3\c380e38758989e1429ee832f16e1766b.info
-    projectPath: Library\metadata\c3\c380e38758989e1429ee832f16e1766b.info
-    originalPath: 
-    status: 3
-    staged: 0
-  - path: Library\metadata\cc\ccd32b553a65a6c449693738e15bcb05
-    fullPath: C:\Unity Projects\Imperial vs rebel\Library\metadata\cc\ccd32b553a65a6c449693738e15bcb05
-    projectPath: Library\metadata\cc\ccd32b553a65a6c449693738e15bcb05
-    originalPath: 
-    status: 1
-    staged: 0
-  - path: Library\metadata\cc\ccd32b553a65a6c449693738e15bcb05.info
-    fullPath: C:\Unity Projects\Imperial vs rebel\Library\metadata\cc\ccd32b553a65a6c449693738e15bcb05.info
-    projectPath: Library\metadata\cc\ccd32b553a65a6c449693738e15bcb05.info
-    originalPath: 
-    status: 1
-    staged: 0
-  - path: Library\metadata\cf\cfe656c1beb40ba49a3ebf9a1d0f9bd9
-    fullPath: C:\Unity Projects\Imperial vs rebel\Library\metadata\cf\cfe656c1beb40ba49a3ebf9a1d0f9bd9
-    projectPath: Library\metadata\cf\cfe656c1beb40ba49a3ebf9a1d0f9bd9
-    originalPath: 
-    status: 1
-    staged: 0
-  - path: Library\metadata\cf\cfe656c1beb40ba49a3ebf9a1d0f9bd9.info
-    fullPath: C:\Unity Projects\Imperial vs rebel\Library\metadata\cf\cfe656c1beb40ba49a3ebf9a1d0f9bd9.info
-    projectPath: Library\metadata\cf\cfe656c1beb40ba49a3ebf9a1d0f9bd9.info
-    originalPath: 
-    status: 1
-    staged: 0
-  - path: Library\metadata\d5\d55511bbfe56ede4996978b36821f53a
-    fullPath: C:\Unity Projects\Imperial vs rebel\Library\metadata\d5\d55511bbfe56ede4996978b36821f53a
-    projectPath: Library\metadata\d5\d55511bbfe56ede4996978b36821f53a
-    originalPath: 
-    status: 3
-    staged: 0
-  - path: Library\metadata\dc\dcd645820cb65894cbee4e21339d2f45
-    fullPath: C:\Unity Projects\Imperial vs rebel\Library\metadata\dc\dcd645820cb65894cbee4e21339d2f45
-    projectPath: Library\metadata\dc\dcd645820cb65894cbee4e21339d2f45
-    originalPath: 
-    status: 3
-    staged: 0
-  - path: Library\metadata\dc\dcd645820cb65894cbee4e21339d2f45.info
-    fullPath: C:\Unity Projects\Imperial vs rebel\Library\metadata\dc\dcd645820cb65894cbee4e21339d2f45.info
-    projectPath: Library\metadata\dc\dcd645820cb65894cbee4e21339d2f45.info
-    originalPath: 
-    status: 3
-    staged: 0
-  - path: Library\ScriptAssemblies\Assembly-CSharp.dll
-    fullPath: C:\Unity Projects\Imperial vs rebel\Library\ScriptAssemblies\Assembly-CSharp.dll
-    projectPath: Library\ScriptAssemblies\Assembly-CSharp.dll
-    originalPath: 
-    status: 3
-    staged: 0
-  - path: Library\ScriptAssemblies\Assembly-CSharp.pdb
-    fullPath: C:\Unity Projects\Imperial vs rebel\Library\ScriptAssemblies\Assembly-CSharp.pdb
-    projectPath: Library\ScriptAssemblies\Assembly-CSharp.pdb
-    originalPath: 
-    status: 3
-    staged: 0
-  - path: Library\ShaderCache\1\11c4f8d0bf32a48bada128b7c921a91f.bin
-    fullPath: C:\Unity Projects\Imperial vs rebel\Library\ShaderCache\1\11c4f8d0bf32a48bada128b7c921a91f.bin
-    projectPath: Library\ShaderCache\1\11c4f8d0bf32a48bada128b7c921a91f.bin
-    originalPath: 
-    status: 1
-    staged: 0
-  - path: Library\ShaderCache\2\26df70f37e1b55411a37417fca43428c.bin
-    fullPath: C:\Unity Projects\Imperial vs rebel\Library\ShaderCache\2\26df70f37e1b55411a37417fca43428c.bin
-    projectPath: Library\ShaderCache\2\26df70f37e1b55411a37417fca43428c.bin
-    originalPath: 
-    status: 1
-    staged: 0
-  - path: Library\ShaderCache\3\33a453c0414de08011002f11770278cf.bin
-    fullPath: C:\Unity Projects\Imperial vs rebel\Library\ShaderCache\3\33a453c0414de08011002f11770278cf.bin
-    projectPath: Library\ShaderCache\3\33a453c0414de08011002f11770278cf.bin
-    originalPath: 
-    status: 1
-    staged: 0
-  - path: Library\ShaderCache\5\5367982466b02439f899a3fea9871d1e.bin
-    fullPath: C:\Unity Projects\Imperial vs rebel\Library\ShaderCache\5\5367982466b02439f899a3fea9871d1e.bin
-    projectPath: Library\ShaderCache\5\5367982466b02439f899a3fea9871d1e.bin
-    originalPath: 
-    status: 1
-    staged: 0
-  - path: Library\ShaderCache\5\54298d240003fc06468a054f0c65a1ac.bin
-    fullPath: C:\Unity Projects\Imperial vs rebel\Library\ShaderCache\5\54298d240003fc06468a054f0c65a1ac.bin
-    projectPath: Library\ShaderCache\5\54298d240003fc06468a054f0c65a1ac.bin
-    originalPath: 
-    status: 1
-    staged: 0
-  - path: Library\ShaderCache\9\9857bd4520f0635cc1908f01d23a6554.bin
-    fullPath: C:\Unity Projects\Imperial vs rebel\Library\ShaderCache\9\9857bd4520f0635cc1908f01d23a6554.bin
-    projectPath: Library\ShaderCache\9\9857bd4520f0635cc1908f01d23a6554.bin
-    originalPath: 
-    status: 1
-    staged: 0
-  - path: Library\ShaderCache\9\9bd6f7cc559bb0f235bd0a199d97a5c9.bin
-    fullPath: C:\Unity Projects\Imperial vs rebel\Library\ShaderCache\9\9bd6f7cc559bb0f235bd0a199d97a5c9.bin
-    projectPath: Library\ShaderCache\9\9bd6f7cc559bb0f235bd0a199d97a5c9.bin
-    originalPath: 
-    status: 1
-    staged: 0
-  - path: Library\ShaderCache\a\a279cb3e5c81661f06c2889e6a97041f.bin
-    fullPath: C:\Unity Projects\Imperial vs rebel\Library\ShaderCache\a\a279cb3e5c81661f06c2889e6a97041f.bin
-    projectPath: Library\ShaderCache\a\a279cb3e5c81661f06c2889e6a97041f.bin
-    originalPath: 
-    status: 1
-    staged: 0
-  - path: Library\ShaderCache\a\ad2fb07b4745c5c1908da3139cddc98d.bin
-    fullPath: C:\Unity Projects\Imperial vs rebel\Library\ShaderCache\a\ad2fb07b4745c5c1908da3139cddc98d.bin
-    projectPath: Library\ShaderCache\a\ad2fb07b4745c5c1908da3139cddc98d.bin
-    originalPath: 
-    status: 1
-    staged: 0
-  - path: Library\ShaderCache\c\cff2951fc10f3a3630b281af95a490ec.bin
-    fullPath: C:\Unity Projects\Imperial vs rebel\Library\ShaderCache\c\cff2951fc10f3a3630b281af95a490ec.bin
-    projectPath: Library\ShaderCache\c\cff2951fc10f3a3630b281af95a490ec.bin
-    originalPath: 
-    status: 1
-    staged: 0
-  - path: Library\ShaderCache\e\e7a240417bb72683ee8bc1f914024571.bin
-    fullPath: C:\Unity Projects\Imperial vs rebel\Library\ShaderCache\e\e7a240417bb72683ee8bc1f914024571.bin
-    projectPath: Library\ShaderCache\e\e7a240417bb72683ee8bc1f914024571.bin
-    originalPath: 
-    status: 1
-    staged: 0
-  - path: Library\ShaderCache\e\eeb15f85cbafaf2a55a0d4db399c96e9.bin
-    fullPath: C:\Unity Projects\Imperial vs rebel\Library\ShaderCache\e\eeb15f85cbafaf2a55a0d4db399c96e9.bin
-    projectPath: Library\ShaderCache\e\eeb15f85cbafaf2a55a0d4db399c96e9.bin
-    originalPath: 
-    status: 1
-    staged: 0
-  - path: Library\ShaderCache\EditorEncounteredVariants
-    fullPath: C:\Unity Projects\Imperial vs rebel\Library\ShaderCache\EditorEncounteredVariants
-    projectPath: Library\ShaderCache\EditorEncounteredVariants
-    originalPath: 
-    status: 3
-    staged: 0
-  - path: Library\StateCache\Hierarchy\b5f9e0-9a90f56dede733640a.json
-    fullPath: C:\Unity Projects\Imperial vs rebel\Library\StateCache\Hierarchy\b5f9e0-9a90f56dede733640a.json
-    projectPath: Library\StateCache\Hierarchy\b5f9e0-9a90f56dede733640a.json
-    originalPath: 
-    status: 3
-    staged: 0
-  - path: Library\StateCache\Hierarchy\b5f9e0-mainStage.json
-    fullPath: C:\Unity Projects\Imperial vs rebel\Library\StateCache\Hierarchy\b5f9e0-mainStage.json
-    projectPath: Library\StateCache\Hierarchy\b5f9e0-mainStage.json
-    originalPath: 
-    status: 3
-    staged: 0
-  - path: Library\StateCache\SceneView\cc7b53-mainStage.json
-    fullPath: C:\Unity Projects\Imperial vs rebel\Library\StateCache\SceneView\cc7b53-mainStage.json
-    projectPath: Library\StateCache\SceneView\cc7b53-mainStage.json
-    originalPath: 
-    status: 3
-    staged: 0
-  - path: ProjectSettings\InputManager.asset
-    fullPath: C:\Unity Projects\Imperial vs rebel\ProjectSettings\InputManager.asset
-    projectPath: ProjectSettings\InputManager.asset
     originalPath: 
     status: 3
     staged: 0
@@ -403,6 +151,12 @@ MonoBehaviour:
   - path: Temp\UnityTempFile-1d353ba1833060648ab4d42823394aa9
     fullPath: C:\Unity Projects\Imperial vs rebel\Temp\UnityTempFile-1d353ba1833060648ab4d42823394aa9
     projectPath: Temp\UnityTempFile-1d353ba1833060648ab4d42823394aa9
+    originalPath: 
+    status: 1
+    staged: 0
+  - path: Temp\UnityTempFile-22600ba3186c2dd43a025aa865a1e19d
+    fullPath: C:\Unity Projects\Imperial vs rebel\Temp\UnityTempFile-22600ba3186c2dd43a025aa865a1e19d
+    projectPath: Temp\UnityTempFile-22600ba3186c2dd43a025aa865a1e19d
     originalPath: 
     status: 1
     staged: 0
@@ -571,12 +325,6 @@ MonoBehaviour:
   - path: Temp\UnityTempFile-5967b2681de3c4a41bad3bda8a36cd2f
     fullPath: C:\Unity Projects\Imperial vs rebel\Temp\UnityTempFile-5967b2681de3c4a41bad3bda8a36cd2f
     projectPath: Temp\UnityTempFile-5967b2681de3c4a41bad3bda8a36cd2f
-    originalPath: 
-    status: 1
-    staged: 0
-  - path: Temp\UnityTempFile-5ac21e6cb94e2b345aef013eb20c4390
-    fullPath: C:\Unity Projects\Imperial vs rebel\Temp\UnityTempFile-5ac21e6cb94e2b345aef013eb20c4390
-    projectPath: Temp\UnityTempFile-5ac21e6cb94e2b345aef013eb20c4390
     originalPath: 
     status: 1
     staged: 0
