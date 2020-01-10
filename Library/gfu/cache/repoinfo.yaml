@@ -13,7 +13,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   cacheType: 1
-  lastUpdatedAtString: 2020-01-09T17:31:24.052-05:00
+  lastUpdatedAtString: 2020-01-09T19:36:31.411-05:00
   initializedAtString: 2020-01-09T15:19:42.993-05:00
   currentGitRemote:
     name: origin
@@ -25,13 +25,13 @@ MonoBehaviour:
     token: 
   currentGitBranch:
     name: master
-    tracking: 
+    tracking: origin/master
   currentConfigBranch:
     name: master
     remote:
-      name: 
-      url: 
-    trackingBranch: 
+      name: origin
+      url: https://github.com/arabellekids/Imperial-vs-rebel.git
+    trackingBranch: master
   currentConfigRemote:
     name: origin
     url: https://github.com/arabellekids/Imperial-vs-rebel.git
