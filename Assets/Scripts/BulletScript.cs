@@ -4,7 +4,7 @@ using UnityEngine;
 
 public class BulletScript : MonoBehaviour
 {
-    public ShipMovement ship;
+    public GameObject sparks;
 
     private float timer = 0;
     public float lifetime = 1;
@@ -29,11 +29,13 @@ public class BulletScript : MonoBehaviour
     }
     private void OnTriggerEnter(Collider other)
     {
+        Instantiate(sparks, transform.position, transform.rotation, transform);
         if (other.GetComponent<Health>() != null)
         {
             Health health = other.GetComponent<Health>();
             health.takedamage(dmg);
         }
+        
         Destroy(gameObject);
         
     }
