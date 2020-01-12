@@ -14,8 +14,8 @@ GameObject:
   - component: {fileID: 2822656928571956096}
   - component: {fileID: -3489438360874411543}
   - component: {fileID: 8600706866715689287}
-  m_Layer: 0
-  m_Name: Laser
+  m_Layer: 9
+  m_Name: Laser plyr1
   m_TagString: Laser
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -29,7 +29,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 4908897915675897121}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 9.279279, y: -110.18865, z: 111.552055}
+  m_LocalPosition: {x: 24.872, y: -110.18865, z: 111.552055}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 0}

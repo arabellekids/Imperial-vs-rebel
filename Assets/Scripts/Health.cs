@@ -4,17 +4,16 @@ using UnityEngine;
 
 public class Health : MonoBehaviour
 {
-    private Rigidbody rb;
-    private ShipMovement ship;
+    public Rigidbody rb;
+    public ShipMovement ship;
     public GameObject shipModel;
     public GameObject deathEffect;
     public float health = 10;
+    private bool hasDied = false;
     
     // Start is called before the first frame update
     void Start()
     {
-        ship = GetComponent<ShipMovement>();
-        rb = GetComponent<Rigidbody>();
     }
 
     // Update is called once per frame
@@ -30,9 +29,12 @@ public class Health : MonoBehaviour
             rb.angularDrag = 100;
             ship.thrust = 0;
             ship.torque = 0;
+            health = 0;
+            if(shipModel.activeSelf == true)
+            {
+                Instantiate(deathEffect, transform.position, transform.rotation, null);
+            }
             shipModel.SetActive(false);
-            Instantiate(deathEffect, transform.position,transform.rotation,transform);
-
         }
         else
         {

@@ -29,14 +29,26 @@ public class BulletScript : MonoBehaviour
     }
     private void OnTriggerEnter(Collider other)
     {
+        bool destroySelf = true;
         Instantiate(sparks, transform.position, transform.rotation, transform);
         if (other.GetComponent<Health>() != null)
         {
             Health health = other.GetComponent<Health>();
-            health.takedamage(dmg);
+            if (health.health > 0)
+            {
+                health.takedamage(dmg);
+            }
+            else if(health.health <= 0)
+            {
+                destroySelf = false;
+            }
+
         }
         
-        Destroy(gameObject);
+        if(destroySelf == true)
+        {
+            Destroy(gameObject);
+        }
         
     }
 }
