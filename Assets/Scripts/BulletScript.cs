@@ -15,7 +15,6 @@ public class BulletScript : MonoBehaviour
     private void Start()
     {
         rb = GetComponent<Rigidbody>();
-        //rb.velocity = this.transform.forward*bulletSpeed*Time.deltaTime;
         rb.AddForce(this.transform.forward * bulletSpeed * Time.deltaTime, ForceMode.VelocityChange);
     }
     void Update()
@@ -30,7 +29,7 @@ public class BulletScript : MonoBehaviour
     private void OnTriggerEnter(Collider other)
     {
         bool destroySelf = true;
-        Instantiate(sparks, transform.position, transform.rotation, transform);
+        Instantiate(sparks, transform.position, transform.rotation, null);
         if (other.GetComponent<Health>() != null)
         {
             Health health = other.GetComponent<Health>();

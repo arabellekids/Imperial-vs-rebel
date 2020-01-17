@@ -5,8 +5,8 @@ using UnityEngine;
 public class ShipMovement : MonoBehaviour
 {
     public int playerNum;
-    public LayerMask rayMask; 
-
+    public Camera fireCam;
+    public LayerMask rayMask;
     //movement variables
     public float thrust = 2;
     public float torque = 1;
@@ -28,6 +28,7 @@ public class ShipMovement : MonoBehaviour
     private bool m_cursorIsLocked = true;
 
     // Input
+    float roll;
     float yaw;
     float pitch;
     float throttle;
@@ -41,10 +42,12 @@ public class ShipMovement : MonoBehaviour
 
     private void FixedUpdate()
     {
+        roll = Input.GetAxis("Roll" + playerNum);
         yaw = Input.GetAxis("Horizontal"+playerNum);
         pitch = Input.GetAxis("Vertical" + playerNum);
         throttle = Input.GetAxis("Throttle" + playerNum);
 
+        rb.AddRelativeTorque(-Vector3.forward * torque * roll * 300f);
         rb.AddRelativeTorque(-Vector3.up * torque * yaw*300f);
         rb.AddRelativeTorque(Vector3.right * torque * pitch*200f);
 
@@ -114,25 +117,25 @@ public class ShipMovement : MonoBehaviour
             anim.SetBool("Toggle wings", toggleWings);
             timer = 0;
         }
-        /*RaycastHit hit;
-        if (Physics.Raycast(transform.position, Camera.main.transform.forward, out hit, Camera.main.farClipPlane,rayMask))
+        RaycastHit hit;
+        if (Physics.Raycast(transform.position, fireCam.transform.forward, out hit, fireCam.farClipPlane+laserAimOffset,rayMask))
         {
             foreach (GameObject point in laserSpawnPoints)
             {
                 if(hit.point != null)
                 {
-                    point.transform.LookAt(hit.point);
+                    point.transform.LookAt(hit.point*laserAimOffset);
                 }
                 
             }
         }
-        else {*/
+        else {
             foreach (GameObject point in laserSpawnPoints)
             {
 
-                point.transform.LookAt(Camera.main.transform.forward*(Camera.main.farClipPlane-laserAimOffset));
+                point.transform.LookAt(fireCam.transform.forward*(fireCam.farClipPlane+laserAimOffset));
             }
-        //}
+        }
         timer += Time.deltaTime;
         fire = Input.GetAxis("Fire" + playerNum);
         if (fire != 0 && timer >= shotRate / laserSpawnPoints.Length)
