@@ -1,44 +1,43 @@
 ﻿using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using UnityEngine.UI;
 
 public class Health : MonoBehaviour
 {
-    public Rigidbody rb;
-    public ShipMovement ship;
-    public GameObject shipModel;
+    public AudioClip HitSound;
+    public AudioClip DieSound;
+    public Slider healthBar;
+    public GameObject deathCam;
     public GameObject deathEffect;
     public float health = 10;
+    public float maxHealth = 10;
     private bool hasDied = false;
-    
+    private Vector3 gameController;
     // Start is called before the first frame update
-    void Start()
+    private void Start()
     {
-    }
-
-    // Update is called once per frame
-    void Update()
-    {
-        
+        health = maxHealth;
+        gameController = GameObject.FindGameObjectWithTag("GameController").transform.position;
     }
     public void takedamage (float dmg)
     {
         if (health - dmg <= 0)
         {
-            rb.drag = 100;
-            rb.angularDrag = 100;
-            ship.thrust = 0;
-            ship.torque = 0;
+            AudioSource.PlayClipAtPoint(DieSound, gameController);
+            deathCam.transform.parent = null;
             health = 0;
-            if(shipModel.activeSelf == true)
-            {
-                Instantiate(deathEffect, transform.position, transform.rotation, null);
-            }
-            shipModel.SetActive(false);
+            Instantiate(deathEffect, transform.position, transform.rotation, null);
+            Destroy(gameObject);
+
         }
         else
         {
             health -= dmg;
+            var barDmg = dmg / maxHealth;
+            healthBar.value -= barDmg;
+            AudioSource.PlayClipAtPoint(HitSound, gameController);
+            
         }
     }
 }
