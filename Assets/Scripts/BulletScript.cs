@@ -4,6 +4,8 @@ using UnityEngine;
 
 public class BulletScript : MonoBehaviour
 {
+    public int playerNum;
+
     public GameObject sparks;
 
     private float timer = 0;
@@ -33,6 +35,7 @@ public class BulletScript : MonoBehaviour
         if (other.GetComponent<Health>() != null)
         {
             Health health = other.GetComponent<Health>();
+            health.attacker = GameObject.Find("Player ship " + playerNum);
             if (health.health > 0)
             {
                 health.takedamage(dmg);

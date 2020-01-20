@@ -5,6 +5,9 @@ using UnityEngine.UI;
 
 public class Health : MonoBehaviour
 {
+    [HideInInspector]
+    public GameObject attacker = null;
+
     public AudioClip HitSound;
     public AudioClip DieSound;
     public Slider healthBar;
@@ -26,6 +29,8 @@ public class Health : MonoBehaviour
         {
             AudioSource.PlayClipAtPoint(DieSound, gameController);
             deathCam.transform.parent = null;
+            deathCam.GetComponent<CamDefeated>().killer = attacker;
+            deathCam.GetComponent<CamDefeated>().shipDead = true;
             health = 0;
             Instantiate(deathEffect, transform.position, transform.rotation, null);
             Destroy(gameObject);
