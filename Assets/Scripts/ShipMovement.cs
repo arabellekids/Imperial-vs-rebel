@@ -64,7 +64,10 @@ public class ShipMovement : MonoBehaviour
     void Fire()
     {
         AudioSource.PlayClipAtPoint(fireClip, gameController);
-        Instantiate(laser, laserSpawnPoints[laserpoint].transform.position, laserSpawnPoints[laserpoint].transform.rotation, null);
+
+        var bullet = Instantiate(laser, laserSpawnPoints[laserpoint].transform.position, laserSpawnPoints[laserpoint].transform.rotation, null);
+        bullet.GetComponent<BulletScript>().owner = gameObject;
+
         laserpoint++;
         if (laserpoint >= laserSpawnPoints.Length)
         {

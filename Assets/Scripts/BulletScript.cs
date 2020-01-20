@@ -6,6 +6,7 @@ public class BulletScript : MonoBehaviour
 {
     public int playerNum;
 
+    public GameObject owner;
     public GameObject sparks;
 
     private float timer = 0;
@@ -13,6 +14,7 @@ public class BulletScript : MonoBehaviour
     public float bulletSpeed = 2000;
     public float dmg = 2;
     Rigidbody rb;
+
     // Update is called once per frame
     private void Start()
     {
@@ -30,27 +32,18 @@ public class BulletScript : MonoBehaviour
     }
     private void OnTriggerEnter(Collider other)
     {
-        bool destroySelf = true;
         Instantiate(sparks, transform.position, transform.rotation, null);
+
         if (other.GetComponent<Health>() != null)
         {
             Health health = other.GetComponent<Health>();
-            health.attacker = GameObject.Find("Player ship " + playerNum);
+            health.attacker = owner;
             if (health.health > 0)
             {
                 health.takedamage(dmg);
             }
-            else if(health.health <= 0)
-            {
-                destroySelf = false;
-            }
-
         }
         
-        if(destroySelf == true)
-        {
-            Destroy(gameObject);
-        }
-        
+         Destroy(gameObject);
     }
 }
