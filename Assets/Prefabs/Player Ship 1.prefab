@@ -91,6 +91,110 @@ MonoBehaviour:
   shipDead: 0
   killer: {fileID: 0}
   timer: 0
+--- !u!1 &1466977018
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 1466977019}
+  - component: {fileID: 1466977020}
+  m_Layer: 0
+  m_Name: RapidLasers
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &1466977019
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1466977018}
+  m_LocalRotation: {x: -0, y: -1, z: -0, w: 0}
+  m_LocalPosition: {x: 0, y: 2, z: -8}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 2212104050106551032}
+  m_RootOrder: 5
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &1466977020
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1466977018}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 235539e46dcb3414fa78c66398e2ab65, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  playerNum: 1
+  laserOwner: {fileID: 2212104050106324696}
+  guns:
+  - {fileID: 2212104050158381660}
+  - {fileID: 2212104050708140804}
+  - {fileID: 2212104049392726456}
+  - {fileID: 2212104049666199190}
+  laser: {fileID: 4908897915675897121, guid: 9a90f56dede733640a3e6d9acd22f3d9, type: 3}
+  fireRate: 1
+--- !u!1 &1631951563
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 1631951564}
+  - component: {fileID: 1631951565}
+  m_Layer: 0
+  m_Name: MultipleLasers
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 0
+--- !u!4 &1631951564
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1631951563}
+  m_LocalRotation: {x: -0, y: -1, z: -0, w: 0}
+  m_LocalPosition: {x: 0, y: 2, z: -8}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 2212104050106551032}
+  m_RootOrder: 6
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &1631951565
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1631951563}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 25644f511751f6b41a8361eba938a8f7, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  playerNum: 1
+  laserOwner: {fileID: 2212104050106324696}
+  guns:
+  - {fileID: 2212104050158381660}
+  - {fileID: 2212104050708140804}
+  - {fileID: 2212104049392726456}
+  - {fileID: 2212104049666199190}
+  laser: {fileID: 4908897915675897121, guid: 9a90f56dede733640a3e6d9acd22f3d9, type: 3}
+  fireRate: 1
 --- !u!1 &881637312685497057
 GameObject:
   m_ObjectHideFlags: 0
@@ -853,6 +957,7 @@ GameObject:
   - component: {fileID: 1600946944725165792}
   - component: {fileID: 1600946945203699093}
   - component: {fileID: 1600946945203699094}
+  - component: {fileID: 413886397}
   m_Layer: 0
   m_Name: Player Ship 1
   m_TagString: Player
@@ -876,6 +981,8 @@ Transform:
   - {fileID: 2212104050842640131}
   - {fileID: 1600946945662340251}
   - {fileID: 2224707247101628888}
+  - {fileID: 1466977019}
+  - {fileID: 1631951564}
   m_Father: {fileID: 0}
   m_RootOrder: 0
   m_LocalEulerAnglesHint: {x: 0, y: 180, z: 0}
@@ -912,13 +1019,6 @@ MonoBehaviour:
   thrust: 300
   torque: 400
   shotRate: 1
-  laserSpawnPoints:
-  - {fileID: 2212104050158381661}
-  - {fileID: 2212104049666199191}
-  - {fileID: 2212104049392726457}
-  - {fileID: 2212104050708140805}
-  laserDmg: 3
-  laser: {fileID: 4908897915675897121, guid: 9a90f56dede733640a3e6d9acd22f3d9, type: 3}
   lockCursor: 1
 --- !u!95 &1600946944725165792
 Animator:
@@ -974,6 +1074,23 @@ MonoBehaviour:
     type: 3}
   health: 20
   maxHealth: 20
+--- !u!114 &413886397
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2212104050106324696}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 9241f296af882184c9a60b8a8256d938, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  playerNum: 1
+  switchSound: {fileID: 8300000, guid: f82f85015009cdc4eba771e2a23c47d9, type: 3}
+  weaponTypes:
+  - {fileID: 1466977018}
+  - {fileID: 1631951563}
 --- !u!1 &2212104050158381661
 GameObject:
   m_ObjectHideFlags: 0

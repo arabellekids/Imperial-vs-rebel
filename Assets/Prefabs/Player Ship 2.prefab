@@ -1,5 +1,57 @@
 %YAML 1.1
 %TAG !u! tag:unity3d.com,2011:
+--- !u!1 &1113490117
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 1113490119}
+  - component: {fileID: 1113490118}
+  m_Layer: 0
+  m_Name: RapidLasers
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &1113490119
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1113490117}
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_LocalPosition: {x: 0, y: 2, z: 37.27}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 7235791012582925988}
+  m_RootOrder: 5
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &1113490118
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1113490117}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 235539e46dcb3414fa78c66398e2ab65, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  playerNum: 2
+  laserOwner: {fileID: 7235791012583422596}
+  guns:
+  - {fileID: 7235791012597155328}
+  - {fileID: 7235791013046697816}
+  - {fileID: 7235791012272299492}
+  - {fileID: 7235791012008518346}
+  laser: {fileID: 2623644506668296330, guid: 6d9397d68bbcad148a38b95dcc4802d0, type: 3}
+  fireRate: 1
 --- !u!1 &1521055516
 GameObject:
   m_ObjectHideFlags: 0
@@ -91,6 +143,58 @@ MonoBehaviour:
   shipDead: 0
   killer: {fileID: 0}
   timer: 0
+--- !u!1 &1875046493
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 1875046495}
+  - component: {fileID: 1875046494}
+  m_Layer: 0
+  m_Name: MultipleLasers
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 0
+--- !u!4 &1875046495
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1875046493}
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_LocalPosition: {x: 0, y: 2, z: 37.27}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 7235791012582925988}
+  m_RootOrder: 6
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &1875046494
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1875046493}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 25644f511751f6b41a8361eba938a8f7, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  playerNum: 2
+  laserOwner: {fileID: 7235791012583422596}
+  guns:
+  - {fileID: 7235791012597155328}
+  - {fileID: 7235791013046697816}
+  - {fileID: 7235791012272299492}
+  - {fileID: 7235791012008518346}
+  laser: {fileID: 2623644506668296330, guid: 6d9397d68bbcad148a38b95dcc4802d0, type: 3}
+  fireRate: 1
 --- !u!1 &1164402050294443319
 GameObject:
   m_ObjectHideFlags: 0
@@ -678,6 +782,7 @@ GameObject:
   - component: {fileID: 7849771661667781308}
   - component: {fileID: 7849771662247006665}
   - component: {fileID: 7849771662247006666}
+  - component: {fileID: 613980667669087574}
   m_Layer: 0
   m_Name: Player Ship 2
   m_TagString: Player
@@ -701,6 +806,8 @@ Transform:
   - {fileID: 7235791012912198495}
   - {fileID: 7849771662869700807}
   - {fileID: 7190373803614113261}
+  - {fileID: 1113490119}
+  - {fileID: 1875046495}
   m_Father: {fileID: 0}
   m_RootOrder: 0
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
@@ -737,13 +844,6 @@ MonoBehaviour:
   thrust: 300
   torque: 400
   shotRate: 1
-  laserSpawnPoints:
-  - {fileID: 7235791012597155329}
-  - {fileID: 7235791012008518347}
-  - {fileID: 7235791012272299493}
-  - {fileID: 7235791013046697817}
-  laserDmg: 3
-  laser: {fileID: 2623644506668296330, guid: 6d9397d68bbcad148a38b95dcc4802d0, type: 3}
   lockCursor: 1
 --- !u!95 &7849771661667781308
 Animator:
@@ -799,6 +899,23 @@ MonoBehaviour:
     type: 3}
   health: 20
   maxHealth: 20
+--- !u!114 &613980667669087574
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 7235791012583422596}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 9241f296af882184c9a60b8a8256d938, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  playerNum: 2
+  switchSound: {fileID: 8300000, guid: f82f85015009cdc4eba771e2a23c47d9, type: 3}
+  weaponTypes:
+  - {fileID: 1113490117}
+  - {fileID: 1875046493}
 --- !u!1 &7235791012597155329
 GameObject:
   m_ObjectHideFlags: 0

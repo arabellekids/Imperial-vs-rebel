@@ -20,10 +20,6 @@ public class ShipMovement : MonoBehaviour
     // Fire variables
     private float timer = 0;
     public float shotRate = 0.2f;
-    public GameObject[] laserSpawnPoints;
-    public float laserDmg = 3;
-    private int laserpoint = 0;
-    public GameObject laser;
 
     // Lock mouse
     public bool lockCursor = true;
@@ -34,7 +30,6 @@ public class ShipMovement : MonoBehaviour
     float yaw;
     float pitch;
     float throttle;
-    float fire;
 
     private void Start()
     {
@@ -61,20 +56,6 @@ public class ShipMovement : MonoBehaviour
         }
     }
 
-    void Fire()
-    {
-        AudioSource.PlayClipAtPoint(fireClip, gameController);
-
-        var bullet = Instantiate(laser, laserSpawnPoints[laserpoint].transform.position, laserSpawnPoints[laserpoint].transform.rotation, null);
-        bullet.GetComponent<BulletScript>().owner = gameObject;
-
-        laserpoint++;
-        if (laserpoint >= laserSpawnPoints.Length)
-        {
-            laserpoint = 0;
-        }
-
-    }
     void SetCursorLock(bool value)
     {
         lockCursor = value;
@@ -126,13 +107,6 @@ public class ShipMovement : MonoBehaviour
             timer = 0;
         }
         timer += Time.deltaTime;
-        fire = Input.GetAxis("Fire" + playerNum);
-        if (fire != 0 && timer >= shotRate / laserSpawnPoints.Length)
-        {
-            timer = 0;
-            Fire();
-        }
-        
         UpdateCursorLock();
     }
 }
