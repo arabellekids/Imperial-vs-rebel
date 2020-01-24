@@ -10,9 +10,16 @@ public class MultipleLasers : MonoBehaviour
     public Transform[] guns;
     public GameObject laser;
     public float fireRate = 1;
+    public AudioClip fireSound;
+
+    private Vector3 gameController;
 
     private float timer = 0;
 
+    private void Start()
+    {
+        gameController = GameObject.FindGameObjectWithTag("GameController").transform.position;
+    }
     void CheckForFire()
     {
         if (Input.GetAxis("Fire" + playerNum) != 0 && timer >= fireRate)
@@ -24,6 +31,7 @@ public class MultipleLasers : MonoBehaviour
                 
             }
             timer = 0;
+            AudioSource.PlayClipAtPoint(fireSound, gameController);
         }
     }
 

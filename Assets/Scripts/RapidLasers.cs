@@ -10,10 +10,16 @@ public class RapidLasers : MonoBehaviour
     public Transform[] guns;
     public GameObject laser;
     public float fireRate = 1;
+    public AudioClip fireSound;
 
     private float timer = 0;
     private int gunIndex = 0;
+    private Vector3 gameController;
 
+    private void Start()
+    {
+        gameController = GameObject.FindGameObjectWithTag("GameController").transform.position;
+    }
     void CheckForFire()
     {
         if(Input.GetAxis("Fire"+playerNum) != 0 && timer >= fireRate / guns.Length)
@@ -22,7 +28,8 @@ public class RapidLasers : MonoBehaviour
             bullet.GetComponent<BulletScript>().owner = laserOwner;
             timer = 0;
             gunIndex++;
-            if(gunIndex >= guns.Length)
+            AudioSource.PlayClipAtPoint(fireSound, gameController);
+            if (gunIndex >= guns.Length)
             {
                 gunIndex = 0;
             }
