@@ -514,14 +514,6 @@ PrefabInstance:
       propertyPath: targetCam
       value: 
       objectReference: {fileID: 1521055519}
-    - target: {fileID: 1466977020, guid: d3b1dedabd0c34f479f9dd8ae40f101a, type: 3}
-      propertyPath: fireSound
-      value: 
-      objectReference: {fileID: 8300000, guid: 716488d99965f714b9aa8e4341d2ab16, type: 3}
-    - target: {fileID: 1631951565, guid: d3b1dedabd0c34f479f9dd8ae40f101a, type: 3}
-      propertyPath: fireSound
-      value: 
-      objectReference: {fileID: 8300000, guid: 716488d99965f714b9aa8e4341d2ab16, type: 3}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: d3b1dedabd0c34f479f9dd8ae40f101a, type: 3}
 --- !u!1001 &7849771662758133707
@@ -613,13 +605,5 @@ PrefabInstance:
       propertyPath: targetCam
       value: 
       objectReference: {fileID: 166427556}
-    - target: {fileID: 1113490118, guid: 836a1f7ac9553db4283cfd9dfa05907d, type: 3}
-      propertyPath: fireSound
-      value: 
-      objectReference: {fileID: 8300000, guid: 716488d99965f714b9aa8e4341d2ab16, type: 3}
-    - target: {fileID: 1875046494, guid: 836a1f7ac9553db4283cfd9dfa05907d, type: 3}
-      propertyPath: fireSound
-      value: 
-      objectReference: {fileID: 8300000, guid: 716488d99965f714b9aa8e4341d2ab16, type: 3}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 836a1f7ac9553db4283cfd9dfa05907d, type: 3}

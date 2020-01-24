@@ -233,6 +233,7 @@ MonoBehaviour:
   - {fileID: 2212104049666199190}
   laser: {fileID: 4908897915675897121, guid: 9a90f56dede733640a3e6d9acd22f3d9, type: 3}
   fireRate: 1
+  fireSound: {fileID: 8300000, guid: 716488d99965f714b9aa8e4341d2ab16, type: 3}
 --- !u!1 &1478646074
 GameObject:
   m_ObjectHideFlags: 0
@@ -384,6 +385,7 @@ MonoBehaviour:
   - {fileID: 2212104049666199190}
   laser: {fileID: 4908897915675897121, guid: 9a90f56dede733640a3e6d9acd22f3d9, type: 3}
   fireRate: 1
+  fireSound: {fileID: 8300000, guid: 716488d99965f714b9aa8e4341d2ab16, type: 3}
 --- !u!1 &881637312685497057
 GameObject:
   m_ObjectHideFlags: 0
