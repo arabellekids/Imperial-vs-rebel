@@ -8,7 +8,7 @@ public class ShipSystem : MonoBehaviour
 
     public AudioClip switchSound;
     public GameObject[] weaponTypes;
-    private int typeIndex = 0;
+    private int typeIndex = 1;
 
     private Vector3 gameController;
 

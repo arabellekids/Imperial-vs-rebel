@@ -4,6 +4,13 @@ using UnityEngine;
 
 public class ShipMovement : MonoBehaviour
 {
+    private bool viewMode = false;
+
+    public Transform fpsPoint;
+    public Transform thirdPoint;
+    public GameObject ship;
+    public GameObject window;
+    public GameObject cam;
 
     public int playerNum;
 
@@ -99,6 +106,37 @@ public class ShipMovement : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
+        if(Input.GetButtonUp("SwitchViewMode" + playerNum))
+        {
+            if(viewMode == false)
+            {
+                cam.transform.parent = fpsPoint;
+                cam.transform.position = fpsPoint.position;
+                cam.transform.rotation = fpsPoint.rotation;
+                ship.layer = 13 - playerNum;
+                for(var i = 0; i < ship.transform.childCount; i++)
+                {
+                    ship.transform.GetChild(i).gameObject.layer = 13 - playerNum;
+                }
+
+                window.gameObject.SetActive(true);
+                viewMode = true;
+            }
+
+            else if (viewMode == true)
+            {
+                cam.transform.parent = thirdPoint;
+                cam.transform.position = thirdPoint.position;
+                cam.transform.rotation = thirdPoint.rotation;
+                ship.layer = 0;
+                for (var i = 0; i < ship.transform.childCount; i++)
+                {
+                    ship.transform.GetChild(i).gameObject.layer = 0;
+                }
+                window.gameObject.SetActive(false);
+                viewMode = false;
+            }
+        }
 
         if (Input.GetAxis("Toggle wings" + playerNum) != 0 && timer >= shotRate)
         {

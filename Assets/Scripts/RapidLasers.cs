@@ -22,7 +22,7 @@ public class RapidLasers : MonoBehaviour
     }
     void CheckForFire()
     {
-        if(Input.GetAxis("Fire"+playerNum) != 0 && timer >= fireRate / guns.Length)
+        if(Input.GetAxis("Fire"+playerNum) > 0 && timer >= fireRate / guns.Length)
         {
             var bullet = Instantiate(laser, guns[gunIndex].position, guns[gunIndex].rotation, null);
             bullet.GetComponent<BulletScript>().owner = laserOwner;

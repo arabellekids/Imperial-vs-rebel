@@ -22,7 +22,7 @@ public class MultipleLasers : MonoBehaviour
     }
     void CheckForFire()
     {
-        if (Input.GetAxis("Fire" + playerNum) != 0 && timer >= fireRate)
+        if (Input.GetAxis("Fire" + playerNum) > 0 && timer >= fireRate)
         {
             for(var i = 0; i < guns.Length; i++)
             {

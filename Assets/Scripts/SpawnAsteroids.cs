@@ -19,7 +19,7 @@ public class SpawnAsteroids : MonoBehaviour
     GameObject CreateAsteroid()
     {
         var astIdx = Random.Range(0, asteroidPrefs.Length);
-        var ast = Instantiate(asteroidPrefs[astIdx],new Vector3(Random.Range(-maxSpawnDist/2,maxSpawnDist/2), Random.Range(-maxSpawnDist / 2, maxSpawnDist / 2), Random.Range(-maxSpawnDist / 2, maxSpawnDist / 2)),Quaternion.identity);
+        var ast = Instantiate(asteroidPrefs[astIdx],new Vector3(Random.Range(-maxSpawnDist/2,maxSpawnDist/2), Random.Range(-maxSpawnDist / 2, maxSpawnDist / 2), Random.Range(-maxSpawnDist / 2, maxSpawnDist / 2)),Quaternion.identity,transform);
         ast.GetComponent<Rigidbody>().AddRelativeTorque(Random.rotation.eulerAngles);
         return ast;
     }
