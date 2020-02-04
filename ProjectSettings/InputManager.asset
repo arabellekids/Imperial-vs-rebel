@@ -103,7 +103,7 @@ InputManager:
     joyNum: 2
   - serializedVersion: 3
     m_Name: Throttle1
-    descriptiveName: joystick button 5
+    descriptiveName: 
     descriptiveNegativeName: 
     negativeButton: 
     positiveButton: 
@@ -119,7 +119,7 @@ InputManager:
     joyNum: 1
   - serializedVersion: 3
     m_Name: Throttle2
-    descriptiveName: joystick button 5
+    descriptiveName: 
     descriptiveNegativeName: 
     negativeButton: 
     positiveButton: 
