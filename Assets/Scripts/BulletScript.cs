@@ -43,7 +43,11 @@ public class BulletScript : MonoBehaviour
                 health.takedamage(dmg);
             }
         }
-        
+        if(other.GetComponent<Rigidbody>() != null)
+        {
+
+        }
+        var enemyRb = other.GetComponent<Rigidbody>();
         Destroy(gameObject);
     }
 }

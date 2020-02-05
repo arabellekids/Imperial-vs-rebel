@@ -1,7 +1,8 @@
 ﻿using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
-using UnityEngine.SceneManagement;
+using UnityEditor;
+
 public class GameControl : MonoBehaviour
 {
     public GameObject[] deathCams;
@@ -44,6 +45,13 @@ public class GameControl : MonoBehaviour
     }
     public void ExitGame()
     {
-        Application.Quit();
+        if (Application.isEditor)
+        {
+            EditorApplication.isPlaying = false;
+        }
+        else
+        {
+            Application.Quit();
+        }
     }
 }

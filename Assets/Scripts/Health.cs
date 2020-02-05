@@ -8,6 +8,8 @@ public class Health : MonoBehaviour
     [HideInInspector]
     public GameObject attacker = null;
 
+    public bool isPlayer = true;
+
     public AudioClip HitSound;
     public AudioClip DieSound;
     public Slider healthBar;
@@ -27,10 +29,13 @@ public class Health : MonoBehaviour
     {
         if (health - dmg <= 0)
         {
+            if (isPlayer)
+            {
+                deathCam.transform.parent = null;
+                deathCam.GetComponent<CamDefeated>().killer = attacker;
+                deathCam.GetComponent<CamDefeated>().shipDead = true;
+            }
             AudioSource.PlayClipAtPoint(DieSound, gameController);
-            deathCam.transform.parent = null;
-            deathCam.GetComponent<CamDefeated>().killer = attacker;
-            deathCam.GetComponent<CamDefeated>().shipDead = true;
             health = 0;
             Instantiate(deathEffect, transform.position, transform.rotation, null);
             Destroy(gameObject);
@@ -39,8 +44,12 @@ public class Health : MonoBehaviour
         else
         {
             health -= dmg;
-            var barDmg = dmg / maxHealth;
-            healthBar.value -= barDmg;
+            if (isPlayer)
+            {
+                var barDmg = dmg / maxHealth;
+                healthBar.value -= barDmg;
+            }
+            
             AudioSource.PlayClipAtPoint(HitSound, gameController);
             
         }
