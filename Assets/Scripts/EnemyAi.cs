@@ -6,15 +6,24 @@ using UnityEngine;
 
 public class EnemyAi : MonoBehaviour
 {
+    public Health health;
+    [Range(1,100)]
+    public int fearAmount = 1;
+    public float fireRange = 5;
+
     public float aggroRange = 10000;
     public float thrust = 10;
     public float keepDist = 10;
     public float rotateSpeed = 10;
+    public float maxAngularVelocity = 7;
 
     Transform playerToFollow;
     Rigidbody rb;
     public Transform[] players;
+    public GameObject laser;
     float closestDistToPlyr = int.MaxValue;
+    public float fireRate = 1;
+    private float timer;
 
     // Start is called before the first frame update
     void Start()
@@ -34,17 +43,45 @@ public class EnemyAi : MonoBehaviour
                 playerToFollow = players[i];
             }
         }
-        if(playerToFollow != null)
+        chasePlayer();
+
+    }
+    void chasePlayer()
+    {
+        if (playerToFollow != null)
         {
-            var toPlayer = Vector3.Normalize(playerToFollow.position - transform.position);
+            var toPlayer = playerToFollow.position - transform.position;
             var toPlayerDistance = toPlayer.magnitude;
-            
-            rb.AddRelativeTorque(Vector3.Cross(transform.forward, toPlayer).normalized*rotateSpeed);
-            
-            if (toPlayerDistance > keepDist)
+
+            rb.maxAngularVelocity = maxAngularVelocity;
+            if (health.health / health.maxHealth * 100 > fearAmount)
             {
-                rb.AddForce((transform.forward) * thrust, ForceMode.Acceleration);
+                if(timer >= fireRate && toPlayerDistance <= fireRange)
+                {
+                    var bullet = Instantiate(laser, transform.position, transform.rotation, null);
+                    bullet.GetComponent<BulletScript>().owner = gameObject;
+                    timer = 0;
+                }
+                if (toPlayer.magnitude >= maxAngularVelocity)
+                {
+                    transform.forward = toPlayer;
+                    transform.Rotate(Vector3.Cross(-transform.forward, toPlayer).normalized * rotateSpeed);
+                }
+                
+                if (toPlayerDistance > keepDist)
+                {
+                    rb.AddForce((toPlayer) * thrust, ForceMode.Acceleration);
+                }
+            }
+            else
+            {
+                transform.Rotate(-Vector3.Cross(-transform.forward, toPlayer).normalized * rotateSpeed);
+                if (toPlayerDistance < aggroRange)
+                {
+                    rb.AddForce((-toPlayer) * thrust, ForceMode.Acceleration);
+                }
             }
         }
+        
     }
 }
