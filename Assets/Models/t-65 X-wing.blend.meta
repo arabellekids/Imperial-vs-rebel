@@ -78,6 +78,39 @@ ModelImporter:
   - first:
       74: -5344251179475785097
     second: Top left wing|CameraAction
+  - first:
+      74: -8755437186236599126
+    second: Camera|X-wing.001Action
+  - first:
+      74: 2514768222836763077
+    second: Bottom left wing|X-wing.001Action
+  - first:
+      74: -6784475089142606416
+    second: Top right wing|X-wing.001Action
+  - first:
+      74: -1583315034548839352
+    second: Bottom right wing|X-wing.001Action
+  - first:
+      74: 4429243733917584582
+    second: Top left wing|X-wing.001Action
+  - first:
+      74: -2007510166942162246
+    second: X-wing.001|Bottom left wingAction
+  - first:
+      74: -8306831792825578032
+    second: X-wing.001|Bottom right wingAction
+  - first:
+      74: 6288111418252904481
+    second: X-wing.001|CameraAction
+  - first:
+      74: -443532971415426027
+    second: X-wing.001|Top left wingAction
+  - first:
+      74: 4655495371368664614
+    second: X-wing.001|Top right wingAction
+  - first:
+      74: 4027084938163103951
+    second: X-wing.001|X-wing.001Action
   externalObjects:
   - first:
       type: UnityEngine:Material

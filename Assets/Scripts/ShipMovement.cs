@@ -59,7 +59,7 @@ public class ShipMovement : MonoBehaviour
 
         if(throttle >= 0)
         {
-            rb.AddRelativeForce(Vector3.forward * thrust * throttle*150f);
+            rb.AddRelativeForce(Vector3.forward * throttle * thrust *150f);
         }
     }
 
