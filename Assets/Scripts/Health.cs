@@ -38,6 +38,11 @@ public class Health : MonoBehaviour
             AudioSource.PlayClipAtPoint(DieSound, gameController);
             health = 0;
             Instantiate(deathEffect, transform.position, transform.rotation, null);
+            if(attacker.GetComponent<Score>() != null)
+            {
+                attacker.GetComponent<Score>().IncrementScore();
+
+            }
             Destroy(gameObject);
 
         }

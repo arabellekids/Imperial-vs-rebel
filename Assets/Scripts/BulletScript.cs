@@ -37,17 +37,19 @@ public class BulletScript : MonoBehaviour
         if (other.GetComponent<Health>() != null)
         {
             Health health = other.GetComponent<Health>();
+            Health ownerHealth = owner.GetComponent<Health>();
+
             health.attacker = owner;
-            if (health.health > 0)
+            if (health.health > 0 && (health.isPlayer && !ownerHealth.isPlayer) || ownerHealth.isPlayer)
             {
                 health.takedamage(dmg);
+                Destroy(gameObject);
             }
         }
-        if(other.GetComponent<Rigidbody>() != null)
+        else
         {
-
+            Destroy(gameObject);
         }
-        var enemyRb = other.GetComponent<Rigidbody>();
-        Destroy(gameObject);
+
     }
 }

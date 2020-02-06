@@ -13,7 +13,10 @@ public class CamDefeated : MonoBehaviour
 
     void LookAtKiller()
     {
-        transform.LookAt(killer.transform.position);
+        if(killer != null)
+        {
+            transform.LookAt(killer.transform.position);
+        }
     }
 
     // Update is called once per frame

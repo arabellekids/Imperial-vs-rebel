@@ -10,10 +10,20 @@ public class GameControl : MonoBehaviour
     public float maxPlyrSpwnDist = 200;
     public float respawnTime = 5f;
     public GameObject pausedScreen;
+    public GameObject enemyPref;
+
+    public float spawnRate = 5;
+    private float timer;
+
+    void Start()
+    {
+        timer = spawnRate;
+    }
 
     // Update is called once per frame
     void Update()
     {
+        SpawnEnemy();
         if (pausedScreen.activeSelf == false)
         {
             Time.timeScale = 1;
@@ -53,5 +63,19 @@ public class GameControl : MonoBehaviour
         {
             Application.Quit();
         }
+    }
+    void SpawnEnemy()
+    {
+        timer -= Time.deltaTime;
+        if (timer <= 0)
+        {
+            Instantiate(enemyPref, new Vector3(
+            Random.Range(-maxPlyrSpwnDist / 2, maxPlyrSpwnDist / 2),
+            Random.Range(-maxPlyrSpwnDist / 2, maxPlyrSpwnDist / 2),
+            Random.Range(-maxPlyrSpwnDist / 2, maxPlyrSpwnDist / 2)), Random.rotation);
+            timer = spawnRate + Random.value*2;
+        }
+
+        
     }
 }

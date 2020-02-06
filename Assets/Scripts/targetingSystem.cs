@@ -1,11 +1,15 @@
 ﻿using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using UnityEngine.UI;
 
 public class targetingSystem : MonoBehaviour
 {
     public Transform fireCam;
     public Transform[] guns;
+    public Image sniperCursor;
+    public Sprite nothingSelected;
+    public Sprite targetSelected;
 
     // Update is called once per frame
     void Update()
@@ -17,6 +21,14 @@ public class targetingSystem : MonoBehaviour
             {
                 guns[i].LookAt(hit.point);
             }
+            if(hit.collider.gameObject.GetComponent<Health>() != null)
+            {
+                sniperCursor.sprite = targetSelected;
+            }
+            else
+            {
+                sniperCursor.sprite = nothingSelected;
+            }
         }
         else
         {
@@ -24,6 +36,7 @@ public class targetingSystem : MonoBehaviour
             {
                 guns[i].rotation = Quaternion.LookRotation(fireCam.forward,fireCam.up);
             }
+            sniperCursor.sprite = nothingSelected;
         }
     }
 }

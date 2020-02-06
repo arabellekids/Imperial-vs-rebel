@@ -1,13 +1,14 @@
-﻿using System;
-using System.Collections;
-using System.Collections.Generic;
+﻿using UnityEngine;
 using System.Linq;
-using UnityEngine;
+using Math = System.Math;
+using System.Resources;
+using System.Collections.Generic;
+
 
 public class EnemyAi : MonoBehaviour
 {
     public Health health;
-    [Range(1,100)]
+    [Range(1, 100)]
     public int fearAmount = 1;
     public float fireRange = 5;
 
@@ -19,30 +20,44 @@ public class EnemyAi : MonoBehaviour
 
     Transform playerToFollow;
     Rigidbody rb;
-    public Transform[] players;
     public GameObject laser;
     float closestDistToPlyr = int.MaxValue;
     public float fireRate = 1;
     private float timer;
+    public AudioClip fireSound;
+    public Transform laserSpwnPoint;
+
+    private Vector3 gameController;
 
     // Start is called before the first frame update
     void Start()
     {
         rb = GetComponent<Rigidbody>();
+        gameController = GameObject.FindGameObjectWithTag("GameController").transform.position;
+        timer = fireRate + Random.value;
+    }
+
+    private void Update()
+    {
+        timer -= Time.deltaTime;
     }
 
     // Update is called once per frame
     void FixedUpdate()
     {
-        for (var i = 0; i < players.Length; i++)
+        var distToCenter = transform.position.magnitude;
+        if(distToCenter >= 1000)
         {
-            float distToPlayer = Vector3.Distance(transform.position, players[i].transform.position);
-            if (distToPlayer < closestDistToPlyr)
-            {
-                closestDistToPlyr = distToPlayer;
-                playerToFollow = players[i];
-            }
+            Destroy(gameObject);
         }
+        playerToFollow = (
+                from player in Physics.OverlapSphere(transform.position, aggroRange)
+                where player.CompareTag("Player")
+                let distToPlayer = Vector3.Distance(transform.position, player.transform.position)
+                orderby distToPlayer
+                select player.transform
+            ).FirstOrDefault();
+
         chasePlayer();
 
     }
@@ -56,32 +71,48 @@ public class EnemyAi : MonoBehaviour
             rb.maxAngularVelocity = maxAngularVelocity;
             if (health.health / health.maxHealth * 100 > fearAmount)
             {
-                if(timer >= fireRate && toPlayerDistance <= fireRange)
-                {
-                    var bullet = Instantiate(laser, transform.position, transform.rotation, null);
-                    bullet.GetComponent<BulletScript>().owner = gameObject;
-                    timer = 0;
-                }
-                if (toPlayer.magnitude >= maxAngularVelocity)
-                {
-                    transform.forward = toPlayer;
-                    transform.Rotate(Vector3.Cross(-transform.forward, toPlayer).normalized * rotateSpeed);
-                }
-                
-                if (toPlayerDistance > keepDist)
-                {
-                    rb.AddForce((toPlayer) * thrust, ForceMode.Acceleration);
-                }
+                AttackMode(toPlayer, toPlayerDistance);
             }
             else
             {
-                transform.Rotate(-Vector3.Cross(-transform.forward, toPlayer).normalized * rotateSpeed);
-                if (toPlayerDistance < aggroRange)
-                {
-                    rb.AddForce((-toPlayer) * thrust, ForceMode.Acceleration);
-                }
+                FearMode(toPlayer, toPlayerDistance);
             }
         }
-        
+
+    }
+
+    private void FearMode(Vector3 toPlayer, float toPlayerDistance)
+    {
+        var desiredRotation = Quaternion.LookRotation(-toPlayer);
+        transform.rotation = Quaternion.Slerp(transform.rotation, desiredRotation, Time.deltaTime / rotateSpeed);
+
+        if (toPlayerDistance < aggroRange)
+        {
+            rb.AddForce((-toPlayer) * thrust);
+        }
+    }
+
+    private void AttackMode(Vector3 toPlayer, float toPlayerDistance)
+    {
+        if (timer <= 0)
+        {
+            Fire();
+        }
+
+        var desiredRotation = Quaternion.LookRotation(toPlayer);
+        transform.rotation = Quaternion.Slerp(transform.rotation, desiredRotation, Time.deltaTime / rotateSpeed);
+
+        if (toPlayerDistance > keepDist)
+        {
+            rb.AddForce((toPlayer) * thrust);
+        }
+    }
+    void Fire()
+    {
+        var bullet = Instantiate(laser, laserSpwnPoint.position, laserSpwnPoint.rotation, null);
+        bullet.GetComponent<BulletScript>().owner = gameObject;
+
+        timer = fireRate + Random.Range(-0.2f, 0.2f);
+        AudioSource.PlayClipAtPoint(fireSound, gameController);
     }
 }
