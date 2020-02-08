@@ -15,10 +15,16 @@ public class Health : MonoBehaviour
     public Slider healthBar;
     public GameObject deathCam;
     public GameObject deathEffect;
+
+    public Slider shieldBar;
+
+    public GameObject player;
+
     public float health = 10;
     public float maxHealth = 10;
     private bool hasDied = false;
     private Vector3 gameController;
+
     // Start is called before the first frame update
     private void Start()
     {
@@ -38,7 +44,7 @@ public class Health : MonoBehaviour
             AudioSource.PlayClipAtPoint(DieSound, gameController);
             health = 0;
             Instantiate(deathEffect, transform.position, transform.rotation, null);
-            if(attacker.GetComponent<Score>() != null)
+            if (attacker.GetComponent<Score>() != null)
             {
                 attacker.GetComponent<Score>().IncrementScore();
 
@@ -46,6 +52,7 @@ public class Health : MonoBehaviour
             Destroy(gameObject);
 
         }
+        
         else
         {
             health -= dmg;
@@ -54,9 +61,9 @@ public class Health : MonoBehaviour
                 var barDmg = dmg / maxHealth;
                 healthBar.value -= barDmg;
             }
-            
+
             AudioSource.PlayClipAtPoint(HitSound, gameController);
-            
+
         }
     }
 }

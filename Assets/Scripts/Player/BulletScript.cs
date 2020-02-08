@@ -46,6 +46,12 @@ public class BulletScript : MonoBehaviour
                 Destroy(gameObject);
             }
         }
+        else if (other.GetComponent<ShieldScript>() != null)
+        {
+            ShieldScript shields = other.GetComponent<ShieldScript>();
+            shields.TakeDamage(dmg);
+            Destroy(gameObject);
+        }
         else
         {
             Destroy(gameObject);

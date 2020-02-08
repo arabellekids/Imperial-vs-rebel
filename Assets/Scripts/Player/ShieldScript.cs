@@ -7,6 +7,9 @@ public class ShieldScript : MonoBehaviour
 {
     public Slider shieldBar;
 
+    public GameObject player;
+
+    public int layerNum;
     public float maxShields = 10;
     public float rechargeRate = 3;
     public float rechargeValue = 2;
@@ -15,10 +18,11 @@ public class ShieldScript : MonoBehaviour
     private float sliderValue;
     private float timer = 0;
     
-    void TakeDamage(float dmg)
+    public void TakeDamage(float dmg)
     {
         if(shields - dmg <= 0)
         {
+            player.layer = layerNum;
             gameObject.layer = 15;
             shields = 0;
             timer = 0;
@@ -47,7 +51,9 @@ public class ShieldScript : MonoBehaviour
         {
             timer = 0;
             shields += rechargeValue;
-            if(shields > maxShields)
+            gameObject.layer = layerNum;
+            player.layer = 15;
+            if (shields > maxShields)
             {
                 shields = maxShields;
             }

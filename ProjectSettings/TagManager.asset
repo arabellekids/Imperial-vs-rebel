@@ -20,11 +20,11 @@ TagManager:
   - Laser2
   - Ship1UI
   - Ship2UI
-  - Ship
+  - Ship1
   - ignoreCam
   - ignoreLasers
-  - 
-  - 
+  - Ship2
+  - EnemyLaser
   - 
   - 
   - 
