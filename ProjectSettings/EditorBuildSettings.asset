@@ -12,7 +12,7 @@ EditorBuildSettings:
     path: Assets/Scenes/StartScene.unity
     guid: 24e6ea40078b5f446b0e122910041023
   - enabled: 1
-    path: Assets/Scenes/Space Scene.unity
+    path: Assets/Scenes/Space Scene 2 Player.unity
     guid: 22246da943b7edc4d81aa6fa833045bf
   m_configObjects:
     com.unity.input.settings: {fileID: 11400000, guid: b4f0e01a3aac29e45a2b597ca4b5b8f9,
